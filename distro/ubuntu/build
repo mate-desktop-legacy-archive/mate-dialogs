@@ -2,7 +2,7 @@
 
 # fill it
 pkgname=mate-dialogs
-pkgver=2011.10.29
+pkgver=2011.12.01
 pkgrel=1
 pkgdesc="Display graphical dialog boxes from shell scripts"
 #depends="libmatenotify"
