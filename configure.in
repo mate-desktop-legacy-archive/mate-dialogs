@@ -1,4 +1,4 @@
-AC_INIT([MateDialog],[2011.12.01],[https://github.com/perberos/mate-desktop-environment],[matedialog])
+AC_INIT([MateDialog],[1.1.0],[http://www.mate-desktop.org/],[matedialog])
 
 AC_PREREQ([2.59])
 
@@ -81,7 +81,7 @@ AC_PATH_PROG([PERL],[perl],)
 # libmatenotify check
 # *******************************
 
-LIBMATENOTIFY_REQUIRED=0.4.1
+LIBMATENOTIFY_REQUIRED=1.1.0
 
 AC_ARG_ENABLE([libmatenotify],
               AC_HELP_STRING([--enable-libmatenotify],[enable libmatenotify support]),,

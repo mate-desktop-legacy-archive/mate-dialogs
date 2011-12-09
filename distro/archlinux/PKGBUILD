@@ -1,5 +1,4 @@
 pkgname=mate-dialogs
-pkgver=2011.12.01
 pkgrel=1
 pkgdesc="Display graphical dialog boxes from shell scripts"
 arch=(i686 x86_64)
