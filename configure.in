@@ -110,7 +110,7 @@ MATE_COMPILE_WARNINGS([maximum])
 # Internationalization
 # *******************************
 
-GETTEXT_PACKAGE=matedialog
+GETTEXT_PACKAGE=mate-dialogs
 AC_SUBST([GETTEXT_PACKAGE])
 AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE],["$GETTEXT_PACKAGE"],[Gettext domain])
 
