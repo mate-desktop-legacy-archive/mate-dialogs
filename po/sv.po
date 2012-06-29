@@ -1,41 +1,50 @@
-# Swedish messages for matedialog.
-# Copyright (C) 2003-2008 Free Software Foundation, Inc.
-# This file is distributed under the same license as the matedialog package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Christian Rose <menthos@menthos.com>, 2003, 2004, 2005.
 # Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: matedialog\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-25 18:37+0200\n"
-"PO-Revision-Date: 2010-07-25 19:00+0100\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:24+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../src/about.c:64
-msgid "This program is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n"
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
+"option) any later version.\n"
 msgstr "Detta program är fri programvara. Du kan distribuera det och/eller modifiera det under villkoren i GNU Lesser General Public License, publicerad av Free Software Foundation, antingen version 2 eller (om du så vill) någon senare version.\n"
 
 #: ../src/about.c:68
-msgid "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.\n"
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
 msgstr "Detta program distribueras i hopp om att det ska vara användbart, men UTAN NÅGON SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU Lesser General Public License för ytterligare information.\n"
 
 #: ../src/about.c:72
-msgid "You should have received a copy of the GNU Lesser General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+msgid ""
+"You should have received a copy of the GNU Lesser General Public License "
+"along with this program; if not, write to the Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 msgstr "Du bör ha fått en kopia av GNU Lesser General Public License tillsammans med detta program. Om inte, skriv till Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr ""
-"Daniel Nylander\n"
-"Christian Rose\n"
-"\n"
-"Skicka synpunkter på översättningen till\n"
-"<tp-sv@listor.tp-sv.se>."
+msgstr "Daniel Nylander\nChristian Rose\n\nSkicka synpunkter på översättningen till\n<tp-sv@listor.tp-sv.se>."
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
@@ -56,8 +65,7 @@ msgstr "kunde inte tolka kommando från standard in\n"
 msgid "Could not parse message from stdin\n"
 msgstr "Kunde inte tolka meddelande från standard in\n"
 
-#: ../src/notification.c:262
-#: ../src/notification.c:279
+#: ../src/notification.c:262 ../src/notification.c:279
 msgid "MateDialog notification"
 msgstr "MateDialog-notifiering"
 
@@ -210,30 +218,16 @@ msgstr "TIDSGRÄNS"
 msgid "Display calendar dialog"
 msgstr "Visa kalenderdialog"
 
-#: ../src/option.c:192
-#: ../src/option.c:252
-#: ../src/option.c:295
-#: ../src/option.c:328
-#: ../src/option.c:440
-#: ../src/option.c:579
-#: ../src/option.c:651
-#: ../src/option.c:735
-#: ../src/option.c:768
+#: ../src/option.c:192 ../src/option.c:252 ../src/option.c:295
+#: ../src/option.c:328 ../src/option.c:440 ../src/option.c:579
+#: ../src/option.c:651 ../src/option.c:735 ../src/option.c:768
 msgid "Set the dialog text"
 msgstr "Ställ in dialogtexten"
 
-#: ../src/option.c:193
-#: ../src/option.c:253
-#: ../src/option.c:262
-#: ../src/option.c:296
-#: ../src/option.c:329
-#: ../src/option.c:441
-#: ../src/option.c:547
-#: ../src/option.c:580
-#: ../src/option.c:652
-#: ../src/option.c:661
-#: ../src/option.c:670
-#: ../src/option.c:736
+#: ../src/option.c:193 ../src/option.c:253 ../src/option.c:262
+#: ../src/option.c:296 ../src/option.c:329 ../src/option.c:441
+#: ../src/option.c:547 ../src/option.c:580 ../src/option.c:652
+#: ../src/option.c:661 ../src/option.c:670 ../src/option.c:736
 #: ../src/option.c:769
 msgid "TEXT"
 msgstr "TEXT"
@@ -286,9 +280,7 @@ msgstr "Dölj fälttexten"
 msgid "Display error dialog"
 msgstr "Visa feldialog"
 
-#: ../src/option.c:304
-#: ../src/option.c:337
-#: ../src/option.c:678
+#: ../src/option.c:304 ../src/option.c:337 ../src/option.c:678
 #: ../src/option.c:744
 msgid "Do not enable text wrapping"
 msgstr "Aktivera inte textradbrytning"
@@ -305,8 +297,7 @@ msgstr "Visa filväljardialog"
 msgid "Set the filename"
 msgstr "Ställ in filnamnet"
 
-#: ../src/option.c:362
-#: ../src/option.c:703
+#: ../src/option.c:362 ../src/option.c:703
 msgid "FILENAME"
 msgstr "FILNAMN"
 
@@ -322,13 +313,11 @@ msgstr "Aktivera markering av endast kataloger"
 msgid "Activate save mode"
 msgstr "Aktivera sparläge"
 
-#: ../src/option.c:397
-#: ../src/option.c:476
+#: ../src/option.c:397 ../src/option.c:476
 msgid "Set output separator character"
 msgstr "Ställ in åtskiljartecken för utdata"
 
-#: ../src/option.c:398
-#: ../src/option.c:477
+#: ../src/option.c:398 ../src/option.c:477
 msgid "SEPARATOR"
 msgstr "AVGRÄNSARE"
 
@@ -369,18 +358,18 @@ msgstr "Använd radioknappar i första kolumnen"
 msgid "Allow multiple rows to be selected"
 msgstr "Tillåt att flera rader väljs"
 
-#: ../src/option.c:494
-#: ../src/option.c:711
+#: ../src/option.c:494 ../src/option.c:711
 msgid "Allow changes to text"
 msgstr "Tillåt ändringar av text"
 
 #: ../src/option.c:503
-msgid "Print a specific column (Default is 1. 'ALL' can be used to print all columns)"
+msgid ""
+"Print a specific column (Default is 1. 'ALL' can be used to print all "
+"columns)"
 msgstr "Skriv ut en specifik kolumn (Standardvärdet är 1. \"ALL\" kan användas för att skriva ut alla kolumner)"
 
 #. Column index number to print out on a list dialog
-#: ../src/option.c:505
-#: ../src/option.c:514
+#: ../src/option.c:505 ../src/option.c:514
 msgid "NUMBER"
 msgstr "NUMMER"
 
@@ -467,11 +456,8 @@ msgstr "Visa skaldialog"
 msgid "Set initial value"
 msgstr "Ställ in initialt värde"
 
-#: ../src/option.c:778
-#: ../src/option.c:787
-#: ../src/option.c:796
-#: ../src/option.c:805
-#: ../src/option.c:871
+#: ../src/option.c:778 ../src/option.c:787 ../src/option.c:796
+#: ../src/option.c:805 ../src/option.c:871
 msgid "VALUE"
 msgstr "VÄRDE"
 
@@ -653,10 +639,9 @@ msgstr "Visa diverse flaggor"
 
 #: ../src/option.c:1834
 #, c-format
-msgid "This option is not available. Please see --help for all possible usages.\n"
-msgstr ""
-"Denna flagga är inte tillgänglig. Se --help för alla möjliga\n"
-"användningsfall.\n"
+msgid ""
+"This option is not available. Please see --help for all possible usages.\n"
+msgstr "Denna flagga är inte tillgänglig. Se --help för alla möjliga\nanvändningsfall.\n"
 
 #: ../src/option.c:1838
 #, c-format
@@ -667,124 +652,3 @@ msgstr "--%s stöds inte för denna dialog\n"
 #, c-format
 msgid "Two or more dialog options specified\n"
 msgstr "Två eller fler dialogflaggor angavs\n"
-
-#~ msgid "Select a file"
-#~ msgstr "Välj en fil"
-#~ msgid "Orientation"
-#~ msgstr "Orientering"
-#~ msgid "The orientation of the tray."
-#~ msgstr "Orienteringen på lådan."
-#~ msgid "Adjust the scale value."
-#~ msgstr "Justera skalvärdet."
-#~ msgid "(C) 2003 Sun Microsystems"
-#~ msgstr "© 2003 Sun Microsystems"
-#~ msgid "Credits"
-#~ msgstr "Tack"
-#~ msgid "Written by"
-#~ msgstr "Skrivet av"
-#~ msgid "Translated by"
-#~ msgstr "Översatt av"
-#~ msgid "*"
-#~ msgstr "*"
-#~ msgid "About MateDialog"
-#~ msgstr "Om MateDialog"
-#~ msgid "_Credits"
-#~ msgstr "_Tack"
-#~ msgid "Syntax error\n"
-#~ msgstr "Syntaxfel\n"
-#~ msgid "Show notification options"
-#~ msgstr "Visa notifieringsflaggor"
-#~ msgid "Text options"
-#~ msgstr "Textflaggor"
-#~ msgid "Show text options"
-#~ msgstr "Visa textflaggor"
-#~ msgid "Notication options"
-#~ msgstr "Noticeringsflaggor"
-#~ msgid "Syntax error"
-#~ msgstr "Syntaxfel"
-#~ msgid "%s is not supported for this dialog\n"
-#~ msgstr "%s stöds inte för denna dialog\n"
-#~ msgid "Set output separator character."
-#~ msgstr "Ställ in åtskiljartecken för utdata."
-#~ msgid "Gdk debugging flags to set"
-#~ msgstr "Gdk-felsökningsflaggor att ställa in"
-#~ msgid "FLAGS"
-#~ msgstr "FLAGGOR"
-#~ msgid "Gdk debugging flags to unset"
-#~ msgstr "Gdk-felsökningsflaggor att nollställa"
-#~ msgid "X display to use"
-#~ msgstr "X-display att använda"
-#~ msgid "X screen to use"
-#~ msgstr "X-skärm att använda"
-#~ msgid "SCREEN"
-#~ msgstr "SKÄRM"
-#~ msgid "Make X calls synchronous"
-#~ msgstr "Gör X-anrop synkrona"
-#~ msgid "Program name as used by the window manager"
-#~ msgstr "Programnamn som används av fönsterhanteraren"
-#~ msgid "Program class as used by the window manager"
-#~ msgstr "Programklass som används av fönsterhanteraren"
-#~ msgid "CLASS"
-#~ msgstr "KLASS"
-#~ msgid "HOST"
-#~ msgstr "VÄRD"
-#~ msgid "PORT"
-#~ msgstr "PORT"
-#~ msgid "Gtk+ debugging flags to set"
-#~ msgstr "Gtk+-felsökningsflaggor att ställa in"
-#~ msgid "Gtk+ debugging flags to unset"
-#~ msgstr "Gtk+-felsökningsflaggor att nollställa"
-#~ msgid "Make all warnings fatal"
-#~ msgstr "Gör alla varningar ödesdigra"
-#~ msgid "Load an additional Gtk module"
-#~ msgstr "Läs in ytterligare en Gtk-modul"
-#~ msgid "MODULE"
-#~ msgstr "MODUL"
-#~ msgid "GTK+ options"
-#~ msgstr "GTK+-flaggor"
-#~ msgid "Help options"
-#~ msgstr "Hjälpflaggor"
-#~ msgid "%s is an invalid option. See 'matedialog --help' for more details\n"
-#~ msgstr "%s är en ogiltig flagga. Se \"matedialog --help\" för fler detaljer\n"
-#~ msgid "%s given twice for the same dialog\n"
-#~ msgstr "%s angavs två gånger för samma dialog\n"
-#~ msgid "translator_credits"
-#~ msgstr ""
-#~ "Daniel Nylander\n"
-#~ "Christian Rose\n"
-#~ "Skicka synpunkter på översättningen till tp-sv@listor.tp-sv.se"
-#~ msgid "Too many alias levels for a locale may indicate a loop"
-#~ msgstr ""
-#~ "För många aliasnivåer för en lokal kan betyda att det finns en slinga"
-#~ msgid "matedialog_about_copyright"
-#~ msgstr "matedialog_about_copyright"
-#~ msgid "matedialog_about_description"
-#~ msgstr "matedialog_about_description"
-#~ msgid "matedialog_about_version"
-#~ msgstr "matedialog_about_version"
-#~ msgid "Close the dialog when 100% has been reached"
-#~ msgstr "Stäng dialogfönstret då 100% har nåtts"
-#~ msgid ""
-#~ "You must specify more arguments. See matedialog --help for more details\n"
-#~ msgstr "Du måste ange fler argument. Se matedialog --help för fler detaljer\n"
-#~ msgid "No contents specified for --list\n"
-#~ msgstr "Inget innehåll angavs för --list\n"
-#~ msgid "FLAG"
-#~ msgstr "FLAGGA"
-#~ msgid ""
-#~ "%s in an invalid option for this dialog. See 'matedialog --help' for more "
-#~ "details\n"
-#~ msgstr ""
-#~ "%s är en ogiltig flagga för denna dialog. Se \"matedialog --help\" för fler "
-#~ "detaljer\n"
-#~ msgid ""
-#~ "You must specify more arguments. See 'matedialog --help' for more details\n"
-#~ msgstr ""
-#~ "Du måste ange fler argument. Se \"matedialog --help\" för fler detaljer\n"
-#~ msgid "You have done the right thing, hurrah."
-#~ msgstr "Du har gjort rätt, jippi."
-#~ msgid "You have not done the right thing, clearly."
-#~ msgstr "Du har som synes inte gjort rätt."
-#~ msgid "Miscellaneous"
-#~ msgstr "Diverse"
-

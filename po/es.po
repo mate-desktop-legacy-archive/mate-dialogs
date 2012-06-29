@@ -1,69 +1,52 @@
-# translation of matedialog.HEAD.po to Español
-# Spanish translation for MateDialog.
-# Copyright © 2003, 2006, 2007, 2008 the Free Software Foundation, Inc.
-# This file is distributed under the same license as the matedialog package.
-#
-# Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2003.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2004, 2005.
 # Francisco Javier F. Serrador <serrador@tecknolabs.com>, 2006.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2009, 2010.
-#
+# Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2003.
 msgid ""
 msgstr ""
-"Project-Id-Version: matedialog.master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=matedialog&component=general\n"
-"POT-Creation-Date: 2010-07-22 22:51+0000\n"
-"PO-Revision-Date: 2010-07-26 21:19+0200\n"
-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
-"Language-Team: Español <mate-es-list@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:22+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Spanish (Castilian) (http://www.transifex.com/projects/p/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../src/about.c:64
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU Lesser General Public License as published by the "
-"Free Software Foundation; either version 2 of the License, or (at your "
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
 "option) any later version.\n"
-msgstr ""
-"Este programa es software libre; puede redistribuirlo y/o modificarlo bajo "
-"los términos de la Licencia Pública General Reducida de GNU tal como se "
-"publica por la Free Software Foundation; ya sea la versión 2 de la Licencia, "
-"o (a su elección) cualquier versión posterior.\n"
+msgstr "Este programa es software libre; puede redistribuirlo y/o modificarlo bajo los términos de la Licencia Pública General Reducida de GNU tal como se publica por la Free Software Foundation; ya sea la versión 2 de la Licencia, o (a su elección) cualquier versión posterior.\n"
 
 #: ../src/about.c:68
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License "
-"for more details.\n"
-msgstr ""
-"Este programa se distribuye con la esperanza de que le sea útil, pero SIN "
-"NINGUNA GARANTÍA; sin incluso la garantía implícita de MERCANTILIDAD o "
-"IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Vea la Licencia Pública General "
-"Reducida de GNU para más detalles.\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
+msgstr "Este programa se distribuye con la esperanza de que le sea útil, pero SIN NINGUNA GARANTÍA; sin incluso la garantía implícita de MERCANTILIDAD o IDONEIDAD PARA UN PROPÓSITO PARTICULAR. Vea la Licencia Pública General Reducida de GNU para más detalles.\n"
 
 #: ../src/about.c:72
 msgid ""
 "You should have received a copy of the GNU Lesser General Public License "
 "along with this program; if not, write to the Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr ""
-"Debería haber recibido una copia de la Licencia Pública General Reducida de "
-"GNU junto con este programa, si no es así, escriba a la Free Software "
-"Foundation, Inc, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 EE. "
-"UU."
+msgstr "Debería haber recibido una copia de la Licencia Pública General Reducida de GNU junto con este programa, si no es así, escriba a la Free Software Foundation, Inc, 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 EE. UU."
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr ""
-"Jorge González <jorgegonz@svn.gnome.org>, 2007-2010\n"
-"Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2006\n"
-"Pablo G. del Campo <pablodc@bigfoot.com>, 2003"
+msgstr "Jorge González <jorgegonz@svn.gnome.org>, 2007-2010\nFrancisco Javier F. Serrador <serrador@cvs.gnome.org>, 2006\nPablo G. del Campo <pablodc@bigfoot.com>, 2003"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
@@ -72,9 +55,7 @@ msgstr "Mostrar cajas de diálogos desde los scripts de shell"
 #: ../src/main.c:100
 #, c-format
 msgid "You must specify a dialog type. See 'matedialog --help' for details\n"
-msgstr ""
-"Debe especificar un tipo de diálogo. Vea «matedialog --help» para obtener más "
-"información\n"
+msgstr "Debe especificar un tipo de diálogo. Vea «matedialog --help» para obtener más información\n"
 
 #: ../src/notification.c:138
 #, c-format
@@ -115,8 +96,7 @@ msgstr "Valor fuera de rango.\n"
 #: ../src/tree.c:321
 #, c-format
 msgid "No column titles specified for List dialog.\n"
-msgstr ""
-"No se han especificado los títulos de columnas para el diálogo de la lista\n"
+msgstr "No se han especificado los títulos de columnas para el diálogo de la lista\n"
 
 #: ../src/tree.c:327
 #, c-format
@@ -388,9 +368,7 @@ msgstr "Permitir cambios en el texto"
 msgid ""
 "Print a specific column (Default is 1. 'ALL' can be used to print all "
 "columns)"
-msgstr ""
-"Imprimir una columna específica (predeterminado es 1, «ALL» se puede usar "
-"para imprimir todas las columnas)"
+msgstr "Imprimir una columna específica (predeterminado es 1, «ALL» se puede usar para imprimir todas las columnas)"
 
 #. Column index number to print out on a list dialog
 #: ../src/option.c:505 ../src/option.c:514
@@ -440,13 +418,11 @@ msgstr "Rechazar el diálogo cuando el 100% haya sido alcanzado"
 
 #: ../src/option.c:617
 #, no-c-format
-#| msgid "Kill parent process if cancel button is pressed"
 msgid "Kill parent process if Cancel button is pressed"
 msgstr "Matar el proceso padre si se pulsa el botón «Cancelar»"
 
 #: ../src/option.c:627
 #, no-c-format
-#| msgid "Hide cancel button"
 msgid "Hide Cancel button"
 msgstr "Ocultar el botón «Cancelar»"
 
@@ -667,9 +643,7 @@ msgstr "Mostrar opciones misceláneas"
 #, c-format
 msgid ""
 "This option is not available. Please see --help for all possible usages.\n"
-msgstr ""
-"Esta opción no está disponible. Por favor vea --help para todos los usos "
-"posibles.\n"
+msgstr "Esta opción no está disponible. Por favor vea --help para todos los usos posibles.\n"
 
 #: ../src/option.c:1838
 #, c-format
@@ -680,6 +654,3 @@ msgstr "--%s no está soportado para este diálogo\n"
 #, c-format
 msgid "Two or more dialog options specified\n"
 msgstr "Se han especificado opciones para dos o más diálogos\n"
-
-#~ msgid "Select a file"
-#~ msgstr "Seleccione un archivo"

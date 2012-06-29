@@ -1,74 +1,52 @@
-# Danish translation of matedialog.
-# Copyright (C) 2003-2007, 2010 Free Software Foundation, Inc.
-# This file is distributed under the same license as the matedialog package.
-# Ole Laursen <olau@hardworking.dk>, 2003, 2005.
-# Martin Willemoes Hansen <mwh@sysrq.dk>, 2004-2005.
-# Lasse Bang Mikkelsen <lbm@fatalerror.dk>, 2006.
-# Peter Bach <bach.peter@gmail.com>, 2007.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Joe Hansen <joedalton2@yahoo.dk>, 2007.
-# Ask Hjorth Larsen <asklarsen@gmail.com>, 2008-10.
-#
-# Husk at tilføje dig i credit-listen (besked id "translator-credits")
-#
+# Lasse Bang Mikkelsen <lbm@fatalerror.dk>, 2006.
+# Ole Laursen <olau@hardworking.dk>, 2003, 2005.
+# Peter Bach <bach.peter@gmail.com>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: matedialog\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-19 17:45+0200\n"
-"PO-Revision-Date: 2010-09-19 17:28+0200\n"
-"Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
-"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:23+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Danish (http://www.transifex.com/projects/p/MATE/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../src/about.c:64
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU Lesser General Public License as published by the "
-"Free Software Foundation; either version 2 of the License, or (at your "
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
 "option) any later version.\n"
-msgstr ""
-"Dette program er fri software; det kan distribueres og/eller modificeres som "
-"betinget af GNU Lesser General Public License, udarbejdet af Free Software "
-"Foundation; enten version 2 af licensen eller, efter eget valg, enhver nyere "
-"version.\n"
+msgstr "Dette program er fri software; det kan distribueres og/eller modificeres som betinget af GNU Lesser General Public License, udarbejdet af Free Software Foundation; enten version 2 af licensen eller, efter eget valg, enhver nyere version.\n"
 
 #: ../src/about.c:68
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License "
-"for more details.\n"
-msgstr ""
-"Dette program distribueres i håb om at det viser sig nyttigt, men UDEN NOGEN "
-"GARANTI; selv uden de underforståede garantier SALGBARHED eller EGNETHED TIL "
-"ET BESTEMT FORMÅL, idet der henvises til GNU Lesser General Public License "
-"for detaljer.\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
+msgstr "Dette program distribueres i håb om at det viser sig nyttigt, men UDEN NOGEN GARANTI; selv uden de underforståede garantier SALGBARHED eller EGNETHED TIL ET BESTEMT FORMÅL, idet der henvises til GNU Lesser General Public License for detaljer.\n"
 
 #: ../src/about.c:72
 msgid ""
 "You should have received a copy of the GNU Lesser General Public License "
 "along with this program; if not, write to the Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr ""
-"Du bør have modtaget en kopi af GNU Lesser General Public License sammen med "
-"dette program; er dette ikke tilfældet, så skriv til Free Software "
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-"USA."
+msgstr "Du bør have modtaget en kopi af GNU Lesser General Public License sammen med dette program; er dette ikke tilfældet, så skriv til Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr ""
-"Ole Laursen\n"
-"Martin Willemoes Hansen\n"
-"Lasse Bang Mikkelsen\n"
-"Peter Bach\n"
-"Joe Hansen\n"
-"\n"
-"Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
-"Mere info: http://www.dansk-gruppen.dk"
+msgstr "Ole Laursen\nMartin Willemoes Hansen\nLasse Bang Mikkelsen\nPeter Bach\nJoe Hansen\n\nDansk-gruppen <dansk@dansk-gruppen.dk>\nMere info: http://www.dansk-gruppen.dk"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
@@ -77,8 +55,7 @@ msgstr "Vis meddelelsesvinduer fra kommandoskalprogrammer"
 #: ../src/main.c:100
 #, c-format
 msgid "You must specify a dialog type. See 'matedialog --help' for details\n"
-msgstr ""
-"Du skal angive en vinduestype. Se \"matedialog --help\" for flere detaljer\n"
+msgstr "Du skal angive en vinduestype. Se \"matedialog --help\" for flere detaljer\n"
 
 #: ../src/notification.c:138
 #, c-format
@@ -126,7 +103,6 @@ msgstr "Ingen kolonneoverskrifter angivet til listevindue.\n"
 msgid "You should use only one List dialog type.\n"
 msgstr "Du kan kun bruge én listevinduestype.\n"
 
-# RETMIG: rigtigt?
 #: ../src/matedialog.ui.h:1
 msgid "Add a new entry"
 msgstr "Tilføj et nyt indtastningsfelt"
@@ -231,14 +207,6 @@ msgstr "Angiv højden"
 msgid "HEIGHT"
 msgstr "HØJDE"
 
-# Oversættelsesovervejelser
-# Joe 29. aug 2007 De øvrige oversættelser over dialog bruger i 
-# høj grand vindue som oversættelse, men det kan jeg ikke få til 
-# at passe på "set dialog timeout in seconds"
-#
-# Kenneth 29. august 2007. Oftest bliver det unødvendigt at skrive 
-# at noget er en dialog og strengen kan derfor tit blot oversættes 
-# til noget med vindue, men her synes jeg et der ok at inkludere.
 #: ../src/option.c:167
 msgid "Set dialog timeout in seconds"
 msgstr "Angiv udløbstid i sekunder for dialogvinduet"
@@ -400,9 +368,7 @@ msgstr "Tillad ændringer i tekst"
 msgid ""
 "Print a specific column (Default is 1. 'ALL' can be used to print all "
 "columns)"
-msgstr ""
-"Vis en specifik kolonne (1 er forvalgt. Benyt \"ALL\" til at vise alle "
-"kolonner)"
+msgstr "Vis en specifik kolonne (1 er forvalgt. Benyt \"ALL\" til at vise alle kolonner)"
 
 #. Column index number to print out on a list dialog
 #: ../src/option.c:505 ../src/option.c:514
@@ -677,9 +643,7 @@ msgstr "Vis diverse tilvalg"
 #, c-format
 msgid ""
 "This option is not available. Please see --help for all possible usages.\n"
-msgstr ""
-"Dette flag er ikke tilgængeligt. Brug venligst --help for at se mulige "
-"flag.\n"
+msgstr "Dette flag er ikke tilgængeligt. Brug venligst --help for at se mulige flag.\n"
 
 #: ../src/option.c:1838
 #, c-format
@@ -690,15 +654,3 @@ msgstr "--%s understøttes ikke for dette vindue\n"
 #, c-format
 msgid "Two or more dialog options specified\n"
 msgstr "To eller flere vinduestilvalg angivet\n"
-
-#~ msgid "Select a file"
-#~ msgstr "Vælg en fil"
-
-#~ msgid "Orientation"
-#~ msgstr "Orientering"
-
-#~ msgid "The orientation of the tray."
-#~ msgstr "Orienteringen af statusfeltet."
-
-#~ msgid "Adjust the scale value."
-#~ msgstr "Justér skaleringsværdien."

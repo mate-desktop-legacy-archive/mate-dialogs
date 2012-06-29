@@ -1,74 +1,59 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Asturian translation for matedialog.
-# Copyright (C) 2010 matedialog's COPYRIGHT HOLDER
-# This file is distributed under the same license as the matedialog package.
+# 
+# Translators:
 # Xandru Armesto <xandru@softastur.org>, 2010.
+# Xuacu Saturio <xuacusk8@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: matedialog master\n"
-"Report-Msgid-Bugs-To: "
-"http://bugzilla.gnome.org/enter_bug.cgi?product=matedialog&component=general\n"
-"POT-Creation-Date: 2010-04-11 17:57+0000\n"
-"PO-Revision-Date: 2010-04-11 20:00+0200\n"
-"Last-Translator: Xandru Armesto <xandru@softastur.org>\n"
-"Language-Team: Asturian Team alministradores@softastur.org\n"
-"Language: ast\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-06-20 22:30+0000\n"
+"Last-Translator: Xuacu Saturio <xuacusk8@gmail.com>\n"
+"Language-Team: Asturian (http://www.transifex.com/projects/p/MATE/language/ast/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Virtaal 0.5.2\n"
-"X-Poedit-Language: asturian\n"
+"Language: ast\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../src/about.c:64
-msgid "This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU Lesser General Public License as published by the "
-"Free Software Foundation; either version 2 of the License, or (at your "
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
 "option) any later version.\n"
-msgstr "Esti programa ye software llibre; pues redistribuilu y/o modificalu embaxo "
-"los términos de la Llicencia Pública Xeneral de GNU espublizada pola "
-"Fundación del Software Llibre; versión 2 o (según escueyas) cualesquier "
-"versión posterior.\n"
+msgstr "Esti programa ye software llibre; pues redistribuilu y/o modificalu embaxo los términos de la Llicencia Pública Xeneral de GNU espublizada pola Fundación del Software Llibre; versión 2 o (según escueyas) cualesquier versión posterior.\n"
 
 #: ../src/about.c:68
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License "
-"for more details.\n"
-msgstr "Esti programa distribúise cola esperanza de que seya útil, pero ENSIN "
-"DENGUNA GARANTÍA; inclusive ensin la garantía implícita de COMERCIABILIDÁ o "
-"IDONEIDÁ PA UN ENVÍS PARTICULAR. Véase la Llicencia Pública Xenenral Menor "
-"pa más detalles.\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
+msgstr "Esti programa distribúise cola esperanza de que seya útil, pero ENSIN DENGUNA GARANTÍA; inclusive ensin la garantía implícita de COMERCIABILIDÁ o IDONEIDÁ PA UN ENVÍS PARTICULAR. Véase la Llicencia Pública Xenenral Menor pa más detalles.\n"
 
 #: ../src/about.c:72
 msgid ""
 "You should have received a copy of the GNU Lesser General Public License "
 "along with this program; if not, write to the Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr ""
-"Deberíes recibir una copia de la Llicencia Pública Xeneral Menor con esti "
-"programa; en en contrariu, escribi a la Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr "Deberíes recibir una copia de la Llicencia Pública Xeneral Menor con esti programa; en en contrariu, escribi a la Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr ""
-"Launchpad Contributions:\n"
-"  Iñigo Varela https://launchpad.net/~malditoastur\n"
-"Xandru Armesto <xandru@softastur.org>"
+msgstr "Launchpad Contributions:\n  Iñigo Varela https://launchpad.net/~malditoastur\nXandru Armesto <xandru@softastur.org>"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
 msgstr "Amosar caxes de diálogos dende los scripts de shell"
 
-#: ../src/main.c:97
+#: ../src/main.c:100
 #, c-format
 msgid "You must specify a dialog type. See 'matedialog --help' for details\n"
-msgstr "Tienes d'especificar un triba de diálogu. Llee «matedialog --help» pa obtener "
-"más información\n"
+msgstr "Tienes d'especificar un triba de diálogu. Llee «matedialog --help» pa obtener más información\n"
 
 #: ../src/notification.c:138
 #, c-format
@@ -83,6 +68,18 @@ msgstr "Nun pudo analizase'l mensax de stdin\n"
 #: ../src/notification.c:262 ../src/notification.c:279
 msgid "MateDialog notification"
 msgstr "Notificación de MateDialog"
+
+#: ../src/password.c:64
+msgid "Type your password"
+msgstr "Escribi la to contraseña"
+
+#: ../src/password.c:99
+msgid "Username:"
+msgstr "Nome d'usuariu:"
+
+#: ../src/password.c:115
+msgid "Password:"
+msgstr "Contraseña:"
 
 #: ../src/scale.c:56
 #, c-format
@@ -176,468 +173,482 @@ msgstr "Avisu"
 msgid "_Enter new text:"
 msgstr "_Introduz un testu nuevu:"
 
-#: ../src/option.c:127
+#: ../src/option.c:131
 msgid "Set the dialog title"
 msgstr "Afitar el títulu del diálogu"
 
-#: ../src/option.c:128
+#: ../src/option.c:132
 msgid "TITLE"
 msgstr "TÍTULU"
 
-#: ../src/option.c:136
+#: ../src/option.c:140
 msgid "Set the window icon"
 msgstr "Afitar l'iconu de la ventana"
 
-#: ../src/option.c:137
+#: ../src/option.c:141
 msgid "ICONPATH"
 msgstr "RUTAICONU"
 
-#: ../src/option.c:145
+#: ../src/option.c:149
 msgid "Set the width"
 msgstr "Afitar l'anchor"
 
-#: ../src/option.c:146
+#: ../src/option.c:150
 msgid "WIDTH"
 msgstr "ANCHURA"
 
-#: ../src/option.c:154
+#: ../src/option.c:158
 msgid "Set the height"
 msgstr "Afitar l'altor"
 
-#: ../src/option.c:155
+#: ../src/option.c:159
 msgid "HEIGHT"
 msgstr "ALTOR"
 
-#: ../src/option.c:163
+#: ../src/option.c:167
 msgid "Set dialog timeout in seconds"
 msgstr "Afitar el tiempu d'espiración del diálogu en segundos"
 
 #. Timeout for closing the dialog
-#: ../src/option.c:165
+#: ../src/option.c:169
 msgid "TIMEOUT"
 msgstr "TIEMPU D'ESPIRACIÓN"
 
-#: ../src/option.c:179
+#: ../src/option.c:183
 msgid "Display calendar dialog"
 msgstr "Amosar el diálogu del calendariu"
 
-#: ../src/option.c:188 ../src/option.c:248 ../src/option.c:291
-#: ../src/option.c:324 ../src/option.c:436 ../src/option.c:575
-#: ../src/option.c:647 ../src/option.c:731 ../src/option.c:764
+#: ../src/option.c:192 ../src/option.c:252 ../src/option.c:295
+#: ../src/option.c:328 ../src/option.c:440 ../src/option.c:579
+#: ../src/option.c:651 ../src/option.c:735 ../src/option.c:768
 msgid "Set the dialog text"
 msgstr "Afitar el testu del diálogu"
 
-#: ../src/option.c:189 ../src/option.c:249 ../src/option.c:258
-#: ../src/option.c:292 ../src/option.c:325 ../src/option.c:437
-#: ../src/option.c:543 ../src/option.c:576 ../src/option.c:648
-#: ../src/option.c:657 ../src/option.c:666 ../src/option.c:732
-#: ../src/option.c:765
+#: ../src/option.c:193 ../src/option.c:253 ../src/option.c:262
+#: ../src/option.c:296 ../src/option.c:329 ../src/option.c:441
+#: ../src/option.c:547 ../src/option.c:580 ../src/option.c:652
+#: ../src/option.c:661 ../src/option.c:670 ../src/option.c:736
+#: ../src/option.c:769
 msgid "TEXT"
 msgstr "TESTU"
 
-#: ../src/option.c:197
+#: ../src/option.c:201
 msgid "Set the calendar day"
 msgstr "Afitar el día del calendariu"
 
-#: ../src/option.c:198
+#: ../src/option.c:202
 msgid "DAY"
 msgstr "DÍA"
 
-#: ../src/option.c:206
+#: ../src/option.c:210
 msgid "Set the calendar month"
 msgstr "Afitar el mes del calendariu"
 
-#: ../src/option.c:207
+#: ../src/option.c:211
 msgid "MONTH"
 msgstr "MES"
 
-#: ../src/option.c:215
+#: ../src/option.c:219
 msgid "Set the calendar year"
 msgstr "Afitar l'añu del calendariu"
 
-#: ../src/option.c:216
+#: ../src/option.c:220
 msgid "YEAR"
 msgstr "AÑU"
 
-#: ../src/option.c:224
+#: ../src/option.c:228
 msgid "Set the format for the returned date"
 msgstr "Afitar el formatu pa la data retornada"
 
-#: ../src/option.c:225
+#: ../src/option.c:229
 msgid "PATTERN"
 msgstr "PATRÓN"
 
-#: ../src/option.c:239
+#: ../src/option.c:243
 msgid "Display text entry dialog"
 msgstr "Amosar el diálogu d'entrada de testu"
 
-#: ../src/option.c:257
+#: ../src/option.c:261
 msgid "Set the entry text"
 msgstr "Afitar el testu d'entrada"
 
-#: ../src/option.c:266
+#: ../src/option.c:270
 msgid "Hide the entry text"
 msgstr "Anubrir el testu d'entrada"
 
-#: ../src/option.c:282
+#: ../src/option.c:286
 msgid "Display error dialog"
 msgstr "Amosar el diálogu de fallu"
 
-#: ../src/option.c:300 ../src/option.c:333 ../src/option.c:674
-#: ../src/option.c:740
+#: ../src/option.c:304 ../src/option.c:337 ../src/option.c:678
+#: ../src/option.c:744
 msgid "Do not enable text wrapping"
 msgstr "Nun activar l'axuste de testu"
 
-#: ../src/option.c:315
+#: ../src/option.c:319
 msgid "Display info dialog"
 msgstr "Amosar el diálogu d'información"
 
-#: ../src/option.c:348
+#: ../src/option.c:352
 msgid "Display file selection dialog"
 msgstr "Amosar el diálogu d'Escoyeta de ficheru"
 
-#: ../src/option.c:357
+#: ../src/option.c:361
 msgid "Set the filename"
 msgstr "Afitar el nome del ficheru"
 
-#: ../src/option.c:358 ../src/option.c:699
+#: ../src/option.c:362 ../src/option.c:703
 msgid "FILENAME"
 msgstr "FILENAME"
 
-#: ../src/option.c:366
+#: ../src/option.c:370
 msgid "Allow multiple files to be selected"
 msgstr "Permitir la Escoyeta de ficheros múltiples"
 
-#: ../src/option.c:375
+#: ../src/option.c:379
 msgid "Activate directory-only selection"
 msgstr "Activar Escoyeta de direutorios esclusivamente"
 
-#: ../src/option.c:384
+#: ../src/option.c:388
 msgid "Activate save mode"
 msgstr "Activar mou seguru"
 
-#: ../src/option.c:393 ../src/option.c:472
+#: ../src/option.c:397 ../src/option.c:476
 msgid "Set output separator character"
 msgstr "Afitar el caráuter separtador de la salida"
 
-#: ../src/option.c:394 ../src/option.c:473
+#: ../src/option.c:398 ../src/option.c:477
 msgid "SEPARATOR"
 msgstr "SEPARTADOR"
 
-#: ../src/option.c:402
+#: ../src/option.c:406
 msgid "Confirm file selection if filename already exists"
 msgstr "Confirmar Escoyeta de ficheros si'l nome yá esiste"
 
-#: ../src/option.c:411
+#: ../src/option.c:415
 msgid "Sets a filename filter"
 msgstr "Afita un peñera pol nome de ficheru"
 
 #. Help for file-filter argument (name and patterns for file selection)
-#: ../src/option.c:413
+#: ../src/option.c:417
 msgid "NAME | PATTERN1 PATTERN2 ..."
 msgstr "NOME | PATRÓN1 PATRÓN2 …"
 
-#: ../src/option.c:427
+#: ../src/option.c:431
 msgid "Display list dialog"
 msgstr "Amosar el diálogu de llista"
 
-#: ../src/option.c:445
+#: ../src/option.c:449
 msgid "Set the column header"
 msgstr "Afitar la cabecera de la columna"
 
-#: ../src/option.c:446
+#: ../src/option.c:450
 msgid "COLUMN"
 msgstr "COLUMNA"
 
-#: ../src/option.c:454
+#: ../src/option.c:458
 msgid "Use check boxes for first column"
 msgstr "Usar caxelles de verificación pa la primer columna"
 
-#: ../src/option.c:463
+#: ../src/option.c:467
 msgid "Use radio buttons for first column"
 msgstr "Usar botones de radio pa la primer columna"
 
-#: ../src/option.c:481
+#: ../src/option.c:485
 msgid "Allow multiple rows to be selected"
 msgstr "Permitir la Escoyeta de fileres múltiples"
 
-#: ../src/option.c:490 ../src/option.c:707
+#: ../src/option.c:494 ../src/option.c:711
 msgid "Allow changes to text"
 msgstr "Permitir cambeos nel testu"
 
-#: ../src/option.c:499
+#: ../src/option.c:503
 msgid ""
 "Print a specific column (Default is 1. 'ALL' can be used to print all "
 "columns)"
-msgstr ""
-"Imprentar una columna específica (predetermináu ye 1, «ALL» puede usase pa "
-"imprentar toles columnes)"
+msgstr "Imprentar una columna específica (predetermináu ye 1, «ALL» puede usase pa imprentar toles columnes)"
 
 #. Column index number to print out on a list dialog
-#: ../src/option.c:501 ../src/option.c:510
+#: ../src/option.c:505 ../src/option.c:514
 msgid "NUMBER"
 msgstr "NÚMBERU"
 
-#: ../src/option.c:509
+#: ../src/option.c:513
 msgid "Hide a specific column"
 msgstr "Anubrir una columna específica"
 
-#: ../src/option.c:518
+#: ../src/option.c:522
 msgid "Hides the column headers"
 msgstr "Anubrir les cabeceres de columna"
 
-#: ../src/option.c:533
+#: ../src/option.c:537
 msgid "Display notification"
 msgstr "Amosar notificación"
 
-#: ../src/option.c:542
+#: ../src/option.c:546
 msgid "Set the notification text"
 msgstr "Afitar el testu de notificación"
 
-#: ../src/option.c:551
+#: ../src/option.c:555
 msgid "Listen for commands on stdin"
 msgstr "Escuchar comandos en stdin"
 
-#: ../src/option.c:566
+#: ../src/option.c:570
 msgid "Display progress indication dialog"
 msgstr "Amosar el diálogu d'indicación de progresu"
 
-#: ../src/option.c:584
+#: ../src/option.c:588
 msgid "Set initial percentage"
 msgstr "Afitar el porcentaxe inicial"
 
-#: ../src/option.c:585
+#: ../src/option.c:589
 msgid "PERCENTAGE"
 msgstr "PORCENTAXE"
 
-#: ../src/option.c:593
+#: ../src/option.c:597
 msgid "Pulsate progress bar"
 msgstr "Barra de progresu parpaguiante"
 
-#: ../src/option.c:603
+#: ../src/option.c:607
 #, no-c-format
 msgid "Dismiss the dialog when 100% has been reached"
 msgstr "Refugar el diálogu s'algame'l 100%"
 
-#: ../src/option.c:613
+#: ../src/option.c:617
 #, no-c-format
-msgid "Kill parent process if cancel button is pressed"
-msgstr "Matar al procesu padre si se calca el botón encaboxar"
+msgid "Kill parent process if Cancel button is pressed"
+msgstr "Matar el procesu pa si se calca nel botón Encaboxar"
 
-#: ../src/option.c:623
+#: ../src/option.c:627
 #, no-c-format
-msgid "Hide cancel button"
-msgstr "Anubrir botón encaboxar"
+msgid "Hide Cancel button"
+msgstr "Anubrir el botón Encaboxar"
 
-#: ../src/option.c:638
+#: ../src/option.c:642
 msgid "Display question dialog"
 msgstr "Amosar el diálogu d'entruga"
 
-#: ../src/option.c:656
+#: ../src/option.c:660
 msgid "Sets the label of the Ok button"
 msgstr "Afita la etiqueta del botón Aceutar"
 
-#: ../src/option.c:665
+#: ../src/option.c:669
 msgid "Sets the label of the Cancel button"
 msgstr "Afita la etiqueta del botón Encaboxar"
 
-#: ../src/option.c:689
+#: ../src/option.c:693
 msgid "Display text information dialog"
 msgstr "Amosar el diálogu de testu d'información"
 
-#: ../src/option.c:698
+#: ../src/option.c:702
 msgid "Open file"
 msgstr "Abrir ficheru"
 
-#: ../src/option.c:722
+#: ../src/option.c:726
 msgid "Display warning dialog"
 msgstr "Amosar el diálogu d'avisu"
 
-#: ../src/option.c:755
+#: ../src/option.c:759
 msgid "Display scale dialog"
 msgstr "Amosar el diálogu d'escala"
 
-#: ../src/option.c:773
+#: ../src/option.c:777
 msgid "Set initial value"
 msgstr "Afitar el valor inicial"
 
-#: ../src/option.c:774 ../src/option.c:783 ../src/option.c:792
-#: ../src/option.c:801 ../src/option.c:843
+#: ../src/option.c:778 ../src/option.c:787 ../src/option.c:796
+#: ../src/option.c:805 ../src/option.c:871
 msgid "VALUE"
 msgstr "VALOR"
 
-#: ../src/option.c:782
+#: ../src/option.c:786
 msgid "Set minimum value"
 msgstr "Afitar el valor mínimu"
 
-#: ../src/option.c:791
+#: ../src/option.c:795
 msgid "Set maximum value"
 msgstr "Afitar el valor máximu"
 
-#: ../src/option.c:800
+#: ../src/option.c:804
 msgid "Set step size"
 msgstr "Afitar el tamañu del pasu"
 
-#: ../src/option.c:809
+#: ../src/option.c:813
 msgid "Print partial values"
 msgstr "Imprentar valores parciales"
 
-#: ../src/option.c:818
+#: ../src/option.c:822
 msgid "Hide value"
 msgstr "Anubrir valor"
 
-#: ../src/option.c:833
+#: ../src/option.c:837
+msgid "Display password dialog"
+msgstr "Amosar el diálogu de contraseña"
+
+#: ../src/option.c:846
+msgid "Display the username option"
+msgstr "Amosar la opción de nome d'usuariu"
+
+#: ../src/option.c:861
 msgid "Display color selection dialog"
 msgstr "Amosar el diálogu d'escoyeta de color"
 
-#: ../src/option.c:842
+#: ../src/option.c:870
 msgid "Set the color"
 msgstr "Afitar el color"
 
-#: ../src/option.c:851
+#: ../src/option.c:879
 msgid "Show the palette"
 msgstr "Amosar la paleta"
 
-#: ../src/option.c:866
+#: ../src/option.c:894
 msgid "About matedialog"
 msgstr "Tocante a matedialog"
 
-#: ../src/option.c:875
+#: ../src/option.c:903
 msgid "Print version"
 msgstr "Imprentar versión"
 
-#: ../src/option.c:1584
+#: ../src/option.c:1643
 msgid "General options"
 msgstr "Opciones xenerales"
 
-#: ../src/option.c:1585
+#: ../src/option.c:1644
 msgid "Show general options"
 msgstr "Amosar opciones xenerales"
 
-#: ../src/option.c:1595
+#: ../src/option.c:1654
 msgid "Calendar options"
 msgstr "Opciones del calendariu"
 
-#: ../src/option.c:1596
+#: ../src/option.c:1655
 msgid "Show calendar options"
 msgstr "Amosar opciones del calendariu"
 
-#: ../src/option.c:1606
+#: ../src/option.c:1665
 msgid "Text entry options"
 msgstr "Opciones de la entrada de testu"
 
-#: ../src/option.c:1607
+#: ../src/option.c:1666
 msgid "Show text entry options"
 msgstr "Amosar opciones de la entrada de testu"
 
-#: ../src/option.c:1617
+#: ../src/option.c:1676
 msgid "Error options"
 msgstr "Opciones de fallu"
 
-#: ../src/option.c:1618
+#: ../src/option.c:1677
 msgid "Show error options"
 msgstr "Amosar opciones de fallu"
 
-#: ../src/option.c:1628
+#: ../src/option.c:1687
 msgid "Info options"
 msgstr "Opciones d'información"
 
-#: ../src/option.c:1629
+#: ../src/option.c:1688
 msgid "Show info options"
 msgstr "Amosar opciones d'información"
 
-#: ../src/option.c:1639
+#: ../src/option.c:1698
 msgid "File selection options"
 msgstr "Opciones de Escoyeta de ficheru"
 
-#: ../src/option.c:1640
+#: ../src/option.c:1699
 msgid "Show file selection options"
 msgstr "Amosar opciones d'Escoyeta de ficheru"
 
-#: ../src/option.c:1650
+#: ../src/option.c:1709
 msgid "List options"
 msgstr "Opciones de la llista"
 
-#: ../src/option.c:1651
+#: ../src/option.c:1710
 msgid "Show list options"
 msgstr "Amosar opciones de la llista"
 
-#: ../src/option.c:1661
+#: ../src/option.c:1720
 msgid "Notification icon options"
 msgstr "Opciones del iconu de notificación"
 
-#: ../src/option.c:1662
+#: ../src/option.c:1721
 msgid "Show notification icon options"
 msgstr "Amosar opciones del iconu de notificación"
 
-#: ../src/option.c:1672
+#: ../src/option.c:1731
 msgid "Progress options"
 msgstr "Opciones de progresu"
 
-#: ../src/option.c:1673
+#: ../src/option.c:1732
 msgid "Show progress options"
 msgstr "Amosar opciones de progresu"
 
-#: ../src/option.c:1683
+#: ../src/option.c:1742
 msgid "Question options"
 msgstr "Opciones d'entruga"
 
-#: ../src/option.c:1684
+#: ../src/option.c:1743
 msgid "Show question options"
 msgstr "Amosar opciones d'entruga"
 
-#: ../src/option.c:1694
+#: ../src/option.c:1753
 msgid "Warning options"
 msgstr "Opciones d'avisu"
 
-#: ../src/option.c:1695
+#: ../src/option.c:1754
 msgid "Show warning options"
 msgstr "Amosar opciones de avisu"
 
-#: ../src/option.c:1705
+#: ../src/option.c:1764
 msgid "Scale options"
 msgstr "Opciones d'escala"
 
-#: ../src/option.c:1706
+#: ../src/option.c:1765
 msgid "Show scale options"
 msgstr "Amuesa les opciones d'escala"
 
-#: ../src/option.c:1716
+#: ../src/option.c:1775
 msgid "Text information options"
 msgstr "Opciones del testu d'información"
 
-#: ../src/option.c:1717
+#: ../src/option.c:1776
 msgid "Show text information options"
 msgstr "Amosar opciones del testu d'información"
 
-#: ../src/option.c:1727
+#: ../src/option.c:1786
 msgid "Color selection options"
 msgstr "Opciones de seleición de color"
 
-#: ../src/option.c:1728
+#: ../src/option.c:1787
 msgid "Show color selection options"
 msgstr "Amosar opciones de seleición de color"
 
-#: ../src/option.c:1738
+#: ../src/option.c:1797
+msgid "Password dialog options"
+msgstr "Opciones del diálogu de contraseña"
+
+#: ../src/option.c:1798
+msgid "Show password dialog options"
+msgstr "Amosar les opciones del diálogu de contraseña"
+
+#: ../src/option.c:1808
 msgid "Miscellaneous options"
 msgstr "Opciones miscelánees"
 
-#: ../src/option.c:1739
+#: ../src/option.c:1809
 msgid "Show miscellaneous options"
 msgstr "Amosar opciones miscelánees"
 
-#: ../src/option.c:1764
+#: ../src/option.c:1834
 #, c-format
 msgid ""
 "This option is not available. Please see --help for all possible usages.\n"
 msgstr "Esta opción nun ta disponible. Por favor llee --help pa tolos usos posibles.\n"
 
-#: ../src/option.c:1768
+#: ../src/option.c:1838
 #, c-format
 msgid "--%s is not supported for this dialog\n"
 msgstr "--%s nun ta sofitáu pa esti diálogu\n"
 
-#: ../src/option.c:1772
+#: ../src/option.c:1842
 #, c-format
 msgid "Two or more dialog options specified\n"
 msgstr "Especificáronse opciones pa dos o más diálogos\n"

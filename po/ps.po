@@ -1,65 +1,82 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: matedialog\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-09 00:57+0100\n"
-"PO-Revision-Date: 2009-01-28 11:06+0500\n"
-"Last-Translator: Zabeeh Khan <zabeehkhan@gmail.com>\n"
-"Language-Team: Pashto <pathanisation@googlegroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:22+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Pashto, Pushto\n"
-"X-Poedit-Country: AFGHANISTAN, PAKISTAN\n"
+"Language: ps\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../src/about.c:65
+#: ../src/about.c:64
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License as published by the Free "
-"Software Foundation; either version 2 of the License, or (at your option) "
-"any later version.\n"
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
+"option) any later version.\n"
 msgstr ""
 
-#: ../src/about.c:69
+#: ../src/about.c:68
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-"more details.\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
 msgstr ""
 
-#: ../src/about.c:73
+#: ../src/about.c:72
 msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+"You should have received a copy of the GNU Lesser General Public License "
+"along with this program; if not, write to the Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 msgstr ""
 
-#: ../src/about.c:264
+#: ../src/about.c:265
 msgid "translator-credits"
 msgstr "Zabeeh Khan <zabeehkhan@gmail.com>"
 
-#: ../src/about.c:276
+#: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
 msgstr ""
 
-#: ../src/main.c:94
+#: ../src/main.c:100
 #, c-format
 msgid "You must specify a dialog type. See 'matedialog --help' for details\n"
 msgstr ""
 
-#: ../src/notification.c:139
+#: ../src/notification.c:138
 #, c-format
 msgid "could not parse command from stdin\n"
 msgstr ""
 
-#: ../src/notification.c:252 ../src/notification.c:269
+#: ../src/notification.c:177
+#, c-format
+msgid "Could not parse message from stdin\n"
+msgstr ""
+
+#: ../src/notification.c:262 ../src/notification.c:279
 msgid "MateDialog notification"
+msgstr ""
+
+#: ../src/password.c:64
+msgid "Type your password"
+msgstr ""
+
+#: ../src/password.c:99
+msgid "Username:"
+msgstr ""
+
+#: ../src/password.c:115
+msgid "Password:"
 msgstr ""
 
 #: ../src/scale.c:56
@@ -72,523 +89,564 @@ msgstr ""
 msgid "Value out of range.\n"
 msgstr ""
 
-#: ../src/tree.c:320
+#: ../src/tree.c:321
 #, c-format
 msgid "No column titles specified for List dialog.\n"
 msgstr ""
 
-#: ../src/tree.c:326
+#: ../src/tree.c:327
 #, c-format
 msgid "You should use only one List dialog type.\n"
 msgstr ""
 
-#: ../src/matedialog.glade.h:1
+#: ../src/matedialog.ui.h:1
 msgid "Add a new entry"
 msgstr "نوی ننوت ډېرول"
 
-#: ../src/matedialog.glade.h:2
+#: ../src/matedialog.ui.h:2
 msgid "Adjust the scale value"
 msgstr "د کچ ارزښت برابرول"
 
-#: ../src/matedialog.glade.h:3
+#: ../src/matedialog.ui.h:3
 msgid "All updates are complete."
 msgstr "ټولې اوسمهالونې بشپړې دي."
 
-#: ../src/matedialog.glade.h:4
+#: ../src/matedialog.ui.h:4
 msgid "An error has occurred."
 msgstr "کومه تېروتنه رامنځته شوې ده."
 
-#: ../src/matedialog.glade.h:5
+#: ../src/matedialog.ui.h:5
 msgid "Are you sure you want to proceed?"
 msgstr "تاسو په ډاډمنه توګه مخکې تلل غواړﺉ؟"
 
-#: ../src/matedialog.glade.h:6
+#: ../src/matedialog.ui.h:6
 msgid "C_alendar:"
 msgstr ":ک_ليز"
 
-#: ../src/matedialog.glade.h:7
+#: ../src/matedialog.ui.h:7
 msgid "Calendar selection"
 msgstr "کليز ټاکنه"
 
-#: ../src/matedialog.glade.h:8
+#: ../src/matedialog.ui.h:8
 msgid "Error"
 msgstr "تېروتنه"
 
-#: ../src/matedialog.glade.h:9
+#: ../src/matedialog.ui.h:9
 msgid "Information"
 msgstr "خبرتياوې"
 
-#: ../src/matedialog.glade.h:10
+#: ../src/matedialog.ui.h:10
 msgid "Progress"
 msgstr "پرمختګ"
 
-#: ../src/matedialog.glade.h:11
+#: ../src/matedialog.ui.h:11
 msgid "Question"
 msgstr "پوښتنه"
 
-#: ../src/matedialog.glade.h:12
+#: ../src/matedialog.ui.h:12
 msgid "Running..."
 msgstr "ځغلي..."
 
-#: ../src/matedialog.glade.h:13
+#: ../src/matedialog.ui.h:13
 msgid "Select a date from below."
 msgstr "لاندې يوه نېټه وټاکﺉ."
 
-#: ../src/matedialog.glade.h:14
-msgid "Select a file"
-msgstr "دوتنه ټاکل"
-
-#: ../src/matedialog.glade.h:15
+#: ../src/matedialog.ui.h:14
 msgid "Select items from the list"
 msgstr "د لړ نه توکي وټاکﺉ"
 
-#: ../src/matedialog.glade.h:16
+#: ../src/matedialog.ui.h:15
 msgid "Select items from the list below."
 msgstr "د لاندې لړ نه توکي وټاکﺉ."
 
-#: ../src/matedialog.glade.h:17
+#: ../src/matedialog.ui.h:16
 msgid "Text View"
 msgstr "ليک کوت"
 
-#: ../src/matedialog.glade.h:18
+#: ../src/matedialog.ui.h:17
 msgid "Warning"
 msgstr "خبرتيا"
 
-#: ../src/matedialog.glade.h:19
+#: ../src/matedialog.ui.h:18
 msgid "_Enter new text:"
 msgstr ":نوې ليکنه وليکﺉ_"
 
-#: ../src/option.c:120
+#: ../src/option.c:131
 msgid "Set the dialog title"
 msgstr "د کړکۍ سرليک ټاکل"
 
-#: ../src/option.c:121
+#: ../src/option.c:132
 msgid "TITLE"
 msgstr "سرليک"
 
-#: ../src/option.c:129
+#: ../src/option.c:140
 msgid "Set the window icon"
 msgstr "د کړکۍ انځورن ټاکل"
 
-#: ../src/option.c:130
+#: ../src/option.c:141
 msgid "ICONPATH"
 msgstr ""
 
-#: ../src/option.c:138
+#: ../src/option.c:149
 msgid "Set the width"
 msgstr "پلنوالی ټاکل"
 
-#: ../src/option.c:139
+#: ../src/option.c:150
 msgid "WIDTH"
 msgstr "پلنوالی"
 
-#: ../src/option.c:147
+#: ../src/option.c:158
 msgid "Set the height"
 msgstr "لوړوالی ټاکل"
 
-#: ../src/option.c:148
+#: ../src/option.c:159
 msgid "HEIGHT"
 msgstr "لوړوالی"
 
-#: ../src/option.c:156
+#: ../src/option.c:167
 msgid "Set dialog timeout in seconds"
 msgstr ""
 
 #. Timeout for closing the dialog
-#: ../src/option.c:158
+#: ../src/option.c:169
 msgid "TIMEOUT"
 msgstr ""
 
-#: ../src/option.c:172
+#: ../src/option.c:183
 msgid "Display calendar dialog"
 msgstr "کليز کړکۍ ښودل"
 
-#: ../src/option.c:181 ../src/option.c:241 ../src/option.c:284
-#: ../src/option.c:317 ../src/option.c:429 ../src/option.c:559
-#: ../src/option.c:621 ../src/option.c:705 ../src/option.c:738
+#: ../src/option.c:192 ../src/option.c:252 ../src/option.c:295
+#: ../src/option.c:328 ../src/option.c:440 ../src/option.c:579
+#: ../src/option.c:651 ../src/option.c:735 ../src/option.c:768
 msgid "Set the dialog text"
 msgstr "د کړکۍ ليکنه وټاکﺉ"
 
-#: ../src/option.c:182 ../src/option.c:242 ../src/option.c:251
-#: ../src/option.c:260 ../src/option.c:285 ../src/option.c:318
-#: ../src/option.c:430 ../src/option.c:527 ../src/option.c:560
-#: ../src/option.c:622 ../src/option.c:631 ../src/option.c:640
-#: ../src/option.c:706 ../src/option.c:739
+#: ../src/option.c:193 ../src/option.c:253 ../src/option.c:262
+#: ../src/option.c:296 ../src/option.c:329 ../src/option.c:441
+#: ../src/option.c:547 ../src/option.c:580 ../src/option.c:652
+#: ../src/option.c:661 ../src/option.c:670 ../src/option.c:736
+#: ../src/option.c:769
 msgid "TEXT"
 msgstr "ليکنه"
 
-#: ../src/option.c:190
+#: ../src/option.c:201
 msgid "Set the calendar day"
 msgstr "د کليز ورځ وټاکﺉ"
 
-#: ../src/option.c:191
+#: ../src/option.c:202
 msgid "DAY"
 msgstr "ورځ"
 
-#: ../src/option.c:199
+#: ../src/option.c:210
 msgid "Set the calendar month"
 msgstr "د کليز مياشت وټاکﺉ"
 
-#: ../src/option.c:200
+#: ../src/option.c:211
 msgid "MONTH"
 msgstr "مياشت"
 
-#: ../src/option.c:208
+#: ../src/option.c:219
 msgid "Set the calendar year"
 msgstr "د کليز کال وټاکﺉ"
 
-#: ../src/option.c:209
+#: ../src/option.c:220
 msgid "YEAR"
 msgstr "کال"
 
-#: ../src/option.c:217
+#: ../src/option.c:228
 msgid "Set the format for the returned date"
 msgstr ""
 
-#: ../src/option.c:218
+#: ../src/option.c:229
 msgid "PATTERN"
 msgstr "بېلګه"
 
-#: ../src/option.c:232
+#: ../src/option.c:243
 msgid "Display text entry dialog"
 msgstr ""
 
-#: ../src/option.c:250
+#: ../src/option.c:261
 msgid "Set the entry text"
 msgstr "د ننوت ليکنه ټاکل"
 
-#: ../src/option.c:259
+#: ../src/option.c:270
 msgid "Hide the entry text"
 msgstr "د ننوت ليکنه پټول"
 
-#: ../src/option.c:275
+#: ../src/option.c:286
 msgid "Display error dialog"
 msgstr "د تېروتنې کړکۍ ښودل"
 
-#: ../src/option.c:293 ../src/option.c:326 ../src/option.c:648
-#: ../src/option.c:714
+#: ../src/option.c:304 ../src/option.c:337 ../src/option.c:678
+#: ../src/option.c:744
 msgid "Do not enable text wrapping"
 msgstr ""
 
-#: ../src/option.c:308
+#: ../src/option.c:319
 msgid "Display info dialog"
 msgstr "خبرتيا کړکۍ ښودل"
 
-#: ../src/option.c:341
+#: ../src/option.c:352
 msgid "Display file selection dialog"
 msgstr ""
 
-#: ../src/option.c:350
+#: ../src/option.c:361
 msgid "Set the filename"
 msgstr "د دوتنې نوم ټاکل"
 
-#: ../src/option.c:351 ../src/option.c:673
+#: ../src/option.c:362 ../src/option.c:703
 msgid "FILENAME"
 msgstr "دوتنې نوم"
 
-#: ../src/option.c:359
+#: ../src/option.c:370
 msgid "Allow multiple files to be selected"
 msgstr ""
 
-#: ../src/option.c:368
+#: ../src/option.c:379
 msgid "Activate directory-only selection"
 msgstr ""
 
-#: ../src/option.c:377
+#: ../src/option.c:388
 msgid "Activate save mode"
 msgstr ""
 
-#: ../src/option.c:386 ../src/option.c:465
+#: ../src/option.c:397 ../src/option.c:476
 msgid "Set output separator character"
 msgstr ""
 
-#: ../src/option.c:387 ../src/option.c:466
+#: ../src/option.c:398 ../src/option.c:477
 msgid "SEPARATOR"
 msgstr "بېلند"
 
-#: ../src/option.c:395
+#: ../src/option.c:406
 msgid "Confirm file selection if filename already exists"
 msgstr ""
 
-#: ../src/option.c:404
+#: ../src/option.c:415
 msgid "Sets a filename filter"
 msgstr ""
 
 #. Help for file-filter argument (name and patterns for file selection)
-#: ../src/option.c:406
+#: ../src/option.c:417
 msgid "NAME | PATTERN1 PATTERN2 ..."
 msgstr ""
 
-#: ../src/option.c:420
+#: ../src/option.c:431
 msgid "Display list dialog"
 msgstr "لړ کړکۍ ښودل"
 
-#: ../src/option.c:438
+#: ../src/option.c:449
 msgid "Set the column header"
 msgstr "د ستن سرۍ ټاکل"
 
-#: ../src/option.c:439
+#: ../src/option.c:450
 msgid "COLUMN"
 msgstr "ستن"
 
-#: ../src/option.c:447
+#: ../src/option.c:458
 msgid "Use check boxes for first column"
 msgstr ""
 
-#: ../src/option.c:456
+#: ../src/option.c:467
 msgid "Use radio buttons for first column"
 msgstr ""
 
-#: ../src/option.c:474
+#: ../src/option.c:485
 msgid "Allow multiple rows to be selected"
 msgstr ""
 
-#: ../src/option.c:483 ../src/option.c:681
+#: ../src/option.c:494 ../src/option.c:711
 msgid "Allow changes to text"
 msgstr ""
 
-#: ../src/option.c:492
+#: ../src/option.c:503
 msgid ""
 "Print a specific column (Default is 1. 'ALL' can be used to print all "
 "columns)"
 msgstr ""
 
 #. Column index number to print out on a list dialog
-#: ../src/option.c:494 ../src/option.c:503
+#: ../src/option.c:505 ../src/option.c:514
 msgid "NUMBER"
 msgstr "شمېره"
 
-#: ../src/option.c:502
+#: ../src/option.c:513
 msgid "Hide a specific column"
 msgstr "کومه ټاکلې ستن پټول"
 
-#: ../src/option.c:517
+#: ../src/option.c:522
+msgid "Hides the column headers"
+msgstr ""
+
+#: ../src/option.c:537
 msgid "Display notification"
 msgstr "يادښت ښودل"
 
-#: ../src/option.c:526
+#: ../src/option.c:546
 msgid "Set the notification text"
 msgstr ""
 
-#: ../src/option.c:535
+#: ../src/option.c:555
 msgid "Listen for commands on stdin"
 msgstr ""
 
-#: ../src/option.c:550
+#: ../src/option.c:570
 msgid "Display progress indication dialog"
 msgstr ""
 
-#: ../src/option.c:568
+#: ../src/option.c:588
 msgid "Set initial percentage"
 msgstr ""
 
-#: ../src/option.c:569
+#: ../src/option.c:589
 msgid "PERCENTAGE"
 msgstr "سلنه"
 
-#: ../src/option.c:577
+#: ../src/option.c:597
 msgid "Pulsate progress bar"
 msgstr ""
 
-#: ../src/option.c:587
+#: ../src/option.c:607
 #, no-c-format
 msgid "Dismiss the dialog when 100% has been reached"
 msgstr ""
 
-#: ../src/option.c:597
+#: ../src/option.c:617
 #, no-c-format
-msgid "Kill parent process if cancel button is pressed"
+msgid "Kill parent process if Cancel button is pressed"
 msgstr ""
 
-#: ../src/option.c:612
+#: ../src/option.c:627
+#, no-c-format
+msgid "Hide Cancel button"
+msgstr ""
+
+#: ../src/option.c:642
 msgid "Display question dialog"
 msgstr "پوښتنې کړکۍ ښودل"
 
-#: ../src/option.c:630
+#: ../src/option.c:660
 msgid "Sets the label of the Ok button"
 msgstr ""
 
-#: ../src/option.c:639
+#: ../src/option.c:669
 msgid "Sets the label of the Cancel button"
 msgstr ""
 
-#: ../src/option.c:663
+#: ../src/option.c:693
 msgid "Display text information dialog"
 msgstr ""
 
-#: ../src/option.c:672
+#: ../src/option.c:702
 msgid "Open file"
 msgstr "دوتنه پرانيستل"
 
-#: ../src/option.c:696
+#: ../src/option.c:726
 msgid "Display warning dialog"
 msgstr "خبرتيا کړکۍ ښودل"
 
-#: ../src/option.c:729
+#: ../src/option.c:759
 msgid "Display scale dialog"
 msgstr "کچ کړکۍ ښودل"
 
-#: ../src/option.c:747
+#: ../src/option.c:777
 msgid "Set initial value"
 msgstr "لومړنی ارزښت ټاکل"
 
-#: ../src/option.c:748 ../src/option.c:757 ../src/option.c:766
-#: ../src/option.c:775
+#: ../src/option.c:778 ../src/option.c:787 ../src/option.c:796
+#: ../src/option.c:805 ../src/option.c:871
 msgid "VALUE"
 msgstr "ارزښت"
 
-#: ../src/option.c:756
+#: ../src/option.c:786
 msgid "Set minimum value"
 msgstr ""
 
-#: ../src/option.c:765
+#: ../src/option.c:795
 msgid "Set maximum value"
 msgstr ""
 
-#: ../src/option.c:774
+#: ../src/option.c:804
 msgid "Set step size"
 msgstr ""
 
-#: ../src/option.c:783
+#: ../src/option.c:813
 msgid "Print partial values"
 msgstr ""
 
-#: ../src/option.c:792
+#: ../src/option.c:822
 msgid "Hide value"
 msgstr "ارزښت پټول"
 
-#: ../src/option.c:807
+#: ../src/option.c:837
+msgid "Display password dialog"
+msgstr ""
+
+#: ../src/option.c:846
+msgid "Display the username option"
+msgstr ""
+
+#: ../src/option.c:861
+msgid "Display color selection dialog"
+msgstr ""
+
+#: ../src/option.c:870
+msgid "Set the color"
+msgstr ""
+
+#: ../src/option.c:879
+msgid "Show the palette"
+msgstr ""
+
+#: ../src/option.c:894
 msgid "About matedialog"
 msgstr "د زېنېټي په اړه"
 
-#: ../src/option.c:816
+#: ../src/option.c:903
 msgid "Print version"
 msgstr "نسخه چاپول"
 
-#: ../src/option.c:1471
+#: ../src/option.c:1643
 msgid "General options"
 msgstr "ټولګړي غوراوي"
 
-#: ../src/option.c:1472
+#: ../src/option.c:1644
 msgid "Show general options"
 msgstr "ټولګړي غوراوي ښودل"
 
-#: ../src/option.c:1482
+#: ../src/option.c:1654
 msgid "Calendar options"
 msgstr "کليز غوراوي"
 
-#: ../src/option.c:1483
+#: ../src/option.c:1655
 msgid "Show calendar options"
 msgstr "کليز غوراوي ښودل"
 
-#: ../src/option.c:1493
+#: ../src/option.c:1665
 msgid "Text entry options"
 msgstr "د لیک ننوتنې غوراوي"
 
-#: ../src/option.c:1494
+#: ../src/option.c:1666
 msgid "Show text entry options"
 msgstr ""
 
-#: ../src/option.c:1504
+#: ../src/option.c:1676
 msgid "Error options"
 msgstr "تېروتنې غوراوي"
 
-#: ../src/option.c:1505
+#: ../src/option.c:1677
 msgid "Show error options"
 msgstr "د تېروتنې غوراوي ښودل"
 
-#: ../src/option.c:1515
+#: ../src/option.c:1687
 msgid "Info options"
 msgstr "خبرتيا غوراوي"
 
-#: ../src/option.c:1516
+#: ../src/option.c:1688
 msgid "Show info options"
 msgstr "خبرتيا غوراوي ښودل"
 
-#: ../src/option.c:1526
+#: ../src/option.c:1698
 msgid "File selection options"
 msgstr "د دوتنې ټاکنې غوراوي"
 
-#: ../src/option.c:1527
+#: ../src/option.c:1699
 msgid "Show file selection options"
 msgstr ""
 
-#: ../src/option.c:1537
+#: ../src/option.c:1709
 msgid "List options"
 msgstr "لړ غوراوي"
 
-#: ../src/option.c:1538
+#: ../src/option.c:1710
 msgid "Show list options"
 msgstr "لړ غوراوي ښودل"
 
-#: ../src/option.c:1548
+#: ../src/option.c:1720
 msgid "Notification icon options"
 msgstr ""
 
-#: ../src/option.c:1549
+#: ../src/option.c:1721
 msgid "Show notification icon options"
 msgstr ""
 
-#: ../src/option.c:1559
+#: ../src/option.c:1731
 msgid "Progress options"
 msgstr "پرمختګ غوراوي"
 
-#: ../src/option.c:1560
+#: ../src/option.c:1732
 msgid "Show progress options"
 msgstr "پرمختګ غوراوي ښودل"
 
-#: ../src/option.c:1570
+#: ../src/option.c:1742
 msgid "Question options"
 msgstr "پوښتنې غوراوي"
 
-#: ../src/option.c:1571
+#: ../src/option.c:1743
 msgid "Show question options"
 msgstr "پوښتنې غوراوي ښودل"
 
-#: ../src/option.c:1581
+#: ../src/option.c:1753
 msgid "Warning options"
 msgstr "خبرتيا غوراوي"
 
-#: ../src/option.c:1582
+#: ../src/option.c:1754
 msgid "Show warning options"
 msgstr "خبرتيا غوراوي ښودل"
 
-#: ../src/option.c:1592
+#: ../src/option.c:1764
 msgid "Scale options"
 msgstr "کچ غوراوي"
 
-#: ../src/option.c:1593
+#: ../src/option.c:1765
 msgid "Show scale options"
 msgstr "کچ غوراوي ښودل"
 
-#: ../src/option.c:1603
+#: ../src/option.c:1775
 msgid "Text information options"
 msgstr ""
 
-#: ../src/option.c:1604
+#: ../src/option.c:1776
 msgid "Show text information options"
 msgstr ""
 
-#: ../src/option.c:1614
+#: ../src/option.c:1786
+msgid "Color selection options"
+msgstr ""
+
+#: ../src/option.c:1787
+msgid "Show color selection options"
+msgstr ""
+
+#: ../src/option.c:1797
+msgid "Password dialog options"
+msgstr ""
+
+#: ../src/option.c:1798
+msgid "Show password dialog options"
+msgstr ""
+
+#: ../src/option.c:1808
 msgid "Miscellaneous options"
 msgstr "ګډوډ غوراوي"
 
-#: ../src/option.c:1615
+#: ../src/option.c:1809
 msgid "Show miscellaneous options"
 msgstr "ګډوډ غوراوي ښودل"
 
-#: ../src/option.c:1640
+#: ../src/option.c:1834
 #, c-format
 msgid ""
 "This option is not available. Please see --help for all possible usages.\n"
 msgstr ""
 
-#: ../src/option.c:1644
+#: ../src/option.c:1838
 #, c-format
 msgid "--%s is not supported for this dialog\n"
 msgstr ""
 
-#: ../src/option.c:1648
+#: ../src/option.c:1842
 #, c-format
 msgid "Two or more dialog options specified\n"
 msgstr ""

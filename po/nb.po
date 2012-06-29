@@ -1,54 +1,44 @@
-# Norwegian translation of matedialog.
-# Copyright (C) 2004 Free Software Foundation, Inc.
-# Kjartan Maraas <kmaraas@gnome.org>, 2003-2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: matedialog 2.29.x\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-04 14:33+0200\n"
-"PO-Revision-Date: 2010-08-04 14:34+0200\n"
-"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
-"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
-"Language: \n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:22+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../src/about.c:64
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU Lesser General Public License as published by the "
-"Free Software Foundation; either version 2 of the License, or (at your "
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
 "option) any later version.\n"
-msgstr ""
-"Dette programmet er fri programvare. Du kan redistribuere og/eller endre "
-"programmet under betingelsene gitt i GNU Lesser General Public License som "
-"utgitt av Free Software Foundation; enten versjon 2 av lisensen, eller (hvis "
-"du ønsker det) enhver senere versjon.\n"
+msgstr "Dette programmet er fri programvare. Du kan redistribuere og/eller endre programmet under betingelsene gitt i GNU Lesser General Public License som utgitt av Free Software Foundation; enten versjon 2 av lisensen, eller (hvis du ønsker det) enhver senere versjon.\n"
 
 #: ../src/about.c:68
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License "
-"for more details.\n"
-msgstr ""
-"Dette programmet distribueres i håp om at programmet er nyttig, men uten "
-"NOEN GARANTI, ikke engang implisitt garanti om at det er SALGBART eller "
-"PASSER ET BESTEMT FORMÅL. Se GNU Lesser General Public License for "
-"detaljer.\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
+msgstr "Dette programmet distribueres i håp om at programmet er nyttig, men uten NOEN GARANTI, ikke engang implisitt garanti om at det er SALGBART eller PASSER ET BESTEMT FORMÅL. Se GNU Lesser General Public License for detaljer.\n"
 
 #: ../src/about.c:72
 msgid ""
 "You should have received a copy of the GNU Lesser General Public License "
 "along with this program; if not, write to the Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr ""
-"Du skal ha mottatt en kopi av GNU Lesser General Public License sammen med "
-"dette programmet. Hvis dette ikke er tilfelle, kan du skrive til Free "
-"Software Foundation, Inc. 51 Franklin Street, Fifth Floor, Boston, MA "
-"02110-1301 USA."
+msgstr "Du skal ha mottatt en kopi av GNU Lesser General Public License sammen med dette programmet. Hvis dette ikke er tilfelle, kan du skrive til Free Software Foundation, Inc. 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA."
 
 #: ../src/about.c:265
 msgid "translator-credits"
@@ -374,9 +364,7 @@ msgstr "Tillat endringer i tekst"
 msgid ""
 "Print a specific column (Default is 1. 'ALL' can be used to print all "
 "columns)"
-msgstr ""
-"Skriv ut en bestemt kolonne (Forvalg er 1. «ALL» kan brukes for å skrive ut "
-"alle kolonner)"
+msgstr "Skriv ut en bestemt kolonne (Forvalg er 1. «ALL» kan brukes for å skrive ut alle kolonner)"
 
 #. Column index number to print out on a list dialog
 #: ../src/option.c:505 ../src/option.c:514
@@ -651,9 +639,7 @@ msgstr "Vis forskjellige alternativer"
 #, c-format
 msgid ""
 "This option is not available. Please see --help for all possible usages.\n"
-msgstr ""
-"Dette flagget er ikke tilgjengelig. Vennligst bruk --help for å se mulige "
-"flagg.\n"
+msgstr "Dette flagget er ikke tilgjengelig. Vennligst bruk --help for å se mulige flagg.\n"
 
 #: ../src/option.c:1838
 #, c-format

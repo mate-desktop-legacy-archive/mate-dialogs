@@ -1,47 +1,51 @@
-# Slovenian translations for matedialog.
-# Copyright (C) 2002-2007 Free Software Foundation, Inc.
-# This file is distributed under the same license as the matedialog package.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Andraž Tori <andraz.tori1@guest.arnes.si>, 2002.
-# Matjaž Horvat <m@owca.info>, 2006.
 # Matic Žgur <mr.zgur@gmail.com>, 2007.
-# Matej Urbančič <mateju@svn.gnome.org>, 2008 - 2010.
-#
+# Matjaž Horvat <m@owca.info>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: matedialog master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=matedialog&component=general\n"
-"POT-Creation-Date: 2010-07-25 17:00+0000\n"
-"PO-Revision-Date: 2010-07-25 21:22+0100\n"
-"Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
-"Language-Team: Slovenian MATE Translation Team <mate-si@googlegroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:24+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Slovenian (http://www.transifex.com/projects/p/MATE/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
-"X-Poedit-Country: SLOVENIA\n"
-"X-Poedit-Language: Slovenian\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Language: sl\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3)\n"
 
 #: ../src/about.c:64
-msgid "This program is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n"
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
+"option) any later version.\n"
 msgstr "Program je prosta programska oprema; lahko ga širite in/ali spreminjate pod pogoji manj splošnega dovoljenja GNU (GNU LGPL), kot ga je objavila ustanova Free Software Foundation; bodisi različice 2 ali (po vaši izbiri) katerekoli poznejše različice.\n"
 
 #: ../src/about.c:68
-msgid "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.\n"
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
 msgstr "Program je na voljo v upanju, da bo uporaben, vendar je BREZ VSAKRŠNEGA JAMSTVA; tudi brez jamstva o USTREZNOSTI ZA PRODAJO ali PRIMERNOSTI ZA UPORABO. Za več podrobnosti si glejte besedilo Splošnega javnega dovoljenja (GNU GPL).\n"
 
 #: ../src/about.c:72
-msgid "You should have received a copy of the GNU Lesser General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+msgid ""
+"You should have received a copy of the GNU Lesser General Public License "
+"along with this program; if not, write to the Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 msgstr "Skupaj s tem programom bi morali prejeti izvod manj splošnega dovoljenja GNU (GNU LGPL); v primeru, da ga niste, pišite na Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr ""
-"Matic Žgur <mr.zgur@gmail.com>\n"
-"Matjaž Horvat <m@owca.info>\n"
-"Tilen Travnik <tilen.travnik@guest.arnes.si>\n"
-"Matej Urbančič <mateju@svn.gnome.org>"
+msgstr "Matic Žgur <mr.zgur@gmail.com>\nMatjaž Horvat <m@owca.info>\nTilen Travnik <tilen.travnik@guest.arnes.si>\nMatej Urbančič <mateju@svn.gnome.org>"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
@@ -62,8 +66,7 @@ msgstr "ni mogoče razčleniti ukaza iz stdin\n"
 msgid "Could not parse message from stdin\n"
 msgstr "Ni mogoče razčleniti sporočila stdin\n"
 
-#: ../src/notification.c:262
-#: ../src/notification.c:279
+#: ../src/notification.c:262 ../src/notification.c:279
 msgid "MateDialog notification"
 msgstr "Obvestila MateDialog"
 
@@ -123,7 +126,6 @@ msgstr "Ali ste prepričani, da želite nadaljevati?"
 msgid "C_alendar:"
 msgstr "K_oledar:"
 
-# G:7 K:2 O:4
 #: ../src/matedialog.ui.h:7
 msgid "Calendar selection"
 msgstr "Izbira koledarja"
@@ -132,32 +134,26 @@ msgstr "Izbira koledarja"
 msgid "Error"
 msgstr "Napaka"
 
-# G:12 K:1 O:6
 #: ../src/matedialog.ui.h:9
 msgid "Information"
 msgstr "Podrobnosti"
 
-# G:9 K:0 O:0
 #: ../src/matedialog.ui.h:10
 msgid "Progress"
 msgstr "Napredek"
 
-# G:4 K:4 O:0
 #: ../src/matedialog.ui.h:11
 msgid "Question"
 msgstr "Vprašanje"
 
-# G:9 K:6 O:0
 #: ../src/matedialog.ui.h:12
 msgid "Running..."
 msgstr "Zagnano ..."
 
-# G:7 K:2 O:0
 #: ../src/matedialog.ui.h:13
 msgid "Select a date from below."
 msgstr "Spodaj izberite datum."
 
-# G:2 K:0 O:0
 #: ../src/matedialog.ui.h:14
 msgid "Select items from the list"
 msgstr "Izberite predmete iz seznama"
@@ -170,12 +166,10 @@ msgstr "Izberite predmete iz spodnjega seznama."
 msgid "Text View"
 msgstr "Besedilni pogled"
 
-# G:4 K:0 O:0
 #: ../src/matedialog.ui.h:17
 msgid "Warning"
 msgstr "Opozorilo"
 
-# G:1 K:0 O:0
 #: ../src/matedialog.ui.h:18
 msgid "_Enter new text:"
 msgstr "_Vnesite novo besedilo:"
@@ -225,30 +219,16 @@ msgstr "ZAKASNITEV"
 msgid "Display calendar dialog"
 msgstr "Pokaži pogovorno okno koledarja"
 
-#: ../src/option.c:192
-#: ../src/option.c:252
-#: ../src/option.c:295
-#: ../src/option.c:328
-#: ../src/option.c:440
-#: ../src/option.c:579
-#: ../src/option.c:651
-#: ../src/option.c:735
-#: ../src/option.c:768
+#: ../src/option.c:192 ../src/option.c:252 ../src/option.c:295
+#: ../src/option.c:328 ../src/option.c:440 ../src/option.c:579
+#: ../src/option.c:651 ../src/option.c:735 ../src/option.c:768
 msgid "Set the dialog text"
 msgstr "Nastavi besedilo pogovornega okna"
 
-#: ../src/option.c:193
-#: ../src/option.c:253
-#: ../src/option.c:262
-#: ../src/option.c:296
-#: ../src/option.c:329
-#: ../src/option.c:441
-#: ../src/option.c:547
-#: ../src/option.c:580
-#: ../src/option.c:652
-#: ../src/option.c:661
-#: ../src/option.c:670
-#: ../src/option.c:736
+#: ../src/option.c:193 ../src/option.c:253 ../src/option.c:262
+#: ../src/option.c:296 ../src/option.c:329 ../src/option.c:441
+#: ../src/option.c:547 ../src/option.c:580 ../src/option.c:652
+#: ../src/option.c:661 ../src/option.c:670 ../src/option.c:736
 #: ../src/option.c:769
 msgid "TEXT"
 msgstr "BESEDILO"
@@ -301,9 +281,7 @@ msgstr "Skrij začetno besedilo"
 msgid "Display error dialog"
 msgstr "Pokaži pogovorno okno napake"
 
-#: ../src/option.c:304
-#: ../src/option.c:337
-#: ../src/option.c:678
+#: ../src/option.c:304 ../src/option.c:337 ../src/option.c:678
 #: ../src/option.c:744
 msgid "Do not enable text wrapping"
 msgstr "Ne omogoči preloma besedila"
@@ -320,8 +298,7 @@ msgstr "Pokaži pogovorno okno izbire datoteke"
 msgid "Set the filename"
 msgstr "Nastavi ime datoteke"
 
-#: ../src/option.c:362
-#: ../src/option.c:703
+#: ../src/option.c:362 ../src/option.c:703
 msgid "FILENAME"
 msgstr "Ime datoteke"
 
@@ -337,13 +314,11 @@ msgstr "omogoči izbor le map"
 msgid "Activate save mode"
 msgstr "Omogoči način shranjevanja"
 
-#: ../src/option.c:397
-#: ../src/option.c:476
+#: ../src/option.c:397 ../src/option.c:476
 msgid "Set output separator character"
 msgstr "Nastavi znak za ločevanje izhoda"
 
-#: ../src/option.c:398
-#: ../src/option.c:477
+#: ../src/option.c:398 ../src/option.c:477
 msgid "SEPARATOR"
 msgstr "LOČILNIK"
 
@@ -384,18 +359,18 @@ msgstr "Uporabi radijski gumb za prvi stolpec"
 msgid "Allow multiple rows to be selected"
 msgstr "Dovoli izbor več vrstic"
 
-#: ../src/option.c:494
-#: ../src/option.c:711
+#: ../src/option.c:494 ../src/option.c:711
 msgid "Allow changes to text"
 msgstr "Dovoli spremembe v besedilu"
 
 #: ../src/option.c:503
-msgid "Print a specific column (Default is 1. 'ALL' can be used to print all columns)"
+msgid ""
+"Print a specific column (Default is 1. 'ALL' can be used to print all "
+"columns)"
 msgstr "Natisni določen stolpec (privzeto je izbrana možnost 1. Za izpis vseh stolpcev lahko uporabite 'ALL')"
 
 #. Column index number to print out on a list dialog
-#: ../src/option.c:505
-#: ../src/option.c:514
+#: ../src/option.c:505 ../src/option.c:514
 msgid "NUMBER"
 msgstr "ŠTEVILKA"
 
@@ -482,11 +457,8 @@ msgstr "Pokaži pogovorno okno merila"
 msgid "Set initial value"
 msgstr "Nastavi začetno vrednost"
 
-#: ../src/option.c:778
-#: ../src/option.c:787
-#: ../src/option.c:796
-#: ../src/option.c:805
-#: ../src/option.c:871
+#: ../src/option.c:778 ../src/option.c:787 ../src/option.c:796
+#: ../src/option.c:805 ../src/option.c:871
 msgid "VALUE"
 msgstr "VREDNOST"
 
@@ -530,7 +502,6 @@ msgstr "Nastavi barvo"
 msgid "Show the palette"
 msgstr "Pokaži paleto"
 
-# G:2 K:0 O:0
 #: ../src/option.c:894
 msgid "About matedialog"
 msgstr "O programu"
@@ -547,12 +518,10 @@ msgstr "Splošne možnosti"
 msgid "Show general options"
 msgstr "Pokaži splošne možnosti"
 
-# G:0 K:7 O:1
 #: ../src/option.c:1654
 msgid "Calendar options"
 msgstr "Možnosti koledarja"
 
-# G:0 K:7 O:1
 #: ../src/option.c:1655
 msgid "Show calendar options"
 msgstr "Pokaži možnosti koledarja"
@@ -629,12 +598,10 @@ msgstr "Možnosti opozorila"
 msgid "Show warning options"
 msgstr "Pokaži možnosti opozorila"
 
-# G:0 K:7 O:1
 #: ../src/option.c:1764
 msgid "Scale options"
 msgstr "Možnosti merila"
 
-# G:0 K:7 O:1
 #: ../src/option.c:1765
 msgid "Show scale options"
 msgstr "Pokaži možnosti merila"
@@ -673,7 +640,8 @@ msgstr "Pokaži razne možnosti"
 
 #: ../src/option.c:1834
 #, c-format
-msgid "This option is not available. Please see --help for all possible usages.\n"
+msgid ""
+"This option is not available. Please see --help for all possible usages.\n"
 msgstr "Ta možnost ni na voljo. Za pregled vseh mogočih uporab si oglejte --help.\n"
 
 #: ../src/option.c:1838
@@ -685,7 +653,3 @@ msgstr "--%s ni podprt v tem pogovornem oknu\n"
 #, c-format
 msgid "Two or more dialog options specified\n"
 msgstr "Določeni sta dve ali več možnosti pogovornega okna\n"
-
-#~ msgid "Select a file"
-#~ msgstr "Izbor datoteke"
-

@@ -1,79 +1,86 @@
-# translation of matedialog.HEAD.po to Macedonian
-# translation of matedialog.HEAD.mk.po to
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER, 2003
-#
-#
-# Arangel Angov <ufo@linux.net.mk>, 2005, 2006, 2008.
+# 
+# Translators:
 # Arangel Angov <arangel@linux.net.mk>, 2007.
+# Arangel Angov <ufo@linux.net.mk>, 2005, 2006, 2008.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER, 2003.
 msgid ""
 msgstr ""
-"Project-Id-Version: matedialog.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-04-21 20:47+0000\n"
-"PO-Revision-Date: 2008-08-10 20:29+0200\n"
-"Last-Translator: Arangel Angov <ufo@linux.net.mk>\n"
-"Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:24+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: mk\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : 1\n"
 
-#: ../src/about.c:65
+#: ../src/about.c:64
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License as published by the Free "
-"Software Foundation; either version 2 of the License, or (at your option) "
-"any later version.\n"
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
+"option) any later version.\n"
 msgstr ""
-"Оваа програма е слободен софтвер; можете да го редистрибуирате и/или "
-"менувате во согласност со општата јавна ГНУ лиценца објавена од страна на "
-"Фондацијата за слободен софтвер; можете да ја разгледате втората или пак "
-"некоја понова верзија.\n"
 
-#: ../src/about.c:69
+#: ../src/about.c:68
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-"more details.\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
 msgstr ""
-"Оваа програма се дистрибуира со надеж дека ќе биде корисен,но без БИЛО КАКВИ "
-"ГАРАНЦИИ.  За повеќе погледнете ја општата јавна ГНУ лиценца.\n"
 
-#: ../src/about.c:73
+#: ../src/about.c:72
 msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+"You should have received a copy of the GNU Lesser General Public License "
+"along with this program; if not, write to the Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 msgstr ""
-"Треба да добиете и копија од општата и јавнаГНУ лиценца;доколку ја нема "
-"лиценцата пишете и на Фондацијата заслободен софтвер на следнава адреса: 59 "
-"Temple Place, Suite 330, Boston, MA  02111-1307  USA"
 
-#: ../src/about.c:264
+#: ../src/about.c:265
 msgid "translator-credits"
-msgstr ""
-"Арангел Ангов <ufo@linux.net.m>\n"
-"http://mate.softver.org.mk"
+msgstr "Арангел Ангов <ufo@linux.net.m>\nhttp://mate.softver.org.mk"
 
-#: ../src/about.c:276
+#: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
 msgstr "Прикажи дијалози од шел скрипти"
 
-#: ../src/main.c:94
+#: ../src/main.c:100
 #, c-format
 msgid "You must specify a dialog type. See 'matedialog --help' for details\n"
 msgstr "Мора да одредите тип на дијалог. Видете 'matedialog --help' за подетално\n"
 
-#: ../src/notification.c:139
+#: ../src/notification.c:138
 #, c-format
 msgid "could not parse command from stdin\n"
 msgstr "неможам да ја парсирам командата од stdin\n"
 
-#: ../src/notification.c:252 ../src/notification.c:269
+#: ../src/notification.c:177
+#, c-format
+msgid "Could not parse message from stdin\n"
+msgstr ""
+
+#: ../src/notification.c:262 ../src/notification.c:279
 msgid "MateDialog notification"
 msgstr "MateDialog известување"
+
+#: ../src/password.c:64
+msgid "Type your password"
+msgstr ""
+
+#: ../src/password.c:99
+msgid "Username:"
+msgstr ""
+
+#: ../src/password.c:115
+msgid "Password:"
+msgstr ""
 
 #: ../src/scale.c:56
 #, c-format
@@ -85,524 +92,564 @@ msgstr "Максималната вредност мора да биде пог�
 msgid "Value out of range.\n"
 msgstr "Вредноста е надвор од опсегот.\n"
 
-#: ../src/tree.c:320
+#: ../src/tree.c:321
 #, c-format
 msgid "No column titles specified for List dialog.\n"
 msgstr "Нема наслов за колона во Листа дијалогот.\n"
 
-#: ../src/tree.c:326
+#: ../src/tree.c:327
 #, c-format
 msgid "You should use only one List dialog type.\n"
 msgstr "Треба да користите само еден тип на дијалог за листање.\n"
 
-#: ../src/matedialog.glade.h:1
+#: ../src/matedialog.ui.h:1
 msgid "Add a new entry"
 msgstr "Додај нов запис"
 
-#: ../src/matedialog.glade.h:2
+#: ../src/matedialog.ui.h:2
 msgid "Adjust the scale value"
 msgstr "Промени ја вредноста на скалата"
 
-#: ../src/matedialog.glade.h:3
+#: ../src/matedialog.ui.h:3
 msgid "All updates are complete."
 msgstr "Сите освежувања се завршени."
 
-#: ../src/matedialog.glade.h:4
+#: ../src/matedialog.ui.h:4
 msgid "An error has occurred."
 msgstr "Се појави грешка."
 
-#: ../src/matedialog.glade.h:5
+#: ../src/matedialog.ui.h:5
 msgid "Are you sure you want to proceed?"
 msgstr "Сигурни сте дека сакате да извршам?"
 
-#: ../src/matedialog.glade.h:6
+#: ../src/matedialog.ui.h:6
 msgid "C_alendar:"
 msgstr "К_алендар:"
 
-#: ../src/matedialog.glade.h:7
+#: ../src/matedialog.ui.h:7
 msgid "Calendar selection"
 msgstr "Избор на календарот"
 
-#: ../src/matedialog.glade.h:8
+#: ../src/matedialog.ui.h:8
 msgid "Error"
 msgstr "Грешка"
 
-#: ../src/matedialog.glade.h:9
+#: ../src/matedialog.ui.h:9
 msgid "Information"
 msgstr "Информација"
 
-#: ../src/matedialog.glade.h:10
+#: ../src/matedialog.ui.h:10
 msgid "Progress"
 msgstr "Прогрес"
 
-#: ../src/matedialog.glade.h:11
+#: ../src/matedialog.ui.h:11
 msgid "Question"
 msgstr "Прашање"
 
-#: ../src/matedialog.glade.h:12
+#: ../src/matedialog.ui.h:12
 msgid "Running..."
 msgstr "Извршувам..."
 
-#: ../src/matedialog.glade.h:13
+#: ../src/matedialog.ui.h:13
 msgid "Select a date from below."
 msgstr "Одберете датум подолу."
 
-#: ../src/matedialog.glade.h:14
-msgid "Select a file"
-msgstr "Одберете датотека"
-
-#: ../src/matedialog.glade.h:15
+#: ../src/matedialog.ui.h:14
 msgid "Select items from the list"
 msgstr "Одберете ставка од листата"
 
-#: ../src/matedialog.glade.h:16
+#: ../src/matedialog.ui.h:15
 msgid "Select items from the list below."
 msgstr "Одберете ставка од листата подолу."
 
-#: ../src/matedialog.glade.h:17
+#: ../src/matedialog.ui.h:16
 msgid "Text View"
 msgstr "Текстуален поглед"
 
-#: ../src/matedialog.glade.h:18
+#: ../src/matedialog.ui.h:17
 msgid "Warning"
 msgstr "Предупредување"
 
-#: ../src/matedialog.glade.h:19
+#: ../src/matedialog.ui.h:18
 msgid "_Enter new text:"
 msgstr "_Внесете нов текст:"
 
-#: ../src/option.c:120
+#: ../src/option.c:131
 msgid "Set the dialog title"
 msgstr "Постави наслов на дијалогот"
 
-#: ../src/option.c:121
+#: ../src/option.c:132
 msgid "TITLE"
 msgstr "НАСЛОВ"
 
-#: ../src/option.c:129
+#: ../src/option.c:140
 msgid "Set the window icon"
 msgstr "Постави прозорска икона"
 
-#: ../src/option.c:130
+#: ../src/option.c:141
 msgid "ICONPATH"
 msgstr "ПАТДОИКОНА"
 
-#: ../src/option.c:138
+#: ../src/option.c:149
 msgid "Set the width"
 msgstr "Постави ширина"
 
-#: ../src/option.c:139
+#: ../src/option.c:150
 msgid "WIDTH"
 msgstr "ШИРИНА"
 
-#: ../src/option.c:147
+#: ../src/option.c:158
 msgid "Set the height"
 msgstr "Постави висина"
 
-#: ../src/option.c:148
+#: ../src/option.c:159
 msgid "HEIGHT"
 msgstr "ВИСИНА"
 
-#: ../src/option.c:156
+#: ../src/option.c:167
 msgid "Set dialog timeout in seconds"
 msgstr "Постави тајмаут за дијалог во секнуди"
 
 #. Timeout for closing the dialog
-#: ../src/option.c:158
+#: ../src/option.c:169
 msgid "TIMEOUT"
 msgstr "TIMEOUT"
 
-#: ../src/option.c:172
+#: ../src/option.c:183
 msgid "Display calendar dialog"
 msgstr "Прикажи дијалог за календар"
 
-#: ../src/option.c:181 ../src/option.c:241 ../src/option.c:284
-#: ../src/option.c:317 ../src/option.c:428 ../src/option.c:558
-#: ../src/option.c:620 ../src/option.c:704 ../src/option.c:737
+#: ../src/option.c:192 ../src/option.c:252 ../src/option.c:295
+#: ../src/option.c:328 ../src/option.c:440 ../src/option.c:579
+#: ../src/option.c:651 ../src/option.c:735 ../src/option.c:768
 msgid "Set the dialog text"
 msgstr "Постави текст за дијалогот"
 
-#: ../src/option.c:182 ../src/option.c:242 ../src/option.c:251
-#: ../src/option.c:260 ../src/option.c:285 ../src/option.c:318
-#: ../src/option.c:429 ../src/option.c:526 ../src/option.c:559
-#: ../src/option.c:621 ../src/option.c:630 ../src/option.c:639
-#: ../src/option.c:705 ../src/option.c:738
+#: ../src/option.c:193 ../src/option.c:253 ../src/option.c:262
+#: ../src/option.c:296 ../src/option.c:329 ../src/option.c:441
+#: ../src/option.c:547 ../src/option.c:580 ../src/option.c:652
+#: ../src/option.c:661 ../src/option.c:670 ../src/option.c:736
+#: ../src/option.c:769
 msgid "TEXT"
 msgstr "ТЕКСТ"
 
-#: ../src/option.c:190
+#: ../src/option.c:201
 msgid "Set the calendar day"
 msgstr "Постави календарски ден"
 
-#: ../src/option.c:191
+#: ../src/option.c:202
 msgid "DAY"
 msgstr "ДЕН"
 
-#: ../src/option.c:199
+#: ../src/option.c:210
 msgid "Set the calendar month"
 msgstr "Постави календарски месец"
 
-#: ../src/option.c:200
+#: ../src/option.c:211
 msgid "MONTH"
 msgstr "МЕСЕЦ"
 
-#: ../src/option.c:208
+#: ../src/option.c:219
 msgid "Set the calendar year"
 msgstr "Постави календарска година"
 
-#: ../src/option.c:209
+#: ../src/option.c:220
 msgid "YEAR"
 msgstr "ГОДИНА"
 
-#: ../src/option.c:217
+#: ../src/option.c:228
 msgid "Set the format for the returned date"
 msgstr "Псотави формат на повратниот датум"
 
-#: ../src/option.c:218
+#: ../src/option.c:229
 msgid "PATTERN"
 msgstr "ШЕМА"
 
-#: ../src/option.c:232
+#: ../src/option.c:243
 msgid "Display text entry dialog"
 msgstr "Прикажи дијалог за внес на текст"
 
-#: ../src/option.c:250
+#: ../src/option.c:261
 msgid "Set the entry text"
 msgstr "Постави влезен текст"
 
-#: ../src/option.c:259
+#: ../src/option.c:270
 msgid "Hide the entry text"
 msgstr "Скриј го влезниот текст"
 
-#: ../src/option.c:275
+#: ../src/option.c:286
 msgid "Display error dialog"
 msgstr "Прикажи дијалог за грешка"
 
-#: ../src/option.c:293 ../src/option.c:326 ../src/option.c:647
-#: ../src/option.c:713
+#: ../src/option.c:304 ../src/option.c:337 ../src/option.c:678
+#: ../src/option.c:744
 msgid "Do not enable text wrapping"
 msgstr "Не вклучувај завиткување на текст"
 
-#: ../src/option.c:308
+#: ../src/option.c:319
 msgid "Display info dialog"
 msgstr "Прикажи инфо дијалог"
 
-#: ../src/option.c:341
+#: ../src/option.c:352
 msgid "Display file selection dialog"
 msgstr "Прикажи дијалог за одбир на датотека"
 
-#: ../src/option.c:350
+#: ../src/option.c:361
 msgid "Set the filename"
 msgstr "Постави име на датотеката"
 
-#: ../src/option.c:351 ../src/option.c:672
+#: ../src/option.c:362 ../src/option.c:703
 msgid "FILENAME"
 msgstr "ИМЕНАДАТОТЕКА"
 
-#: ../src/option.c:359
+#: ../src/option.c:370
 msgid "Allow multiple files to be selected"
 msgstr "Дозволи повеќе датотеки да бидат одбрани"
 
-#: ../src/option.c:368
+#: ../src/option.c:379
 msgid "Activate directory-only selection"
 msgstr "Активирај одбирање само на директориуми"
 
-#: ../src/option.c:377
+#: ../src/option.c:388
 msgid "Activate save mode"
 msgstr "Активирај режим за зачувување"
 
-#: ../src/option.c:386 ../src/option.c:464
+#: ../src/option.c:397 ../src/option.c:476
 msgid "Set output separator character"
 msgstr "Постави излезен знак за одвојување"
 
-#: ../src/option.c:387 ../src/option.c:465
+#: ../src/option.c:398 ../src/option.c:477
 msgid "SEPARATOR"
 msgstr "ОДВОЈУВАЧ"
 
-#: ../src/option.c:395
+#: ../src/option.c:406
 msgid "Confirm file selection if filename already exists"
 msgstr "Потврди избирање на датотека ако името на датотеката веќе постои"
 
-#: ../src/option.c:404
+#: ../src/option.c:415
 msgid "Sets a filename filter"
 msgstr "Поставува филтер на име на датотека"
 
-#: ../src/option.c:405
+#. Help for file-filter argument (name and patterns for file selection)
+#: ../src/option.c:417
 msgid "NAME | PATTERN1 PATTERN2 ..."
 msgstr "NAME | PATTERN1 PATTERN2 ..."
 
-#: ../src/option.c:419
+#: ../src/option.c:431
 msgid "Display list dialog"
 msgstr "Прикажи дијалог за листа"
 
-#: ../src/option.c:437
+#: ../src/option.c:449
 msgid "Set the column header"
 msgstr "Постави наслов на колона"
 
-#: ../src/option.c:438
+#: ../src/option.c:450
 msgid "COLUMN"
 msgstr "КОЛОНА"
 
-#: ../src/option.c:446
+#: ../src/option.c:458
 msgid "Use check boxes for first column"
 msgstr "Користи чек кутија за првата колона"
 
-#: ../src/option.c:455
+#: ../src/option.c:467
 msgid "Use radio buttons for first column"
 msgstr "Користи радио копче за првата колона"
 
-#: ../src/option.c:473
+#: ../src/option.c:485
 msgid "Allow multiple rows to be selected"
 msgstr "Дозволи повеќе редови да бидат одбрани"
 
-#: ../src/option.c:482 ../src/option.c:680
+#: ../src/option.c:494 ../src/option.c:711
 msgid "Allow changes to text"
 msgstr "Дозволи промена на текст"
 
-#: ../src/option.c:491
+#: ../src/option.c:503
 msgid ""
 "Print a specific column (Default is 1. 'ALL' can be used to print all "
 "columns)"
-msgstr ""
-"Отпечати одредена колона (Стандардно е 1. „СИТЕ“ може да се користи за "
-"печатење на сите колони)"
+msgstr "Отпечати одредена колона (Стандардно е 1. „СИТЕ“ може да се користи за печатење на сите колони)"
 
 #. Column index number to print out on a list dialog
-#: ../src/option.c:493 ../src/option.c:502
+#: ../src/option.c:505 ../src/option.c:514
 msgid "NUMBER"
 msgstr "БРОЈ"
 
-#: ../src/option.c:501
+#: ../src/option.c:513
 msgid "Hide a specific column"
 msgstr "Скриј одредена колона"
 
-#: ../src/option.c:516
+#: ../src/option.c:522
+msgid "Hides the column headers"
+msgstr ""
+
+#: ../src/option.c:537
 msgid "Display notification"
 msgstr "Прикажи известување"
 
-#: ../src/option.c:525
+#: ../src/option.c:546
 msgid "Set the notification text"
 msgstr "Постави текст за известување"
 
-#: ../src/option.c:534
+#: ../src/option.c:555
 msgid "Listen for commands on stdin"
 msgstr "Слушај команди на stdin"
 
-#: ../src/option.c:549
+#: ../src/option.c:570
 msgid "Display progress indication dialog"
 msgstr "Прикажи дијалог за прогрес"
 
-#: ../src/option.c:567
+#: ../src/option.c:588
 msgid "Set initial percentage"
 msgstr "Постави почетен процент"
 
-#: ../src/option.c:568
+#: ../src/option.c:589
 msgid "PERCENTAGE"
 msgstr "ПРОЦЕНТ"
 
-#: ../src/option.c:576
+#: ../src/option.c:597
 msgid "Pulsate progress bar"
 msgstr "Пулсирачка прогрес линија"
 
-#: ../src/option.c:586
+#: ../src/option.c:607
 #, no-c-format
 msgid "Dismiss the dialog when 100% has been reached"
 msgstr "Откажи го дијалогот кога 100% ќе биде исполнет"
 
-#: ../src/option.c:596
+#: ../src/option.c:617
 #, no-c-format
-msgid "Kill parent process if cancel button is pressed"
-msgstr "Убиј го процесот ако се притисне копчето „откажи“."
+msgid "Kill parent process if Cancel button is pressed"
+msgstr ""
 
-#: ../src/option.c:611
+#: ../src/option.c:627
+#, no-c-format
+msgid "Hide Cancel button"
+msgstr ""
+
+#: ../src/option.c:642
 msgid "Display question dialog"
 msgstr "Прикажи прашален дијалог"
 
-#: ../src/option.c:629
+#: ../src/option.c:660
 msgid "Sets the label of the Ok button"
 msgstr "Ја поставува ознаката за копчето „Во ред“"
 
-#: ../src/option.c:638
+#: ../src/option.c:669
 msgid "Sets the label of the Cancel button"
 msgstr "Ја поставува ознаката за копчето „Откажи“"
 
-#: ../src/option.c:662
+#: ../src/option.c:693
 msgid "Display text information dialog"
 msgstr "Прикажи инфо текст дијалог"
 
-#: ../src/option.c:671
+#: ../src/option.c:702
 msgid "Open file"
 msgstr "Отвори датотека"
 
-#: ../src/option.c:695
+#: ../src/option.c:726
 msgid "Display warning dialog"
 msgstr "Прикажи дијалог за предупредување"
 
-#: ../src/option.c:728
+#: ../src/option.c:759
 msgid "Display scale dialog"
 msgstr "Прикажи дијалог за скала"
 
-#: ../src/option.c:746
+#: ../src/option.c:777
 msgid "Set initial value"
 msgstr "Постави почетна вредност"
 
-#: ../src/option.c:747 ../src/option.c:756 ../src/option.c:765
-#: ../src/option.c:774
+#: ../src/option.c:778 ../src/option.c:787 ../src/option.c:796
+#: ../src/option.c:805 ../src/option.c:871
 msgid "VALUE"
 msgstr "ВРЕДНОСТ"
 
-#: ../src/option.c:755
+#: ../src/option.c:786
 msgid "Set minimum value"
 msgstr "Постави минимална вредност"
 
-#: ../src/option.c:764
+#: ../src/option.c:795
 msgid "Set maximum value"
 msgstr "Постави максимална вредност"
 
-#: ../src/option.c:773
+#: ../src/option.c:804
 msgid "Set step size"
 msgstr "Постави големина на чекор"
 
-#: ../src/option.c:782
+#: ../src/option.c:813
 msgid "Print partial values"
 msgstr "Отпечати нецели вредности"
 
-#: ../src/option.c:791
+#: ../src/option.c:822
 msgid "Hide value"
 msgstr "Скриј вредност"
 
-#: ../src/option.c:806
+#: ../src/option.c:837
+msgid "Display password dialog"
+msgstr ""
+
+#: ../src/option.c:846
+msgid "Display the username option"
+msgstr ""
+
+#: ../src/option.c:861
+msgid "Display color selection dialog"
+msgstr ""
+
+#: ../src/option.c:870
+msgid "Set the color"
+msgstr ""
+
+#: ../src/option.c:879
+msgid "Show the palette"
+msgstr ""
+
+#: ../src/option.c:894
 msgid "About matedialog"
 msgstr "За MateDialog"
 
-#: ../src/option.c:815
+#: ../src/option.c:903
 msgid "Print version"
 msgstr "Печатена верзија"
 
-#: ../src/option.c:1470
+#: ../src/option.c:1643
 msgid "General options"
 msgstr "Генерални опции"
 
-#: ../src/option.c:1471
+#: ../src/option.c:1644
 msgid "Show general options"
 msgstr "Покажи општи опции"
 
-#: ../src/option.c:1481
+#: ../src/option.c:1654
 msgid "Calendar options"
 msgstr "Календар опции"
 
-#: ../src/option.c:1482
+#: ../src/option.c:1655
 msgid "Show calendar options"
 msgstr "Покажи опции за календар"
 
-#: ../src/option.c:1492
+#: ../src/option.c:1665
 msgid "Text entry options"
 msgstr "Текст внесувачки опции"
 
-#: ../src/option.c:1493
+#: ../src/option.c:1666
 msgid "Show text entry options"
 msgstr "Покажи опции за внесување на текст"
 
-#: ../src/option.c:1503
+#: ../src/option.c:1676
 msgid "Error options"
 msgstr "Грешка опции"
 
-#: ../src/option.c:1504
+#: ../src/option.c:1677
 msgid "Show error options"
 msgstr "Покажи опции за грешки"
 
-#: ../src/option.c:1514
+#: ../src/option.c:1687
 msgid "Info options"
 msgstr "Инфо опции"
 
-#: ../src/option.c:1515
+#: ../src/option.c:1688
 msgid "Show info options"
 msgstr "Покажи опции за информации"
 
-#: ../src/option.c:1525
+#: ../src/option.c:1698
 msgid "File selection options"
 msgstr "Одбир на датотека опции"
 
-#: ../src/option.c:1526
+#: ../src/option.c:1699
 msgid "Show file selection options"
 msgstr "Покажи опции за одбирање на датотеки"
 
-#: ../src/option.c:1536
+#: ../src/option.c:1709
 msgid "List options"
 msgstr "Листа опции"
 
-#: ../src/option.c:1537
+#: ../src/option.c:1710
 msgid "Show list options"
 msgstr "Покажи опции за листање"
 
-#: ../src/option.c:1547
+#: ../src/option.c:1720
 msgid "Notification icon options"
 msgstr "Опции за иконата за известување"
 
-#: ../src/option.c:1548
+#: ../src/option.c:1721
 msgid "Show notification icon options"
 msgstr "Покажи опции за за иконата за известување"
 
-#: ../src/option.c:1558
+#: ../src/option.c:1731
 msgid "Progress options"
 msgstr "Прогрес опции"
 
-#: ../src/option.c:1559
+#: ../src/option.c:1732
 msgid "Show progress options"
 msgstr "Покажи опции за прогрес"
 
-#: ../src/option.c:1569
+#: ../src/option.c:1742
 msgid "Question options"
 msgstr "Прашални опции"
 
-#: ../src/option.c:1570
+#: ../src/option.c:1743
 msgid "Show question options"
 msgstr "Покажи опции за прашања"
 
-#: ../src/option.c:1580
+#: ../src/option.c:1753
 msgid "Warning options"
 msgstr "Предупредување опции"
 
-#: ../src/option.c:1581
+#: ../src/option.c:1754
 msgid "Show warning options"
 msgstr "Покажи опции за предупредување"
 
-#: ../src/option.c:1591
+#: ../src/option.c:1764
 msgid "Scale options"
 msgstr "Опции за скала"
 
-#: ../src/option.c:1592
+#: ../src/option.c:1765
 msgid "Show scale options"
 msgstr "Покажи опции за скала"
 
-#: ../src/option.c:1602
+#: ../src/option.c:1775
 msgid "Text information options"
 msgstr "Опции за известување преку текст"
 
-#: ../src/option.c:1603
+#: ../src/option.c:1776
 msgid "Show text information options"
 msgstr "Покажи опции за известување преку текст"
 
-#: ../src/option.c:1613
+#: ../src/option.c:1786
+msgid "Color selection options"
+msgstr ""
+
+#: ../src/option.c:1787
+msgid "Show color selection options"
+msgstr ""
+
+#: ../src/option.c:1797
+msgid "Password dialog options"
+msgstr ""
+
+#: ../src/option.c:1798
+msgid "Show password dialog options"
+msgstr ""
+
+#: ../src/option.c:1808
 msgid "Miscellaneous options"
 msgstr "Разни опции"
 
-#: ../src/option.c:1614
+#: ../src/option.c:1809
 msgid "Show miscellaneous options"
 msgstr "Покажи разни опции"
 
-#: ../src/option.c:1639
+#: ../src/option.c:1834
 #, c-format
-msgid "This option is not available. Please see --help for all possible usages.\n"
+msgid ""
+"This option is not available. Please see --help for all possible usages.\n"
 msgstr "Опцијата не е достапна. Ве молам пробајте со --help за сите можни употреби.\n"
 
-#: ../src/option.c:1643
+#: ../src/option.c:1838
 #, c-format
 msgid "--%s is not supported for this dialog\n"
 msgstr "--%s не е поддржан за овој дијалог\n"
 
-#: ../src/option.c:1647
+#: ../src/option.c:1842
 #, c-format
 msgid "Two or more dialog options specified\n"
 msgstr "Две или повеќе опции одбрани за дијалог\n"
-

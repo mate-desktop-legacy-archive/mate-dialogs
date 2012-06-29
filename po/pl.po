@@ -1,61 +1,44 @@
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# Aviary.pl
-# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
-# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
-# matepl@aviary.pl
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: matedialog\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-14 17:40+0200\n"
-"PO-Revision-Date: 2010-09-13 15:43+0200\n"
-"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish <matepl@aviary.pl>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:24+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Polish (http://www.transifex.com/projects/p/MATE/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
-"X-Poedit-Language: Polish\n"
-"X-Poedit-Country: Poland\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: ../src/about.c:64
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU Lesser General Public License as published by the "
-"Free Software Foundation; either version 2 of the License, or (at your "
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
 "option) any later version.\n"
-msgstr ""
-"Niniejszy program jest wolnym oprogramowaniem; można go rozprowadzać dalej i/"
-"lub modyfikować na warunkach Pomniejszej Powszechnej Licencji Publicznej "
-"GNU, wydanej przez Fundację Wolnego Oprogramowania (Free Software "
-"Foundation) - według wersji drugiej tej Licencji lub którejś z późniejszych "
-"wersji.\n"
+msgstr "Niniejszy program jest wolnym oprogramowaniem; można go rozprowadzać dalej i/lub modyfikować na warunkach Pomniejszej Powszechnej Licencji Publicznej GNU, wydanej przez Fundację Wolnego Oprogramowania (Free Software Foundation) - według wersji drugiej tej Licencji lub którejś z późniejszych wersji.\n"
 
 #: ../src/about.c:68
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License "
-"for more details.\n"
-msgstr ""
-"Niniejszy program rozpowszechniany jest z nadzieją, iż będzie on użyteczny - "
-"jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyślnej gwarancji PRZYDATNOŚCI "
-"HANDLOWEJ albo PRZYDATNOŚCI DO OKREŚLONYCH ZASTOSOWAŃ. W celu uzyskania "
-"bliższych informacji należy zapoznać się z Pomniejszą Powszechną Licencją "
-"Publiczną GNU.\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
+msgstr "Niniejszy program rozpowszechniany jest z nadzieją, iż będzie on użyteczny - jednak BEZ JAKIEJKOLWIEK GWARANCJI, nawet domyślnej gwarancji PRZYDATNOŚCI HANDLOWEJ albo PRZYDATNOŚCI DO OKREŚLONYCH ZASTOSOWAŃ. W celu uzyskania bliższych informacji należy zapoznać się z Pomniejszą Powszechną Licencją Publiczną GNU.\n"
 
 #: ../src/about.c:72
 msgid ""
 "You should have received a copy of the GNU Lesser General Public License "
 "along with this program; if not, write to the Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr ""
-"Z pewnością wraz z niniejszym programem dostarczono także egzemplarz "
-"Pomniejszej Powszechnej Licencji Publicznej GNU (GNU General Public "
-"License); jeśli nie - proszę napisać do Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA 02110-130159 USA."
+msgstr "Z pewnością wraz z niniejszym programem dostarczono także egzemplarz Pomniejszej Powszechnej Licencji Publicznej GNU (GNU General Public License); jeśli nie - proszę napisać do Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-130159 USA."
 
 #: ../src/about.c:265
 msgid "translator-credits"
@@ -68,9 +51,7 @@ msgstr "Wyświetla okna dialogowe z poziomu skryptów powłoki"
 #: ../src/main.c:100
 #, c-format
 msgid "You must specify a dialog type. See 'matedialog --help' for details\n"
-msgstr ""
-"Należy określić typ okna dialogowego. Proszę uruchomić \"matedialog --help\",\n"
-"aby uzyskać więcej informacji\n"
+msgstr "Należy określić typ okna dialogowego. Proszę uruchomić \"matedialog --help\",\naby uzyskać więcej informacji\n"
 
 #: ../src/notification.c:138
 #, c-format
@@ -383,9 +364,7 @@ msgstr "Zezwala na wprowadzanie zmian w tekście"
 msgid ""
 "Print a specific column (Default is 1. 'ALL' can be used to print all "
 "columns)"
-msgstr ""
-"Drukuje określoną kolumnę (Domyślnie 1. Można użyć \"ALL\", aby wydrukować "
-"wszystkie kolumny)."
+msgstr "Drukuje określoną kolumnę (Domyślnie 1. Można użyć \"ALL\", aby wydrukować wszystkie kolumny)."
 
 #. Column index number to print out on a list dialog
 #: ../src/option.c:505 ../src/option.c:514
@@ -660,9 +639,7 @@ msgstr "Wyświetla różne opcje"
 #, c-format
 msgid ""
 "This option is not available. Please see --help for all possible usages.\n"
-msgstr ""
-"Opcja ta nie jest dostępna. Proszę użyć --help dla wyświetlenia wszystkich "
-"możliwości.\n"
+msgstr "Opcja ta nie jest dostępna. Proszę użyć --help dla wyświetlenia wszystkich możliwości.\n"
 
 #: ../src/option.c:1838
 #, c-format

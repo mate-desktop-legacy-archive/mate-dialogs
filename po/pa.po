@@ -1,80 +1,50 @@
-# translation of matedialog.HEAD.po to Punjabi
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-#
+# 
+# Translators:
 # Amanpreet Singh Alam <aalam@redhat.com>, 2004, 2005.
 # A S Alam <aalam@users.sf.net>, 2005, 2006 2007, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: matedialog.HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=matedialog&component=general\n"
-"POT-Creation-Date: 2010-07-22 22:51+0000\n"
-"PO-Revision-Date: 2010-08-04 15:14+0530\n"
-"Last-Translator: A S Alam <aalam@users.sf.net>\n"
-"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:22+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"\n"
-"\n"
+"Language: pa\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../src/about.c:64
-#| msgid ""
-#| "This program is free software; you can redistribute it and/or modify it "
-#| "under the terms of the GNU General Public License as published by the "
-#| "Free Software Foundation; either version 2 of the License, or (at your "
-#| "option) any later version.\n"
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU Lesser General Public License as published by the "
-"Free Software Foundation; either version 2 of the License, or (at your "
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
 "option) any later version.\n"
-msgstr ""
-"ਇਹ ਪ੍ਰੋਗਰਾਮ ਇੱਕ ਮੁਫਤ ਸਾਫਟਵੇਅਰ ਹੈ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਗਨੂ ਲੈਸਰ ਜਰਨਲ ਪਬਲਿਕ ਲਾਈਸੈਂਸ,ਜਿਸ ਨੂੰ ਫਰੀ "
-"ਸਾਫਟਵੇਅਰ "
-"ਫਾਊਨਡੇਸ਼ਨ ਨੇ ਤਿਆਰ ਕੀਤਾ ਹੈ, ਦੇ ਵਰਜਨ ੨ ਜਾਂ ਨਵੇਂ ਦੀਆਂਸ਼ਰਤਾਂ (ਉਹ ਤੁਹਾਡੀ ਆਪਣੀ ਮਰਜ਼ੀ ਹੈ) ਅਧੀਨ ਵੰਡ "
-"ਅਤੇ/ਜਾਂ ਸੋਧ ਸਕਦੇ ਹੋ।\n"
+msgstr "ਇਹ ਪ੍ਰੋਗਰਾਮ ਇੱਕ ਮੁਫਤ ਸਾਫਟਵੇਅਰ ਹੈ, ਜਿਸ ਨੂੰ ਤੁਸੀਂ ਗਨੂ ਲੈਸਰ ਜਰਨਲ ਪਬਲਿਕ ਲਾਈਸੈਂਸ,ਜਿਸ ਨੂੰ ਫਰੀ ਸਾਫਟਵੇਅਰ ਫਾਊਨਡੇਸ਼ਨ ਨੇ ਤਿਆਰ ਕੀਤਾ ਹੈ, ਦੇ ਵਰਜਨ ੨ ਜਾਂ ਨਵੇਂ ਦੀਆਂਸ਼ਰਤਾਂ (ਉਹ ਤੁਹਾਡੀ ਆਪਣੀ ਮਰਜ਼ੀ ਹੈ) ਅਧੀਨ ਵੰਡ ਅਤੇ/ਜਾਂ ਸੋਧ ਸਕਦੇ ਹੋ।\n"
 
 #: ../src/about.c:68
-#| msgid ""
-#| "This program is distributed in the hope that it will be useful, but "
-#| "WITHOUT ANY WARRANTY; without even the implied warranty of "
-#| "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
-#| "Public License for more details.\n"
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License "
-"for more details.\n"
-msgstr ""
-"ਇਹ ਪ੍ਰੋਗਰਾਮ ਨੂੰ ਇਹ ਮੰਨ ਕੇ ਵੰਡਿਆ ਜਾ ਰਿਹਾ ਹੈ ਕਿ ਇਹ ਫਾਇਦੇਮੰਦ ਰਹੇਗਾ,ਪਰ ਇਸ ਦੀ ਕੋਈ ਵਾਰੰਟੀ ਨਹੀਂ "
-"ਲਈ ਜਾ ਰਹੀ ਹੈ, ਕਿਸੇ ਖਾਸ ਕੰਮ ਲਈ ਅਨੁਕੂਲ ਹੋਣ ਜਾਂ ਠੀਕ ਤਰ੍ਹਾਂ ਕੰਮ ਕਰਨ ਦੀ ਵੀ ਕੋਈ ਗਾਰੰਟੀ ਨਹੀਂ ਹੈ।  "
-"ਹੋਰ ਵੇਰਵੇ ਲਈ ਗਨੂ ਲੈਸਰ ਜਰਨਲ ਪਬਲਿਕ ਲਾਇਸੈਂਸ ਨੂੰ ਪੜ੍ਹੋ।\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
+msgstr "ਇਹ ਪ੍ਰੋਗਰਾਮ ਨੂੰ ਇਹ ਮੰਨ ਕੇ ਵੰਡਿਆ ਜਾ ਰਿਹਾ ਹੈ ਕਿ ਇਹ ਫਾਇਦੇਮੰਦ ਰਹੇਗਾ,ਪਰ ਇਸ ਦੀ ਕੋਈ ਵਾਰੰਟੀ ਨਹੀਂ ਲਈ ਜਾ ਰਹੀ ਹੈ, ਕਿਸੇ ਖਾਸ ਕੰਮ ਲਈ ਅਨੁਕੂਲ ਹੋਣ ਜਾਂ ਠੀਕ ਤਰ੍ਹਾਂ ਕੰਮ ਕਰਨ ਦੀ ਵੀ ਕੋਈ ਗਾਰੰਟੀ ਨਹੀਂ ਹੈ।  ਹੋਰ ਵੇਰਵੇ ਲਈ ਗਨੂ ਲੈਸਰ ਜਰਨਲ ਪਬਲਿਕ ਲਾਇਸੈਂਸ ਨੂੰ ਪੜ੍ਹੋ।\n"
 
 #: ../src/about.c:72
-#| msgid ""
-#| "You should have received a copy of the GNU General Public License along "
-#| "with this program; if not, write to the Free Software Foundation, Inc., "
-#| "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 msgid ""
 "You should have received a copy of the GNU Lesser General Public License "
 "along with this program; if not, write to the Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr ""
-"ਇਹ ਪ੍ਰੋਗਰਾਮ ਨਾਲ ਤੁਸੀਂ ਗਨੂ ਲੈਸਰ ਜਰਨਲ ਪਬਲਿਕ ਲਾਇਸੈਂਸ ਦੀ ਨਕਲ ਪ੍ਰਾਪਤ ਕਰੋਗੇ, ਜੇਕਰ ਤੁਹਾਨੂੰਨਹੀਂ "
-"ਮਿਲੀ ਹੈ "
-"ਤਾਂ ਫਰੀ ਸਾਫਟਵੇਅਰ ਫਾਊਨਡੇਸ਼ਨ, ੫੧ ਫਰਾਕਲਿੰਨ ਸਟਰੀਟ, ਪੰਜਵੀਂ ਮੰਜ਼ਲ,ਬੋਸਟਨ, ਐਮ ਏ ੦੨੧੧੦-੧੩੦੧, "
-"ਅਮਰੀਕਾ ਨੂੰ ਲਿਖੋ।"
+msgstr "ਇਹ ਪ੍ਰੋਗਰਾਮ ਨਾਲ ਤੁਸੀਂ ਗਨੂ ਲੈਸਰ ਜਰਨਲ ਪਬਲਿਕ ਲਾਇਸੈਂਸ ਦੀ ਨਕਲ ਪ੍ਰਾਪਤ ਕਰੋਗੇ, ਜੇਕਰ ਤੁਹਾਨੂੰਨਹੀਂ ਮਿਲੀ ਹੈ ਤਾਂ ਫਰੀ ਸਾਫਟਵੇਅਰ ਫਾਊਨਡੇਸ਼ਨ, ੫੧ ਫਰਾਕਲਿੰਨ ਸਟਰੀਟ, ਪੰਜਵੀਂ ਮੰਜ਼ਲ,ਬੋਸਟਨ, ਐਮ ਏ ੦੨੧੧੦-੧੩੦੧, ਅਮਰੀਕਾ ਨੂੰ ਲਿਖੋ।"
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr ""
-"ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ\n"
-"Punjabi Open Source Team\n"
-"http://www.satluj.com"
+msgstr "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ\nPunjabi Open Source Team\nhttp://www.satluj.com"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
@@ -92,7 +62,6 @@ msgstr "stdin ਤੋਂ ਕਮਾਂਡ ਨੂੰ ਪਾਰਸ ਨਹੀਂ ਕ�
 
 #: ../src/notification.c:177
 #, c-format
-#| msgid "could not parse command from stdin\n"
 msgid "Could not parse message from stdin\n"
 msgstr "stdin ਤੋਂ ਸੁਨੇਹੇ ਨੂੰ ਪਾਰਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।\n"
 
@@ -168,7 +137,6 @@ msgstr "ਗਲਤੀ"
 msgid "Information"
 msgstr "ਜਾਣਕਾਰੀ"
 
-# libmateui/mate-app-util.c:685
 #: ../src/matedialog.ui.h:10
 msgid "Progress"
 msgstr "ਤਰੱਕੀ"
@@ -410,7 +378,6 @@ msgid "Hide a specific column"
 msgstr "ਇੱਕ ਖਾਸ ਕਾਲਮ ਓਹਲੇ"
 
 #: ../src/option.c:522
-#| msgid "Set the column header"
 msgid "Hides the column headers"
 msgstr "ਕਾਲਮ ਹੈੱਡਰ ਓਹਲੇ ਕਰੋ"
 
@@ -449,7 +416,6 @@ msgstr "ਜਦੋਂ ੧੦੦ ਫੀਸਦੀ ਹੋ ਜਾਵੇ ਤਾਂ ਡ
 
 #: ../src/option.c:617
 #, no-c-format
-#| msgid "Kill parent process if cancel button is pressed"
 msgid "Kill parent process if Cancel button is pressed"
 msgstr "ਮੁੱਢਲੇ ਪਰੋਸੈਸ ਨੂੰ ਕਿੱਲ ਕਰੋ, ਜੇ ਰੱਦ ਕਰੋ ਬਟਨ ਦੱਬਿਆ ਜਾਵੇ"
 
@@ -516,27 +482,22 @@ msgid "Hide value"
 msgstr "ਮੁੱਲ ਓਹਲੇ"
 
 #: ../src/option.c:837
-#| msgid "Display error dialog"
 msgid "Display password dialog"
 msgstr "ਪਾਸਵਰਡ ਡਾਈਲਾਗ ਵੇਖੋ"
 
 #: ../src/option.c:846
-#| msgid "Display text entry dialog"
 msgid "Display the username option"
 msgstr "ਯੂਜ਼ਰ ਨਾਂ ਚੋਣ ਵੇਖਾਓ"
 
 #: ../src/option.c:861
-#| msgid "Display file selection dialog"
 msgid "Display color selection dialog"
 msgstr "ਰੰਗ ਚੋਣ ਡਾਈਲਾਗ ਵੇਖੋ"
 
 #: ../src/option.c:870
-#| msgid "Set the column header"
 msgid "Set the color"
 msgstr "ਰੰਗ ਸੈੱਟ ਕਰੋ"
 
 #: ../src/option.c:879
-#| msgid "Set the dialog title"
 msgid "Show the palette"
 msgstr "ਪਲੇਅਟ ਵੇਖੋ"
 
@@ -653,22 +614,18 @@ msgid "Show text information options"
 msgstr "ਟੈਕਸਟ ਜਾਣਕਾਰੀ ਚੋਣਾਂ ਵੇਖੋ"
 
 #: ../src/option.c:1786
-#| msgid "File selection options"
 msgid "Color selection options"
 msgstr "ਰੰਗ ਚੋਣ ਸਬੰਧੀ ਚੋਣਾਂ"
 
 #: ../src/option.c:1787
-#| msgid "Show file selection options"
 msgid "Show color selection options"
 msgstr "ਰੰਗ ਚੁਣਨ ਲਈ ਚੋਣਾਂ ਦਿਓ"
 
 #: ../src/option.c:1797
-#| msgid "Warning options"
 msgid "Password dialog options"
 msgstr "ਪਾਸਵਰਡ ਡਾਈਲਾਗ ਚੋਣਾਂ"
 
 #: ../src/option.c:1798
-#| msgid "Show warning options"
 msgid "Show password dialog options"
 msgstr "ਪਾਸਵਰਡ ਡਾਈਲਾਗ ਚੋਣਾਂ ਵੇਖੋ"
 
@@ -682,7 +639,8 @@ msgstr "ਫੁਟਕਲ ਚੋਣ ਵੇਖੋ"
 
 #: ../src/option.c:1834
 #, c-format
-msgid "This option is not available. Please see --help for all possible usages.\n"
+msgid ""
+"This option is not available. Please see --help for all possible usages.\n"
 msgstr "ਇਹ ਚੋਣ ਉਪਲਬੱਧ ਨਹੀਂ ਹੈ। ਸਭ ਸੰਭਵ ਚੋਣਾਂ ਲਈ --help ਦੀ ਵਰਤੋਂ ਕਰੋ ਜੀ।\n"
 
 #: ../src/option.c:1838
@@ -694,6 +652,3 @@ msgstr "ਇਸ ਡਾਈਲਾਗ ਲਈ --%s ਸਹਾਇਕ ਨਹੀਂ ਹ�
 #, c-format
 msgid "Two or more dialog options specified\n"
 msgstr "ਦੋ ਜਾਂ ਜਿਆਦਾ ਡਾਈਲਾਗ ਚੋਣਾਂ ਦਿੱਤੀਆਂ ਗਈਆਂ ਹਨ\n"
-
-#~ msgid "Select a file"
-#~ msgstr "ਇਕ ਫਾਇਲ ਚੁਣੋ"

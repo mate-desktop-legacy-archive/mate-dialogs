@@ -1,60 +1,85 @@
-# translation of matedialog.mate-2-22.po to Sinhala
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
+# Translators:
 # Yajith Ajantha Dayarathna <yajith@gmail.com>, 2008.
 # ඩනිෂ්ක නවින්, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: matedialog.mate-2-22\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-03-17 04:13+0000\n"
-"PO-Revision-Date: 2008-05-22 14:38+0530\n"
-"Last-Translator: ඩනිෂ්ක නවින්\n"
-"Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:24+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Sinhala\n"
-"X-Poedit-Country: SRI LANKA\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: KAider 0.1\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: si\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
-#: ../src/about.c:65
-msgid "This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n"
-msgstr "මෙම ක්‍රමලේඛය නිදහස් මෘදුකාංගයකි; ඔබට Free Software Foundation මගින් ප්‍රකාශයට පත්කරන ලද GNU General Public License හි 2 වන අනුවාදය හෝ (ඔබගේ තේරීම අනුව) ඊට පසු අනුවාදයන්හි වගන්ති වලට යටත්ව මෙය නැවත බෙදා හැරීමට සහ/හෝ වෙනස්කම් වලට බඳුන් කිරීමට අවසර ඇත.\n"
+#: ../src/about.c:64
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
+"option) any later version.\n"
+msgstr ""
 
-#: ../src/about.c:69
-msgid "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n"
-msgstr "මෙම ක්‍රමලේඛය වැඩිදෙනෙකුටකට ප්‍රයෝජනවත් වනු ඇතැයි යන බලාපොරොත්තුවෙන්, එනමුදු කිසිම වගකීමකින් තොරව; එනමවෙළඳ කටයුතු සඳහා හෝ යම්කිසි විශේශේෂ කාර්යයක් සඳහා සුදුසු යන්නෙන් වූ කිසිම ආකාරයක වගකීමකින් තොරව බෙදාහරින ලදී. වැඩි විස්තර සඳහා GNU General Public Licence බලන්න.\n"
+#: ../src/about.c:68
+msgid ""
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
+msgstr ""
 
-#: ../src/about.c:73
-msgid "You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr "ඔබට මෙම ක්‍රමලේඛය සමඟ GNU General Public License හි පිටපතක් ලැබිය යුතුය. එසේ නොමැති නම් Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA ලිපිනයට ලියන්න."
+#: ../src/about.c:72
+msgid ""
+"You should have received a copy of the GNU Lesser General Public License "
+"along with this program; if not, write to the Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr ""
 
-#: ../src/about.c:264
+#: ../src/about.c:265
 msgid "translator-credits"
 msgstr "යජිත් අජන්ත"
 
-#: ../src/about.c:276
+#: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
 msgstr "කවච ලේඛන වලින් සංවාද කොටු පෙන්වන්න"
 
-#: ../src/main.c:94
+#: ../src/main.c:100
 #, c-format
 msgid "You must specify a dialog type. See 'matedialog --help' for details\n"
 msgstr "ඔබ දෙබස් මාදිලියක් තෝරා දිය යුතුය. වැඩි විස්තර සඳහා 'matedialog --help' බලන්න\n"
 
-#: ../src/notification.c:139
+#: ../src/notification.c:138
 #, c-format
 msgid "could not parse command from stdin\n"
 msgstr "සම්මත ආදායකයෙන් ලැබුනු විධානය විග්‍රහ කරගැනීමට නොහැකියි\n"
 
-#: ../src/notification.c:252
-#: ../src/notification.c:269
+#: ../src/notification.c:177
+#, c-format
+msgid "Could not parse message from stdin\n"
+msgstr ""
+
+#: ../src/notification.c:262 ../src/notification.c:279
 msgid "MateDialog notification"
 msgstr "MateDialog දැනුම්දීම"
+
+#: ../src/password.c:64
+msgid "Type your password"
+msgstr ""
+
+#: ../src/password.c:99
+msgid "Username:"
+msgstr ""
+
+#: ../src/password.c:115
+msgid "Password:"
+msgstr ""
 
 #: ../src/scale.c:56
 #, c-format
@@ -66,520 +91,564 @@ msgstr "විශාලතම අගය කුඩාම අගයට වඩා �
 msgid "Value out of range.\n"
 msgstr "අගය සීමාවෙන් බාහිරය.\n"
 
-#: ../src/tree.c:320
+#: ../src/tree.c:321
 #, c-format
 msgid "No column titles specified for List dialog.\n"
 msgstr "ලැයිස්තු සංවාද මාදිලිය සඳහා තීරු ශීර්ෂයන් දක්වා නොමැත.\n"
 
-#: ../src/tree.c:326
+#: ../src/tree.c:327
 #, c-format
 msgid "You should use only one List dialog type.\n"
 msgstr "ඔබ භාවිතා කල යුත්තේ එක් ලැයිස්තු සංවාද මාදිලියක් පමණකි.\n"
 
-#: ../src/matedialog.glade.h:1
+#: ../src/matedialog.ui.h:1
 msgid "Add a new entry"
 msgstr "නව නිවේශනයක් එක් කරන්න"
 
-#: ../src/matedialog.glade.h:2
+#: ../src/matedialog.ui.h:2
 msgid "Adjust the scale value"
 msgstr "පරිමාණ අගය සකස් කරන්න"
 
-#: ../src/matedialog.glade.h:3
+#: ../src/matedialog.ui.h:3
 msgid "All updates are complete."
 msgstr "සියලුම යාවත්කාලීන කීරීම් නිමයි."
 
-#: ../src/matedialog.glade.h:4
+#: ../src/matedialog.ui.h:4
 msgid "An error has occurred."
 msgstr "දෝශයක් උද්ගත වී ඇත."
 
-#: ../src/matedialog.glade.h:5
+#: ../src/matedialog.ui.h:5
 msgid "Are you sure you want to proceed?"
 msgstr "ඔබට මෙම ක්‍රියාවලිය තවදුරටත් ඉදිරියට ගෙන යා යුතුද?"
 
-#: ../src/matedialog.glade.h:6
+#: ../src/matedialog.ui.h:6
 msgid "C_alendar:"
 msgstr "දි_න දර්ශකය"
 
-#: ../src/matedialog.glade.h:7
+#: ../src/matedialog.ui.h:7
 msgid "Calendar selection"
 msgstr "දින දර්ශක තේරුම"
 
-#: ../src/matedialog.glade.h:8
+#: ../src/matedialog.ui.h:8
 msgid "Error"
 msgstr "දෝශය"
 
-#: ../src/matedialog.glade.h:9
+#: ../src/matedialog.ui.h:9
 msgid "Information"
 msgstr "තොරතුරු"
 
-#: ../src/matedialog.glade.h:10
+#: ../src/matedialog.ui.h:10
 msgid "Progress"
 msgstr "ප්‍රගතිය"
 
-#: ../src/matedialog.glade.h:11
+#: ../src/matedialog.ui.h:11
 msgid "Question"
 msgstr "ප්‍රශ්නය"
 
-#: ../src/matedialog.glade.h:12
+#: ../src/matedialog.ui.h:12
 msgid "Running..."
 msgstr "ධාවනය වෙමින් පවතී..."
 
-#: ../src/matedialog.glade.h:13
+#: ../src/matedialog.ui.h:13
 msgid "Select a date from below."
 msgstr "පහතින් දිනයක් තෝරන්න."
 
-#: ../src/matedialog.glade.h:14
-msgid "Select a file"
-msgstr "ගොනුවක් තෝරන්න"
-
-#: ../src/matedialog.glade.h:15
+#: ../src/matedialog.ui.h:14
 msgid "Select items from the list"
 msgstr "ලැයිස්තුවෙන් අයිතමයන් තෝරන්න"
 
-#: ../src/matedialog.glade.h:16
+#: ../src/matedialog.ui.h:15
 msgid "Select items from the list below."
 msgstr "පහත ලැයිස්තුවෙන් අයිතමයන් තෝරන්න."
 
-#: ../src/matedialog.glade.h:17
+#: ../src/matedialog.ui.h:16
 msgid "Text View"
 msgstr "පෙළ දර්ශනය"
 
-#: ../src/matedialog.glade.h:18
+#: ../src/matedialog.ui.h:17
 msgid "Warning"
 msgstr "අනතුරු ඇඟවීමයි"
 
-#: ../src/matedialog.glade.h:19
+#: ../src/matedialog.ui.h:18
 msgid "_Enter new text:"
 msgstr "_නව පෙළ ඇතුලත් කරන්න:"
 
-#: ../src/option.c:117
+#: ../src/option.c:131
 msgid "Set the dialog title"
 msgstr "සංවාද ශීර්ෂය සකසන්න."
 
-#: ../src/option.c:118
+#: ../src/option.c:132
 msgid "TITLE"
 msgstr "ශීර්ෂය"
 
-#: ../src/option.c:126
+#: ../src/option.c:140
 msgid "Set the window icon"
 msgstr "කවුලු නිරූපකය සකසන්න"
 
-#: ../src/option.c:127
+#: ../src/option.c:141
 msgid "ICONPATH"
 msgstr "නිරූපක පෙත"
 
-#: ../src/option.c:135
+#: ../src/option.c:149
 msgid "Set the width"
 msgstr "පලළ සකසන්න"
 
-#: ../src/option.c:136
+#: ../src/option.c:150
 msgid "WIDTH"
 msgstr "පලළ"
 
-#: ../src/option.c:144
+#: ../src/option.c:158
 msgid "Set the height"
 msgstr "උස සකසන්න"
 
-#: ../src/option.c:145
+#: ../src/option.c:159
 msgid "HEIGHT"
 msgstr "උස"
 
-#: ../src/option.c:153
+#: ../src/option.c:167
 msgid "Set dialog timeout in seconds"
 msgstr "සංවාදය කල් ඉකුත් වීමේ සීමාව සකසන්න"
 
-#: ../src/option.c:168
+#. Timeout for closing the dialog
+#: ../src/option.c:169
+msgid "TIMEOUT"
+msgstr ""
+
+#: ../src/option.c:183
 msgid "Display calendar dialog"
 msgstr "දින දර්ශක සංවාදය පෙන්වන්න"
 
-#: ../src/option.c:177
-#: ../src/option.c:237
-#: ../src/option.c:280
-#: ../src/option.c:313
-#: ../src/option.c:415
-#: ../src/option.c:544
-#: ../src/option.c:606
-#: ../src/option.c:672
-#: ../src/option.c:705
+#: ../src/option.c:192 ../src/option.c:252 ../src/option.c:295
+#: ../src/option.c:328 ../src/option.c:440 ../src/option.c:579
+#: ../src/option.c:651 ../src/option.c:735 ../src/option.c:768
 msgid "Set the dialog text"
 msgstr "සංවාද පෙළ සකසන්න"
 
-#: ../src/option.c:178
-#: ../src/option.c:238
-#: ../src/option.c:247
-#: ../src/option.c:256
-#: ../src/option.c:281
-#: ../src/option.c:314
-#: ../src/option.c:416
-#: ../src/option.c:512
-#: ../src/option.c:545
-#: ../src/option.c:607
-#: ../src/option.c:673
-#: ../src/option.c:706
+#: ../src/option.c:193 ../src/option.c:253 ../src/option.c:262
+#: ../src/option.c:296 ../src/option.c:329 ../src/option.c:441
+#: ../src/option.c:547 ../src/option.c:580 ../src/option.c:652
+#: ../src/option.c:661 ../src/option.c:670 ../src/option.c:736
+#: ../src/option.c:769
 msgid "TEXT"
 msgstr "පෙළ"
 
-#: ../src/option.c:186
+#: ../src/option.c:201
 msgid "Set the calendar day"
 msgstr "දින දර්ශකයෙහි දිනය සකසන්න"
 
-#: ../src/option.c:187
+#: ../src/option.c:202
 msgid "DAY"
 msgstr "දිනය"
 
-#: ../src/option.c:195
+#: ../src/option.c:210
 msgid "Set the calendar month"
 msgstr "දින දර්ශකයෙහි මාසය සකසන්න"
 
-#: ../src/option.c:196
+#: ../src/option.c:211
 msgid "MONTH"
 msgstr "මාසය"
 
-#: ../src/option.c:204
+#: ../src/option.c:219
 msgid "Set the calendar year"
 msgstr "දින දර්ශකයෙහි වසර සකසන්න"
 
-#: ../src/option.c:205
+#: ../src/option.c:220
 msgid "YEAR"
 msgstr "වසර"
 
-#: ../src/option.c:213
+#: ../src/option.c:228
 msgid "Set the format for the returned date"
 msgstr "ලබාදෙන දින හැඩතලය සකසන්න"
 
-#: ../src/option.c:214
+#: ../src/option.c:229
 msgid "PATTERN"
 msgstr "රටාව"
 
-#: ../src/option.c:228
+#: ../src/option.c:243
 msgid "Display text entry dialog"
 msgstr "පෙළ ඇතුලත් කිරීමේ සංවාදය පෙන්වන්න"
 
-#: ../src/option.c:246
+#: ../src/option.c:261
 msgid "Set the entry text"
 msgstr "පිවිසුම් පෙළ සකසන්න"
 
-#: ../src/option.c:255
+#: ../src/option.c:270
 msgid "Hide the entry text"
 msgstr "පිවිසුම් පෙළ සඟවන්න"
 
-#: ../src/option.c:271
+#: ../src/option.c:286
 msgid "Display error dialog"
 msgstr "දෝශ සංවාදය පෙන්වන්න"
 
-#: ../src/option.c:289
-#: ../src/option.c:322
-#: ../src/option.c:615
-#: ../src/option.c:681
+#: ../src/option.c:304 ../src/option.c:337 ../src/option.c:678
+#: ../src/option.c:744
 msgid "Do not enable text wrapping"
 msgstr "පෙළ එතුම ක්‍රියාත්මක නොකරන්න"
 
-#: ../src/option.c:304
+#: ../src/option.c:319
 msgid "Display info dialog"
 msgstr "තොරතුරු සංවාදය පෙන්වන්න"
 
-#: ../src/option.c:337
+#: ../src/option.c:352
 msgid "Display file selection dialog"
 msgstr "ගොනු තේරුම් සංවාදය පෙන්වන්න"
 
-#: ../src/option.c:346
+#: ../src/option.c:361
 msgid "Set the filename"
 msgstr "ගොනු නාමය සකසන්න"
 
-#: ../src/option.c:347
-#: ../src/option.c:640
+#: ../src/option.c:362 ../src/option.c:703
 msgid "FILENAME"
 msgstr "ගොනු නාමය"
 
-#: ../src/option.c:355
+#: ../src/option.c:370
 msgid "Allow multiple files to be selected"
 msgstr "ගොනු බහුවරණයට අවසර දෙන්න"
 
-#: ../src/option.c:364
+#: ../src/option.c:379
 msgid "Activate directory-only selection"
 msgstr "ගොනු බාහාලුම් පමණක් තෝරන්න"
 
-#: ../src/option.c:373
+#: ../src/option.c:388
 msgid "Activate save mode"
 msgstr "සුරැකුම් ප්‍රකාරය ක්‍රියාත්මක කරන්න"
 
-#: ../src/option.c:382
-#: ../src/option.c:451
+#: ../src/option.c:397 ../src/option.c:476
 msgid "Set output separator character"
 msgstr "ප්‍රතිදායක විභේදකය සකසන්න"
 
-#: ../src/option.c:383
-#: ../src/option.c:452
+#: ../src/option.c:398 ../src/option.c:477
 msgid "SEPARATOR"
 msgstr "විභේදකය"
 
-#: ../src/option.c:391
+#: ../src/option.c:406
 msgid "Confirm file selection if filename already exists"
 msgstr "ගොනු නාමය දැනට පවතින ගොනුවකට අයත් නම් ගොනු තේරුම තහවුරු කරන්න"
 
-#: ../src/option.c:406
+#: ../src/option.c:415
+msgid "Sets a filename filter"
+msgstr ""
+
+#. Help for file-filter argument (name and patterns for file selection)
+#: ../src/option.c:417
+msgid "NAME | PATTERN1 PATTERN2 ..."
+msgstr ""
+
+#: ../src/option.c:431
 msgid "Display list dialog"
 msgstr "ලැයිස්තු සංවාදය පෙන්වන්න"
 
-#: ../src/option.c:424
+#: ../src/option.c:449
 msgid "Set the column header"
 msgstr "තීරු ශීර්ෂකය සකසන්න"
 
-#: ../src/option.c:425
+#: ../src/option.c:450
 msgid "COLUMN"
 msgstr "තීරුව"
 
-#: ../src/option.c:433
+#: ../src/option.c:458
 msgid "Use check boxes for first column"
 msgstr "පළමු තීරුව සඳහා සලකුණු කොටු යොදන්න"
 
-#: ../src/option.c:442
+#: ../src/option.c:467
 msgid "Use radio buttons for first column"
 msgstr "පළමු තීරුව සඳහා විකල්ප බොත්තම් යොදන්න"
 
-#: ../src/option.c:460
+#: ../src/option.c:485
 msgid "Allow multiple rows to be selected"
 msgstr "පේළි බහුවරණයට අවසර දෙන්න"
 
-#: ../src/option.c:469
-#: ../src/option.c:648
+#: ../src/option.c:494 ../src/option.c:711
 msgid "Allow changes to text"
 msgstr "පෙළ වෙනස්කිරීමට අවසර දෙන්න"
 
-#: ../src/option.c:478
-msgid "Print a specific column (Default is 1. 'ALL' can be used to print all columns)"
+#: ../src/option.c:503
+msgid ""
+"Print a specific column (Default is 1. 'ALL' can be used to print all "
+"columns)"
 msgstr "තෝරාදුන් තීරුවක් මුද්‍රණය කරන්න ( මෙහි පෙෙරනිමිය 1 වේ . සියලුම තීරු මුද්‍රණය කිරීම සඳහා'ALL' භාවිතා කළ හැකිය)"
 
-#: ../src/option.c:479
-#: ../src/option.c:488
+#. Column index number to print out on a list dialog
+#: ../src/option.c:505 ../src/option.c:514
 msgid "NUMBER"
 msgstr "අංකය"
 
-#: ../src/option.c:487
+#: ../src/option.c:513
 msgid "Hide a specific column"
 msgstr "තෝරාදුන් තීරුවක් සඟවන්න"
 
-#: ../src/option.c:502
+#: ../src/option.c:522
+msgid "Hides the column headers"
+msgstr ""
+
+#: ../src/option.c:537
 msgid "Display notification"
 msgstr "දැනුම්දීම පෙන්වන්න"
 
-#: ../src/option.c:511
+#: ../src/option.c:546
 msgid "Set the notification text"
 msgstr "දැනුම්දීම් පෙළ සකසන්න"
 
-#: ../src/option.c:520
+#: ../src/option.c:555
 msgid "Listen for commands on stdin"
 msgstr "විධාන සඳහා සම්මත ආදායකට සවන්දෙන්න"
 
-#: ../src/option.c:535
+#: ../src/option.c:570
 msgid "Display progress indication dialog"
 msgstr "ප්‍රගති දර්ශක සංවාදය පෙන්වන්න"
 
-#: ../src/option.c:553
+#: ../src/option.c:588
 msgid "Set initial percentage"
 msgstr "මූලික ප්‍රතිශතය සකසන්න"
 
-#: ../src/option.c:554
+#: ../src/option.c:589
 msgid "PERCENTAGE"
 msgstr "ප්‍රතිශතය"
 
-#: ../src/option.c:562
+#: ../src/option.c:597
 msgid "Pulsate progress bar"
 msgstr "ප්‍රගති දර්ශකය දෝලනය කරවන්න"
 
-#: ../src/option.c:572
+#: ../src/option.c:607
 #, no-c-format
 msgid "Dismiss the dialog when 100% has been reached"
 msgstr "100% ලඟා වූ වහාම සංවාදය වසාදමන්න"
 
-#: ../src/option.c:582
+#: ../src/option.c:617
 #, no-c-format
-msgid "Kill parent process if cancel button is pressed"
-msgstr "අවලංගු කිරීමේ බොත්තම එබූ විට මව් ක්‍රියාවලිය නවතා දමන්න."
+msgid "Kill parent process if Cancel button is pressed"
+msgstr ""
 
-#: ../src/option.c:597
+#: ../src/option.c:627
+#, no-c-format
+msgid "Hide Cancel button"
+msgstr ""
+
+#: ../src/option.c:642
 msgid "Display question dialog"
 msgstr "ප්‍රශ්ණාර්ථ සවාදය පෙන්වන්න"
 
-#: ../src/option.c:630
+#: ../src/option.c:660
+msgid "Sets the label of the Ok button"
+msgstr ""
+
+#: ../src/option.c:669
+msgid "Sets the label of the Cancel button"
+msgstr ""
+
+#: ../src/option.c:693
 msgid "Display text information dialog"
 msgstr "පෙළ තොරතුරු සංවාදය පෙන්වන්න"
 
-#: ../src/option.c:639
+#: ../src/option.c:702
 msgid "Open file"
 msgstr "ගොනුව විවෘත කරන්න"
 
-#: ../src/option.c:663
+#: ../src/option.c:726
 msgid "Display warning dialog"
 msgstr "අනතුරු ඇඟවීමේ සංවාදය පෙන්වන්න"
 
-#: ../src/option.c:696
+#: ../src/option.c:759
 msgid "Display scale dialog"
 msgstr "පරිමාණ සංවාදය පෙන්වන්න"
 
-#: ../src/option.c:714
+#: ../src/option.c:777
 msgid "Set initial value"
 msgstr "මූලික අගය සකසන්න"
 
-#: ../src/option.c:715
-#: ../src/option.c:724
-#: ../src/option.c:733
-#: ../src/option.c:742
+#: ../src/option.c:778 ../src/option.c:787 ../src/option.c:796
+#: ../src/option.c:805 ../src/option.c:871
 msgid "VALUE"
 msgstr "අගය"
 
-#: ../src/option.c:723
+#: ../src/option.c:786
 msgid "Set minimum value"
 msgstr "කුඩාම අගය සකසන්න"
 
-#: ../src/option.c:732
+#: ../src/option.c:795
 msgid "Set maximum value"
 msgstr "විශාලතම අගය සකසන්න"
 
-#: ../src/option.c:741
+#: ../src/option.c:804
 msgid "Set step size"
 msgstr "පියවර විශාලත්වය සකසන්න"
 
-#: ../src/option.c:750
+#: ../src/option.c:813
 msgid "Print partial values"
 msgstr "අඩ අගයන් මුද්‍රණය කරන්න"
 
-#: ../src/option.c:759
+#: ../src/option.c:822
 msgid "Hide value"
 msgstr "අගය සඟවන්න"
 
-#: ../src/option.c:774
+#: ../src/option.c:837
+msgid "Display password dialog"
+msgstr ""
+
+#: ../src/option.c:846
+msgid "Display the username option"
+msgstr ""
+
+#: ../src/option.c:861
+msgid "Display color selection dialog"
+msgstr ""
+
+#: ../src/option.c:870
+msgid "Set the color"
+msgstr ""
+
+#: ../src/option.c:879
+msgid "Show the palette"
+msgstr ""
+
+#: ../src/option.c:894
 msgid "About matedialog"
 msgstr "matedialog වගතුග"
 
-#: ../src/option.c:783
+#: ../src/option.c:903
 msgid "Print version"
 msgstr "අනුවාදය මුද්‍රණය කරන්න"
 
-#: ../src/option.c:1425
+#: ../src/option.c:1643
 msgid "General options"
 msgstr "පොදු විකල්ප"
 
-#: ../src/option.c:1426
+#: ../src/option.c:1644
 msgid "Show general options"
 msgstr "පොදු විකල්පයන් පෙන්වන්න"
 
-#: ../src/option.c:1436
+#: ../src/option.c:1654
 msgid "Calendar options"
 msgstr "දින දර්ශන සංවාදයෙහි විකල්ප"
 
-#: ../src/option.c:1437
+#: ../src/option.c:1655
 msgid "Show calendar options"
 msgstr "දින දර්ශන සංවාදයෙහි විකල්පයන් පෙන්වන්න"
 
-#: ../src/option.c:1447
+#: ../src/option.c:1665
 msgid "Text entry options"
 msgstr "පෙළ ඇතුලත් කීරීමේ සංවාදයෙහි විකල්ප"
 
-#: ../src/option.c:1448
+#: ../src/option.c:1666
 msgid "Show text entry options"
 msgstr "පෙළ ඇතුලත් කීරීමේ සංවාදයෙහි විකල්පයන් පෙන්වන්න"
 
-#: ../src/option.c:1458
+#: ../src/option.c:1676
 msgid "Error options"
 msgstr "දෝශ සංවාදයෙහි විකල්ප"
 
-#: ../src/option.c:1459
+#: ../src/option.c:1677
 msgid "Show error options"
 msgstr "දෝශ සංවාදයෙහි විකල්පයන් පෙන්වන්න"
 
-#: ../src/option.c:1469
+#: ../src/option.c:1687
 msgid "Info options"
 msgstr "තොරතුරු සංවාදයෙහි විකල්ප"
 
-#: ../src/option.c:1470
+#: ../src/option.c:1688
 msgid "Show info options"
 msgstr "තොරතුරු සංවාදයෙහි විකල්පයන් පෙන්වන්න"
 
-#: ../src/option.c:1480
+#: ../src/option.c:1698
 msgid "File selection options"
 msgstr "ගොනු තේරුම් සංවාදයෙහි විකල්ප"
 
-#: ../src/option.c:1481
+#: ../src/option.c:1699
 msgid "Show file selection options"
 msgstr "ගොනු තේරුම් සංවාදයෙහි විකල්පයන් පෙන්වන්න"
 
-#: ../src/option.c:1491
+#: ../src/option.c:1709
 msgid "List options"
 msgstr "ලැයිස්තු සංවාදයෙහි විකල්ප"
 
-#: ../src/option.c:1492
+#: ../src/option.c:1710
 msgid "Show list options"
 msgstr "ලැයිස්තු සංවාදයෙහි විකල්පයන් පෙන්වන්න"
 
-#: ../src/option.c:1502
+#: ../src/option.c:1720
 msgid "Notification icon options"
 msgstr "දැනුම්දීම් නිරූපක විකල්ප"
 
-#: ../src/option.c:1503
+#: ../src/option.c:1721
 msgid "Show notification icon options"
 msgstr "දැනුම්දීම් නිරූපක විකල්පයන් පෙන්වන්න"
 
-#: ../src/option.c:1513
+#: ../src/option.c:1731
 msgid "Progress options"
 msgstr "ප්‍රගති සංවාදයෙහි විකල්ප"
 
-#: ../src/option.c:1514
+#: ../src/option.c:1732
 msgid "Show progress options"
 msgstr "ප්‍රගති සංවාදයෙහි විකල්පයන් පෙන්වන්න"
 
-#: ../src/option.c:1524
+#: ../src/option.c:1742
 msgid "Question options"
 msgstr "ප්‍රශ්ණාර්ථ සංවාදයෙහි විකල්ප"
 
-#: ../src/option.c:1525
+#: ../src/option.c:1743
 msgid "Show question options"
 msgstr "ප්‍රශ්ණාර්ථ සංවාදයෙහි විකල්පයන් පෙන්වන්න"
 
-#: ../src/option.c:1535
+#: ../src/option.c:1753
 msgid "Warning options"
 msgstr "අනතුරු ඇඟවීම් සංවාදයෙහි විකල්ප"
 
-#: ../src/option.c:1536
+#: ../src/option.c:1754
 msgid "Show warning options"
 msgstr "අනතුරු ඇඟවීම් සංවාදයෙහි විකල්පයන් පෙන්වන්න"
 
-#: ../src/option.c:1546
+#: ../src/option.c:1764
 msgid "Scale options"
 msgstr "පරිමාණ සංවාදයෙහි විකල්ප"
 
-#: ../src/option.c:1547
+#: ../src/option.c:1765
 msgid "Show scale options"
 msgstr "පරිමාණ සංවාදයෙහි විකල්පයන් පෙන්වන්න"
 
-#: ../src/option.c:1557
+#: ../src/option.c:1775
 msgid "Text information options"
 msgstr "පෙළ තොරතුරු සංවාදයෙහි විකල්ප"
 
-#: ../src/option.c:1558
+#: ../src/option.c:1776
 msgid "Show text information options"
 msgstr "පෙළ තොරතුරු සංවාදයෙහි විකල්පයන් පෙන්වන්න"
 
-#: ../src/option.c:1568
+#: ../src/option.c:1786
+msgid "Color selection options"
+msgstr ""
+
+#: ../src/option.c:1787
+msgid "Show color selection options"
+msgstr ""
+
+#: ../src/option.c:1797
+msgid "Password dialog options"
+msgstr ""
+
+#: ../src/option.c:1798
+msgid "Show password dialog options"
+msgstr ""
+
+#: ../src/option.c:1808
 msgid "Miscellaneous options"
 msgstr "වීවිධ විකල්ප"
 
-#: ../src/option.c:1569
+#: ../src/option.c:1809
 msgid "Show miscellaneous options"
 msgstr "වීවිධ විකල්පයන් පෙන්වන්න"
 
-#: ../src/option.c:1594
+#: ../src/option.c:1834
 #, c-format
-msgid "This option is not available. Please see --help for all possible usages.\n"
+msgid ""
+"This option is not available. Please see --help for all possible usages.\n"
 msgstr "මෙම විකල්පය භාවිතා කළ නොහැක. භාවිතා කළ හැකි සියලුම විකල්පයන් ලබාගැනීම සඳහා කරුණාකර --help බලන්න.\n"
 
-#: ../src/option.c:1598
+#: ../src/option.c:1838
 #, c-format
 msgid "--%s is not supported for this dialog\n"
 msgstr "--%s ට මෙම සංවාදය සහාය නොදක්වයි\n"
 
-#: ../src/option.c:1602
+#: ../src/option.c:1842
 #, c-format
 msgid "Two or more dialog options specified\n"
 msgstr "දෙකක් හෝ වැඩි විකල්පයන් සංඛ්‍යාවක් ලාබාදී ඇත\n"
-

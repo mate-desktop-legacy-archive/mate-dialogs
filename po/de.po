@@ -1,65 +1,51 @@
-# German MateDialog translation.
-# Copyright (C) 2003, 2004 Sun Microsystems, Inc.
-# This file is distributed under the same license as the matedialog package.
-# Christian Neumair <chris@mate-de.org>, 2003, 2004.
-# Hendrik Richter <hendrikr@gnome.org>, 2004-2007.
-# Mario Blättermann <mariobl@gnome.org>, 2008, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Christian Kirbach <Christian.Kirbach@googlemail.com>, 2010.
-#
+# Christian Neumair <chris@mate-de.org>, 2003, 2004.
+# Mario Blättermann <mariobl@gnome.org>, 2008, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: matedialog master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=matedialog&component=general\n"
-"POT-Creation-Date: 2010-07-22 22:51+0000\n"
-"PO-Revision-Date: 2010-07-27 23:23+0100\n"
-"Last-Translator: Mario Blättermann <mariobl@gnome.org>\n"
-"Language-Team: German <mate-de@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:23+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/MATE/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../src/about.c:64
 msgid ""
-"This program is free software; you can redistribute it and/or modify it under "
-"the terms of the GNU Lesser General Public License as published by the Free "
-"Software Foundation; either version 2 of the License, or (at your option) any "
-"later version.\n"
-msgstr ""
-"Dieses Programm ist freie Software. Sie können es unter den Bedingungen der "
-"GNU Lesser General Public License, wie von der Free Software Foundation "
-"veröffentlicht, weitergeben und/oder modifizieren, entweder gemäß Version 2 "
-"der Lizenz oder (nach Ihrer Option) jeder späteren Version.\n"
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
+"option) any later version.\n"
+msgstr "Dieses Programm ist freie Software. Sie können es unter den Bedingungen der GNU Lesser General Public License, wie von der Free Software Foundation veröffentlicht, weitergeben und/oder modifizieren, entweder gemäß Version 2 der Lizenz oder (nach Ihrer Option) jeder späteren Version.\n"
 
 #: ../src/about.c:68
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-"FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more "
-"details.\n"
-msgstr ""
-"Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, daß es Ihnen "
-"von Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite "
-"Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK. "
-"Details finden Sie in der GNU Lesser General Public License.\n"
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
+msgstr "Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, daß es Ihnen von Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK. Details finden Sie in der GNU Lesser General Public License.\n"
 
 #: ../src/about.c:72
 msgid ""
 "You should have received a copy of the GNU Lesser General Public License "
-"along with this program; if not, write to the Free Software Foundation, Inc., "
-"51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr ""
-"Sie sollten ein Exemplar der GNU Lesser General Public License zusammen mit "
-"diesem Programm erhalten haben. Falls nicht, schreiben Sie an die Free "
-"Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110, USA."
+"along with this program; if not, write to the Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr "Sie sollten ein Exemplar der GNU Lesser General Public License zusammen mit diesem Programm erhalten haben. Falls nicht, schreiben Sie an die Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110, USA."
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr ""
-"Christian Neumair <chris@mate-de.org>\n"
-"Hendrik Richter <hendrikr@gnome.org>\n"
-"Mario Blättermann <mario.blaettermann@t-online.de>\n"
-"Christian Kirbach <Christian.Kirbach@googlemail.com>"
+msgstr "Christian Neumair <chris@mate-de.org>\nHendrik Richter <hendrikr@gnome.org>\nMario Blättermann <mario.blaettermann@t-online.de>\nChristian Kirbach <Christian.Kirbach@googlemail.com>"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
@@ -68,9 +54,7 @@ msgstr "Dialogfenster aus Shell-Skripten heraus aufrufen"
 #: ../src/main.c:100
 #, c-format
 msgid "You must specify a dialog type. See 'matedialog --help' for details\n"
-msgstr ""
-"Sie müssen einen Dialogtypen angeben. Siehe »matedialog --help« für weitere "
-"Details.\n"
+msgstr "Sie müssen einen Dialogtypen angeben. Siehe »matedialog --help« für weitere Details.\n"
 
 #: ../src/notification.c:138
 #, c-format
@@ -322,7 +306,6 @@ msgstr "DATEINAME"
 msgid "Allow multiple files to be selected"
 msgstr "Auswahl mehrerer Dateien zulassen"
 
-# CHECK
 #: ../src/option.c:379
 msgid "Activate directory-only selection"
 msgstr "Nur Verzeichnisse auswählen"
@@ -382,10 +365,9 @@ msgstr "Änderungen am Text zulassen"
 
 #: ../src/option.c:503
 msgid ""
-"Print a specific column (Default is 1. 'ALL' can be used to print all columns)"
-msgstr ""
-"Drucke eine bestimmte Spalte (Standard ist 1. »ALL« kann benutzt werden, um "
-"alle Spalten zu drucken)"
+"Print a specific column (Default is 1. 'ALL' can be used to print all "
+"columns)"
+msgstr "Drucke eine bestimmte Spalte (Standard ist 1. »ALL« kann benutzt werden, um alle Spalten zu drucken)"
 
 #. Column index number to print out on a list dialog
 #: ../src/option.c:505 ../src/option.c:514
@@ -660,9 +642,7 @@ msgstr "Verschiedene Einstellungen anzeigen"
 #, c-format
 msgid ""
 "This option is not available. Please see --help for all possible usages.\n"
-msgstr ""
-"Diese Option steht nicht zur Verfügung. Bitte verwenden Sie »--help« für alle "
-"Anwendungsmöglichkeiten.\n"
+msgstr "Diese Option steht nicht zur Verfügung. Bitte verwenden Sie »--help« für alle Anwendungsmöglichkeiten.\n"
 
 #: ../src/option.c:1838
 #, c-format
@@ -673,36 +653,3 @@ msgstr "--%s wird von diesem Dialog nicht unterstützt\n"
 #, c-format
 msgid "Two or more dialog options specified\n"
 msgstr "Dialog-Option mehrfach übergeben\n"
-
-#~ msgid "Select a file"
-#~ msgstr "Wählen Sie eine Datei"
-
-#~ msgid "Orientation"
-#~ msgstr "Ausrichtung"
-
-#~ msgid "The orientation of the tray."
-#~ msgstr "Die Ausrichtung der Anzeige."
-
-#~ msgid "Adjust the scale value."
-#~ msgstr "Den Wert des Schiebereglers anpassen."
-
-#~ msgid "(C) 2003 Sun Microsystems"
-#~ msgstr "Copyright (C) 2003 Sun Microsystems"
-
-#~ msgid "Credits"
-#~ msgstr "Mitwirkende"
-
-#~ msgid "Written by"
-#~ msgstr "Programm von"
-
-#~ msgid "Translated by"
-#~ msgstr "Übersetzung von"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "About MateDialog"
-#~ msgstr "Info zu MateDialog"
-
-#~ msgid "_Credits"
-#~ msgstr "_Mitwirkende"

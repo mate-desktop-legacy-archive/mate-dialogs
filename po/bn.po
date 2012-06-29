@@ -1,85 +1,63 @@
-# Bengali translation of MateDialog.
-# Copyright (C) 2003 THE MateDialog'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the MateDialog package.
-# Sayamindu Dasgupta <unmadindu@bengalinux.org>, 2003.
-# Mahay Alam Khan <makl10n@yahoo.com>, 2005.
-# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
-# Khandakar Mujahidul Islam <suzan@bengalinux.org>, 2007.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Israt Jahan <israt@ankur.org.bd>, 2010.
+# Khandakar Mujahidul Islam <suzan@bengalinux.org>, 2007.
+# Mahay Alam Khan <makl10n@yahoo.com>, 2005.
 # Sadia Afroz <sadia@ankur.org.bd>, 2010.
-#
+# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
+# Sayamindu Dasgupta <unmadindu@bengalinux.org>, 2003.
 msgid ""
 msgstr ""
-"Project-Id-Version: bn\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=matedialog&component=general\n"
-"POT-Creation-Date: 2010-02-23 19:54+0000\n"
-"PO-Revision-Date: 2010-03-23 17:27+0600\n"
-"Last-Translator: Sadia Afroz <sadia@ankur.org.bd>\n"
-"Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:23+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: bn\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../src/about.c:64
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU Lesser General Public License as published by the "
-"Free Software Foundation; either version 2 of the License, or (at your "
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
 "option) any later version.\n"
-msgstr ""
-"এই প্রোগ্রামটি একটি মুক্ত সফ্টওয়্যার; মুক্ত সফটওয়্যার ফাউন্ডেশন দ্বারা "
-"প্রকাশিত GNU লেজার সাধারণ পাবলিক লাইসেন্সের শর্তানুযায়ী আপনি এটাকে পুনঃবিতরণ "
-"এবং/অথবা পরিবর্তন করতে পারেন; লাইসেন্সের সংস্করণ ২ অথবা (আপনার "
-"সুবিধানুযায়ী) ঊর্ধ্বতন যেকোনো সংস্করণ।\n"
+msgstr "এই প্রোগ্রামটি একটি মুক্ত সফ্টওয়্যার; মুক্ত সফটওয়্যার ফাউন্ডেশন দ্বারা প্রকাশিত GNU লেজার সাধারণ পাবলিক লাইসেন্সের শর্তানুযায়ী আপনি এটাকে পুনঃবিতরণ এবং/অথবা পরিবর্তন করতে পারেন; লাইসেন্সের সংস্করণ ২ অথবা (আপনার সুবিধানুযায়ী) ঊর্ধ্বতন যেকোনো সংস্করণ।\n"
 
 #: ../src/about.c:68
-#| msgid ""
-#| "This program is distributed in the hope that it will be useful, but "
-#| "WITHOUT ANY WARRANTY; without even the implied warranty of "
-#| "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
-#| "Public License for more details.\n"
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License "
-"for more details.\n"
-msgstr ""
-"প্রোগ্রামটি বিতরণ করার মূল উদ্দেশ্য যে ব্যবহারকারীরা এর দ্বারা উপকৃত হবেন, "
-"কিন্তু কোনো সুস্পষ্ট ওয়ারেন্টি ছাড়া; এমনকি বাণিজ্যিক বা কোনো সুনির্দিষ্ট "
-"কাজের জন্য অন্তর্নিহিত ওয়ারেন্টিও অনুপস্থিত। আরও বিস্তারিত জানতে GNU লেজার "
-"সাধারণ পাবলিক লাইসেন্স দেখুন।\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
+msgstr "প্রোগ্রামটি বিতরণ করার মূল উদ্দেশ্য যে ব্যবহারকারীরা এর দ্বারা উপকৃত হবেন, কিন্তু কোনো সুস্পষ্ট ওয়ারেন্টি ছাড়া; এমনকি বাণিজ্যিক বা কোনো সুনির্দিষ্ট কাজের জন্য অন্তর্নিহিত ওয়ারেন্টিও অনুপস্থিত। আরও বিস্তারিত জানতে GNU লেজার সাধারণ পাবলিক লাইসেন্স দেখুন।\n"
 
 #: ../src/about.c:72
 msgid ""
 "You should have received a copy of the GNU Lesser General Public License "
 "along with this program; if not, write to the Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr ""
-"আপনি হয়ত এই প্রোগ্রামের সাথে GNU লেজার সাধারণ পাবলিক লাইসেন্সের একটি অনুলিপি "
-"পেয়ে থাকবেন; যদি না পান তবে Free Software Foundation, Inc., 51 Franklin "
-"Street, Fifth Floor, Boston, MA 02110-1301, USA ঠিকানায় লিখুন।"
+msgstr "আপনি হয়ত এই প্রোগ্রামের সাথে GNU লেজার সাধারণ পাবলিক লাইসেন্সের একটি অনুলিপি পেয়ে থাকবেন; যদি না পান তবে Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA ঠিকানায় লিখুন।"
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr ""
-"অঙ্কুর প্রকল্পের পক্ষ থেকে সায়মিন্দু দাশগুপ্ত <unmadindu@bengalinux.org>\n"
-"মাহে আলম খান <makl10n@yahoo.com>\n"
-"সামিয়া নিয়ামতুল্লাহ <mailsamia2001@yahoo.com>\n"
-"খন্দকার মুজাহিদুল ইসলাম সুজন <suzan@bengalinux.org>\n"
-"ইসরাত জাহান <israt@ankur.org.bd>\n"
-"সাদিয়া আফরোজ <sadia@ankur.org.bd>"
+msgstr "অঙ্কুর প্রকল্পের পক্ষ থেকে সায়মিন্দু দাশগুপ্ত <unmadindu@bengalinux.org>\nমাহে আলম খান <makl10n@yahoo.com>\nসামিয়া নিয়ামতুল্লাহ <mailsamia2001@yahoo.com>\nখন্দকার মুজাহিদুল ইসলাম সুজন <suzan@bengalinux.org>\nইসরাত জাহান <israt@ankur.org.bd>\nসাদিয়া আফরোজ <sadia@ankur.org.bd>"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
 msgstr "শেল স্ক্রিপ্ট থেকে ডায়ালগ বাক্স প্রদর্শন"
 
-#: ../src/main.c:94
+#: ../src/main.c:100
 #, c-format
 msgid "You must specify a dialog type. See 'matedialog --help' for details\n"
-msgstr ""
-"আপনাকে কোন একটি ডায়ালগের ধরন নির্বাচন করতে হবে। বিস্তারিত তথ্যের জন্য "
-"'matedialog --সহায়তা' দেখুন\n"
+msgstr "আপনাকে কোন একটি ডায়ালগের ধরন নির্বাচন করতে হবে। বিস্তারিত তথ্যের জন্য 'matedialog --সহায়তা' দেখুন\n"
 
 #: ../src/notification.c:138
 #, c-format
@@ -94,6 +72,18 @@ msgstr "stdin থেকে বার্তা পার্স করা যা�
 #: ../src/notification.c:262 ../src/notification.c:279
 msgid "MateDialog notification"
 msgstr "MateDialog ঘোষনা"
+
+#: ../src/password.c:64
+msgid "Type your password"
+msgstr ""
+
+#: ../src/password.c:99
+msgid "Username:"
+msgstr ""
+
+#: ../src/password.c:115
+msgid "Password:"
+msgstr ""
 
 #: ../src/scale.c:56
 #, c-format
@@ -187,536 +177,482 @@ msgstr "সতর্কীকরণ"
 msgid "_Enter new text:"
 msgstr "নতুন টেক্সট লিখুন: (_E)"
 
-#: ../src/option.c:121
+#: ../src/option.c:131
 msgid "Set the dialog title"
 msgstr "ডায়ালগের শিরোনাম নির্ধারণ করুন"
 
-#: ../src/option.c:122
+#: ../src/option.c:132
 msgid "TITLE"
 msgstr "TITLE"
 
-#: ../src/option.c:130
+#: ../src/option.c:140
 msgid "Set the window icon"
 msgstr "উইন্ডোর আইকন নির্ধারণ করুন"
 
-#: ../src/option.c:131
+#: ../src/option.c:141
 msgid "ICONPATH"
 msgstr "ICONPATH"
 
-#: ../src/option.c:139
+#: ../src/option.c:149
 msgid "Set the width"
 msgstr "প্রস্থ নির্ধারণ করুন"
 
-#: ../src/option.c:140
+#: ../src/option.c:150
 msgid "WIDTH"
 msgstr "WIDTH"
 
-#: ../src/option.c:148
+#: ../src/option.c:158
 msgid "Set the height"
 msgstr "উচ্চতা নির্ধারণ করুন"
 
-#: ../src/option.c:149
+#: ../src/option.c:159
 msgid "HEIGHT"
 msgstr "HEIGHT"
 
-#: ../src/option.c:157
+#: ../src/option.c:167
 msgid "Set dialog timeout in seconds"
 msgstr "ডায়ালগের সময় উত্তীর্ণ সেকেন্ডে নির্ধারণ করুন"
 
 #. Timeout for closing the dialog
-#: ../src/option.c:159
+#: ../src/option.c:169
 msgid "TIMEOUT"
 msgstr "TIMEOUT"
 
-#: ../src/option.c:173
+#: ../src/option.c:183
 msgid "Display calendar dialog"
 msgstr "ক্যালেন্ডার ডায়ালগ প্রদর্শন"
 
-#: ../src/option.c:182 ../src/option.c:242 ../src/option.c:285
-#: ../src/option.c:318 ../src/option.c:430 ../src/option.c:569
-#: ../src/option.c:631 ../src/option.c:715 ../src/option.c:748
+#: ../src/option.c:192 ../src/option.c:252 ../src/option.c:295
+#: ../src/option.c:328 ../src/option.c:440 ../src/option.c:579
+#: ../src/option.c:651 ../src/option.c:735 ../src/option.c:768
 msgid "Set the dialog text"
 msgstr "ডায়ালগ টেক্সট নির্ধারণ করুন"
 
-#: ../src/option.c:183 ../src/option.c:243 ../src/option.c:252
-#: ../src/option.c:286 ../src/option.c:319 ../src/option.c:431
-#: ../src/option.c:537 ../src/option.c:570 ../src/option.c:632
-#: ../src/option.c:641 ../src/option.c:650 ../src/option.c:716
-#: ../src/option.c:749
+#: ../src/option.c:193 ../src/option.c:253 ../src/option.c:262
+#: ../src/option.c:296 ../src/option.c:329 ../src/option.c:441
+#: ../src/option.c:547 ../src/option.c:580 ../src/option.c:652
+#: ../src/option.c:661 ../src/option.c:670 ../src/option.c:736
+#: ../src/option.c:769
 msgid "TEXT"
 msgstr "TEXT"
 
-#: ../src/option.c:191
+#: ../src/option.c:201
 msgid "Set the calendar day"
 msgstr "ক্যালেন্ডারের দিন নির্ধারণ করুন"
 
-#: ../src/option.c:192
+#: ../src/option.c:202
 msgid "DAY"
 msgstr "DAY"
 
-#: ../src/option.c:200
+#: ../src/option.c:210
 msgid "Set the calendar month"
 msgstr "ক্যালেন্ডারের মাস নির্ধারণ করুন"
 
-#: ../src/option.c:201
+#: ../src/option.c:211
 msgid "MONTH"
 msgstr "MONTH"
 
-#: ../src/option.c:209
+#: ../src/option.c:219
 msgid "Set the calendar year"
 msgstr "ক্যালেন্ডারের বছর নির্ধারণ করুন"
 
-#: ../src/option.c:210
+#: ../src/option.c:220
 msgid "YEAR"
 msgstr "YEAR"
 
-#: ../src/option.c:218
+#: ../src/option.c:228
 msgid "Set the format for the returned date"
 msgstr "ফেরত পাওয়ার তারিখের বিন্যাস নির্ধারণ করুন"
 
-#: ../src/option.c:219
+#: ../src/option.c:229
 msgid "PATTERN"
 msgstr "PATTERN"
 
-#: ../src/option.c:233
+#: ../src/option.c:243
 msgid "Display text entry dialog"
 msgstr "টেক্সট এন্ট্রি ডায়ালগ প্রদর্শন"
 
-#: ../src/option.c:251
+#: ../src/option.c:261
 msgid "Set the entry text"
 msgstr "এন্ট্রি টেক্সট নির্ধারণ করুন"
 
-#: ../src/option.c:260
+#: ../src/option.c:270
 msgid "Hide the entry text"
 msgstr "এন্ট্রি টেক্সট আড়াল করুন"
 
-#: ../src/option.c:276
+#: ../src/option.c:286
 msgid "Display error dialog"
 msgstr "ত্রুটি সম্পর্কিত ডায়ালগ প্রদর্শন"
 
-#: ../src/option.c:294 ../src/option.c:327 ../src/option.c:658
-#: ../src/option.c:724
+#: ../src/option.c:304 ../src/option.c:337 ../src/option.c:678
+#: ../src/option.c:744
 msgid "Do not enable text wrapping"
 msgstr "পাঠ্য মোড়ানো সক্রিয় করা হবে না"
 
-#: ../src/option.c:309
+#: ../src/option.c:319
 msgid "Display info dialog"
 msgstr "তথ্য সম্পর্কিত ডায়ালগ প্রদর্শন"
 
-#: ../src/option.c:342
+#: ../src/option.c:352
 msgid "Display file selection dialog"
 msgstr "ফাইল নির্বাচনকারী ডায়ালগ প্রদর্শন"
 
-#: ../src/option.c:351
+#: ../src/option.c:361
 msgid "Set the filename"
 msgstr "ফাইলের নাম নির্ধারণ করুন"
 
-#: ../src/option.c:352 ../src/option.c:683
+#: ../src/option.c:362 ../src/option.c:703
 msgid "FILENAME"
 msgstr "FILENAME"
 
-#: ../src/option.c:360
+#: ../src/option.c:370
 msgid "Allow multiple files to be selected"
 msgstr "একাধিক ফাইল নির্বাচন অনুমোদন করা হবে"
 
-#: ../src/option.c:369
+#: ../src/option.c:379
 msgid "Activate directory-only selection"
 msgstr "শুধুমাত্র-ডিরেক্টরি নির্বাচন সক্রিয় করা হবে"
 
-#: ../src/option.c:378
+#: ../src/option.c:388
 msgid "Activate save mode"
 msgstr "সংরক্ষণ মোড সক্রিয় করা হবে"
 
-#: ../src/option.c:387 ../src/option.c:466
+#: ../src/option.c:397 ../src/option.c:476
 msgid "Set output separator character"
 msgstr "আউটপুট পৃথককারী অক্ষর নির্ধারণ করুন"
 
-#: ../src/option.c:388 ../src/option.c:467
+#: ../src/option.c:398 ../src/option.c:477
 msgid "SEPARATOR"
 msgstr "SEPARATOR"
 
-#: ../src/option.c:396
+#: ../src/option.c:406
 msgid "Confirm file selection if filename already exists"
 msgstr "ফাইলের নাম ইতিমধ্যেই বিদ্যমান থাকলে ফাইল নির্বাচন নিশ্চিত করা হবে"
 
-#: ../src/option.c:405
+#: ../src/option.c:415
 msgid "Sets a filename filter"
 msgstr "ফাইলেরনামের পরিশোধক নির্ধারণ করা হয়"
 
 #. Help for file-filter argument (name and patterns for file selection)
-#: ../src/option.c:407
+#: ../src/option.c:417
 msgid "NAME | PATTERN1 PATTERN2 ..."
 msgstr "NAME | PATTERN1 PATTERN2 ..."
 
-#: ../src/option.c:421
+#: ../src/option.c:431
 msgid "Display list dialog"
 msgstr "তালিকার ডায়ালগ প্রদর্শন"
 
-#: ../src/option.c:439
+#: ../src/option.c:449
 msgid "Set the column header"
 msgstr "কলামের শীর্ষচরণ নির্ধারণ করুন"
 
-#: ../src/option.c:440
+#: ../src/option.c:450
 msgid "COLUMN"
 msgstr "COLUMN"
 
-#: ../src/option.c:448
+#: ../src/option.c:458
 msgid "Use check boxes for first column"
 msgstr "প্রথম কলামের জন্য চেক বাক্স ব্যবহার করা হবে"
 
-#: ../src/option.c:457
+#: ../src/option.c:467
 msgid "Use radio buttons for first column"
 msgstr "প্রথম কলামের জন্য রেডিও বোতাম ব্যবহার করা হবে"
 
-#: ../src/option.c:475
+#: ../src/option.c:485
 msgid "Allow multiple rows to be selected"
 msgstr "একাধিক সারি নির্বাচন অনুমোদন করা হবে"
 
-#: ../src/option.c:484 ../src/option.c:691
+#: ../src/option.c:494 ../src/option.c:711
 msgid "Allow changes to text"
 msgstr "টেক্সটে পরিবর্তন অনুমোদন করা হবে"
 
-#: ../src/option.c:493
+#: ../src/option.c:503
 msgid ""
 "Print a specific column (Default is 1. 'ALL' can be used to print all "
 "columns)"
-msgstr ""
-"একটি নির্দিষ্ট কলাম মুদ্রণ করা হবে (পূর্বনির্ধারিত মান ১। সবগুলো কলাম মুদ্রণ "
-"করতে 'ALL' ব্যবহার করা যেতে পারে)"
+msgstr "একটি নির্দিষ্ট কলাম মুদ্রণ করা হবে (পূর্বনির্ধারিত মান ১। সবগুলো কলাম মুদ্রণ করতে 'ALL' ব্যবহার করা যেতে পারে)"
 
 #. Column index number to print out on a list dialog
-#: ../src/option.c:495 ../src/option.c:504
+#: ../src/option.c:505 ../src/option.c:514
 msgid "NUMBER"
 msgstr "NUMBER"
 
-#: ../src/option.c:503
+#: ../src/option.c:513
 msgid "Hide a specific column"
 msgstr "একটি নির্দিষ্ট কলাম লুকানো হবে"
 
-#: ../src/option.c:512
+#: ../src/option.c:522
 msgid "Hides the column headers"
 msgstr "কলামের শীর্ষচরণ আড়াল করা হয়"
 
-#: ../src/option.c:527
+#: ../src/option.c:537
 msgid "Display notification"
 msgstr "ঘোষনা প্রদর্শন"
 
-#: ../src/option.c:536
+#: ../src/option.c:546
 msgid "Set the notification text"
 msgstr "ঘোষনাসূচক টেক্সট নির্ধারণ করুন"
 
-#: ../src/option.c:545
+#: ../src/option.c:555
 msgid "Listen for commands on stdin"
 msgstr "কমান্ডের জন্য stdin শোনা হবে"
 
-#: ../src/option.c:560
+#: ../src/option.c:570
 msgid "Display progress indication dialog"
 msgstr "অগ্রগতি সূচক ডায়ালগ প্রদর্শন"
 
-#: ../src/option.c:578
+#: ../src/option.c:588
 msgid "Set initial percentage"
 msgstr "প্রারম্ভিক শতাংশ নির্ধারণ করুন"
 
-#: ../src/option.c:579
+#: ../src/option.c:589
 msgid "PERCENTAGE"
 msgstr "PERCENTAGE"
 
-#: ../src/option.c:587
+#: ../src/option.c:597
 msgid "Pulsate progress bar"
 msgstr "অগ্রগতি বার কম্পিত করা হবে"
 
-#: ../src/option.c:597
+#: ../src/option.c:607
 #, no-c-format
 msgid "Dismiss the dialog when 100% has been reached"
 msgstr "১০০%-এ পৌঁছালে ডায়ালগ বন্ধ করে দেয়া হবে"
 
-#: ../src/option.c:607
+#: ../src/option.c:617
 #, no-c-format
-msgid "Kill parent process if cancel button is pressed"
-msgstr "বাতিল বোতামে ক্লিক করলে প্যারেন্ট প্রসেস বন্ধ করা হবে"
+msgid "Kill parent process if Cancel button is pressed"
+msgstr ""
 
-#: ../src/option.c:622
+#: ../src/option.c:627
+#, no-c-format
+msgid "Hide Cancel button"
+msgstr ""
+
+#: ../src/option.c:642
 msgid "Display question dialog"
 msgstr "প্রশ্নের ডায়ালগ প্রদর্শন"
 
-#: ../src/option.c:640
+#: ../src/option.c:660
 msgid "Sets the label of the Ok button"
 msgstr "\"ঠিক আছে\" বোতামের লেবেল নির্ধারণ করা হবে"
 
-#: ../src/option.c:649
+#: ../src/option.c:669
 msgid "Sets the label of the Cancel button"
 msgstr "\"বাতিল\" বোতামের লেবেল নির্ধারণ করা হবে"
 
-#: ../src/option.c:673
+#: ../src/option.c:693
 msgid "Display text information dialog"
 msgstr "টেক্সট তথ্যের ডায়ালগ প্রদর্শন"
 
-#: ../src/option.c:682
+#: ../src/option.c:702
 msgid "Open file"
 msgstr "ফাইল খুলুন"
 
-#: ../src/option.c:706
+#: ../src/option.c:726
 msgid "Display warning dialog"
 msgstr "সতর্কীকরণ ডায়ালগ প্রদর্শন"
 
-#: ../src/option.c:739
+#: ../src/option.c:759
 msgid "Display scale dialog"
 msgstr "আকার পরিবর্তনকারী ডায়ালগ প্রদর্শন"
 
-#: ../src/option.c:757
+#: ../src/option.c:777
 msgid "Set initial value"
 msgstr "প্রারম্ভিক মান নির্ধারণ করুন"
 
-#: ../src/option.c:758 ../src/option.c:767 ../src/option.c:776
-#: ../src/option.c:785
+#: ../src/option.c:778 ../src/option.c:787 ../src/option.c:796
+#: ../src/option.c:805 ../src/option.c:871
 msgid "VALUE"
 msgstr "VALUE"
 
-#: ../src/option.c:766
+#: ../src/option.c:786
 msgid "Set minimum value"
 msgstr "সর্বনিম্ন মান নির্ধারণ করুন"
 
-#: ../src/option.c:775
+#: ../src/option.c:795
 msgid "Set maximum value"
 msgstr "সর্বোচ্চ মান নির্ধারণ করুন"
 
-#: ../src/option.c:784
+#: ../src/option.c:804
 msgid "Set step size"
 msgstr "ধাপের আকার নির্ধারণ করুন"
 
-#: ../src/option.c:793
+#: ../src/option.c:813
 msgid "Print partial values"
 msgstr "আংশিক মান মুদ্রণ করা হবে"
 
-#: ../src/option.c:802
+#: ../src/option.c:822
 msgid "Hide value"
 msgstr "মান আড়াল করা হবে"
 
-#: ../src/option.c:817
+#: ../src/option.c:837
+msgid "Display password dialog"
+msgstr ""
+
+#: ../src/option.c:846
+msgid "Display the username option"
+msgstr ""
+
+#: ../src/option.c:861
+msgid "Display color selection dialog"
+msgstr ""
+
+#: ../src/option.c:870
+msgid "Set the color"
+msgstr ""
+
+#: ../src/option.c:879
+msgid "Show the palette"
+msgstr ""
+
+#: ../src/option.c:894
 msgid "About matedialog"
 msgstr "জেনিটি পরিচিতি"
 
-#: ../src/option.c:826
+#: ../src/option.c:903
 msgid "Print version"
 msgstr "মুদ্রণ সংস্করণ"
 
-#: ../src/option.c:1490
+#: ../src/option.c:1643
 msgid "General options"
 msgstr "সাধারণ অপশন"
 
-#: ../src/option.c:1491
+#: ../src/option.c:1644
 msgid "Show general options"
 msgstr "সাধারণ অপশন প্রদর্শন"
 
-#: ../src/option.c:1501
+#: ../src/option.c:1654
 msgid "Calendar options"
 msgstr "ক্যালেন্ডার অপশনসমূহ"
 
-#: ../src/option.c:1502
+#: ../src/option.c:1655
 msgid "Show calendar options"
 msgstr "ক্যালেন্ডার অপশনসমূহ প্রদর্শন"
 
-#: ../src/option.c:1512
+#: ../src/option.c:1665
 msgid "Text entry options"
 msgstr "টেক্সট এন্ট্রির অপশনসমূহ"
 
-#: ../src/option.c:1513
+#: ../src/option.c:1666
 msgid "Show text entry options"
 msgstr "টেক্সট এন্ট্রির অপশনসমূহ প্রদর্শন"
 
-#: ../src/option.c:1523
+#: ../src/option.c:1676
 msgid "Error options"
 msgstr "ত্রুটি সম্পর্কিত অপশনসমূহ"
 
-#: ../src/option.c:1524
+#: ../src/option.c:1677
 msgid "Show error options"
 msgstr "ত্রুটি সম্পর্কিত অপশনসমূহ প্রদর্শন"
 
-#: ../src/option.c:1534
+#: ../src/option.c:1687
 msgid "Info options"
 msgstr "তথ্য সম্পর্কিত অপশনসমূহ"
 
-#: ../src/option.c:1535
+#: ../src/option.c:1688
 msgid "Show info options"
 msgstr "তথ্য সম্পর্কিত অপশনসমূহ প্রদর্শন"
 
-#: ../src/option.c:1545
+#: ../src/option.c:1698
 msgid "File selection options"
 msgstr "ফাইল নির্বাচন অপশনসমূহ"
 
-#: ../src/option.c:1546
+#: ../src/option.c:1699
 msgid "Show file selection options"
 msgstr "ফাইল নির্বাচন অপশনসমূহ প্রদর্শন"
 
-#: ../src/option.c:1556
+#: ../src/option.c:1709
 msgid "List options"
 msgstr "তালিকা সম্পর্কিত অপশন"
 
-#: ../src/option.c:1557
+#: ../src/option.c:1710
 msgid "Show list options"
 msgstr "তালিকা সম্পর্কিত অপশন প্রদর্শন"
 
-#: ../src/option.c:1567
+#: ../src/option.c:1720
 msgid "Notification icon options"
 msgstr "ঘোষনাসূচক আইকন অপশন"
 
-#: ../src/option.c:1568
+#: ../src/option.c:1721
 msgid "Show notification icon options"
 msgstr "ঘোষনাসূচক আইকন অপশন প্রদর্শন"
 
-#: ../src/option.c:1578
+#: ../src/option.c:1731
 msgid "Progress options"
 msgstr "অগ্রগতি সম্পর্কিত অপশনসমূহ"
 
-#: ../src/option.c:1579
+#: ../src/option.c:1732
 msgid "Show progress options"
 msgstr "অগ্রগতি সম্পর্কিত অপশনসমূহ প্রদর্শন"
 
-#: ../src/option.c:1589
+#: ../src/option.c:1742
 msgid "Question options"
 msgstr "প্রশ্ন সম্পর্কিত অপশনসমূহ"
 
-#: ../src/option.c:1590
+#: ../src/option.c:1743
 msgid "Show question options"
 msgstr "প্রশ্ন সম্পর্কিত অপশনসমূহ প্রদর্শন"
 
-#: ../src/option.c:1600
+#: ../src/option.c:1753
 msgid "Warning options"
 msgstr "সতর্কীকরণ অপশনসমূহ"
 
-#: ../src/option.c:1601
+#: ../src/option.c:1754
 msgid "Show warning options"
 msgstr "সতর্কীকরণ অপশনসমূহ প্রদর্শন"
 
-#: ../src/option.c:1611
+#: ../src/option.c:1764
 msgid "Scale options"
 msgstr "আকার পরিবর্তনের অপশনসমূহ"
 
-#: ../src/option.c:1612
+#: ../src/option.c:1765
 msgid "Show scale options"
 msgstr "আকার পরিবর্তনের অপশনসমূহ প্রদর্শন"
 
-#: ../src/option.c:1622
+#: ../src/option.c:1775
 msgid "Text information options"
 msgstr "টেক্সটের তথ্য সম্পর্কিত অপশনসমূহ"
 
-#: ../src/option.c:1623
+#: ../src/option.c:1776
 msgid "Show text information options"
 msgstr "টেক্সটের তথ্য সম্পর্কিত অপশনসমূহ প্রদর্শন"
 
-#: ../src/option.c:1633
+#: ../src/option.c:1786
+msgid "Color selection options"
+msgstr ""
+
+#: ../src/option.c:1787
+msgid "Show color selection options"
+msgstr ""
+
+#: ../src/option.c:1797
+msgid "Password dialog options"
+msgstr ""
+
+#: ../src/option.c:1798
+msgid "Show password dialog options"
+msgstr ""
+
+#: ../src/option.c:1808
 msgid "Miscellaneous options"
 msgstr "বিবিধ অপশন"
 
-#: ../src/option.c:1634
+#: ../src/option.c:1809
 msgid "Show miscellaneous options"
 msgstr "বিবিধ অপশন প্রদর্শন"
 
-#: ../src/option.c:1659
+#: ../src/option.c:1834
 #, c-format
 msgid ""
 "This option is not available. Please see --help for all possible usages.\n"
-msgstr ""
-"এই অপশনটি পাওয়া যাচ্ছে না। সম্ভাব্য সকল ব্যবহারের জন্য অনুগ্রহ করে --সহায়তা "
-"দেখুন।\n"
+msgstr "এই অপশনটি পাওয়া যাচ্ছে না। সম্ভাব্য সকল ব্যবহারের জন্য অনুগ্রহ করে --সহায়তা দেখুন।\n"
 
-#: ../src/option.c:1663
+#: ../src/option.c:1838
 #, c-format
 msgid "--%s is not supported for this dialog\n"
 msgstr "--%s এই ডায়ালগের জন্য সমর্থিত নয়\n"
 
-#: ../src/option.c:1667
+#: ../src/option.c:1842
 #, c-format
 msgid "Two or more dialog options specified\n"
 msgstr "দুই বা ততোধিক ডায়ালগ অপশন উল্লেখ করা হয়েছে\n"
-
-#~ msgid "Select a file"
-#~ msgstr "একটি ফাইল নির্বাচন করুন"
-
-#~ msgid "Adjust the scale value."
-#~ msgstr "পরিবর্ধন মাপ পরিবর্তন করুন।"
-
-#~ msgid "(C) 2003 Sun Microsystems"
-#~ msgstr "(C) ২০০৩ সান মাইক্রোসিস্টেমস"
-
-#~ msgid "Credits"
-#~ msgstr "স্বীকৃতি"
-
-#~ msgid "Written by"
-#~ msgstr "লিখেছেন"
-
-#~ msgid "Translated by"
-#~ msgstr "অনুবাদ করেছেন"
-
-#~ msgid "Orientation"
-#~ msgstr "পারিপার্শ্বিক অবস্থান"
-
-#~ msgid "The orientation of the tray."
-#~ msgstr "ট্রে এর পারিপার্শ্বিক অবস্থান"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "About MateDialog"
-#~ msgstr "জেনিটি সম্বন্ধে"
-
-#~ msgid "_Credits"
-#~ msgstr "স্বীকৃতি (_স):"
-
-#~ msgid "Text options"
-#~ msgstr "টেক্সট সম্বন্ধীয় অপশন"
-
-#, fuzzy
-#~ msgid "Show text options"
-#~ msgstr "টেক্সট সম্বন্ধীয় অপশন"
-
-#~ msgid "Set output separator character."
-#~ msgstr "আউটপুট সেপারেটর ক্যারাক্টার নির্ধারণ করুন"
-
-#~ msgid "Gdk debugging flags to set"
-#~ msgstr "যে জি-ডি-কে ডিবাগিনংগ ফ্ল্যাগ নির্ধারন করা হবে"
-
-#~ msgid "FLAGS"
-#~ msgstr "ফ্ল্যাগ"
-
-#~ msgid "Gdk debugging flags to unset"
-#~ msgstr "যে জি-ডি-কে ডিবাগিনংগ ফ্ল্যাগ আনসেট করা হবে"
-
-#~ msgid "X display to use"
-#~ msgstr "যে এক্স ডিসপ্লে ব্যবহৃত হবে।"
-
-#~ msgid "DISPLAY"
-#~ msgstr "ডিসপ্লে"
-
-#~ msgid "X screen to use"
-#~ msgstr "যে এক্স স্ক্রিন ব্যবহৃত হবে"
-
-#~ msgid "SCREEN"
-#~ msgstr "স্ক্রিন"
-
-#~ msgid "Program name as used by the window manager"
-#~ msgstr "উইন্ডো ম্যানেজার প্রোগ্রাম-এর যা নাম ব্যবহার করবে"
-
-#~ msgid "NAME"
-#~ msgstr "নাম"
-
-#~ msgid "HOST"
-#~ msgstr "হোস্ট"
-
-#~ msgid "PORT"
-#~ msgstr "পোর্ট"
-
-#~ msgid "Dialog options"
-#~ msgstr "ডায়ালগ সম্বন্ধীয় অপশন"
-
-#~ msgid "GTK+ options"
-#~ msgstr "জিটিকে+ সম্বন্ধীয় অপশন"
-
-#~ msgid "Help options"
-#~ msgstr "সাহায্য সম্বন্ধীয় অপশন"
-
-#~ msgid "%s is an invalid option. See 'matedialog --help' for more details\n"
-#~ msgstr "%s বেঠিক অপশন। বিস্তারিত তথ্যের জন্য 'matedialog --help' দেখুন\n"
-
-#~ msgid "%s given twice for the same dialog\n"
-#~ msgstr "%s-কে একই ডায়ালগের জন্য দুইবার দেওয়া হয়েছে\n"

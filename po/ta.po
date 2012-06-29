@@ -1,63 +1,49 @@
-# translation of matedialog.HEAD.po to Tamil
-# Tamil translation of Tamil MateDialog 2.4.
-# Copyright (C) 2003, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
-#
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Dinesh Nadarajah <n_dinesh@yahoo.com>, 2003.
-# Jayaradha N <jaya@pune.redhat.com>, 2004.
-# Felix <ifelix@redhat.com>, 2006.
-# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2008, 2009, 2010.
 # Dr,T,Vasudevan <agnihot3@gmail.com>, 2010.
+# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2008, 2009, 2010.
+# Felix <ifelix@redhat.com>, 2006.
+# Jayaradha N <jaya@pune.redhat.com>, 2004.
 msgid ""
 msgstr ""
-"Project-Id-Version: matedialog.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-24 13:47+0530\n"
-"PO-Revision-Date: 2010-07-24 13:51+0530\n"
-"Last-Translator: Dr.T.Vasudevan <agnihot3@gmail.com>\n"
-"Language-Team: Tamil <<Ubuntu-l10n-tam@lists.ubuntu.com>>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:23+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"0500\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"\n"
-"\n"
-"\n"
+"Language: ta\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../src/about.c:64
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU Lesser General Public License as published by the "
-"Free Software Foundation; either version 2 of the License, or (at your "
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
 "option) any later version.\n"
-msgstr ""
-"இது இலவச மென் பொருளாகும். இலவச மென் பொருள் அமைப்பினால் வெளியிடப்பட்ட ஜிஎன்யு "
-"குறைவாபொது அனுமதிக்கான விதிகளின் படி இந்த 2ம் பதிப்பையோ / அல்லது அடுத்த பதிப்புகளையோ "
-"நீங்கள் மாற்றலாம். அல்லது மீண்டும் பறிமாறலாம்..\n"
+msgstr "இது இலவச மென் பொருளாகும். இலவச மென் பொருள் அமைப்பினால் வெளியிடப்பட்ட ஜிஎன்யு குறைவாபொது அனுமதிக்கான விதிகளின் படி இந்த 2ம் பதிப்பையோ / அல்லது அடுத்த பதிப்புகளையோ நீங்கள் மாற்றலாம். அல்லது மீண்டும் பறிமாறலாம்..\n"
 
 #: ../src/about.c:68
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License "
-"for more details.\n"
-msgstr ""
-"உபயோகப்படும் என்ற எதிர்பார்ப்புடன் இந்த நிரல் வெளியிடப்படுகிறது. ஆனால் விற்க தகுதி, "
-"குறிப்பிட்ட  செயலுக்கான தகுதி உள்பட எந்த உத்திரவாதமும் அளிக்கப்படவில்லை. மேற் கொண்டு "
-"விவரங்களுக்கு ஜிஎன்யு குறைந்த பொது அனுமதிக்கான விதிகளை பார்க்கவும்.\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
+msgstr "உபயோகப்படும் என்ற எதிர்பார்ப்புடன் இந்த நிரல் வெளியிடப்படுகிறது. ஆனால் விற்க தகுதி, குறிப்பிட்ட  செயலுக்கான தகுதி உள்பட எந்த உத்திரவாதமும் அளிக்கப்படவில்லை. மேற் கொண்டு விவரங்களுக்கு ஜிஎன்யு குறைந்த பொது அனுமதிக்கான விதிகளை பார்க்கவும்.\n"
 
 #: ../src/about.c:72
 msgid ""
 "You should have received a copy of the GNU Lesser General Public License "
 "along with this program; if not, write to the Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr ""
-"னஇந்த நிரலுடன்  ஜிஎன்யு குறைவா  பொது அனுமதிக்கான விதிகளின் பிரதி உங்களுக்கு "
-"கிடைத்திருக்க வேண்டும். இல்லையானால் கீழ் கண்ட முகவரிக்கு கடிதம் எழுதவும். Free Software "
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
-"USA."
+msgstr "னஇந்த நிரலுடன்  ஜிஎன்யு குறைவா  பொது அனுமதிக்கான விதிகளின் பிரதி உங்களுக்கு கிடைத்திருக்க வேண்டும். இல்லையானால் கீழ் கண்ட முகவரிக்கு கடிதம் எழுதவும். Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: ../src/about.c:265
 msgid "translator-credits"
@@ -383,9 +369,7 @@ msgstr "உரையில் மாற்றங்களை அனுமதி"
 msgid ""
 "Print a specific column (Default is 1. 'ALL' can be used to print all "
 "columns)"
-msgstr ""
-"நெடுவரிசை அச்சடித்தலை குறிப்பிடு (Default is 1. 'ALL' can be used to print all "
-"columns)"
+msgstr "நெடுவரிசை அச்சடித்தலை குறிப்பிடு (Default is 1. 'ALL' can be used to print all columns)"
 
 #. Column index number to print out on a list dialog
 #: ../src/option.c:505 ../src/option.c:514
@@ -658,7 +642,8 @@ msgstr "இதர விருப்பங்களை காட்டு"
 
 #: ../src/option.c:1834
 #, c-format
-msgid "This option is not available. Please see --help for all possible usages.\n"
+msgid ""
+"This option is not available. Please see --help for all possible usages.\n"
 msgstr "இந்த விருப்பம் இல்லை. அனைத்து பயன்பாடுகளுக்கும் உதவியை பார்க்கவும்.\n"
 
 #: ../src/option.c:1838
@@ -670,6 +655,3 @@ msgstr "--%s இந்த உரையாடலுக்கு துணைய�
 #, c-format
 msgid "Two or more dialog options specified\n"
 msgstr "இரண்டுக்கும் மேற்பட்ட உரையாடல் தேர்வுசெய்யப்பட்டது\n"
-
-#~ msgid "Select a file"
-#~ msgstr "கோப்பை தேர்வு செய்யவும்"

@@ -1,79 +1,52 @@
-# translation of bn_IN.po to Bengali INDIA
-# Bengali India translation of MateDialog.
-# Copyright (C) 2003 THE MateDialog'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the MateDialog package.
-#
-# Sayamindu Dasgupta <unmadindu@bengalinux.org>, 2003.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Mahay Alam Khan <makl10n@yahoo.com>, 2005.
-# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
 # Runa Bhattacharjee <runab@redhat.com>, 2007, 2008, 2010.
+# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
+# Sayamindu Dasgupta <unmadindu@bengalinux.org>, 2003.
 msgid ""
 msgstr ""
-"Project-Id-Version: bn_IN\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=matedialog&component=general\n"
-"POT-Creation-Date: 2010-07-22 22:51+0000\n"
-"PO-Revision-Date: 2010-08-10 12:10+0530\n"
-"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
-"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:22+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"\n"
-"\n"
-"\n"
+"Language: bn_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../src/about.c:64
-#| msgid ""
-#| "This program is free software; you can redistribute it and/or modify it "
-#| "under the terms of the GNU General Public License as published by the "
-#| "Free Software Foundation; either version 2 of the License, or (at your "
-#| "option) any later version.\n"
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU Lesser General Public License as published by the "
-"Free Software Foundation; either version 2 of the License, or (at your "
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
 "option) any later version.\n"
 msgstr "এই প্রোগ্রামটি একটি মুক্ত সফ্টওয়্যার; Free Software Foundation দ্বারা প্রকাশিত GNU Lesser General Public License-র শর্তানুযায়ী এটি বিতরণ ও পরিবর্তন করা যাবে; লাইনসেন্সের সংস্করণ ২ অথবা (আপনার সুবিধানুযায়ী) ঊর্ধ্বতন কোনো সংস্করণের অধীন।\n"
 
 #: ../src/about.c:68
-#| msgid ""
-#| "This program is distributed in the hope that it will be useful, but "
-#| "WITHOUT ANY WARRANTY; without even the implied warranty of "
-#| "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
-#| "Public License for more details.\n"
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License "
-"for more details.\n"
-msgstr ""
-"প্রোগ্রামটি বিতরণ করার মূল উদ্দেশ্য যে ব্যবহারকারীরা এর দ্বারা উপকৃত হবেন, কিন্তু এটির "
-"জন্য কোনো সুস্পষ্ট ওয়ারেন্টি উপস্থিত নেই; বাণিজ্যিক ও কোনো সুনির্দিষ্ট কর্ম সাধনের জন্য "
-"অন্তর্নিহীত ওয়ারেন্টিও অনুপস্থিত। অধিক জানতে GNU Lesser General Public License পড়ুন।\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
+msgstr "প্রোগ্রামটি বিতরণ করার মূল উদ্দেশ্য যে ব্যবহারকারীরা এর দ্বারা উপকৃত হবেন, কিন্তু এটির জন্য কোনো সুস্পষ্ট ওয়ারেন্টি উপস্থিত নেই; বাণিজ্যিক ও কোনো সুনির্দিষ্ট কর্ম সাধনের জন্য অন্তর্নিহীত ওয়ারেন্টিও অনুপস্থিত। অধিক জানতে GNU Lesser General Public License পড়ুন।\n"
 
 #: ../src/about.c:72
-#| msgid ""
-#| "You should have received a copy of the GNU General Public License along "
-#| "with this program; if not, write to the Free Software Foundation, Inc., "
-#| "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 msgid ""
 "You should have received a copy of the GNU Lesser General Public License "
 "along with this program; if not, write to the Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr ""
-"এই প্রোগ্রামের সাথে GNU Lesser General Public License-র একটি প্রতিলিপি উপলব্ধ হওয়া "
-"উচিত; না থাকলে নিম্নলিখিত ঠিকানায় লিখে তা সংগ্রহ করুন Free Software Foundation, "
-"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr "এই প্রোগ্রামের সাথে GNU Lesser General Public License-র একটি প্রতিলিপি উপলব্ধ হওয়া উচিত; না থাকলে নিম্নলিখিত ঠিকানায় লিখে তা সংগ্রহ করুন Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr ""
-"সায়মিন্দু দাশগুপ্ত <unmadindu@bengalinux.org> \n"
-"মাহে আলম খান <makl10n@yahoo.com> \n"
-"রুণা ভট্টাচার্য <runabh@gmail.com> \n"
-" (অঙ্কুর বাংলা প্রকল্পের তরফ থেকে)"
+msgstr "সায়মিন্দু দাশগুপ্ত <unmadindu@bengalinux.org> \nমাহে আলম খান <makl10n@yahoo.com> \nরুণা ভট্টাচার্য <runabh@gmail.com> \n (অঙ্কুর বাংলা প্রকল্পের তরফ থেকে)"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
@@ -82,9 +55,7 @@ msgstr "শেল স্ক্রিপ্ট থেকে প্রাপ্ত
 #: ../src/main.c:100
 #, c-format
 msgid "You must specify a dialog type. See 'matedialog --help' for details\n"
-msgstr ""
-"ডায়লগ বক্সের ধরন উল্লেখ করা আবশ্যক। বিস্তারিত জানতে 'matedialog --help' কমান্ডের "
-"ফলাফল পড়ুন\n"
+msgstr "ডায়লগ বক্সের ধরন উল্লেখ করা আবশ্যক। বিস্তারিত জানতে 'matedialog --help' কমান্ডের ফলাফল পড়ুন\n"
 
 #: ../src/notification.c:138
 #, c-format
@@ -93,7 +64,6 @@ msgstr "stdin থেকে কমান্ড পার্স করা যা�
 
 #: ../src/notification.c:177
 #, c-format
-#| msgid "could not parse command from stdin\n"
 msgid "Could not parse message from stdin\n"
 msgstr "stdin থেকে বার্তা পার্স করা যায়নি\n"
 
@@ -398,9 +368,7 @@ msgstr "টেক্সট পরিবর্তনের অনুমতি প
 msgid ""
 "Print a specific column (Default is 1. 'ALL' can be used to print all "
 "columns)"
-msgstr ""
-"একটি সুনির্দিষ্ট কলাম প্রিন্ট করুন। (ডিফল্ট মান 1 (১)। সব কলাম প্রিন্ট করার জন্য 'ALL' "
-"মান প্রয়োগ করুন)"
+msgstr "একটি সুনির্দিষ্ট কলাম প্রিন্ট করুন। (ডিফল্ট মান 1 (১)। সব কলাম প্রিন্ট করার জন্য 'ALL' মান প্রয়োগ করুন)"
 
 #. Column index number to print out on a list dialog
 #: ../src/option.c:505 ../src/option.c:514
@@ -412,7 +380,6 @@ msgid "Hide a specific column"
 msgstr "একটি নির্দিষ্ট কলাম আড়াল করুন"
 
 #: ../src/option.c:522
-#| msgid "Set the column header"
 msgid "Hides the column headers"
 msgstr "কলামের হেডার আড়াল করতে ব্যবহৃত"
 
@@ -451,7 +418,6 @@ msgstr "১০০% সম্পূর্ণ হলে ডায়লগ বক্�
 
 #: ../src/option.c:617
 #, no-c-format
-#| msgid "Kill parent process if cancel button is pressed"
 msgid "Kill parent process if Cancel button is pressed"
 msgstr "বাতিল শীর্ষক বাটন টেপা হলে প্যারেন্ট প্রসেস kill করা হবে"
 
@@ -518,27 +484,22 @@ msgid "Hide value"
 msgstr "মান আড়াল করুন"
 
 #: ../src/option.c:837
-#| msgid "Display error dialog"
 msgid "Display password dialog"
 msgstr "পাসওয়ার্ড ডায়লগ প্রদর্শন করা হবেহবে"
 
 #: ../src/option.c:846
-#| msgid "Display text entry dialog"
 msgid "Display the username option"
 msgstr "ব্যবহারকারীর নাম লেখার বিকল্প প্রদর্শন করা হবে"
 
 #: ../src/option.c:861
-#| msgid "Display file selection dialog"
 msgid "Display color selection dialog"
 msgstr "রং নির্বাচনের ডায়লগ বক্স প্রদর্শন করা হবে"
 
 #: ../src/option.c:870
-#| msgid "Set the column header"
 msgid "Set the color"
 msgstr "রং নির্ধারণ করুন"
 
 #: ../src/option.c:879
-#| msgid "Set the dialog title"
 msgid "Show the palette"
 msgstr "প্যালেট প্রদর্শন করা হবে"
 
@@ -655,22 +616,18 @@ msgid "Show text information options"
 msgstr "টেক্সট সম্বন্ধীয় তথ্যের বিকল্প প্রদর্শন করা হবে"
 
 #: ../src/option.c:1786
-#| msgid "File selection options"
 msgid "Color selection options"
 msgstr "রং নির্বাচন সংক্রান্ত বিকল্প"
 
 #: ../src/option.c:1787
-#| msgid "Show file selection options"
 msgid "Show color selection options"
 msgstr "রং নির্বাচন সংক্রান্ত বিকল্প প্রদর্শন করা হবে"
 
 #: ../src/option.c:1797
-#| msgid "Warning options"
 msgid "Password dialog options"
 msgstr "পাসওয়ার্ড ডায়লগ সংক্রান্ত বিকল্প"
 
 #: ../src/option.c:1798
-#| msgid "Show warning options"
 msgid "Show password dialog options"
 msgstr "পাসওয়ার্ড ডায়লগ সম্বন্ধীয় বিকল্প প্রদর্শন করা হবে"
 
@@ -684,10 +641,9 @@ msgstr "বিবিধ বিকল্প প্রদর্শন করা �
 
 #: ../src/option.c:1834
 #, c-format
-msgid "This option is not available. Please see --help for all possible usages.\n"
-msgstr ""
-"এই বিকল্পটি উপলব্ধ নয়। সর্বধরনের ব্যবহার প্রণালী জানতে অনুগ্রহ করে --help বিকল্পের "
-"ফলাফল পড়ুন।\n"
+msgid ""
+"This option is not available. Please see --help for all possible usages.\n"
+msgstr "এই বিকল্পটি উপলব্ধ নয়। সর্বধরনের ব্যবহার প্রণালী জানতে অনুগ্রহ করে --help বিকল্পের ফলাফল পড়ুন।\n"
 
 #: ../src/option.c:1838
 #, c-format
@@ -698,4 +654,3 @@ msgstr "--%s বর্তমান ডায়লগ বক্সের জন্�
 #, c-format
 msgid "Two or more dialog options specified\n"
 msgstr "ডায়লগ বক্সের ক্ষেত্রে দুই অথবা অধিক বিকল্প উল্লিখিত হয়েছে\n"
-

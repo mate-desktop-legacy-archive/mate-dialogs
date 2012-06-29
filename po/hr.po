@@ -1,596 +1,652 @@
-# Translation of matedialog to Croatiann
-# Copyright (C) Croatiann team
-# Translators: Automatski Prijevod <>,Robert Sedak <robert.sedak@sk.tel.hr>,
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: matedialog 0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-09-09 19:41+0200\n"
-"PO-Revision-Date: 2008-04-14 17:08+0000\n"
-"Last-Translator: Launchpad Translations Administrators <rosetta@launchpad."
-"net>\n"
-"Language-Team: Croatian <lokalizacija@linux.hr>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:23+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Croatian (http://www.transifex.com/projects/p/MATE/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2008-05-28 07:39+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
 
-#: ../src/about.c:65
+#: ../src/about.c:64
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License as published by the Free "
-"Software Foundation; either version 2 of the License, or (at your option) "
-"any later version.\n"
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
+"option) any later version.\n"
 msgstr ""
 
-#: ../src/about.c:69
+#: ../src/about.c:68
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-"more details.\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
 msgstr ""
 
-#: ../src/about.c:73
+#: ../src/about.c:72
 msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+"You should have received a copy of the GNU Lesser General Public License "
+"along with this program; if not, write to the Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 msgstr ""
 
-#: ../src/about.c:264
+#: ../src/about.c:265
 msgid "translator-credits"
-msgstr ""
-"lokalizacija@linux.hr\n"
-"  Robert Sedak <robert.sedak@sk.t-com.hr>\n"
-"\n"
-"Launchpad Contributions:\n"
-"  Ante Karamatić https://launchpad.net/~ivoks\n"
-"  Launchpad Translations Administrators https://launchpad.net/~rosetta-admins"
+msgstr "lokalizacija@linux.hr\n  Robert Sedak <robert.sedak@sk.t-com.hr>\n\nLaunchpad Contributions:\n  Ante Karamatić https://launchpad.net/~ivoks\n  Launchpad Translations Administrators https://launchpad.net/~rosetta-admins"
 
-#: ../src/about.c:276
+#: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
 msgstr "Prikaši dijaloški prozor iz skripti ljuske"
 
-#: ../src/main.c:94
+#: ../src/main.c:100
+#, c-format
 msgid "You must specify a dialog type. See 'matedialog --help' for details\n"
-msgstr ""
-"Morate odrediti vrstu dijaloga. Za detalje pogledajte 'matedialog --hepl'\n"
+msgstr "Morate odrediti vrstu dijaloga. Za detalje pogledajte 'matedialog --hepl'\n"
 
-#: ../src/notification.c:139
+#: ../src/notification.c:138
+#, c-format
 msgid "could not parse command from stdin\n"
 msgstr "ne mogu isčitati naredbu sa stdin-a\n"
 
-#: ../src/notification.c:252 ../src/notification.c:269
+#: ../src/notification.c:177
+#, c-format
+msgid "Could not parse message from stdin\n"
+msgstr ""
+
+#: ../src/notification.c:262 ../src/notification.c:279
 msgid "MateDialog notification"
 msgstr "MateDialog obavještavanje"
 
+#: ../src/password.c:64
+msgid "Type your password"
+msgstr ""
+
+#: ../src/password.c:99
+msgid "Username:"
+msgstr ""
+
+#: ../src/password.c:115
+msgid "Password:"
+msgstr ""
+
 #: ../src/scale.c:56
+#, c-format
 msgid "Maximum value must be greater than minimum value.\n"
 msgstr "Najveća vrijednost mora biti veća od najmanje vrijednosti.\n"
 
 #: ../src/scale.c:63
+#, c-format
 msgid "Value out of range.\n"
 msgstr "Vrijednost izvan opsega.\n"
 
-#: ../src/tree.c:320
+#: ../src/tree.c:321
+#, c-format
 msgid "No column titles specified for List dialog.\n"
 msgstr "Nije označen niti jedan stupac za dijalog popisa.\n"
 
-#: ../src/tree.c:326
+#: ../src/tree.c:327
+#, c-format
 msgid "You should use only one List dialog type.\n"
 msgstr "Trebali biste koristiti samo jedan tip List dijaloga.\n"
 
-#: ../src/matedialog.glade.h:1
+#: ../src/matedialog.ui.h:1
 msgid "Add a new entry"
 msgstr "Dodaj novu stavku"
 
-#: ../src/matedialog.glade.h:2
+#: ../src/matedialog.ui.h:2
 msgid "Adjust the scale value"
 msgstr "Prilagodi vrijednost ljestvice"
 
-#: ../src/matedialog.glade.h:3
+#: ../src/matedialog.ui.h:3
 msgid "All updates are complete."
 msgstr "Gotove su sve obnove."
 
-#: ../src/matedialog.glade.h:4
+#: ../src/matedialog.ui.h:4
 msgid "An error has occurred."
 msgstr "Dogodila se greška."
 
-#: ../src/matedialog.glade.h:5
+#: ../src/matedialog.ui.h:5
 msgid "Are you sure you want to proceed?"
 msgstr "Sigurni ste da želite nastaviti?"
 
-#: ../src/matedialog.glade.h:6
+#: ../src/matedialog.ui.h:6
 msgid "C_alendar:"
 msgstr "K_alendar"
 
-#: ../src/matedialog.glade.h:7
+#: ../src/matedialog.ui.h:7
 msgid "Calendar selection"
 msgstr "Odabir kalendara"
 
-#: ../src/matedialog.glade.h:8
+#: ../src/matedialog.ui.h:8
 msgid "Error"
 msgstr "Greška"
 
-#: ../src/matedialog.glade.h:9
+#: ../src/matedialog.ui.h:9
 msgid "Information"
 msgstr "Informacije"
 
-#: ../src/matedialog.glade.h:10
+#: ../src/matedialog.ui.h:10
 msgid "Progress"
 msgstr "Napredak"
 
-#: ../src/matedialog.glade.h:11
+#: ../src/matedialog.ui.h:11
 msgid "Question"
 msgstr "Pitanje"
 
-#: ../src/matedialog.glade.h:12
+#: ../src/matedialog.ui.h:12
 msgid "Running..."
 msgstr "Pokrećem..."
 
-#: ../src/matedialog.glade.h:13
+#: ../src/matedialog.ui.h:13
 msgid "Select a date from below."
 msgstr "Označite dolje prikazani datum."
 
-#: ../src/matedialog.glade.h:14
-msgid "Select a file"
-msgstr "Odaberite datoteku"
-
-#: ../src/matedialog.glade.h:15
+#: ../src/matedialog.ui.h:14
 msgid "Select items from the list"
 msgstr "Označite stavke s popisa"
 
-#: ../src/matedialog.glade.h:16
+#: ../src/matedialog.ui.h:15
 msgid "Select items from the list below."
 msgstr "Označite stavke s donjeg popisa."
 
-#: ../src/matedialog.glade.h:17
+#: ../src/matedialog.ui.h:16
 msgid "Text View"
 msgstr "Pogled teksta"
 
-#: ../src/matedialog.glade.h:18
+#: ../src/matedialog.ui.h:17
 msgid "Warning"
 msgstr "Upozorenje"
 
-#: ../src/matedialog.glade.h:19
+#: ../src/matedialog.ui.h:18
 msgid "_Enter new text:"
 msgstr "_Upišite novi tekst:"
 
-#: ../src/option.c:120
+#: ../src/option.c:131
 msgid "Set the dialog title"
 msgstr "Postavite naslov dijaloga"
 
-#: ../src/option.c:121
+#: ../src/option.c:132
 msgid "TITLE"
 msgstr "NASLOV"
 
-#: ../src/option.c:129
+#: ../src/option.c:140
 msgid "Set the window icon"
 msgstr "Postavice sličicu prozora"
 
-#: ../src/option.c:130
+#: ../src/option.c:141
 msgid "ICONPATH"
 msgstr "ICONPATH"
 
-#: ../src/option.c:138
+#: ../src/option.c:149
 msgid "Set the width"
 msgstr "Postavite širinu"
 
-#: ../src/option.c:139
+#: ../src/option.c:150
 msgid "WIDTH"
 msgstr "ŠIRINA"
 
-#: ../src/option.c:147
+#: ../src/option.c:158
 msgid "Set the height"
 msgstr "Postavite veličinu"
 
-#: ../src/option.c:148
+#: ../src/option.c:159
 msgid "HEIGHT"
 msgstr "VISINA"
 
-#: ../src/option.c:156
+#: ../src/option.c:167
 msgid "Set dialog timeout in seconds"
 msgstr ""
 
 #. Timeout for closing the dialog
-#: ../src/option.c:158
+#: ../src/option.c:169
 msgid "TIMEOUT"
 msgstr ""
 
-#: ../src/option.c:172
+#: ../src/option.c:183
 msgid "Display calendar dialog"
 msgstr "Prikaži dijalog kalendara"
 
-#: ../src/option.c:181 ../src/option.c:241 ../src/option.c:284
-#: ../src/option.c:317 ../src/option.c:428 ../src/option.c:558
-#: ../src/option.c:620 ../src/option.c:704 ../src/option.c:737
+#: ../src/option.c:192 ../src/option.c:252 ../src/option.c:295
+#: ../src/option.c:328 ../src/option.c:440 ../src/option.c:579
+#: ../src/option.c:651 ../src/option.c:735 ../src/option.c:768
 msgid "Set the dialog text"
 msgstr "Postavite tekst dijaloga"
 
-#: ../src/option.c:182 ../src/option.c:242 ../src/option.c:251
-#: ../src/option.c:260 ../src/option.c:285 ../src/option.c:318
-#: ../src/option.c:429 ../src/option.c:526 ../src/option.c:559
-#: ../src/option.c:621 ../src/option.c:630 ../src/option.c:639
-#: ../src/option.c:705 ../src/option.c:738
+#: ../src/option.c:193 ../src/option.c:253 ../src/option.c:262
+#: ../src/option.c:296 ../src/option.c:329 ../src/option.c:441
+#: ../src/option.c:547 ../src/option.c:580 ../src/option.c:652
+#: ../src/option.c:661 ../src/option.c:670 ../src/option.c:736
+#: ../src/option.c:769
 msgid "TEXT"
 msgstr ""
 
-#: ../src/option.c:190
+#: ../src/option.c:201
 msgid "Set the calendar day"
 msgstr "Postavite dan kalendara"
 
-#: ../src/option.c:191
+#: ../src/option.c:202
 msgid "DAY"
 msgstr ""
 
-#: ../src/option.c:199
+#: ../src/option.c:210
 msgid "Set the calendar month"
 msgstr "Postavite mjesec kalendara"
 
-#: ../src/option.c:200
+#: ../src/option.c:211
 msgid "MONTH"
 msgstr ""
 
-#: ../src/option.c:208
+#: ../src/option.c:219
 msgid "Set the calendar year"
 msgstr "Postavite godinu kalendara"
 
-#: ../src/option.c:209
+#: ../src/option.c:220
 msgid "YEAR"
 msgstr ""
 
-#: ../src/option.c:217
+#: ../src/option.c:228
 msgid "Set the format for the returned date"
 msgstr "Postavite oblik vraćenog datuma"
 
-#: ../src/option.c:218
+#: ../src/option.c:229
 msgid "PATTERN"
 msgstr ""
 
-#: ../src/option.c:232
+#: ../src/option.c:243
 msgid "Display text entry dialog"
 msgstr "Prikaži dijalog upisa teksta"
 
-#: ../src/option.c:250
+#: ../src/option.c:261
 msgid "Set the entry text"
 msgstr "Postavite upisivanje teksta"
 
-#: ../src/option.c:259
+#: ../src/option.c:270
 msgid "Hide the entry text"
 msgstr "Sakrij upisani tekst"
 
-#: ../src/option.c:275
+#: ../src/option.c:286
 msgid "Display error dialog"
 msgstr "Prikaži dijalog greške"
 
-#: ../src/option.c:293 ../src/option.c:326 ../src/option.c:647
-#: ../src/option.c:713
+#: ../src/option.c:304 ../src/option.c:337 ../src/option.c:678
+#: ../src/option.c:744
 msgid "Do not enable text wrapping"
 msgstr "Ne omogućuj sažimanje teksta"
 
-#: ../src/option.c:308
+#: ../src/option.c:319
 msgid "Display info dialog"
 msgstr "Prikaži dijalog s informacijama"
 
-#: ../src/option.c:341
+#: ../src/option.c:352
 msgid "Display file selection dialog"
 msgstr "Prikaži dijalog odabira datoteka"
 
-#: ../src/option.c:350
+#: ../src/option.c:361
 msgid "Set the filename"
 msgstr "Postavite naziv datoteke"
 
-#: ../src/option.c:351 ../src/option.c:672
+#: ../src/option.c:362 ../src/option.c:703
 msgid "FILENAME"
 msgstr "IME DATOTEKE"
 
-#: ../src/option.c:359
+#: ../src/option.c:370
 msgid "Allow multiple files to be selected"
 msgstr "Omogući odabir više datoteka"
 
-#: ../src/option.c:368
+#: ../src/option.c:379
 msgid "Activate directory-only selection"
 msgstr "Aktiviraj samo-direktorij odabir"
 
-#: ../src/option.c:377
+#: ../src/option.c:388
 msgid "Activate save mode"
 msgstr "Aktiviraj način \"spremanje\""
 
-#: ../src/option.c:386 ../src/option.c:464
+#: ../src/option.c:397 ../src/option.c:476
 msgid "Set output separator character"
 msgstr "Postavite izlazni znak razdjeljivanja"
 
-#: ../src/option.c:387 ../src/option.c:465
+#: ../src/option.c:398 ../src/option.c:477
 msgid "SEPARATOR"
 msgstr "SEPARATOR"
 
-#: ../src/option.c:395
+#: ../src/option.c:406
 msgid "Confirm file selection if filename already exists"
 msgstr ""
 
-#: ../src/option.c:404
+#: ../src/option.c:415
 msgid "Sets a filename filter"
 msgstr "Postavlja filter datoteka"
 
-#: ../src/option.c:405
+#. Help for file-filter argument (name and patterns for file selection)
+#: ../src/option.c:417
 msgid "NAME | PATTERN1 PATTERN2 ..."
 msgstr ""
 
-#: ../src/option.c:419
+#: ../src/option.c:431
 msgid "Display list dialog"
 msgstr "Prikaži dijalog s popisom"
 
-#: ../src/option.c:437
+#: ../src/option.c:449
 msgid "Set the column header"
 msgstr "Postavite zaglavlje stupca"
 
-#: ../src/option.c:438
+#: ../src/option.c:450
 msgid "COLUMN"
 msgstr ""
 
-#: ../src/option.c:446
+#: ../src/option.c:458
 msgid "Use check boxes for first column"
 msgstr "Koristite potvrdni okvir za prvi stupac"
 
-#: ../src/option.c:455
+#: ../src/option.c:467
 msgid "Use radio buttons for first column"
 msgstr "Koristite redijske gumbe za prvi stupac"
 
-#: ../src/option.c:473
+#: ../src/option.c:485
 msgid "Allow multiple rows to be selected"
 msgstr "Dozvoli odabir više redaka"
 
-#: ../src/option.c:482 ../src/option.c:680
+#: ../src/option.c:494 ../src/option.c:711
 msgid "Allow changes to text"
 msgstr "Omogući promjenu teksta"
 
-#: ../src/option.c:491
+#: ../src/option.c:503
 msgid ""
 "Print a specific column (Default is 1. 'ALL' can be used to print all "
 "columns)"
-msgstr ""
-"Ispiši određeni stupac (Uobičajeno je 1. 'ALL' se koristi za ispis svih "
-"stupaca)"
+msgstr "Ispiši određeni stupac (Uobičajeno je 1. 'ALL' se koristi za ispis svih stupaca)"
 
 #. Column index number to print out on a list dialog
-#: ../src/option.c:493 ../src/option.c:502
+#: ../src/option.c:505 ../src/option.c:514
 msgid "NUMBER"
 msgstr ""
 
-#: ../src/option.c:501
+#: ../src/option.c:513
 msgid "Hide a specific column"
 msgstr "Sakrij određeni stupac"
 
-#: ../src/option.c:516
+#: ../src/option.c:522
+msgid "Hides the column headers"
+msgstr ""
+
+#: ../src/option.c:537
 msgid "Display notification"
 msgstr "Prikaži obavještavanje"
 
-#: ../src/option.c:525
+#: ../src/option.c:546
 msgid "Set the notification text"
 msgstr "Postavi tekst obavještavanja"
 
-#: ../src/option.c:534
+#: ../src/option.c:555
 msgid "Listen for commands on stdin"
 msgstr "Slušaj naredbe sa stdin-a"
 
-#: ../src/option.c:549
+#: ../src/option.c:570
 msgid "Display progress indication dialog"
 msgstr "Prikaži dijalog s pokazivačem napretka"
 
-#: ../src/option.c:567
+#: ../src/option.c:588
 msgid "Set initial percentage"
 msgstr "Postavite početni postotak"
 
-#: ../src/option.c:568
+#: ../src/option.c:589
 msgid "PERCENTAGE"
 msgstr ""
 
-#: ../src/option.c:576
+#: ../src/option.c:597
 msgid "Pulsate progress bar"
 msgstr "Pulsirajuća traka napretka"
 
-#: ../src/option.c:586
+#: ../src/option.c:607
 #, no-c-format
 msgid "Dismiss the dialog when 100% has been reached"
 msgstr "Zatvori dijalog kad je dosegnuto 100%."
 
-#: ../src/option.c:596
+#: ../src/option.c:617
 #, no-c-format
-msgid "Kill parent process if cancel button is pressed"
+msgid "Kill parent process if Cancel button is pressed"
 msgstr ""
 
-#: ../src/option.c:611
+#: ../src/option.c:627
+#, no-c-format
+msgid "Hide Cancel button"
+msgstr ""
+
+#: ../src/option.c:642
 msgid "Display question dialog"
 msgstr "Prikaži dijalog upita"
 
-#: ../src/option.c:629
+#: ../src/option.c:660
 msgid "Sets the label of the Ok button"
 msgstr "Postavlja tekst na tipku OK"
 
-#: ../src/option.c:638
+#: ../src/option.c:669
 msgid "Sets the label of the Cancel button"
 msgstr ""
 
-#: ../src/option.c:662
+#: ../src/option.c:693
 msgid "Display text information dialog"
 msgstr "Prikaži dijalog s tekstualnom informacijom"
 
-#: ../src/option.c:671
+#: ../src/option.c:702
 msgid "Open file"
 msgstr "Otvori datoteku"
 
-#: ../src/option.c:695
+#: ../src/option.c:726
 msgid "Display warning dialog"
 msgstr "Prikaži dijalog upozorenja"
 
-#: ../src/option.c:728
+#: ../src/option.c:759
 msgid "Display scale dialog"
 msgstr "Prikaži dijalog ljestvice"
 
-#: ../src/option.c:746
+#: ../src/option.c:777
 msgid "Set initial value"
 msgstr "Postavi početnu vrijednost"
 
-#: ../src/option.c:747 ../src/option.c:756 ../src/option.c:765
-#: ../src/option.c:774
+#: ../src/option.c:778 ../src/option.c:787 ../src/option.c:796
+#: ../src/option.c:805 ../src/option.c:871
 msgid "VALUE"
 msgstr ""
 
-#: ../src/option.c:755
+#: ../src/option.c:786
 msgid "Set minimum value"
 msgstr "Postavi najmanju vrijednost"
 
-#: ../src/option.c:764
+#: ../src/option.c:795
 msgid "Set maximum value"
 msgstr "Postavi najveću vrijednost"
 
-#: ../src/option.c:773
+#: ../src/option.c:804
 msgid "Set step size"
 msgstr "Postavi veličinu koraka"
 
-#: ../src/option.c:782
+#: ../src/option.c:813
 msgid "Print partial values"
 msgstr "Ispiši parcijalne vrijednosti"
 
-#: ../src/option.c:791
+#: ../src/option.c:822
 msgid "Hide value"
 msgstr "Sakrij vrijednosti"
 
-#: ../src/option.c:806
+#: ../src/option.c:837
+msgid "Display password dialog"
+msgstr ""
+
+#: ../src/option.c:846
+msgid "Display the username option"
+msgstr ""
+
+#: ../src/option.c:861
+msgid "Display color selection dialog"
+msgstr ""
+
+#: ../src/option.c:870
+msgid "Set the color"
+msgstr ""
+
+#: ../src/option.c:879
+msgid "Show the palette"
+msgstr ""
+
+#: ../src/option.c:894
 msgid "About matedialog"
 msgstr "O MateDialog"
 
-#: ../src/option.c:815
+#: ../src/option.c:903
 msgid "Print version"
 msgstr "Ispiši inačicu"
 
-#: ../src/option.c:1470
+#: ../src/option.c:1643
 msgid "General options"
 msgstr "Općenite odrednice"
 
-#: ../src/option.c:1471
+#: ../src/option.c:1644
 msgid "Show general options"
 msgstr "Pokaži opće opcije"
 
-#: ../src/option.c:1481
+#: ../src/option.c:1654
 msgid "Calendar options"
 msgstr "Mogućnosti kalendara"
 
-#: ../src/option.c:1482
+#: ../src/option.c:1655
 msgid "Show calendar options"
 msgstr "Pokaži opcije kalendara"
 
-#: ../src/option.c:1492
+#: ../src/option.c:1665
 msgid "Text entry options"
 msgstr "Mogućnosti upisa teksta"
 
-#: ../src/option.c:1493
+#: ../src/option.c:1666
 msgid "Show text entry options"
 msgstr "Pokaži opcije unosa teksta"
 
-#: ../src/option.c:1503
+#: ../src/option.c:1676
 msgid "Error options"
 msgstr "Mogućnosti greške"
 
-#: ../src/option.c:1504
+#: ../src/option.c:1677
 msgid "Show error options"
 msgstr "Pokaži opcije grešaka"
 
-#: ../src/option.c:1514
+#: ../src/option.c:1687
 msgid "Info options"
 msgstr "Mogućnosti informacija"
 
-#: ../src/option.c:1515
+#: ../src/option.c:1688
 msgid "Show info options"
 msgstr "Pokaži info opcije"
 
-#: ../src/option.c:1525
+#: ../src/option.c:1698
 msgid "File selection options"
 msgstr "Mogućnosti odabira datoteke"
 
-#: ../src/option.c:1526
+#: ../src/option.c:1699
 msgid "Show file selection options"
 msgstr "Pokaži opcije odabira datoteka"
 
-#: ../src/option.c:1536
+#: ../src/option.c:1709
 msgid "List options"
 msgstr "Mogućnosti popisa"
 
-#: ../src/option.c:1537
+#: ../src/option.c:1710
 msgid "Show list options"
 msgstr "Pokaži opcije izlistavanja"
 
-#: ../src/option.c:1547
+#: ../src/option.c:1720
 msgid "Notification icon options"
 msgstr "Opcije ikone obavještavanja"
 
-#: ../src/option.c:1548
+#: ../src/option.c:1721
 msgid "Show notification icon options"
 msgstr "Pokaži opcije ikone obavještavanja"
 
-#: ../src/option.c:1558
+#: ../src/option.c:1731
 msgid "Progress options"
 msgstr "Mogućnosti napretka"
 
-#: ../src/option.c:1559
+#: ../src/option.c:1732
 msgid "Show progress options"
 msgstr "Pokaži opcije napretka"
 
-#: ../src/option.c:1569
+#: ../src/option.c:1742
 msgid "Question options"
 msgstr "Mogućnosti pitanja"
 
-#: ../src/option.c:1570
+#: ../src/option.c:1743
 msgid "Show question options"
 msgstr "Pokaži opcije pitanja"
 
-#: ../src/option.c:1580
+#: ../src/option.c:1753
 msgid "Warning options"
 msgstr "Mogućnosti upozorenja"
 
-#: ../src/option.c:1581
+#: ../src/option.c:1754
 msgid "Show warning options"
 msgstr "Pokaži opcije upozorenja"
 
-#: ../src/option.c:1591
+#: ../src/option.c:1764
 msgid "Scale options"
 msgstr "Opcije ljestvice"
 
-#: ../src/option.c:1592
+#: ../src/option.c:1765
 msgid "Show scale options"
 msgstr "Pokaži opcije ljestvice"
 
-#: ../src/option.c:1602
+#: ../src/option.c:1775
 msgid "Text information options"
 msgstr "Pokaži opcije informacija"
 
-#: ../src/option.c:1603
+#: ../src/option.c:1776
 msgid "Show text information options"
 msgstr "Pokaži opcije informacija teksta"
 
-#: ../src/option.c:1613
+#: ../src/option.c:1786
+msgid "Color selection options"
+msgstr ""
+
+#: ../src/option.c:1787
+msgid "Show color selection options"
+msgstr ""
+
+#: ../src/option.c:1797
+msgid "Password dialog options"
+msgstr ""
+
+#: ../src/option.c:1798
+msgid "Show password dialog options"
+msgstr ""
+
+#: ../src/option.c:1808
 msgid "Miscellaneous options"
 msgstr "Razne odrednice"
 
-#: ../src/option.c:1614
+#: ../src/option.c:1809
 msgid "Show miscellaneous options"
 msgstr "Pokaži razne opcije"
 
-#: ../src/option.c:1639
+#: ../src/option.c:1834
+#, c-format
 msgid ""
 "This option is not available. Please see --help for all possible usages.\n"
-msgstr ""
-"Ova opcija nije dostupna. Molim koristite --help za moguće načine uporabe.\n"
+msgstr "Ova opcija nije dostupna. Molim koristite --help za moguće načine uporabe.\n"
 
-#: ../src/option.c:1643
+#: ../src/option.c:1838
 #, c-format
 msgid "--%s is not supported for this dialog\n"
 msgstr "--%s nije podržan u ovom dijalogu\n"
 
-#: ../src/option.c:1647
+#: ../src/option.c:1842
+#, c-format
 msgid "Two or more dialog options specified\n"
 msgstr "Određene su dvije ili više mogućnosti dijaloga\n"

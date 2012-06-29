@@ -1,70 +1,52 @@
-# Dutch translation of matedialog.
-#
-# This file is distributed under the same license as the matedialog package.
-#
-# Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>, 2003
-# Vincent van Adrighem <adrighem@gnome.org>, 2004, 2005
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Reinout van Schouwen <reinouts@gnome.org>, 2010.
+# Vincent van Adrighem <adrighem@gnome.org>, 2004, 2005.
+# Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>, 2003.
 # Wouter Bolsterlee <wbolster@gnome.org>, 2007, 2010.
-# Reinout van Schouwen <reinouts@gnome.org>, 2010
-# Tino Meinen <a.t.meinen@chello.nl>. 2008
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: MateDialog\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=matedialog&component=general\n"
-"POT-Creation-Date: 2010-09-19 20:07+0000\n"
-"PO-Revision-Date: 2010-03-30 18:14+0200\n"
-"Last-Translator: Reinout van Schouwen <reinouts@gnome.org>\n"
-"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:22+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Dutch (http://www.transifex.com/projects/p/MATE/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../src/about.c:64
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU Lesser General Public License as published by the "
-"Free Software Foundation; either version 2 of the License, or (at your "
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
 "option) any later version.\n"
-msgstr ""
-"This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU Lesser General Public License as published by the "
-"Free Software Foundation; either version 2 of the License, or (at your "
-"option) any later version.\n"
+msgstr "This program is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n"
 
 #: ../src/about.c:68
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License "
-"for more details.\n"
-msgstr ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License "
-"for more details.\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
+msgstr "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.\n"
 
 #: ../src/about.c:72
 msgid ""
 "You should have received a copy of the GNU Lesser General Public License "
 "along with this program; if not, write to the Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr ""
-"You should have received a copy of the GNU Lesser General Public License "
-"along with this program; if not, write to the Free Software Foundation, "
-"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr "You should have received a copy of the GNU Lesser General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr ""
-"Vincent van Adrighem\n"
-"Reinout van Schouwen\n"
-"Wouter Bolsterlee\n"
-"Tino Meinen\n"
-"\n"
-"Kijk voor meer info op http://nl.gnome.org/"
+msgstr "Vincent van Adrighem\nReinout van Schouwen\nWouter Bolsterlee\nTino Meinen\n\nKijk voor meer info op http://nl.gnome.org/"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
@@ -73,9 +55,7 @@ msgstr "Dialoogvenster weergeven vanuit shellscripts"
 #: ../src/main.c:100
 #, c-format
 msgid "You must specify a dialog type. See 'matedialog --help' for details\n"
-msgstr ""
-"U moet een type dialoogvenster meeegeven. Kijk naar matedialog --help voor meer "
-"informatie.\n"
+msgstr "U moet een type dialoogvenster meeegeven. Kijk naar matedialog --help voor meer informatie.\n"
 
 #: ../src/notification.c:138
 #, c-format
@@ -388,9 +368,7 @@ msgstr "Tekst mag veranderd worden"
 msgid ""
 "Print a specific column (Default is 1. 'ALL' can be used to print all "
 "columns)"
-msgstr ""
-"Een specifieke kolom teruggeven (Standaard is 1. 'ALL' kan gebruikt worden "
-"om alle kolommen terug te geven)."
+msgstr "Een specifieke kolom teruggeven (Standaard is 1. 'ALL' kan gebruikt worden om alle kolommen terug te geven)."
 
 #. Column index number to print out on a list dialog
 #: ../src/option.c:505 ../src/option.c:514
@@ -452,7 +430,6 @@ msgstr "Annuleren-knop verbergen"
 msgid "Display question dialog"
 msgstr "Dialoogvenster ‘vraag’ weergeven"
 
-# zet/stelt in
 #: ../src/option.c:660
 msgid "Sets the label of the Ok button"
 msgstr "Stelt het label van de knop ‘Ok’ in"
@@ -666,9 +643,7 @@ msgstr "Diverse instellingen weergeven"
 #, c-format
 msgid ""
 "This option is not available. Please see --help for all possible usages.\n"
-msgstr ""
-"Deze optie is niet beschikbaar. Kijk bij --help voor alle mogelijke manieren "
-"om te gebruiken.\n"
+msgstr "Deze optie is niet beschikbaar. Kijk bij --help voor alle mogelijke manieren om te gebruiken.\n"
 
 #: ../src/option.c:1838
 #, c-format
@@ -679,36 +654,3 @@ msgstr "--%s wordt niet ondersteund door dit dialoogvenster\n"
 #, c-format
 msgid "Two or more dialog options specified\n"
 msgstr "Twee of meer dialoogvenster-opties gespecificeerd\n"
-
-#~ msgid "Select a file"
-#~ msgstr "Kies een bestand"
-
-#~ msgid "Orientation"
-#~ msgstr "Oriëntatie"
-
-#~ msgid "The orientation of the tray."
-#~ msgstr "De oriëntatie van het mededelingengebied."
-
-#~ msgid "Adjust the scale value."
-#~ msgstr "U kunt de waarde aanpassen."
-
-#~ msgid "(C) 2003 Sun Microsystems"
-#~ msgstr "© 2003 Sun Microsystems"
-
-#~ msgid "Credits"
-#~ msgstr "Met dank aan"
-
-#~ msgid "Written by"
-#~ msgstr "Geschreven door"
-
-#~ msgid "Translated by"
-#~ msgstr "Vertaald door"
-
-#~ msgid "*"
-#~ msgstr "*"
-
-#~ msgid "About MateDialog"
-#~ msgstr "Info over MateDialog"
-
-#~ msgid "_Credits"
-#~ msgstr "_Credits"

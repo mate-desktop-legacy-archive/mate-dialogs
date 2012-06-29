@@ -1,67 +1,53 @@
-# translation of matedialog.HEAD.po to Arabic
-# This file is distributed under the same license as the matedialog package.
-# Copyright (C) 2003 THE PACKAGE'S COPYRIGHT HOLDER.
-# Hassan Abdin <habdin@link.net>, 2003.
-# Hafid BENHADRIA <ghosn@php4arab.info>, 2003.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004, 2005.
 # Djihed Afifi <djihed@gmail.com>, 2006.
+# Hafid BENHADRIA <ghosn@php4arab.info>, 2003.
+# Hassan Abdin <habdin@link.net>, 2003.
 # Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: matedialog.HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-08-19 20:54+0200\n"
-"PO-Revision-Date: 2010-08-19 20:54+0300\n"
-"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
-"Language-Team: Arabic <doc@arabeyes.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:21+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Arabic (http://www.transifex.com/projects/p/MATE/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ar\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Virtaal 0.6.1\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5\n"
 
 #: ../src/about.c:64
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU Lesser General Public License as published by the "
-"Free Software Foundation; either version 2 of the License, or (at your "
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
 "option) any later version.\n"
-msgstr ""
-"هذه برمجية البرنامج حر؛ بإمكانك إعادة توزيعها و/أو تعديلها تحت شروط الرخصة "
-"العمومية الصغرى لجنو والتي نشرتها منظمة البرمجيات الحرة؛ سواء الإصدارة 2 من "
-"الرخصة أو أي إصدارة بعدها حسب رغبتك.\n"
+msgstr "هذه برمجية البرنامج حر؛ بإمكانك إعادة توزيعها و/أو تعديلها تحت شروط الرخصة العمومية الصغرى لجنو والتي نشرتها منظمة البرمجيات الحرة؛ سواء الإصدارة 2 من الرخصة أو أي إصدارة بعدها حسب رغبتك.\n"
 
 #: ../src/about.c:68
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License "
-"for more details.\n"
-msgstr ""
-"يوزّع هذا البرنامج على أمل أن يكون مفيدًا لمن يستخدمه دون أدنى مسؤولية؛ ولا "
-"حتى أي ضمان يضمن صلاحية العرض في السوق أو توافقه مع أي استخدام محدد. يمكنك "
-"مراجعة الرخصة العمومية الصغرى لجنو لمزيد من التفاصيل.\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
+msgstr "يوزّع هذا البرنامج على أمل أن يكون مفيدًا لمن يستخدمه دون أدنى مسؤولية؛ ولا حتى أي ضمان يضمن صلاحية العرض في السوق أو توافقه مع أي استخدام محدد. يمكنك مراجعة الرخصة العمومية الصغرى لجنو لمزيد من التفاصيل.\n"
 
 #: ../src/about.c:72
 msgid ""
 "You should have received a copy of the GNU Lesser General Public License "
 "along with this program; if not, write to the Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr ""
-"من المفترض أن تكون قد استلمت نسخة من رخصة جنو العمومية الصغرى مع هذا "
-"البرنامج؛ في حال عدم استلامك لذلك، يمكنك مكاتبة:\n"
-"Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA "
-"02110-1301, USA."
+msgstr "من المفترض أن تكون قد استلمت نسخة من رخصة جنو العمومية الصغرى مع هذا البرنامج؛ في حال عدم استلامك لذلك، يمكنك مكاتبة:\nFree Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr ""
-"فريق عربآيز للترجمة http://www.arabeyes.org :\n"
-"عرفات المديني\t<lumina@silverpen.de>\n"
-"جهاد عفيفي\t<djihed@gmail.com>\n"
-"خالد حسني\t<khaledhosny@eglug.org>"
+msgstr "فريق عربآيز للترجمة http://www.arabeyes.org :\nعرفات المديني\t<lumina@silverpen.de>\nجهاد عفيفي\t<djihed@gmail.com>\nخالد حسني\t<khaledhosny@eglug.org>"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
@@ -70,8 +56,7 @@ msgstr "اعرض صناديق حوار من مخطوطات الصدفة"
 #: ../src/main.c:100
 #, c-format
 msgid "You must specify a dialog type. See 'matedialog --help' for details\n"
-msgstr ""
-"يجب عليك تحديد نوع الحوار. انظر 'matedialog --help' لأجل مزيد من التَّفاصيل\n"
+msgstr "يجب عليك تحديد نوع الحوار. انظر 'matedialog --help' لأجل مزيد من التَّفاصيل\n"
 
 #: ../src/notification.c:138
 #, c-format
@@ -670,6 +655,3 @@ msgstr "--%s ليس مدعوما لهذا الحوار\n"
 #, c-format
 msgid "Two or more dialog options specified\n"
 msgstr "تم تحديد خيارَيْ حوار أو أكثر\n"
-
-#~ msgid "Select a file"
-#~ msgstr "اختر ملفًا"

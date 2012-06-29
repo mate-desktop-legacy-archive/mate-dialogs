@@ -1,86 +1,87 @@
-# translation of matedialog.HEAD.nn.po to Norwegian Nynorsk
-# translation of nn.po to Norwegian Nynorsk
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-#
+# 
+# Translators:
 # Åsmund Skjæveland <aasmunds@fys.uio.no>, 2004, 2006.
-# Eskild Hustvedt <i18n@zerodogg.org>, 2007, 2009.
 # Åsmund Skjæveland <aasmunds@ulrik.uio.no>, 2009.
+# Eskild Hustvedt <i18n@zerodogg.org>, 2007, 2009.
 # Torstein Adolf Winterseth <kvikende@yahoo.no>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: nn\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=matedialog&component=general\n"
-"POT-Creation-Date: 2009-04-23 13:15+0000\n"
-"PO-Revision-Date: 2009-12-28 16:08+0000\n"
-"Last-Translator: Torstein Adolf Winterseth <kvikende@yahoo.no>\n"
-"Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-23 12:20+0100\n"
+"PO-Revision-Date: 2012-02-23 11:22+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Language: nn\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../src/about.c:64
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License as published by the Free "
-"Software Foundation; either version 2 of the License, or (at your option) "
-"any later version.\n"
+"under the terms of the GNU Lesser General Public License as published by the"
+" Free Software Foundation; either version 2 of the License, or (at your "
+"option) any later version.\n"
 msgstr ""
-"Dette programmet er fri programvare. Du kan dela og/eller endra "
-"programmet under vilkåra gjeven i GNU General Public License som "
-"utgjeven av Free Software Foundation; anten versjon 2, eller kva "
-"for ein seinare versjon av lisensen du ønskjer.\n"
 
 #: ../src/about.c:68
 msgid ""
 "This program is distributed in the hope that it will be useful, but WITHOUT "
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-"more details.\n"
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
+" for more details.\n"
 msgstr ""
-"Dette programmet vert distribuert i håp om at programmet er nyttig, men utan "
-"NOKO GARANTI, ikkje eingong implisitt garanti om at det er SALBART eller "
-"PASSER EIT BESTEMT FØREMÅL. Sjå GNU General Public License for detaljar.\n"
 
 #: ../src/about.c:72
 msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 51 "
-"Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+"You should have received a copy of the GNU Lesser General Public License "
+"along with this program; if not, write to the Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 msgstr ""
-"Du skal ha motteken ein kopi av GNU General Public License saman med dette "
-"programmet. Viss dette ikkje er tilfelle, kan du skriva til Free Software "
-"Foundation, Inc. 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr ""
-"Åsmund Skjæveland <aasmunds@ulrik.uio.no>\n"
-"Eskild Hustvedt <i18n@zerodogg.org>\n"
-"Torstein Adolf Winterseth <kvikende@yahoo.no>\n"
-"\n"
-"Send merknader og feilmeldingar til i18n-nn@lister.ping.uio.no"
+msgstr "Åsmund Skjæveland <aasmunds@ulrik.uio.no>\nEskild Hustvedt <i18n@zerodogg.org>\nTorstein Adolf Winterseth <kvikende@yahoo.no>\n\nSend merknader og feilmeldingar til i18n-nn@lister.ping.uio.no"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
 msgstr "Vis dialogboksar frå skalskript"
 
-#: ../src/main.c:94
+#: ../src/main.c:100
 #, c-format
 msgid "You must specify a dialog type. See 'matedialog --help' for details\n"
 msgstr "Du må oppgje ein dialogtype. Sjå «matedialog --help» for detaljar\n"
 
-#: ../src/notification.c:139
+#: ../src/notification.c:138
 #, c-format
 msgid "could not parse command from stdin\n"
 msgstr "klarte ikkje tolka kommando frå standardinn\n"
 
-#: ../src/notification.c:252 ../src/notification.c:269
+#: ../src/notification.c:177
+#, c-format
+msgid "Could not parse message from stdin\n"
+msgstr ""
+
+#: ../src/notification.c:262 ../src/notification.c:279
 msgid "MateDialog notification"
 msgstr "MateDialog-melding"
+
+#: ../src/password.c:64
+msgid "Type your password"
+msgstr ""
+
+#: ../src/password.c:99
+msgid "Username:"
+msgstr ""
+
+#: ../src/password.c:115
+msgid "Password:"
+msgstr ""
 
 #: ../src/scale.c:56
 #, c-format
@@ -92,536 +93,564 @@ msgstr "Største verdi må vera større enn minste verdi.\n"
 msgid "Value out of range.\n"
 msgstr "Verdien er utanfor området.\n"
 
-#: ../src/tree.c:320
+#: ../src/tree.c:321
 #, c-format
 msgid "No column titles specified for List dialog.\n"
 msgstr "Ingen kolonnetitlar oppgjevne for listedialogen.\n"
 
-#: ../src/tree.c:326
+#: ../src/tree.c:327
 #, c-format
 msgid "You should use only one List dialog type.\n"
 msgstr "Du bør bruka berre ein listedialogtype.\n"
 
-#: ../src/matedialog.glade.h:1
+#: ../src/matedialog.ui.h:1
 msgid "Add a new entry"
 msgstr "Legg til ei ny oppføring"
 
-#: ../src/matedialog.glade.h:2
+#: ../src/matedialog.ui.h:2
 msgid "Adjust the scale value"
 msgstr "Juster skalaverdien"
 
-#: ../src/matedialog.glade.h:3
+#: ../src/matedialog.ui.h:3
 msgid "All updates are complete."
 msgstr "Alle oppdateringane er ferdige."
 
-#: ../src/matedialog.glade.h:4
+#: ../src/matedialog.ui.h:4
 msgid "An error has occurred."
 msgstr "Ein feil har oppstått."
 
-#: ../src/matedialog.glade.h:5
+#: ../src/matedialog.ui.h:5
 msgid "Are you sure you want to proceed?"
 msgstr "Er du sikker på at du vil halda fram?"
 
-#: ../src/matedialog.glade.h:6
+#: ../src/matedialog.ui.h:6
 msgid "C_alendar:"
 msgstr "K_alender:"
 
-#: ../src/matedialog.glade.h:7
+#: ../src/matedialog.ui.h:7
 msgid "Calendar selection"
 msgstr "Kalenderutval"
 
-#: ../src/matedialog.glade.h:8
+#: ../src/matedialog.ui.h:8
 msgid "Error"
 msgstr "Feil"
 
-#: ../src/matedialog.glade.h:9
+#: ../src/matedialog.ui.h:9
 msgid "Information"
 msgstr "Informasjon"
 
-#: ../src/matedialog.glade.h:10
+#: ../src/matedialog.ui.h:10
 msgid "Progress"
 msgstr "Framgang"
 
-#: ../src/matedialog.glade.h:11
+#: ../src/matedialog.ui.h:11
 msgid "Question"
 msgstr "Spørsmål"
 
-#: ../src/matedialog.glade.h:12
+#: ../src/matedialog.ui.h:12
 msgid "Running..."
 msgstr "Køyrer …"
 
-#: ../src/matedialog.glade.h:13
+#: ../src/matedialog.ui.h:13
 msgid "Select a date from below."
 msgstr "Vel ein dato under."
 
-#: ../src/matedialog.glade.h:14
+#: ../src/matedialog.ui.h:14
 msgid "Select items from the list"
 msgstr "Vel element frå lista"
 
-#: ../src/matedialog.glade.h:15
+#: ../src/matedialog.ui.h:15
 msgid "Select items from the list below."
 msgstr "Vel element frå lista under."
 
-#: ../src/matedialog.glade.h:16
+#: ../src/matedialog.ui.h:16
 msgid "Text View"
 msgstr "Tekstvising"
 
-#: ../src/matedialog.glade.h:17
+#: ../src/matedialog.ui.h:17
 msgid "Warning"
 msgstr "Åtvaring"
 
-#: ../src/matedialog.glade.h:18
+#: ../src/matedialog.ui.h:18
 msgid "_Enter new text:"
 msgstr "_Skriv inn ny tekst:"
 
-#: ../src/option.c:120
+#: ../src/option.c:131
 msgid "Set the dialog title"
 msgstr "Vel dialogtittel"
 
-#: ../src/option.c:121
+#: ../src/option.c:132
 msgid "TITLE"
 msgstr "TITTEL"
 
-#: ../src/option.c:129
+#: ../src/option.c:140
 msgid "Set the window icon"
 msgstr "Vel ikonet til vindauget"
 
-#: ../src/option.c:130
+#: ../src/option.c:141
 msgid "ICONPATH"
 msgstr "IKONSTI"
 
-#: ../src/option.c:138
+#: ../src/option.c:149
 msgid "Set the width"
 msgstr "Vel breidda"
 
-#: ../src/option.c:139
+#: ../src/option.c:150
 msgid "WIDTH"
 msgstr "BREIDDE"
 
-#: ../src/option.c:147
+#: ../src/option.c:158
 msgid "Set the height"
 msgstr "Vel høgda"
 
-#: ../src/option.c:148
+#: ../src/option.c:159
 msgid "HEIGHT"
 msgstr "HØGDE"
 
-#: ../src/option.c:156
+#: ../src/option.c:167
 msgid "Set dialog timeout in seconds"
 msgstr "Set tidsavbrudd for dialog i sekund"
 
 #. Timeout for closing the dialog
-#: ../src/option.c:158
+#: ../src/option.c:169
 msgid "TIMEOUT"
 msgstr "TIDSAVBROT"
 
-#: ../src/option.c:172
+#: ../src/option.c:183
 msgid "Display calendar dialog"
 msgstr "Vis kalenderdialog"
 
-#: ../src/option.c:181 ../src/option.c:241 ../src/option.c:284
-#: ../src/option.c:317 ../src/option.c:429 ../src/option.c:559
-#: ../src/option.c:621 ../src/option.c:705 ../src/option.c:738
+#: ../src/option.c:192 ../src/option.c:252 ../src/option.c:295
+#: ../src/option.c:328 ../src/option.c:440 ../src/option.c:579
+#: ../src/option.c:651 ../src/option.c:735 ../src/option.c:768
 msgid "Set the dialog text"
 msgstr "Vel dialogteksten"
 
-#: ../src/option.c:182 ../src/option.c:242 ../src/option.c:251
-#: ../src/option.c:260 ../src/option.c:285 ../src/option.c:318
-#: ../src/option.c:430 ../src/option.c:527 ../src/option.c:560
-#: ../src/option.c:622 ../src/option.c:631 ../src/option.c:640
-#: ../src/option.c:706 ../src/option.c:739
+#: ../src/option.c:193 ../src/option.c:253 ../src/option.c:262
+#: ../src/option.c:296 ../src/option.c:329 ../src/option.c:441
+#: ../src/option.c:547 ../src/option.c:580 ../src/option.c:652
+#: ../src/option.c:661 ../src/option.c:670 ../src/option.c:736
+#: ../src/option.c:769
 msgid "TEXT"
 msgstr "TEKST"
 
-#: ../src/option.c:190
+#: ../src/option.c:201
 msgid "Set the calendar day"
 msgstr "Vel kalenderdag"
 
-#: ../src/option.c:191
+#: ../src/option.c:202
 msgid "DAY"
 msgstr "DAG"
 
-#: ../src/option.c:199
+#: ../src/option.c:210
 msgid "Set the calendar month"
 msgstr "Vel kalendermånad"
 
-#: ../src/option.c:200
+#: ../src/option.c:211
 msgid "MONTH"
 msgstr "MÅNAD"
 
-#: ../src/option.c:208
+#: ../src/option.c:219
 msgid "Set the calendar year"
 msgstr "Vel kalenderår"
 
-#: ../src/option.c:209
+#: ../src/option.c:220
 msgid "YEAR"
 msgstr "ÅR"
 
-#: ../src/option.c:217
+#: ../src/option.c:228
 msgid "Set the format for the returned date"
 msgstr "Vel formatet på datoen som vert returnert"
 
-#: ../src/option.c:218
+#: ../src/option.c:229
 msgid "PATTERN"
 msgstr "MØNSTER"
 
-#: ../src/option.c:232
+#: ../src/option.c:243
 msgid "Display text entry dialog"
 msgstr "Vis tekstoppføringsdialog"
 
-#: ../src/option.c:250
+#: ../src/option.c:261
 msgid "Set the entry text"
 msgstr "Tekst i oppføringa"
 
-#: ../src/option.c:259
+#: ../src/option.c:270
 msgid "Hide the entry text"
 msgstr "Gøym oppføringsteksten"
 
-#: ../src/option.c:275
+#: ../src/option.c:286
 msgid "Display error dialog"
 msgstr "Vis feildialog"
 
-#: ../src/option.c:293 ../src/option.c:326 ../src/option.c:648
-#: ../src/option.c:714
+#: ../src/option.c:304 ../src/option.c:337 ../src/option.c:678
+#: ../src/option.c:744
 msgid "Do not enable text wrapping"
 msgstr "Ikkje bruk tekstbryting"
 
-#: ../src/option.c:308
+#: ../src/option.c:319
 msgid "Display info dialog"
 msgstr "Vis infodialog"
 
-#: ../src/option.c:341
+#: ../src/option.c:352
 msgid "Display file selection dialog"
 msgstr "Vis filveljardialog"
 
-#: ../src/option.c:350
+#: ../src/option.c:361
 msgid "Set the filename"
 msgstr "Vel filnamn"
 
-#: ../src/option.c:351 ../src/option.c:673
+#: ../src/option.c:362 ../src/option.c:703
 msgid "FILENAME"
 msgstr "FILNAMN"
 
-#: ../src/option.c:359
+#: ../src/option.c:370
 msgid "Allow multiple files to be selected"
 msgstr "Tillat å velja fleire filer samtidig"
 
-#: ../src/option.c:368
+#: ../src/option.c:379
 msgid "Activate directory-only selection"
 msgstr "Vel berre katalogar, ikkje filer"
 
-#: ../src/option.c:377
+#: ../src/option.c:388
 msgid "Activate save mode"
 msgstr "Bruk lagringsmodus"
 
-#: ../src/option.c:386 ../src/option.c:465
+#: ../src/option.c:397 ../src/option.c:476
 msgid "Set output separator character"
 msgstr "Vel skiljeteikn i utdata"
 
-#: ../src/option.c:387 ../src/option.c:466
+#: ../src/option.c:398 ../src/option.c:477
 msgid "SEPARATOR"
 msgstr "SKILJETEIKN"
 
-#: ../src/option.c:395
+#: ../src/option.c:406
 msgid "Confirm file selection if filename already exists"
 msgstr "Stadfest filvalet dersom fila finst frå før"
 
-#: ../src/option.c:404
-#| msgid "Set the filename"
+#: ../src/option.c:415
 msgid "Sets a filename filter"
 msgstr "Vel filnamnfilter"
 
 #. Help for file-filter argument (name and patterns for file selection)
-#: ../src/option.c:406
+#: ../src/option.c:417
 msgid "NAME | PATTERN1 PATTERN2 ..."
 msgstr "NAMN | MØNSTER1 MØNSTER2"
 
-#: ../src/option.c:420
+#: ../src/option.c:431
 msgid "Display list dialog"
 msgstr "Vis listedialog"
 
-#: ../src/option.c:438
+#: ../src/option.c:449
 msgid "Set the column header"
 msgstr "Vel kolonnetopptekst"
 
-#: ../src/option.c:439
+#: ../src/option.c:450
 msgid "COLUMN"
 msgstr "KOLONNE"
 
-#: ../src/option.c:447
+#: ../src/option.c:458
 msgid "Use check boxes for first column"
 msgstr "Bruk avkryssingsboksar i fyrste kolonne"
 
-#: ../src/option.c:456
+#: ../src/option.c:467
 msgid "Use radio buttons for first column"
 msgstr "Bruk radioknappar i fyrste kolonne"
 
-#: ../src/option.c:474
+#: ../src/option.c:485
 msgid "Allow multiple rows to be selected"
 msgstr "Tillat å velja fleire rader samtidig"
 
-#: ../src/option.c:483 ../src/option.c:681
+#: ../src/option.c:494 ../src/option.c:711
 msgid "Allow changes to text"
 msgstr "Tillat endringar av teksten"
 
-#: ../src/option.c:492
+#: ../src/option.c:503
 msgid ""
 "Print a specific column (Default is 1. 'ALL' can be used to print all "
 "columns)"
-msgstr ""
-"Skriv ut ei bestemt kolonne (standard er 1. «ALL» kan brukast for å skriva ut "
-"alle kolonnene)"
+msgstr "Skriv ut ei bestemt kolonne (standard er 1. «ALL» kan brukast for å skriva ut alle kolonnene)"
 
 #. Column index number to print out on a list dialog
-#: ../src/option.c:494 ../src/option.c:503
+#: ../src/option.c:505 ../src/option.c:514
 msgid "NUMBER"
 msgstr "TAL"
 
-#: ../src/option.c:502
+#: ../src/option.c:513
 msgid "Hide a specific column"
 msgstr "Gøym ei bestemt kolonne"
 
-#: ../src/option.c:517
+#: ../src/option.c:522
+msgid "Hides the column headers"
+msgstr ""
+
+#: ../src/option.c:537
 msgid "Display notification"
 msgstr "Vis melding"
 
-#: ../src/option.c:526
+#: ../src/option.c:546
 msgid "Set the notification text"
 msgstr "Lag meldingsteksten"
 
-#: ../src/option.c:535
+#: ../src/option.c:555
 msgid "Listen for commands on stdin"
 msgstr "Lytt etter kommandoar på standardinn"
 
-#: ../src/option.c:550
+#: ../src/option.c:570
 msgid "Display progress indication dialog"
 msgstr "Vis framdriftsvisardialog"
 
-#: ../src/option.c:568
+#: ../src/option.c:588
 msgid "Set initial percentage"
 msgstr "Vel startprosent"
 
-#: ../src/option.c:569
+#: ../src/option.c:589
 msgid "PERCENTAGE"
 msgstr "PROSENT"
 
-#: ../src/option.c:577
+#: ../src/option.c:597
 msgid "Pulsate progress bar"
 msgstr "Pulserande framgangslinje"
 
-#: ../src/option.c:587
+#: ../src/option.c:607
 #, no-c-format
 msgid "Dismiss the dialog when 100% has been reached"
 msgstr "Lukk dialogen når 100 % er nådd"
 
-#: ../src/option.c:597
+#: ../src/option.c:617
 #, no-c-format
-msgid "Kill parent process if cancel button is pressed"
-msgstr "Drep forelderprosessen viss ein trykkar på avbryt-knappen"
+msgid "Kill parent process if Cancel button is pressed"
+msgstr ""
 
-#: ../src/option.c:612
+#: ../src/option.c:627
+#, no-c-format
+msgid "Hide Cancel button"
+msgstr ""
+
+#: ../src/option.c:642
 msgid "Display question dialog"
 msgstr "Vis spørsmålsdialog"
 
-#: ../src/option.c:630
-#| msgid "Set the dialog text"
+#: ../src/option.c:660
 msgid "Sets the label of the Ok button"
 msgstr "Vel tekst på OK-knappen"
 
-#: ../src/option.c:639
+#: ../src/option.c:669
 msgid "Sets the label of the Cancel button"
 msgstr "Vel tekst på Avbryt-knappen"
 
-#: ../src/option.c:663
+#: ../src/option.c:693
 msgid "Display text information dialog"
 msgstr "Vis tekstinformasjonsdialog"
 
-#: ../src/option.c:672
+#: ../src/option.c:702
 msgid "Open file"
 msgstr "Opna fil"
 
-#: ../src/option.c:696
+#: ../src/option.c:726
 msgid "Display warning dialog"
 msgstr "Vis åtvaringsdialog"
 
-#: ../src/option.c:729
+#: ../src/option.c:759
 msgid "Display scale dialog"
 msgstr "Vis skaladialog"
 
-#: ../src/option.c:747
+#: ../src/option.c:777
 msgid "Set initial value"
 msgstr "Vel startverdi"
 
-#: ../src/option.c:748 ../src/option.c:757 ../src/option.c:766
-#: ../src/option.c:775
+#: ../src/option.c:778 ../src/option.c:787 ../src/option.c:796
+#: ../src/option.c:805 ../src/option.c:871
 msgid "VALUE"
 msgstr "VERDI"
 
-#: ../src/option.c:756
+#: ../src/option.c:786
 msgid "Set minimum value"
 msgstr "Vel minste verdi"
 
-#: ../src/option.c:765
+#: ../src/option.c:795
 msgid "Set maximum value"
 msgstr "Vel største verdi"
 
-#: ../src/option.c:774
+#: ../src/option.c:804
 msgid "Set step size"
 msgstr "Vel stegstorleik"
 
-#: ../src/option.c:783
+#: ../src/option.c:813
 msgid "Print partial values"
 msgstr "Skriv delvise verdiar"
 
-#: ../src/option.c:792
+#: ../src/option.c:822
 msgid "Hide value"
 msgstr "Gøym verdi"
 
-#: ../src/option.c:807
+#: ../src/option.c:837
+msgid "Display password dialog"
+msgstr ""
+
+#: ../src/option.c:846
+msgid "Display the username option"
+msgstr ""
+
+#: ../src/option.c:861
+msgid "Display color selection dialog"
+msgstr ""
+
+#: ../src/option.c:870
+msgid "Set the color"
+msgstr ""
+
+#: ../src/option.c:879
+msgid "Show the palette"
+msgstr ""
+
+#: ../src/option.c:894
 msgid "About matedialog"
 msgstr "Om MateDialog"
 
-#: ../src/option.c:816
+#: ../src/option.c:903
 msgid "Print version"
 msgstr "Vis versjonsnummer"
 
-#: ../src/option.c:1471
+#: ../src/option.c:1643
 msgid "General options"
 msgstr "Allmenne val"
 
-#: ../src/option.c:1472
+#: ../src/option.c:1644
 msgid "Show general options"
 msgstr "Vis allmenne val"
 
-#: ../src/option.c:1482
+#: ../src/option.c:1654
 msgid "Calendar options"
 msgstr "Kalenderval"
 
-#: ../src/option.c:1483
+#: ../src/option.c:1655
 msgid "Show calendar options"
 msgstr "Vis kalenderval"
 
-#: ../src/option.c:1493
+#: ../src/option.c:1665
 msgid "Text entry options"
 msgstr "Val for tekstoppføring"
 
-#: ../src/option.c:1494
+#: ../src/option.c:1666
 msgid "Show text entry options"
 msgstr "Vis val for tekstoppføring"
 
-#: ../src/option.c:1504
+#: ../src/option.c:1676
 msgid "Error options"
 msgstr "Val om feil"
 
-#: ../src/option.c:1505
+#: ../src/option.c:1677
 msgid "Show error options"
 msgstr "Vis val om feil"
 
-#: ../src/option.c:1515
+#: ../src/option.c:1687
 msgid "Info options"
 msgstr "Val om informasjon"
 
-#: ../src/option.c:1516
+#: ../src/option.c:1688
 msgid "Show info options"
 msgstr "Vis val om informasjon"
 
-#: ../src/option.c:1526
+#: ../src/option.c:1698
 msgid "File selection options"
 msgstr "Val om filveljar"
 
-#: ../src/option.c:1527
+#: ../src/option.c:1699
 msgid "Show file selection options"
 msgstr "Vis val om filveljar"
 
-#: ../src/option.c:1537
+#: ../src/option.c:1709
 msgid "List options"
 msgstr "Listeval"
 
-#: ../src/option.c:1538
+#: ../src/option.c:1710
 msgid "Show list options"
 msgstr "Vis listeval"
 
-#: ../src/option.c:1548
+#: ../src/option.c:1720
 msgid "Notification icon options"
 msgstr "Val om meldingar"
 
-#: ../src/option.c:1549
+#: ../src/option.c:1721
 msgid "Show notification icon options"
 msgstr "Vis val om meldingsikon"
 
-#: ../src/option.c:1559
+#: ../src/option.c:1731
 msgid "Progress options"
 msgstr "Framdriftsval"
 
-#: ../src/option.c:1560
+#: ../src/option.c:1732
 msgid "Show progress options"
 msgstr "Vis framdriftsval"
 
-#: ../src/option.c:1570
+#: ../src/option.c:1742
 msgid "Question options"
 msgstr "Val om spørsmål"
 
-#: ../src/option.c:1571
+#: ../src/option.c:1743
 msgid "Show question options"
 msgstr "Vis val om spørsmål"
 
-#: ../src/option.c:1581
+#: ../src/option.c:1753
 msgid "Warning options"
 msgstr "Val om åtvaringar"
 
-#: ../src/option.c:1582
+#: ../src/option.c:1754
 msgid "Show warning options"
 msgstr "Vis val om åtvaringar"
 
-#: ../src/option.c:1592
+#: ../src/option.c:1764
 msgid "Scale options"
 msgstr "Skalaval"
 
-#: ../src/option.c:1593
+#: ../src/option.c:1765
 msgid "Show scale options"
 msgstr "Vis skalaval"
 
-#: ../src/option.c:1603
+#: ../src/option.c:1775
 msgid "Text information options"
 msgstr "Val om tekstinformasjon"
 
-#: ../src/option.c:1604
+#: ../src/option.c:1776
 msgid "Show text information options"
 msgstr "Vis val om tekstinformasjon"
 
-#: ../src/option.c:1614
+#: ../src/option.c:1786
+msgid "Color selection options"
+msgstr ""
+
+#: ../src/option.c:1787
+msgid "Show color selection options"
+msgstr ""
+
+#: ../src/option.c:1797
+msgid "Password dialog options"
+msgstr ""
+
+#: ../src/option.c:1798
+msgid "Show password dialog options"
+msgstr ""
+
+#: ../src/option.c:1808
 msgid "Miscellaneous options"
 msgstr "Ymse val"
 
-#: ../src/option.c:1615
+#: ../src/option.c:1809
 msgid "Show miscellaneous options"
 msgstr "Vis ymse val"
 
-#: ../src/option.c:1640
+#: ../src/option.c:1834
 #, c-format
 msgid ""
 "This option is not available. Please see --help for all possible usages.\n"
-msgstr ""
-"Dette valet er ikkje tilgjengeleg. Sjå «--help» for moglege bruksmåtar.\n"
+msgstr "Dette valet er ikkje tilgjengeleg. Sjå «--help» for moglege bruksmåtar.\n"
 
-#: ../src/option.c:1644
+#: ../src/option.c:1838
 #, c-format
 msgid "--%s is not supported for this dialog\n"
 msgstr "--%s er ikkje støtta i denne dialogen\n"
 
-#: ../src/option.c:1648
+#: ../src/option.c:1842
 #, c-format
 msgid "Two or more dialog options specified\n"
 msgstr "To eller fleire dialogval oppgjevne\n"
-
-#~ msgid "Select a file"
-#~ msgstr "Vel ei fil"
-
-#~ msgid "Orientation"
-#~ msgstr "Retning"
-
-#~ msgid "The orientation of the tray."
-#~ msgstr "Retninga på trauet."
-
-#~ msgid "Adjust the scale value."
-#~ msgstr "Juster skalaverdien."
