@@ -1,0 +1,1029 @@
+========== am.po ==========
+# Translations into the Amharic Language.
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+# Ge'ez Frontier Foundation <locales@geez.org>, 2002.
+#
+#
+
+
+
+
+========== ar.po ==========
+# translation of matedialog.HEAD.po to Arabic
+# This file is distributed under the same license as the matedialog package.
+# Copyright (C) 2003 THE PACKAGE'S COPYRIGHT HOLDER.
+# Hassan Abdin <habdin@link.net>, 2003.
+# Hafid BENHADRIA <ghosn@php4arab.info>, 2003.
+# Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004, 2005.
+# Djihed Afifi <djihed@gmail.com>, 2006.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008, 2010.
+
+
+
+
+========== as.po ==========
+# translation of as.po to Assamese
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Amitakhya Phukan <aphukan@redhat.com>, 2008.
+# Amitakhya Phukan <amitakhya@svn.gnome.org>, 2008.
+# Amitakhya Phukan <aphukan@fedoraproject.org>, 2009.
+
+
+
+
+========== ast.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Asturian translation for matedialog.
+# Copyright (C) 2010 matedialog's COPYRIGHT HOLDER
+# This file is distributed under the same license as the matedialog package.
+# Xandru Armesto <xandru@softastur.org>, 2010.
+
+
+
+
+========== az.po ==========
+# translation of matedialog.HEAD.az.po to Azerbaijani
+# translation of matedialog.HEAD.az.po to Azerbaijani Turkish
+# Copyright (C) 2003 Mətin Əmirov
+# This file is distributed under the same license as the matedialog package.
+# Mətin Əmirov <metin@karegen.com>, 2003, 2004.
+#
+
+
+
+
+========== be.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+# Ales Nyakhaychyk <nab@mail.by>, 2003.
+#
+
+
+
+
+========== be@latin.po ==========
+# Biełaruski pierakład matedialog
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+# Ales Nyakhaychyk <nab@mail.by>, 2003.
+# Ihar Hrachyshka <booxter@lacinka.org>, 2008.
+#
+
+
+
+
+========== bg.po ==========
+# Bulgarian translation of matedialog po-file.
+# Copyright (C) 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
+# Copyright (C) 2008, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+# Rostislav Raykov <zbrox@i-space.org>, 2004, 2005, 2006.
+# Vladimir Petkov <kaladan@gmail.com>, 2005.
+# Alexander Shopov <ash@kambanaria.org>, 2007, 2008, 2010
+#
+#
+#
+
+
+
+
+========== bn.po ==========
+# Bengali translation of MateDialog.
+# Copyright (C) 2003 THE MateDialog'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the MateDialog package.
+# Sayamindu Dasgupta <unmadindu@bengalinux.org>, 2003.
+# Mahay Alam Khan <makl10n@yahoo.com>, 2005.
+# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
+# Khandakar Mujahidul Islam <suzan@bengalinux.org>, 2007.
+# Israt Jahan <israt@ankur.org.bd>, 2010.
+# Sadia Afroz <sadia@ankur.org.bd>, 2010.
+#
+
+
+
+
+========== bn_IN.po ==========
+# translation of bn_IN.po to Bengali INDIA
+# Bengali India translation of MateDialog.
+# Copyright (C) 2003 THE MateDialog'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the MateDialog package.
+#
+# Sayamindu Dasgupta <unmadindu@bengalinux.org>, 2003.
+# Mahay Alam Khan <makl10n@yahoo.com>, 2005.
+# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
+# Runa Bhattacharjee <runab@redhat.com>, 2007, 2008, 2010.
+
+
+
+
+========== bs.po ==========
+# translation of matedialog.HEAD.po to Bosnian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Kemal Sanjta <gomez@lugzdk.ba>, 2004.
+#
+
+
+
+
+========== ca.po ==========
+# Catalan translation of MateDialog.
+# Copyright © 2003, 2004, 2005, 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+# Jordi Mallach <jordi@sindominio.net>, 2003, 2004, 2005, 2006, 2007.
+# Joan Duran <jodufi@gmail.com>, 2010.
+#
+
+
+
+
+========== ca@valencia.po ==========
+# Catalan translation of MateDialog.
+# Copyright © 2003, 2004, 2005, 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+# Jordi Mallach <jordi@sindominio.net>, 2003, 2004, 2005, 2006, 2007.
+# Joan Duran <jodufi@gmail.com>, 2010.
+#
+
+
+
+
+========== cs.po ==========
+# Czech translation of matedialog.
+# Copyright (C) 2008 the author(s) of matedialog.
+# Copyright (C) 2005, 2006 Miloslav Trmac <mitr@volny.cz>.
+# Copyright (C) 2008 Pavel Šefránek <ps@pjoul.cz>.
+# This file is distributed under the same license as the matedialog.
+#
+# Miloslav Trmac <mitr@volny.cz>, 2003, 2005, 2006.
+# Jakub Friedl <jfriedl@suse.cz>, 2007.
+# Pavel Šefránek <ps@pjoul.cz>, 2008.
+# Petr Kovar <pknbe@volny.cz>, 2008.
+# Marek Černocký <marek@manet.cz>, 2010.
+#
+# Lucas Lommer <llommer@svn.gnome.org>, 2010. (merge 2.30 -> master + fuzzy), 2010.
+
+
+
+
+========== cy.po ==========
+# translation of matedialog.HEAD.cy.po to Cymraeg
+# matedialog yn Gymraeg.
+# Copyright (C) 2003, The Free Software Foundation
+# This file is distributed under the same license as the matedialog package.
+# Dafydd Harries <daf@parnassus.ath.cx>, 2003 2004.
+# Dafydd Tomos <l10n@da.fydd.org>, 2004.
+# Rhys Jones <rhys@sucs.org>, 2005-6.
+#
+
+
+
+
+========== da.po ==========
+# Danish translation of matedialog.
+# Copyright (C) 2003-2007, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+# Ole Laursen <olau@hardworking.dk>, 2003, 2005.
+# Martin Willemoes Hansen <mwh@sysrq.dk>, 2004-2005.
+# Lasse Bang Mikkelsen <lbm@fatalerror.dk>, 2006.
+# Peter Bach <bach.peter@gmail.com>, 2007.
+# Joe Hansen <joedalton2@yahoo.dk>, 2007.
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2008-10.
+#
+# Husk at tilføje dig i credit-listen (besked id "translator-credits")
+#
+
+
+
+
+========== de.po ==========
+# German MateDialog translation.
+# Copyright (C) 2003, 2004 Sun Microsystems, Inc.
+# This file is distributed under the same license as the matedialog package.
+# Christian Neumair <chris@mate-de.org>, 2003, 2004.
+# Hendrik Richter <hendrikr@gnome.org>, 2004-2007.
+# Mario Blättermann <mariobl@gnome.org>, 2008, 2010.
+# Christian Kirbach <Christian.Kirbach@googlemail.com>, 2010.
+#
+
+
+
+
+========== dz.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+
+
+
+========== el.po ==========
+# translation of el.po to Greek
+# matedialog Greek translation.
+# Copyright (C) Free Software Foundation, 2003, 2004, 2005.
+# This file is distributed under the same license as the PACKAGE package.
+#
+#
+# kostas, 05Mar2003, 102 messages initial translation.
+# simos, 27Nov2004, 114 messages, updated + verified translation.
+# Kostas Papadimas <pkst@gmx.net>, 2003.
+# Kostas Papadimas <pkst@gnome.org>, 2004, 2006.
+# Simos Xenitellis <simos74@gmx.net>, 2005.
+
+
+
+
+========== en@shaw.po ==========
+# Shavian translation for matedialog.
+# Copyright (C) 2009-2010 The Mate Foundation.
+# Thomas Thurman <tthurman@gnome.org>, 2010.
+# Transliterate matedialog as ·𐑟𐑧𐑯𐑦𐑑𐑦
+
+
+
+
+========== en_CA.po ==========
+# English/Canada translation of matedialog.
+# Copyright (C) 2004-2005 Adam Weinberger and the MATE Foundation
+# This file is distributed under the same licence as the matedialog package.
+# Adam Weinberger <adamw@gnome.org>, 2004, 2005.
+# 
+# 
+
+
+
+
+========== en_GB.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Mike Newman <mikegtn@gnome.org>, 2003.
+# Bruce Cowan <bcowan@fastmail.co.uk>, 2010.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2010.
+
+
+
+
+========== es.po ==========
+# translation of matedialog.HEAD.po to Español
+# Spanish translation for MateDialog.
+# Copyright © 2003, 2006, 2007, 2008 the Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+#
+# Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2003.
+# Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2004, 2005.
+# Francisco Javier F. Serrador <serrador@tecknolabs.com>, 2006.
+# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2009, 2010.
+#
+
+
+
+
+========== et.po ==========
+# MateDialog eesti keele tõlge.
+# Estonian translation of MateDialog.
+#
+# Copyright (C) 2003-2006 Free Software Foundation, Inc
+# Copyright (C) 2007-2010 The MATE Project.
+# This file is distributed under the same license as the MateDialog package.
+#
+# Priit Laes <amd store20 com>, 2003-2006.
+# Ivar Smolin <okul linux ee>, 2005-2010.
+#
+
+
+
+
+========== eu.po ==========
+# translation of eu.po to Basque
+# Basque translation of MateDialog.
+# Copyright (C) 2003, 2004, 2006, 2007, 2008, 2010 the Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+#
+# Alberto Fernández Benito <afernn@euskalnet.net>, 2003.
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2003, 2004, 2005, 2006, 2007, 2008, 2010.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007.
+
+
+
+
+========== fa.po ==========
+# Persian translation of matedialog.
+# Copyright (C) 2004 Sharif FarsiWeb, Inc.
+# This file is distributed under the same license as the matedialog package.
+# Roozbeh Pournader <roozbeh@sharif.edu>, 2004.
+# Meelad Zakaria <meelad@bamdad.org>, 2004.
+#
+
+
+
+
+========== fi.po ==========
+# Finnish messages for MateDialog
+# Copyright (C) 2003 Free Software Foundation
+# This file is distributed under the same license as the MateDialog package.
+# Johanna Makkonen <johanna.makkonen@iki.fi>, 2003.
+# Jarkko Ranta <jjranta@cc.joensuu.fi>, 2003-2004.
+# Sami Pesonen <sampeson@iki.fi>, 2004.
+# Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2005, 2010.
+# Ilkka Tuohela <hile@iki.fi>, 2005-2008.
+#
+
+
+
+
+========== fr.po ==========
+# French Translation of MateDialog.
+# Copyright (C) 2003-2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the MateDialog package.
+#
+# Baptiste Mille-Mathias <bmm80@free.fr>, 2003-2004.
+# Christophe Merlet <redfox@redfoxcenter.org>, 2003-2006.
+# Benoît Dejean <benoit@placenet.org>, 2005-2006.
+# Jonathan Ernst <jonathan@ernstfamily.ch>, 2006.
+# Damien Durand <splinux@fedoraproject.org>, 2006.
+# Robert-André Mauchin <zebob.m@gmail.com>, 2006.
+# Stéphane Raimbault <stephane.raimbault@gmail.com>, 2007.
+#
+
+
+
+
+========== ga.po ==========
+# Irish translations for matedialog package.
+# Copyright (C) 2003-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+# Paul Duffy <dubhthach@frink.nuigalway.ie>, 2003.
+# Seán de Búrca <leftmostcat@gmail.com>, 2009.
+#
+
+
+
+
+========== gl.po ==========
+# translation of matedialog-master-po-gl-76235.po to Galego
+# This file is distributed under the same license as the matedialog package.
+# Copyright (C) 2010 Fran Diéguez
+#
+# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
+# Ignacio Casal Quinteiro <icq@cvs.gnome.org>, 2007.
+# Ignacio Casal Quinteiro <icq@svn.gnome.org>, 2008.
+# Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
+# Antón Méixome <meixome@mancomun.org>, 2009.
+# Francisco Diéguez <frandieguez@ubuntu.com>, 2009.
+# Antón Méixome <meixome@certima.net>, 2010.
+# Fran Diéguez <frandieguez@ubuntu.com>, 2010.
+#
+
+
+
+
+========== gu.po ==========
+# translation of matedialog.HEAD.gu.po to Gujarati
+# Ankit Patel <ankit644@yahoo.com>, 2005, 2006.
+# Ankit Patel <ankit@redhat.com>, 2005, 2007.
+# Sweta Kothari <swkothar@redhat.com>, 2008.
+
+
+
+
+========== he.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Yair Hershkovitz <yairhr@gmail.com>
+#
+
+
+
+
+========== hi.po ==========
+# translation of matedialog.master.po to Hindi
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Mate Hindi Team <indlinux-hindi-mate@lists.sourceforge.net>, 2003.
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2004.
+# Rajesh Ranjan <rranjan@redhat.com>, 2005, 2006.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2009.
+
+
+
+
+========== hr.po ==========
+# Translation of matedialog to Croatiann
+# Copyright (C) Croatiann team
+# Translators: Automatski Prijevod <>,Robert Sedak <robert.sedak@sk.tel.hr>,
+
+
+
+
+========== hu.po ==========
+# Hungarian translation of matedialog.
+# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+#
+# Andras Timar <timar at mate dot hu>, 2003, 2004.
+# Laszlo Dvornik <dvornik at mate dot hu>, 2004.
+# Gabor Kelemen <kelemeng at mate dot hu>, 2005, 2006, 2007, 2008, 2010.
+# Kéménczy Kálmán <kkemenczy at novell dot com>, 2006. .
+# Nyitrai István <sianis at gmail dot com>, 2009.
+
+
+
+
+========== id.po ==========
+# Indonesia translation of matedialog.
+# Copyright (C) 2005 THE matedialog's COPYRIGHT HOLDER
+# This file is distributed under the same license as the matedialog package.
+# Ahmad Riza H Nst <ari@160c.afraid.org> 20040520
+# Mohammad DAMT <mdamt@bisnisweb.com>
+#
+#
+# Mohammad DAMT <mdamt@bisnisweb.com>, 2005.
+# Dirgita <dirgitadevina@yahoo.co.id>, 2010.
+# Dirgita <dirgitadevina@gmail.com>, 2010.
+
+
+
+
+========== is.po ==========
+# Translation of matedialog to Icelandic.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Samúel Jón Gunnarsson <sammi@techattack.nu>, 2003.
+
+
+
+
+========== it.po ==========
+# matedialog italian translation
+# Copyright (C) 2003 - 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+# Stefano Canepa <sc@linux.it>, 2003, 2004, 2005, 2006.
+# Luca Ferretti <elle.uca@infinito.it>, 2005-2007.
+# Milo Casagrande <milo@ubuntu.com>, 2008, 2010.
+
+
+
+
+========== ja.po ==========
+# matedialog ja.po.
+# Copyright (C) 2003-2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+# KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003.
+# Takeshi AIHANA <takeshi.aihana@gmail.com>, 2003-2008.
+# Satoru SATOH <ss@gnome.gr.jp>, 2006.
+# Yasumichi Akahoshi <yasumichi@vinelinux.org>, 2009.
+# Hideki Yamane (Debian-JP) <henrich@debian.or.jp>, 2009.
+# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2010.
+#
+
+
+
+
+========== ka.po ==========
+# translation of matedialog.mate-2-14.po to Georgian
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Vladimer Sichinava <alinux@siena.linux.it>, 2006.
+#
+
+
+
+
+========== kn.po ==========
+# translation of kn.po to Kannada
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Mate Kannada Team <kannada@eagle.sharma-home.net>, 2003.
+# Shankar Prasad <svenkate@redhat.com>, 2008.
+
+
+
+
+========== ko.po ==========
+# matedialog
+# This file is distributed under the same license as the matedialog package.
+# Young-Ho, Cha <ganadist@mizi.com>, 2004.
+# Changwoo Ryu <ganadist@mizi.com>, 2006, 2007, 2008, 2009, 2010.
+#
+# 주의:
+# - 이 프로그램의 이름인 MateDialog는 "제니티"로 음역.
+#
+
+
+
+
+========== ku.po ==========
+# translation of matedialog.mate-2-12.po to Kurdish
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Erdal Ronahi <erdal.ronahi@gmail.com>, 2005.
+#
+
+
+
+
+========== lt.po ==========
+# translation of lt.po to Lithuanian
+# Lithuanian translation of matedialog
+# Copyright (C) 2003-2006, 2007 Free Software Foundation, Inc.
+#
+#
+# Tomas Kuliavas <tokul@users.sourceforge.net>, 2003.
+# Žygimantas Beručka <zygis@gnome.org>, 2003-2006.
+# Justina Klingaitė <justina.klingaite@gmail.com>, 2005.
+# Gintautas Miliauskas <gintas@akl.lt>, 2006, 2007.
+
+
+
+
+========== lv.po ==========
+# translation of lv.po to Latvian
+# Raivis Dejus <orvils@gmail.com>, 2006, 2009.
+# Peteris Krisjanis <pecisk@gmail.com>, 2009.
+
+
+
+
+========== mai.po ==========
+# translation of matedialog.mate-2-28.po to Maithili
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+
+
+
+
+========== mg.po ==========
+# MALAGASY TRANSLATION OF MATEDIALOG.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Fano Rajaonarisoa <fano@isvtec.com>, 2006.
+
+
+
+
+========== mi.po ==========
+# translation of matedialog.HEAD.po to Maori
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# John C Barstow <jbowtie@amathaine.com>, 2004.
+#
+
+
+
+
+========== mk.po ==========
+# translation of matedialog.HEAD.po to Macedonian
+# translation of matedialog.HEAD.mk.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER, 2003
+#
+#
+# Arangel Angov <ufo@linux.net.mk>, 2005, 2006, 2008.
+# Arangel Angov <arangel@linux.net.mk>, 2007.
+
+
+
+
+========== ml.po ==========
+# translation of matedialog.HEAD.ml.po to Malayalam
+# This file is distributed under the same license as the matedialog.HEAD.ml package.
+# Copyright (C) 2008 THE matedialog'S COPYRIGHT HOLDER.
+# FSF-India <locale@gnu.org.in>, 2003.
+# Ani Peter <apeter@redhat.com>, 2006, 2008.
+# ragsagar <ragsagar@gmail.com>, 2008.
+# 
+# 
+
+
+
+
+========== mn.po ==========
+# translation of matedialog.HEAD.po to Mongolian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# S.Dulmandakh <duluu@localhost.localdomain>, 2003.
+# Dulmandakh Sukhbaatar <sdulmandakh@yahoo.com>, 2003.
+#
+
+
+
+
+========== mr.po ==========
+# translation of mr.po to marathi
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# sandeep shedmake <sandeep.shedmake@gmail.com>, 2007.
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2008.
+
+
+
+
+========== ms.po ==========
+# Duit PPRT siapa yang kebas????      
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Hasbullah Bin Pit (sebol) <sebol@my-penguin.org>, 2003-2004.
+#
+
+
+
+
+========== nb.po ==========
+# Norwegian translation of matedialog.
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Kjartan Maraas <kmaraas@gnome.org>, 2003-2010.
+#
+
+
+
+
+========== ne.po ==========
+# translation of matedialog.mate-2-20.ne.po to Nepali
+# Jyotshna Shrestha <shresthajyo@hotmail.com>, 2005.
+# Shyam Krishna Bal <balshyam24@yahoo.com>, 2007.
+
+
+
+
+========== nl.po ==========
+# Dutch translation of matedialog.
+#
+# This file is distributed under the same license as the matedialog package.
+#
+# Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>, 2003
+# Vincent van Adrighem <adrighem@gnome.org>, 2004, 2005
+# Wouter Bolsterlee <wbolster@gnome.org>, 2007, 2010.
+# Reinout van Schouwen <reinouts@gnome.org>, 2010
+# Tino Meinen <a.t.meinen@chello.nl>. 2008
+#
+
+
+
+
+========== nn.po ==========
+# translation of matedialog.HEAD.nn.po to Norwegian Nynorsk
+# translation of nn.po to Norwegian Nynorsk
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Åsmund Skjæveland <aasmunds@fys.uio.no>, 2004, 2006.
+# Eskild Hustvedt <i18n@zerodogg.org>, 2007, 2009.
+# Åsmund Skjæveland <aasmunds@ulrik.uio.no>, 2009.
+# Torstein Adolf Winterseth <kvikende@yahoo.no>, 2009.
+
+
+
+
+========== oc.po ==========
+# Translation of oc.po to Occitan
+# Occitan translation of MateDialog.
+# Copyright (C) 2003-2006, 2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the MateDialog package.
+#
+# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008, 2010.
+
+
+
+
+========== or.po ==========
+# translation of or.po to Oriya
+# Oriya translation of matedialog.HEAD.pot.
+# Copyright (C) 2006, 2008, 2009, Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+# $Id: or.po,v 1.2 2006/03/21 17:46:19 gmohanty Exp $
+#
+# Gora Mohanty <gora_mohanty@yahoo.co.in>, 2006.
+# Manoj Kumar Giri <giri.manojkr@gmail.com>, 2008.
+# Manoj Kumar Giri <mgiri@redhat.com>, 2009.
+
+
+
+
+========== pa.po ==========
+# translation of matedialog.HEAD.po to Punjabi
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Amanpreet Singh Alam <aalam@redhat.com>, 2004, 2005.
+# A S Alam <aalam@users.sf.net>, 2005, 2006 2007, 2009, 2010.
+
+
+
+
+========== pl.po ==========
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Aviary.pl
+# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
+# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
+# matepl@aviary.pl
+# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+
+
+========== ps.po ==========
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+
+
+
+
+========== pt.po ==========
+# matedialog's Portuguese translation.
+# Copyright © 2003, 2004, 2005, 2006, 2007, 2008, 2010 matedialog
+# This file is distributed under the same license as the matedialog package.
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2003, 2004, 2005, 2006, 2007, 2008, 2010.
+#
+
+
+
+
+========== pt_BR.po ==========
+# Brazilian Portuguese translation of matedialog.
+# Copyright (C) 2003-2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+# Alexandre Folle de Menezes <afmenez@terra.com.br>, 2003.
+# Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2004, 2006.
+# Og Maciel <ogmaciel@gnome.org>, 2007.
+# Fábio Nogueira <deb-user-ba@ubuntu.com>, 2007-2008, 2009.
+# Vladimir Melo <vmelo@gnome.org>, 2010.
+# André Gondim <andregondim@ubuntu.com>, 2010.
+#
+
+
+
+
+========== ro.po ==========
+# translation of matedialog.HEAD.ro.po to Română
+# Romanian translation of matedialog.
+# Copyright (C) 2004 matedialog
+# This file is distributed under the same license as the matedialog package.
+# Mugurel Tudor <mugurelu@mate.ro>, 2004, 2005, 2006, 2007.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009, 2010.
+# Daniel Șerbănescu <cyber19rider@gmail.com>, 2010.
+
+
+
+
+========== ru.po ==========
+# translation of ru.po to Russian
+# Copyright (C) 2003 matedialog COPYRIGHT HOLDER
+# This file is distributed under the same license as the matedialog package.
+#
+# Shaynurov Ildar <shir80@mail.ru>, 2003.
+# Leonid Kanter <leon@asplinux.ru>, 2004, 2005, 2006, 2010.
+# Yuri Kozlov <yuray@komyakino.ru>, 2010.
+
+
+
+
+========== rw.po ==========
+# translation of matedialog to Kinyarwanda.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+# Steve Murphy <murf@e-tools.com>, 2005
+# Steve performed initial rough translation from compendium built from translations provided by the following translators:
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# Carole Karema <karemacarole@hotmail.com>, 2005.
+# JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
+# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
+#
+
+
+
+
+========== si.po ==========
+# translation of matedialog.mate-2-22.po to Sinhala
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Yajith Ajantha Dayarathna <yajith@gmail.com>, 2008.
+# ඩනිෂ්ක නවින්, 2008.
+
+
+
+
+========== sk.po ==========
+# Slovak translation for matedialog.
+# Copyright (C) 2003, 2004, 2005, 2006, 2008, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+# Marcel Telka <marcel@telka.sk>, 2003, 2004, 2005, 2006, 2008, 2010.
+#
+
+
+
+
+========== sl.po ==========
+# Slovenian translations for matedialog.
+# Copyright (C) 2002-2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+#
+# Andraž Tori <andraz.tori1@guest.arnes.si>, 2002.
+# Matjaž Horvat <m@owca.info>, 2006.
+# Matic Žgur <mr.zgur@gmail.com>, 2007.
+# Matej Urbančič <mateju@svn.gnome.org>, 2008 - 2010.
+#
+
+
+
+
+========== sq.po ==========
+# Përkthimi i mesazheve të matedialog në shqip.
+# This file is distributed under the same license as the matedialog package.
+# Copyright (C) 2003-2008 Free Software Foundation, Inc.
+#
+# Laurent Dhima <laurenti@alblinux.net>, 2003-2008.
+
+
+
+
+========== sr.po ==========
+# Serbian translation of matedialog
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004, 2005, 2006.
+#
+# This file is distributed under the same license as the matedialog package.
+#
+# Maintainer: Александар Урошевић <urke@users.sourceforge.net>
+# Reviewed on 2004-02-14 by: Александар Урошевић <urke@users.sourceforge.net>
+# Reviewed on 2005-03-02 by: Александар Урошевић <urke@users.sourceforge.net>
+# Reviewed on 2005-09-04 by: Слободан Д. Средојевић <slobo@akrep.be>
+# Милош Поповић <gpopac@gmail.com>, 2010.
+#
+
+
+
+
+========== sr@latin.po ==========
+# Serbian translation of matedialog
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004, 2005, 2006.
+#
+# This file is distributed under the same license as the matedialog package.
+#
+# Maintainer: Aleksandar Urošević <urke@users.sourceforge.net>
+# Reviewed on 2004-02-14 by: Aleksandar Urošević <urke@users.sourceforge.net>
+# Reviewed on 2005-03-02 by: Aleksandar Urošević <urke@users.sourceforge.net>
+# Reviewed on 2005-09-04 by: Slobodan D. Sredojević <slobo@akrep.be>
+# Miloš Popović <gpopac@gmail.com>, 2010.
+#
+
+
+
+
+========== sv.po ==========
+# Swedish messages for matedialog.
+# Copyright (C) 2003-2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+# Christian Rose <menthos@menthos.com>, 2003, 2004, 2005.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010.
+#
+
+
+
+
+========== ta.po ==========
+# translation of matedialog.HEAD.po to Tamil
+# Tamil translation of Tamil MateDialog 2.4.
+# Copyright (C) 2003, 2004, 2006, 2007, 2008 Free Software Foundation, Inc.
+#
+#
+# Dinesh Nadarajah <n_dinesh@yahoo.com>, 2003.
+# Jayaradha N <jaya@pune.redhat.com>, 2004.
+# Felix <ifelix@redhat.com>, 2006.
+# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2008, 2009, 2010.
+# Dr,T,Vasudevan <agnihot3@gmail.com>, 2010.
+
+
+
+
+========== te.po ==========
+# translation of matedialog.mate-2-28.te.po to Telugu
+# Telugu translation of matedialog.
+# Copyright (C) 2007 Swecha Telugu Localisation Team <localisation@swecha.org>
+# This file is distributed under the same license as the matedialog package.
+#
+# Matapathi Pramod <pramod@swecha.net>, 2007.
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+
+
+
+
+========== th.po ==========
+# Thai matedialog translation.
+# Copyright (C) 2005-2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+#
+# Supranee Thirawatthanasuk <supranee@opentle.org>, 2004.
+# Paisa Seeluangsawat <paisa@users.sf.net>, only minor editing
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2010.
+#
+
+
+
+
+========== tr.po ==========
+# translation of matedialog to Turkish
+# Baris Cicek <baris@teamforce.name.tr>, 2005, 2007.
+# Fatih Ergüven <fatih@erguven.org>, 2006, 2007.
+#
+#
+# Baris Cicek <baris@teamforce.name.tr>, 2008.
+
+
+
+
+========== ug.po ==========
+# translation of matedialog.po to Uighur
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
+#  Abduxukur Abdurixit <abduxukur.abdurixit@t-systems.ch> 2005
+#
+
+
+
+
+========== uk.po ==========
+# Ukrainian translation to matedialog.
+# Copyright (C) Free Software Foundation
+# This file is distributed under the same license as the matedialog package.
+# Yuriy Syrota <yuri@renome.rovno.ua>
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2004-2007.
+#
+
+
+
+
+========== vi.po ==========
+# Vietnamese translation for MateDialog.
+# Copyright © 2008 MATE i18n Project for Vietnamese.
+# Trinh Minh Thanh <tmthanh@yahoo.com>, 2003.
+# Nguyen Thai Ngoc Duy <pclouds@gmx.net>, 2003.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2008.
+# 
+
+
+
+
+========== xh.po ==========
+# Xhosa translation of matedialog
+# Copyright (C) 2005 Canonical Ltd.
+# This file is distributed under the same license as the matedialog package.
+# Translation by Canonical Ltd <translations@canonical.com> with thanks to
+# Translation World CC in South Africa, 2005.
+#
+
+
+
+
+========== zh_CN.po ==========
+# Chinese (simplified) translation of matedialog.
+# Copyright (C) 2003, 2009, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the matedialog package.
+# Funda Wang <fundawang@linux.net.cn>, 2003.
+# Tao Wei <weitao1979@gmail.com>, 2009.
+# Yinghua Wang <wantinghard@gmail.com>
+
+
+
+
+========== zh_HK.po ==========
+# Chinese (Hong Kong) translation of matedialog.
+# Copyright (C) 2003-2006 Free Software Foundation, Inc.
+# Abel Cheung <abel@oaka.org>, 2003-2004.
+# Woodman Tuen <wmtuen@gmail.com>, 2005-2006.
+#
+#
+
+
+
+
+========== zh_TW.po ==========
+# Chinese (Taiwan) translation of matedialog.
+# Copyright (C) 2003-2006 Free Software Foundation, Inc.
+# Abel Cheung <abel@oaka.org>, 2003-2004.
+# Woodman Tuen <wmtuen@gmail.com>, 2005-2006.
+#
+#
+
+
+
+
