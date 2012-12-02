@@ -634,9 +634,6 @@ matedialog_tree_row_activated (GtkTreeView *tree_view, GtkTreePath *tree_path,
 {
   MateDialogData *zen_data = data;
   GtkTreeSelection *selection; 
-  GtkTreeModel *model;
-
-  model = gtk_tree_view_get_model (GTK_TREE_VIEW (tree_view));
 
   selection = gtk_tree_view_get_selection (GTK_TREE_VIEW (tree_view));
   gtk_tree_selection_selected_foreach (selection, 

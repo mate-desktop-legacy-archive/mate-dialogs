@@ -92,14 +92,26 @@ matedialog_entry (MateDialogData *data, MateDialogEntryData *entry_data)
   n_entries = g_slist_length (entries);
 
   if (n_entries > 1) {
-    entry = gtk_combo_box_entry_new_text ();
+    #if GTK_CHECK_VERSION(2,24,0)
+      entry = gtk_combo_box_text_new_with_entry ();
+    #else
+      entry = gtk_combo_box_entry_new_text ();
+    #endif
 
     for (tmp = entries; tmp; tmp = tmp->next) {
-      gtk_combo_box_append_text (GTK_COMBO_BOX (entry), tmp->data);
+      #if GTK_CHECK_VERSION(2,24,0)
+        gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (entry), tmp->data);
+      #else
+        gtk_combo_box_append_text (GTK_COMBO_BOX (entry), tmp->data);
+      #endif
     }
 
     if (entry_data->entry_text) {
-      gtk_combo_box_prepend_text (GTK_COMBO_BOX (entry), entry_data->entry_text);
+      #if GTK_CHECK_VERSION(2,24,0)
+        gtk_combo_box_text_prepend_text (GTK_COMBO_BOX_TEXT (entry), entry_data->entry_text);
+      #else
+        gtk_combo_box_prepend_text (GTK_COMBO_BOX (entry), entry_data->entry_text);
+      #endif
       gtk_combo_box_set_active (GTK_COMBO_BOX (entry), 0);
     }
 
@@ -145,7 +157,11 @@ matedialog_entry_dialog_response (GtkWidget *widget, int response, gpointer data
     case GTK_RESPONSE_OK:
       zen_data->exit_code = matedialog_util_return_exit_code (MATEDIALOG_OK);
       if (n_entries > 1) {
-        text = gtk_combo_box_get_active_text (GTK_COMBO_BOX (entry));
+        #if GTK_CHECK_VERSION(2,24,0)
+          text = gtk_combo_box_text_get_active_text (GTK_COMBO_BOX_TEXT (entry));
+        #else
+          text = gtk_combo_box_get_active_text (GTK_COMBO_BOX (entry));
+        #endif
       }
       else {
         text = gtk_entry_get_text (GTK_ENTRY (entry));      
