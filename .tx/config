@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+ 
+[MATE.mate-dialogs]
+file_filter = po/<lang>.po
+source_file = po/mate-dialogs.pot
+source_lang = en
