@@ -28,8 +28,8 @@
 #include <time.h>
 #include <string.h>
 
-#ifdef HAVE_LIBMATENOTIFY
-#include <libmatenotify/notify.h>
+#ifdef HAVE_LIBNOTIFY
+#include <libnotify/notify.h>
 #endif
 
 #include "matedialog.h"
@@ -157,7 +157,7 @@ matedialog_notification_handle_stdin (GIOChannel *channel,
           matedialog_notification_icon_update ();
         }
       } else if (!g_ascii_strcasecmp (command, "message")) {
-#ifdef HAVE_LIBMATENOTIFY
+#ifdef HAVE_LIBNOTIFY
         /* display a notification bubble */
         if (!g_utf8_validate (value, -1, NULL)) {
           g_warning ("Invalid UTF-8 in input!");
@@ -184,10 +184,10 @@ matedialog_notification_handle_stdin (GIOChannel *channel,
             icon = freeme = g_filename_to_uri (icon_file, NULL, NULL);
           }
 
-          notif = notify_notification_new_with_status_icon (
+          notif = notify_notification_new (
                               message[0] /* title */,
                               message[1] /* summary */,
-                              icon, status_icon);
+                              icon);
 
           g_strfreev (message);
           g_free (freeme);
@@ -273,7 +273,7 @@ matedialog_notification (MateDialogData *data, MateDialogNotificationData *notif
     gtk_status_icon_set_from_stock (status_icon, icon_stock);
   }
 
-#ifdef HAVE_LIBMATENOTIFY
+#ifdef HAVE_LIBNOTIFY
   /* create the notification widget */
   if (!notify_is_initted ()) {
     notify_init (_("MateDialog notification"));

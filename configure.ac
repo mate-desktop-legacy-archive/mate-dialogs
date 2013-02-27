@@ -44,7 +44,7 @@ AC_SUBST([MATEDIALOG_CFLAGS])
 AC_SUBST([MATEDIALOG_LIBS])
 
 dnl *************************
-dnl Check for the GTK+ backend, if it's X11, we -lX11
+dnl Check for the GTK+ backend, if it is X11, we -lX11
 dnl *************************
 
 matedialog_save_cflags="$CFLAGS"
@@ -78,24 +78,24 @@ fi
 AC_PATH_PROG([PERL],[perl],)
 
 # *******************************
-# libmatenotify check
+# libnotify check
 # *******************************
 
-LIBMATENOTIFY_REQUIRED=1.1.0
+LIBNOTIFY_REQUIRED=0.7.0
 
-AC_ARG_ENABLE([libmatenotify],
-              AC_HELP_STRING([--enable-libmatenotify],[enable libmatenotify support]),,
-              [enable_libmatenotify=yes])
+AC_ARG_ENABLE([libnotify],
+              AC_HELP_STRING([--enable-libnotify],[enable libnotify support]),,
+              [enable_libnotify=yes])
 
-if test x$enable_libmatenotify = xyes ; then
-   PKG_CHECK_MODULES([LIBMATENOTIFY],[libmatenotify >= $LIBMATENOTIFY_REQUIRED],
-                     [HAVE_LIBMATENOTIFY="yes"],[HAVE_LIBMATENOTIFY="no"])
+if test x$enable_libnotify = xyes ; then
+   PKG_CHECK_MODULES([LIBNOTIFY],[libnotify >= $LIBNOTIFY_REQUIRED],
+                     [HAVE_LIBNOTIFY="yes"],[HAVE_LIBNOTIFY="no"])
 
-   AC_SUBST([LIBMATENOTIFY_CFLAGS])
-   AC_SUBST([LIBMATENOTIFY_LIBS])
+   AC_SUBST([LIBNOTIFY_CFLAGS])
+   AC_SUBST([LIBNOTIFY_LIBS])
 
-   if test "x$HAVE_LIBMATENOTIFY" = "xyes"; then
-      AC_DEFINE([HAVE_LIBMATENOTIFY],[1],[libmatenotify is available on this machine])
+   if test "x$HAVE_LIBNOTIFY" = "xyes"; then
+      AC_DEFINE([HAVE_LIBNOTIFY],[1],[libnotify is available on this machine])
    fi
 fi
 

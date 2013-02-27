@@ -30,7 +30,7 @@ matedialog_CPPFLAGS = \
 
 matedialog_CFLAGS = \
 	$(MATEDIALOG_CFLAGS)	\
-	$(LIBMATENOTIFY_CFLAGS)	\
+	$(LIBNOTIFY_CFLAGS)	\
 	$(WARN_CFLAGS)		\
 	$(AM_CFLAGS)
 
@@ -39,7 +39,7 @@ matedialog_LDFLAGS = \
 
 matedialog_LDADD = \
 	$(MATEDIALOG_LIBS)		\
-	$(LIBMATENOTIFY_LIBS)	
+	$(LIBNOTIFY_LIBS)	
 
 uidir = $(datadir)/matedialog
 
