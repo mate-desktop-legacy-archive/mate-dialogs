@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Imants Liepiņš <imzzinator@gmail.com>, 2013.
 # Peteris Krisjanis <pecisk@gmail.com>, 2009.
 # Raivis Dejus <orvils@gmail.com>, 2006, 2009.
 msgid ""
@@ -10,14 +11,14 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
 "POT-Creation-Date: 2012-02-23 12:20+0100\n"
-"PO-Revision-Date: 2012-02-23 11:22+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2013-02-04 09:17+0000\n"
+"Last-Translator: Imants Liepiņš <imzzinator@gmail.com>\n"
+"Language-Team: Latvian (http://www.transifex.com/projects/p/MATE/language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lv\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
 #: ../src/about.c:64
 msgid ""
@@ -25,7 +26,7 @@ msgid ""
 "under the terms of the GNU Lesser General Public License as published by the"
 " Free Software Foundation; either version 2 of the License, or (at your "
 "option) any later version.\n"
-msgstr ""
+msgstr "Šis ir brīvās programmatūras produkts; jūs varat izplatīt un/vai modificēt to saskaņā ar GNU Vispārējās Publiskās Licences ,kā to publicējis Brīvas Programmatūras Fonds; 2. vai (pēc Jūsu iespējām) kādas vēlākas versijas noteikumiem.\n"
 
 #: ../src/about.c:68
 msgid ""
@@ -33,14 +34,14 @@ msgid ""
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
 " for more details.\n"
-msgstr ""
+msgstr "Šī programma tiek izplatīta ar cerību, ka tā būs noderīgs, bet BEZ jebkādas garantijas vai iekļautas ražotāja atbildības par šo produktu. Sīkāku informāciju meklējiet GNU Vispārējās Publiskās Licences tekstā.\n"
 
 #: ../src/about.c:72
 msgid ""
 "You should have received a copy of the GNU Lesser General Public License "
 "along with this program; if not, write to the Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr ""
+msgstr "GNU Vispārējās Publiskās Licence ir pieejama kopā ar šīs programmatūra instalāciju. Ja tā jums nav pieejama, jūs to varat iegūt no Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: ../src/about.c:265
 msgid "translator-credits"
@@ -71,15 +72,15 @@ msgstr "MateDialog paziņojums"
 
 #: ../src/password.c:64
 msgid "Type your password"
-msgstr ""
+msgstr "Ievadiet savu paroli"
 
 #: ../src/password.c:99
 msgid "Username:"
-msgstr ""
+msgstr "Lietotājvārds:"
 
 #: ../src/password.c:115
 msgid "Password:"
-msgstr ""
+msgstr "Parole:"
 
 #: ../src/scale.c:56
 #, c-format
@@ -417,12 +418,12 @@ msgstr "Aizvērt dialogu, kad sasniegti 100%"
 #: ../src/option.c:617
 #, no-c-format
 msgid "Kill parent process if Cancel button is pressed"
-msgstr ""
+msgstr "Beigt pamatprocesu, ja tiek nospiesta Atcelt poga"
 
 #: ../src/option.c:627
 #, no-c-format
 msgid "Hide Cancel button"
-msgstr ""
+msgstr "Paslēpt Atcelt pogu"
 
 #: ../src/option.c:642
 msgid "Display question dialog"
@@ -483,23 +484,23 @@ msgstr "Slēpt vērtību"
 
 #: ../src/option.c:837
 msgid "Display password dialog"
-msgstr ""
+msgstr "Parādīt paroles logu"
 
 #: ../src/option.c:846
 msgid "Display the username option"
-msgstr ""
+msgstr "Parādīt lietotājvārda iespējas"
 
 #: ../src/option.c:861
 msgid "Display color selection dialog"
-msgstr ""
+msgstr "Parādīt krāsu izvēles logu"
 
 #: ../src/option.c:870
 msgid "Set the color"
-msgstr ""
+msgstr "Iestatīt krāsu"
 
 #: ../src/option.c:879
 msgid "Show the palette"
-msgstr ""
+msgstr "Parādīt krāsu paleti"
 
 #: ../src/option.c:894
 msgid "About matedialog"
@@ -615,19 +616,19 @@ msgstr "Rādīt teksta informācijas opcijas"
 
 #: ../src/option.c:1786
 msgid "Color selection options"
-msgstr ""
+msgstr "Krāsas izvēles iespējas"
 
 #: ../src/option.c:1787
 msgid "Show color selection options"
-msgstr ""
+msgstr "Parādīt krāsu izvēles iespējas"
 
 #: ../src/option.c:1797
 msgid "Password dialog options"
-msgstr ""
+msgstr "Paroles loga iespējas"
 
 #: ../src/option.c:1798
 msgid "Show password dialog options"
-msgstr ""
+msgstr "Parādīt paroles loga iespējas"
 
 #: ../src/option.c:1808
 msgid "Miscellaneous options"
