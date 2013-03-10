@@ -1,0 +1,4 @@
+MateDialogs 1.5.1
+  * Use libnotify instead of libmatenofity
+
+
