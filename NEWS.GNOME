@@ -1,4 +1,4 @@
-MateDialog 2.32.0
+Zenity 2.32.0
 "Not too late"
    * Bump to 2.32.0 (Luis Medinas)
    * Updated Catalan translation (Joan Duran)
@@ -13,7 +13,7 @@ MateDialog 2.32.0
    * [l10] Updated Italian translation (Milo Casagrande)
    * Updated Polish translation (Piotr Drąg)
  
-MateDialog 2.31.92
+Zenity 2.31.92
 "I love translators"
    * Bump to 2.31.92 (Luis Medinas)
    * Updated Greek translation (Michael Kotsarinis)
@@ -31,11 +31,11 @@ MateDialog 2.31.92
    * Updated French translation (Claude Paroz)
    * Updated Bengali India Translation (Runa Bhattacharjee)
 
-MateDialog 2.31.6
+Zenity 2.31.6
 " Ah it's still GTK+-2.0"
    * Bugs and features
-    - Make matedialog compile with GTK2 and GTK3 (Luis Medinas)
-    - Bug 624612 to update matedialog help file (Arx Cruz)
+    - Make zenity compile with GTK2 and GTK3 (Luis Medinas)
+    - Bug 624612 to update zenity help file (Arx Cruz)
     - Removing X_LIBS from src/Makefile (Arx Cruz)
     - Change cancel button messages to be capitalized (Arx Cruz)
    * New and updated translations
@@ -68,9 +68,9 @@ MateDialog 2.31.6
     - Updated Norwegian bokmål translation (Kjartan Maraas)
     - Complete Simplified Chinese translation. (Aron Xu)
 
-MateDialog 2.31.5
+Zenity 2.31.5
 " Hello Sunshine "
-   * Fixed Bgo 616816  - Add new entries to MateDialog's man page 
+   * Fixed Bgo 616816  - Add new entries to Zenity's man page 
      Patch from Carnë Draug <carandraug.ml@gmail.com>
    * Add new password dialog (Arx Cruz)
    * Change GTK_DIALOG(dialog)->vbox to gtk_dialog_get_content_area()
@@ -81,7 +81,7 @@ MateDialog 2.31.5
        - Fran Diéguez (gl)
        - Petr Kovar (cs)
 
-MateDialog 2.31.3
+Zenity 2.31.3
 " Young Reborn "
    * Use g_timeout_add_seconds instead g_timeout_add
    * Change Maintainers
@@ -128,7 +128,7 @@ MateDialog 2.31.3
        - Yannig Marchegay (oc)
        - Yaron Sharabani (he)
 
-MateDialog 2.30.0
+Zenity 2.30.0
 " The Sea "
    * New and updated documentation translations
         - Sterios Prosiniklis, Simos Xenitellis [he]
@@ -171,9 +171,9 @@ MateDialog 2.30.0
         - Maxim V. Dziumanenko [uk]
         - Jamil Ahmed [bn]
 
-MateDialog 2.26.0
+Zenity 2.26.0
 " Crescent "
-   * disable monk easter egg in order to remove mate-canvas
+   * disable monk easter egg in order to remove gnome-canvas
      dependency [#571741]
    * replace deprecated GTK+ calls (Felix Riemann) [#571869]
    * remove deprecated/obsoleted dialog definition
@@ -197,7 +197,7 @@ MateDialog 2.26.0
         - Krishnababu K [te]
         - Amitakhya Phukan [as]
 
-MateDialog 2.24.1
+Zenity 2.24.1
 " Giant Steps "
    * Document --timeout (Luca Bruno) [#565133]
    * correctly handle --filename on file selection dialog
@@ -215,7 +215,7 @@ MateDialog 2.24.1
 	- Djihed Afifi [ar]
 	- Simos Xenitellis [el]
 
-MateDialog 2.24.0
+Zenity 2.24.0
    * New and updated documentation translations
 	- Mario Blättermann [de]
 	- Tommi Vainikainen [fi]
@@ -256,18 +256,18 @@ MateDialog 2.24.0
 	- Chao-Hsiung Liao [zh_HK]
 	- Chao-Hsiung Liao [zh_TW]
 
-MateDialog 2.23.3.1
+Zenity 2.23.3.1
 " Again "
    * Depend on intltool 0.40.0
 
-MateDialog 2.23.3
+Zenity 2.23.3
 " Above & Beyond "
    * New and updated translations
 	- Yannig Marchegay [oc]
 	- Djihed Afifi [ar]
 	- Claude Paroz [fr] 
 
-MateDialog 2.23.2
+Zenity 2.23.2
 " Plus 4 "
    * Fix the use of --width and --height on several dialogs [#529452]
    * New and updated translations
@@ -282,7 +282,7 @@ MateDialog 2.23.2
 	- Danishka Navin [si]
 	- Clytie Siddall [vi]
 
-MateDialog 2.23.1
+Zenity 2.23.1
 " 7 years "
    * Add support for file filter in file selection dialog through the new
      --file-filter command line option (Ricardo Cruz) [#409843]
@@ -303,7 +303,7 @@ MateDialog 2.23.1
 	- Priit Laes [et]
 	- Kjartan Maraas [nb]
 
-MateDialog 2.22.0
+Zenity 2.22.0
 " My favourite things "
    * New and updated documentation translations
 	- Jorge Gonzalez [es]
@@ -313,7 +313,7 @@ MateDialog 2.22.0
 	- Marcel Telka [sk]
 	- Chao-Hsiung Liao [zh_HK, zh_TW] 	
 
-MateDialog 2.21.92
+Zenity 2.21.92
 " Hello "
    * New and updated documentation translations
 	- Yannig Marchegay [oc]
@@ -337,7 +337,7 @@ MateDialog 2.21.92
 	- Ignacio Casal Quinteiro [gl]
 	- Ihar Hrachyshka [be@latin] 
 
-MateDialog 2.20.0
+Zenity 2.20.0
 " The Invasion "
    * New and updated documentation translations
 	- Danilo Nylander [sv] 
@@ -373,7 +373,7 @@ MateDialog 2.20.0
 	- Jovan Naumovski [mk]
 	- Maxim Dziumanenko [uk]
 
-MateDialog 2.19.2
+Zenity 2.19.2
 " Dude, Dude, Dude "
    * Added timeout option to all dialogs (Muthiah Annamalai) [#160654]
    * Fixed critical warning when using checkbox and radiobox in
@@ -389,13 +389,13 @@ MateDialog 2.19.2
 	- I Felix [ta]
 	- Ilkka Tuohela [fi]
 
-MateDialog 2.19.1
+Zenity 2.19.1
 " Medieval Times "
    * Update man page with new options (Sven Arvidsson) [#436187]
    * Several build cleanups (Kjartan Maraas) [#416196]
    * Double-clicking on calendar dialog for response (Tom Tromey)
      [#395152]
-   * libmatenotify support made optional (Saleem Abdulrasool) [#346843]
+   * libnotify support made optional (Saleem Abdulrasool) [#346843]
    * Fix index handling on --print-column option of list dialog 
      (Lucas Rocha) [#420396]
    * Fix crash when using special printf format string in textinfo
@@ -407,7 +407,7 @@ MateDialog 2.19.1
 	- Funda Wang [zh_CN]
 	- Jakub Friedl [cs] 
 
-MateDialog 2.18.1
+Zenity 2.18.1
 " Moving on "
    * New and updated translations
 	- Baris Cicek [tr]
@@ -415,7 +415,7 @@ MateDialog 2.18.1
 	- Ignacio Casal Quinteiro [gl]
 	- Inaki Larranaga Murgoitio [eu] 
 
-MateDialog 2.18.0
+Zenity 2.18.0
 " We got it! "
    * New and updated translations
 	- Fábio Nogueira [pt_BR]
@@ -429,7 +429,7 @@ MateDialog 2.18.0
 	- Takeshi Aihana [ja]
 	- Danilo Segan [sr, sr@Latn] 
 
-MateDialog 2.17.92
+Zenity 2.17.92
 " Almost There Again! "
    * New and updated translations
 	- Duarte Loreto [pt]
@@ -437,7 +437,7 @@ MateDialog 2.17.92
 	- Changwoo Ryu [ko]
 	- Gabor Kelemen [hu]
 
-MateDialog 2.17.91
+Zenity 2.17.91
 " Skating hurts! "
    * New and updated translations
 	- Robert-André Mauchin [fr] 
@@ -448,12 +448,12 @@ MateDialog 2.17.91
 	- Josep Puigdemont i Casamajó [ca]
 	- Ilkka Tuohela [fi]
 
-MateDialog 2.17.90
+Zenity 2.17.90
 " More Babel! "
    * New and updated translations
 	- Alexander Shopov [bg] 
 
-MateDialog 2.17.3
+Zenity 2.17.3
 " Babel "
    * New and updated translations
 	- Yair Hershkovitz [he]
@@ -463,7 +463,7 @@ MateDialog 2.17.3
 	- Hendrik Brandt [de]
 	- Raivis Dejus [lv]
 
-MateDialog 2.17.2
+Zenity 2.17.2
 " Sunny day, Zero Degree! "
    * New and updated translations
 	- Kjartan Maraas [nb]
@@ -474,7 +474,7 @@ MateDialog 2.17.2
 	- Ales Nyakhaychyk [be]
 	- Djihed Afifi [ar] 
 
-MateDialog 2.17.1
+Zenity 2.17.1
 " Fixes everywhere! "
    * Don't show cancel button on warning dialogs (Claudio Saavedra)
      [#324100]
@@ -495,13 +495,13 @@ MateDialog 2.17.1
 	* Djihed Afifi [ar]
 	* Yair Hershkovitz [he]
 
-MateDialog 2.16.1
+Zenity 2.16.1
 " I'm not creative enough to name releases "
    * New and updated translations
         - Estonian [Ivar Smolin]
 	- Turkish [Fatih Ergüven]
 
-MateDialog 2.16.0
+Zenity 2.16.0
 ==============
 " Sixteen! Yeah! "
    * New and updated translations
@@ -514,7 +514,7 @@ MateDialog 2.16.0
 	- Maxim Dziumanenko (uk)
 	- Kostas Papadimas (el)
 
-MateDialog 2.15.92
+Zenity 2.15.92
 ==============
 " Midnight "
    * New and updated documentation translations
@@ -530,7 +530,7 @@ MateDialog 2.15.92
 	- Gintautas Miliauskas (lt)
 	- Raphael Higino (pt_BR)
 
-MateDialog 2.15.91
+Zenity 2.15.91
 ==============
 " So what? "
    * New and updated translations
@@ -539,7 +539,7 @@ MateDialog 2.15.91
 	- Runa Bhattacharjee (bn_IN)
 	- Inaki Larranaga (eu)
 
-MateDialog 2.15.90
+Zenity 2.15.90
 ==============
 " Kryptonite "
    * About dialog update (Lucas Rocha)
@@ -568,22 +568,22 @@ MateDialog 2.15.90
 	- Josep Puigdemont Casamajó [ca]
 	- Vincent van Adrighem [nl]
 
-MateDialog 2.15.2
+Zenity 2.15.2
 ==============
 " What are you waiting for, dude? "
    * Build infrastructure revamp (Christian Persch) [#341056]
    * New dropdown menu on entry dialog (Diego Urrelo) [#311038]
 
-MateDialog 2.15.1
+Zenity 2.15.1
 ==============
 " Nuk inda Kuk! "
    * Implementation of "message" command on notification 
      which pops notification bubbles. Implemented with
-     libmatenotify (Davyd Madeley)
+     libnotify (Davyd Madeley)
    * New --confirm-overwrite to file selection dialog to 
      pop confirmation dialog when selection an existing
      filename (Lucas Rocha)
-   * Quit matedialog on about dialog response. Fixes bug
+   * Quit zenity on about dialog response. Fixes bug
      (Lucas Rocha) [#336505] 
    * Manpage fixes (Lucas Rocha) [#336751]
    * Small memory allocation fixes (Behdad Esfahbod)
@@ -599,7 +599,7 @@ MateDialog 2.15.1
 	- Clytie Siddall [vi]
 	- Kjartan Maraas [no]
 
-MateDialog 2.14.0
+Zenity 2.14.0
 ==============
 " Acid jazz! "
     * Fix list dialog separator option [Glynn Foster]
@@ -624,7 +624,7 @@ MateDialog 2.14.0
 	- Daniel Nylander [sv]
 	- Benoît Dejean [fr]
 
-MateDialog 2.13.90
+Zenity 2.13.90
 ==============
 " Ca Ca Ca "
     * New and updated documentation translations
@@ -635,7 +635,7 @@ MateDialog 2.13.90
 	- Evandro Fernandes Giovanini [pt_BR]
 	- Gabor Kelemen [hu] 
 
-MateDialog 2.13.5
+Zenity 2.13.5
 ==============
 " Salvador "
     * New and updated translations
@@ -644,7 +644,7 @@ MateDialog 2.13.5
 	- Alexander Shopov [bg]
 	- Slobodan D. Sredojevic [sr, sr@Latn]
 
-MateDialog 2.13.4
+Zenity 2.13.4
 ==============
 " Arantina "
     * New scale dialog for selecting a value from 
@@ -666,15 +666,15 @@ MateDialog 2.13.4
 	- Žygimantas Beručka [lt]
 	- Kjartan Maraas [nb, no] 
 
-MateDialog 2.13.3
+Zenity 2.13.3
 ==============
-" Lucas, do you still love me? Yeah, MateDialog, Yeah! "
+" Lucas, do you still love me? Yeah, Zenity, Yeah! "
     * Make it possible to add new lines and markup in calendar, 
       progress and list dialog texts [Lucas Rocha]
     * New and updated documentation translations
         - Francisco Javier F. Serrador [es]
 
-MateDialog 2.13.2
+Zenity 2.13.2
 ==============
 " I love you, jhbuild "
     * Make it possible to add new lines in the in the msg 
@@ -682,13 +682,13 @@ MateDialog 2.13.2
     * New and updated translations
 	- Erdal Ronahi [ku]
 
-MateDialog 2.13.1
+Zenity 2.13.1
 ==============
 " Incognito "
     * Fixes man page typos [Guilherme Pastore]
     * Fixes bug #317033 [Lucas]
     * Fixes bug #315020 [Lucas]
-    * Refile MateDialog Manual to GNOME|Utilities. 
+    * Refile Zenity Manual to GNOME|Utilities. 
       Fixes bug #318831 [Brent Smith]
     * Manual improvements. Fixes bug #318915 [Brent Smith]
     * Default focus is given on tree view in list
@@ -699,7 +699,7 @@ MateDialog 2.13.1
 	- Vincent van Adrighem [nl]
 	- Mahay Alam Khan [bn]
 
-MateDialog 2.12.0
+Zenity 2.12.0
 ==============
 " G12 "
     * New and updated translations
@@ -713,7 +713,7 @@ MateDialog 2.12.0
     * New documentation translations
         - Vincent Untz [fr]
 
-MateDialog 2.11.92
+Zenity 2.11.92
 ==============
 " Muqueca "
     * New and updated translations
@@ -729,7 +729,7 @@ MateDialog 2.11.92
         - Francisco Javier F. Serrador [es]
         - Maxim Dziumanenko [uk]
 
-MateDialog 2.11.91
+Zenity 2.11.91
 ==============
 " All we need is love! "
     * New and updated translations
@@ -740,10 +740,10 @@ MateDialog 2.11.91
         - Ilkka Tuohela [fi]
         - Chao-Hsiung Liao [zh_TW]
 
-MateDialog 2.11.90
+Zenity 2.11.90
 ==============
 " Almost there! "
-    * mate-doc-utils migration [Lucas] 
+    * gnome-doc-utils migration [Lucas] 
     * New and updated translations
         - Vincent van Adrighem [nl]
         - Yair Hershkovitz [he]
@@ -754,7 +754,7 @@ MateDialog 2.11.90
         - Kjartan Maraas [no, nb]
         - Ilkka Tuohela [fi]
 
-MateDialog 2.11.1
+Zenity 2.11.1
 =============
 " All night long "
     * Several code cleanups [Benoît]
@@ -771,7 +771,7 @@ MateDialog 2.11.1
         - Marcel Telka [sk]
         - Miloslav Trmac [cs]  
 
-MateDialog 2.11.0
+Zenity 2.11.0
 =============
 " Caruru is delicious! "
     * New --no-wrap option on info/error/warning/question 
@@ -807,7 +807,7 @@ MateDialog 2.11.0
         - Stefano Canepa [it] 
         - Mugurel Tudor [ro] 
 
-MateDialog 2.10.0
+Zenity 2.10.0
 =============
 " 10 Moves Ahead "
 	* New and updated translations
@@ -819,7 +819,7 @@ MateDialog 2.10.0
 		- Laszlo Dvornik, Gabor Kelemen [hu]
 		- Abel Cheung [zh_TW, ar]
 
-MateDialog 2.9.92
+Zenity 2.9.92
 =============
 " Perdition "
 	* Fix a few leaks [Paolo, Glynn]
@@ -850,7 +850,7 @@ MateDialog 2.9.92
 		- Arafat Medini [ar]
 		- Alessio Frusciante, Stefano Canepa [it]
 
-MateDialog 2.9.91
+Zenity 2.9.91
 =============
 " the L I T T L E things "
 	* Build fixes [Chris]
@@ -867,7 +867,7 @@ MateDialog 2.9.91
 		- Adam Weinberger [en_CA]
 		- Christian Rose [sv]
 
-MateDialog 2.9.90
+Zenity 2.9.90
 =============
 " Up yer bum! "
 	* Fix stdin on the tree dialog [Ed]
@@ -878,7 +878,7 @@ MateDialog 2.9.90
 		- Funda Wang [zh_CN]
 		- Vincent van Adrighem [nl]
 
-MateDialog 2.9.2
+Zenity 2.9.2
 ============
 " New Year Zenolutions "
 	* Pre-load current dates in the calendar, because 
@@ -895,9 +895,9 @@ MateDialog 2.9.2
 		- Francisco Javier F. Serrador [es]
 		- Christophe Merlet, Baptiste Mille-Mathias [fr]
 
-MateDialog 2.9.1
+Zenity 2.9.1
 ============
-" Happy Christmas, MATE "
+" Happy Christmas, GNOME "
 	* Add code to listen for commands on stdin and update
 	  the notification area icon [James]
 	* ANSIfication [Kjartan]
@@ -926,14 +926,14 @@ MateDialog 2.9.1
 		- Alexander Shopov, Rostislav Raykov [bg]
 		- Christian Rose [sv]
  
-MateDialog 2.9.0
+Zenity 2.9.0
 ============
 " Zen Translation "
 	* Add support for save file selection [Lucas]
 	* Add support for directory-only selection [Lucas]
 	* Add support for notification area [Glynn]
 
-MateDialog 2.8.0
+Zenity 2.8.0
 ============
 " Zen Elimination "
 	* Add new translations [Abel]
@@ -952,7 +952,7 @@ MateDialog 2.8.0
 		- Abel Cheung [zh_TW]
 		- Dafydd Harries [cy]
 
-MateDialog 2.7.91
+Zenity 2.7.91
 =============
 " Here I stand, sad and free "
 
@@ -983,7 +983,7 @@ MateDialog 2.7.91
 		- Artur Flinta [pl]
 		- Marcel Telka [sk]
 		
-MateDialog 2.7.90
+Zenity 2.7.90
 ============
 " Let's sit down to find out where we stand "
 
@@ -1002,7 +1002,7 @@ MateDialog 2.7.90
 		- Kjartan Maraas [no]	
 		- Francisco Javier F. Serrador [es]
 
-MateDialog 2.7.0
+Zenity 2.7.0
 ============
 " You know what, I think I might stay here a little longer "
 
@@ -1020,7 +1020,7 @@ MateDialog 2.7.0
 		- Ahmad Riza H Nst, Mohammad DAMT [id]
 		- John C Barstow [mi]
 
-MateDialog 2.6.2
+Zenity 2.6.2
 ============
 " Look what you've gone and done "
 
@@ -1033,7 +1033,7 @@ MateDialog 2.6.2
 		- Duarte Loreto [pt]
 		- Vincent van Adrighem [nl]
 
-MateDialog 2.6.1
+Zenity 2.6.1
 ============
 " Okay, so I didn't get to Rottnest! "
 
@@ -1045,7 +1045,7 @@ MateDialog 2.6.1
 		- Adam Weinberger [en_CA]
 		- Yogeesh MB [kn]
 
-MateDialog 2.6.0
+Zenity 2.6.0
 ============
 " Roll on Rottnest! "
 
@@ -1058,7 +1058,7 @@ MateDialog 2.6.0
 		- Andras Timar [hu]
 		- Mugurel Tudor [ro]
 
-MateDialog 2.5.91
+Zenity 2.5.91
 =============
 " Too old to die young "
 
@@ -1067,7 +1067,7 @@ MateDialog 2.5.91
 	* New and updated translations
 		- Mətin Əmirov [az]
 
-MateDialog 2.5.90
+Zenity 2.5.90
 =============
 " Half drunk "
 
@@ -1087,7 +1087,7 @@ MateDialog 2.5.90
 		- Priit Laes [et]
 		- Guntupalli Karunakar, Amanpreet Singh Alam [pa]
 
-MateDialog 2.5.2
+Zenity 2.5.2
 ============
 " Bottle half full or half empty? "
 
@@ -1108,13 +1108,13 @@ MateDialog 2.5.2
 		- Metin Amiroff [az]
 		- Laurent Dhima [sq]
 
-MateDialog 2.5.1
+Zenity 2.5.1
 ============
 " Zen beginnings "
 
 	* Use the new file selection widget [Jan]
 
-MateDialog 1.8
+Zenity 1.8
 ==========
 " Zenning into the new year "
 
@@ -1140,7 +1140,7 @@ MateDialog 1.8
 		- Takeshi AIHANA [ja]
 		- Laurent Dhima [sq]
 		
-MateDialog 1.7
+Zenity 1.7
 ==========
 " Zen Revolutions "
 
@@ -1162,7 +1162,7 @@ MateDialog 1.7
 		- Miloslav Trmac [cs]
 		- Jordi Mallach, Jordi Mas [ca]
 
-MateDialog 1.6
+Zenity 1.6
 ==========
 " Zen my ass "
 
@@ -1181,7 +1181,7 @@ MateDialog 1.6
 		- Jarkko Ranta [fi]
 		- Stefano Canepa [it]
 
-MateDialog 1.5
+Zenity 1.5
 ==========
 " Which came first, the zen or the mind. "
 
@@ -1196,7 +1196,7 @@ MateDialog 1.5
 		- Metin Amiroff [az]
 		- Changwoo Ryu [ko]
 
-MateDialog 1.4
+Zenity 1.4
 ===========
 " There's no zen like home. "
 
@@ -1237,7 +1237,7 @@ MateDialog 1.4
 		- Christian Neumair [de]
 		- Baptiste Mille-Mathias [fr]
 
-MateDialog 1.3
+Zenity 1.3
 ==========
 
 " Don't scale the mountain seeking wisdom, when the answer lies at your feet. "
@@ -1255,7 +1255,7 @@ MateDialog 1.3
 	* Fix #113706 for the elastic resize in the progres dialog [Glynn]
 	* Update man page [Glynn]
 
-MateDialog 1.2
+Zenity 1.2
 ==========
 
 " Learning Zen is a phenomenon of gold and dung. Before you understand it, 
@@ -1279,7 +1279,7 @@ MateDialog 1.2
 		- Christian Neumair [de]
 		- Jordi Mallach [ca]
 
-MateDialog 1.1
+Zenity 1.1
 ==========
 
 " In life it is the not the destination that matters, but the journey."
@@ -1311,7 +1311,7 @@ MateDialog 1.1
 		- Ole Laursen [da]
 		- Christian Rose [sv]
 
-MateDialog 1.0
+Zenity 1.0
 ==========
 
 " The obstacle is the path. "
@@ -1321,7 +1321,7 @@ Zen Dialogs -
 Calendar, Text Entry, Error, Informational, File Selection, List, Progress,
 Question, Text Information and Warning.
 
-See 'matedialog --about' and Help for more details of how to use MateDialog.
+See 'zenity --about' and Help for more details of how to use Zenity.
 
 Zen Thanks -
 ============
