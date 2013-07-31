@@ -278,7 +278,7 @@ matedialog_about (MateDialogData *data)
 		"authors", authors,
                 "documenters", documenters,
                 "translator-credits", translators,
-                "website", "http://live.gnome.org/MateDialog",
+                "website", "http://www.mate-desktop.org/",
                 "logo", logo,
                 "wrap-license", TRUE,
                 "license", license_trans,
