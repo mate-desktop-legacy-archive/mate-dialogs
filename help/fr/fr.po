@@ -154,7 +154,7 @@ msgid ""
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
 "later version published by the Free Software Foundation with no Invariant "
 "Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
-"of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
+"of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
 "in the file COPYING-DOCS distributed with this manual."
 msgstr ""
 "Permission vous est donnée de copier, distribuer et/ou modifier ce document "
@@ -162,7 +162,7 @@ msgstr ""
 "ou ultérieure publiée par la Free Software Foundation sans section "
 "inaltérable, sans texte de première page de couverture ni texte de dernière "
 "page de couverture. Vous trouverez un exemplaire de cette licence en suivant "
-"ce <ulink type=\"help\" url=\"ghelp:fdl\">lien</ulink> ou dans le fichier "
+"ce <ulink type=\"help\" url=\"help:fdl\">lien</ulink> ou dans le fichier "
 "COPYING-DOCS fourni avec le présent manuel."
 
 #: C/matedialog.xml:12(para)
@@ -312,12 +312,12 @@ msgstr "Votre avis"
 
 #: C/matedialog.xml:88(para)
 msgid ""
-"To send feedback, follow the directions in the <ulink url=\"ghelp:mate-"
+"To send feedback, follow the directions in the <ulink url=\"help:mate-"
 "feedback\" type=\"help\">Feedback Page</ulink>."
 msgstr ""
 "Pour rapporter une anomalie ou émettre une suggestion concernant "
 "l'application <application>MateDialog</application> ou ce manuel, procédez comme "
-"indiqué sur la <ulink url=\"ghelp:mate-feedback\" type=\"help\">Page de "
+"indiqué sur la <ulink url=\"help:mate-feedback\" type=\"help\">Page de "
 "réactions sur MATE</ulink>."
 
 #: C/matedialog.xml:95(para)

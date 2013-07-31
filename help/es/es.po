@@ -154,7 +154,7 @@ msgid ""
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
 "later version published by the Free Software Foundation with no Invariant "
 "Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
-"of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
+"of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
 "in the file COPYING-DOCS distributed with this manual."
 msgstr ""
 "Se otorga permiso para copiar, distribuir y/o modificar este documento bajo "
@@ -162,7 +162,7 @@ msgstr ""
 "cualquier otra versión posterior publicada por la Free Software Foundation "
 "sin secciones invariantes, sin textos de portada, y sin textos de "
 "contraportada. Puede encontrar una copia de la GFDL en este <ulink type="
-"\"help\" url=\"ghelp:fdl\">enlace</ulink> o en el archivo COPYING-DOCS "
+"\"help\" url=\"help:fdl\">enlace</ulink> o en el archivo COPYING-DOCS "
 "distribuido con este manual."
 
 #: C/matedialog.xml:12(para)
@@ -314,10 +314,10 @@ msgstr "Comentarios"
 
 #: C/matedialog.xml:88(para)
 msgid ""
-"To send feedback, follow the directions in the <ulink url=\"ghelp:mate-"
+"To send feedback, follow the directions in the <ulink url=\"help:mate-"
 "feedback\" type=\"help\">Feedback Page</ulink>."
 msgstr ""
-"Para enviar un comentario, siga las direcciones en <ulink url=\"ghelp:mate-"
+"Para enviar un comentario, siga las direcciones en <ulink url=\"help:mate-"
 "feedback\" type=\"help\">Página de comentarios</ulink>."
 
 #: C/matedialog.xml:95(para)

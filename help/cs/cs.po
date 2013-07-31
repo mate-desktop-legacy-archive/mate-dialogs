@@ -155,14 +155,14 @@ msgid ""
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
 "later version published by the Free Software Foundation with no Invariant "
 "Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
-"of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
+"of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
 "in the file COPYING-DOCS distributed with this manual."
 msgstr ""
 "Je povoleno kopírovat, šířit a/nebo upravovat tento dokument za podmínek GNU "
 "Free Documentation License, verze 1.1 nebo jakékoli další verze vydané "
 "nadací Free Software Foundation; bez neměnných oddílů, bez textů předních "
 "desek a bez textů zadních desek. Kopie této licence je zahrnuta v oddílu "
-"jménem <ulink type=\"help\" url=\"ghelp:fdl\">GNU Free Documentation "
+"jménem <ulink type=\"help\" url=\"help:fdl\">GNU Free Documentation "
 "License</ulink> nebo v souboru COPYING-DOCS dodávaném s touto příručkou."
 
 #: C/matedialog.xml:12(para)
@@ -306,11 +306,11 @@ msgstr "Ohlasy"
 
 #: C/matedialog.xml:88(para)
 msgid ""
-"To send feedback, follow the directions in the <ulink url=\"ghelp:mate-"
+"To send feedback, follow the directions in the <ulink url=\"help:mate-"
 "feedback\" type=\"help\">Feedback Page</ulink>."
 msgstr ""
 "Pokud chcete zaslat náměty a připomínky, použijte následující přímý odkaz na "
-"<ulink url=\"ghelp:mate-feedback\" type=\"help\">Stránku s ohlasy</ulink>."
+"<ulink url=\"help:mate-feedback\" type=\"help\">Stránku s ohlasy</ulink>."
 
 #: C/matedialog.xml:95(para)
 msgid ""
