@@ -10,15 +10,14 @@ EXTRA_DIST = \
 	HACKING			\
 	ChangeLog		\
 	NEWS			\
+	NEWS.GNOME		\
 	README			\
-	AUTHORS			\
-	mate-doc-utils.make
+	AUTHORS
 
 DISTCLEANFILES =                \
 	intltool-extract        \
 	intltool-merge          \
-	intltool-update		\
-	mate-doc-utils.make
+	intltool-update
 
 DISTCHECK_CONFIGURE_FLAGS = --disable-scrollkeeper
 
