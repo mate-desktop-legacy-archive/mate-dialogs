@@ -151,14 +151,14 @@ msgid ""
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
 "later version published by the Free Software Foundation with no Invariant "
 "Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
-"of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
+"of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or "
 "in the file COPYING-DOCS distributed with this manual."
 msgstr ""
 "Дозволяється копіювати, розповсюджувати та/або змінювати цей документ на "
 "умовах ліцензії GNU Free Documentation License (GFDL), версії 1.1 або будь-"
 "якої старшої версії, що опублікована Free Software Foundation без "
 "інваріантних розділів, тексту титульної сторінки, та тексту фінальної "
-"сторінки. Копію GFDL можна знайти <ulink type=\"help\" url=\"ghelp:fdl\">за "
+"сторінки. Копію GFDL можна знайти <ulink type=\"help\" url=\"help:fdl\">за "
 "адресою</ulink> або у файлі COPYING-DOCS, що постачається з цією довідкою."
 
 #: C/matedialog.xml:12(para)
@@ -305,10 +305,10 @@ msgstr "Зворотній зв'язок"
 
 #: C/matedialog.xml:88(para)
 msgid ""
-"To send feedback, follow the directions in the <ulink url=\"ghelp:mate-"
+"To send feedback, follow the directions in the <ulink url=\"help:mate-"
 "feedback\" type=\"help\">Feedback Page</ulink>."
 msgstr ""
-"Для зворотного зв'язка слідуйте директивам на <ulink url=\"ghelp:mate-"
+"Для зворотного зв'язка слідуйте директивам на <ulink url=\"help:mate-"
 "feedback\" type=\"help\">Сторінці зворотного зв'язку</ulink>."
 
 #: C/matedialog.xml:95(para)
