@@ -1,7 +1,5 @@
 bin_PROGRAMS = matedialog
 
-bin_SCRIPTS = gdialog
-
 matedialog_SOURCES = \
 	about.c		\
 	calendar.c	\
@@ -46,10 +44,5 @@ uidir = $(datadir)/matedialog
 ui_DATA = \
 	matedialog.ui
 
-DISTCLEANFILES= \
-	gdialog
-
 EXTRA_DIST = \
-	$(ui_DATA) \
-	gdialog \
-	gdialog.in
+	$(ui_DATA)

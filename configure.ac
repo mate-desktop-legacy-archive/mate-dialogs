@@ -128,7 +128,6 @@ AC_CONFIG_FILES([
 Makefile
 po/Makefile.in
 src/Makefile
-src/gdialog
 data/Makefile
 help/Makefile
 ])
