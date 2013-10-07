@@ -23,7 +23,7 @@ matedialog_SOURCES = \
 matedialog_CPPFLAGS = \
 	-I$(includedir)					\
 	-DMATELOCALEDIR=\""$(datadir)/locale"\"	\
-	-DMATEDIALOG_DATADIR=\""$(pkgdatadir)"\"		\
+	-DMATEDIALOG_DATADIR=\""$(datadir)/matedialog"\"		\
 	$(AM_CPPFLAGS)
 
 matedialog_CFLAGS = \
