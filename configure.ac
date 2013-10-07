@@ -50,7 +50,7 @@ dnl *************************
 
 matedialog_save_cflags="$CFLAGS"
 # pull in the CFLAGS to locate gdkconfig.h
-CFLAGS=`$PKG_CONFIG --cflags gtk+-2.0`
+CFLAGS=`$PKG_CONFIG --cflags gtk+-$GTK_API_VERSION`
 AC_COMPILE_IFELSE([
 #include <gdkconfig.h>
 
