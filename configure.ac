@@ -41,8 +41,6 @@ case "$with_gtk" in
 esac
 
 PKG_CHECK_MODULES([MATEDIALOG],[gtk+-$GTK_API_VERSION >= $GTK_REQUIRED glib-2.0])
-AC_SUBST([MATEDIALOG_CFLAGS])
-AC_SUBST([MATEDIALOG_LIBS])
 
 dnl *************************
 dnl Check for the GTK+ backend, if it is X11, we -lX11
@@ -52,7 +50,12 @@ matedialog_save_cflags="$CFLAGS"
 # pull in the CFLAGS to locate gdkconfig.h
 CFLAGS=`$PKG_CONFIG --cflags gtk+-$GTK_API_VERSION`
 AC_COMPILE_IFELSE([
+#include <gtk/gtk.h>
+#if GTK_CHECK_VERSION (3, 0, 0)
+#include <gdk/gdk.h>
+#else
 #include <gdkconfig.h>
+#endif
 
 int main(void) {
 #ifndef GDK_WINDOWING_X11
@@ -71,6 +74,9 @@ if test "x$GDK_BACKEND_X11" = "xyes"; then
 	MATEDIALOG_CFLAGS="$MATEDIALOG_CFLAGS $X_CFLAGS"
 	MATEDIALOG_LIBS="$MATEDIALOG_LIBS $X_LIBS"
 fi
+
+AC_SUBST([MATEDIALOG_CFLAGS])
+AC_SUBST([MATEDIALOG_LIBS])
 
 # *******************************
 # perl check
