@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Ge'ez Frontier Foundation <locales@geez.org>, 2002.
+# Ge'ez Frontier Foundation <locales@geez.org>, 2002
+# samson <sambelet@yahoo.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
 "POT-Creation-Date: 2012-02-23 12:20+0100\n"
-"PO-Revision-Date: 2012-02-23 11:23+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2013-06-11 20:10+0000\n"
+"Last-Translator: samson <sambelet@yahoo.com>\n"
+"Language-Team: Amharic (http://www.transifex.com/projects/p/MATE/language/am/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: am\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../src/about.c:64
 msgid ""
@@ -43,7 +44,7 @@ msgstr ""
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr ""
+msgstr "ለተርጓሚዎች-ምስጋና "
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
@@ -70,15 +71,15 @@ msgstr ""
 
 #: ../src/password.c:64
 msgid "Type your password"
-msgstr ""
+msgstr "የመግቢያ ቃል ይጻፉ"
 
 #: ../src/password.c:99
 msgid "Username:"
-msgstr ""
+msgstr "የተጠቃሚ ስም:"
 
 #: ../src/password.c:115
 msgid "Password:"
-msgstr ""
+msgstr "የመግቢያ ቃል:"
 
 #: ../src/scale.c:56
 #, c-format
@@ -102,7 +103,7 @@ msgstr ""
 
 #: ../src/matedialog.ui.h:1
 msgid "Add a new entry"
-msgstr "አዲስ ዕቃ ጨምር"
+msgstr "አዲስ ማስገቢያ መጨመሪያ"
 
 #: ../src/matedialog.ui.h:2
 msgid "Adjust the scale value"
@@ -122,7 +123,7 @@ msgstr ""
 
 #: ../src/matedialog.ui.h:6
 msgid "C_alendar:"
-msgstr "ቀን መቁጠሪያ፦ (_A)"
+msgstr "ቀን መቁጠሪያ:"
 
 #: ../src/matedialog.ui.h:7
 msgid "Calendar selection"
@@ -134,11 +135,11 @@ msgstr "ስህተት"
 
 #: ../src/matedialog.ui.h:9
 msgid "Information"
-msgstr "መረጃ (_I)"
+msgstr "መረጃ"
 
 #: ../src/matedialog.ui.h:10
 msgid "Progress"
-msgstr "ይሻሻል"
+msgstr "ሂደቱ "
 
 #: ../src/matedialog.ui.h:11
 msgid "Question"
@@ -146,23 +147,23 @@ msgstr "ጥያቄ"
 
 #: ../src/matedialog.ui.h:12
 msgid "Running..."
-msgstr "በሥራ ላይ..."
+msgstr "በ ማስኬድ ላይ..."
 
 #: ../src/matedialog.ui.h:13
 msgid "Select a date from below."
-msgstr "ከስር ቀን ምረጡ።"
+msgstr "ቀን ከ ስር ይምረጡ"
 
 #: ../src/matedialog.ui.h:14
 msgid "Select items from the list"
-msgstr "ከዝርዝር ዕቃዎች ምረጡ"
+msgstr "እቃዎች ከ ዝርዝር ውስጥ ይምረጡ"
 
 #: ../src/matedialog.ui.h:15
 msgid "Select items from the list below."
-msgstr "ከስር ዝርዝር ዕቃዎች ምረጡ።"
+msgstr "እቃዎች ከ ዝርዝር ውስጥ ይምረጡ"
 
 #: ../src/matedialog.ui.h:16
 msgid "Text View"
-msgstr "የጽሑፍ ዕይታ"
+msgstr "ጽሁፍ መመልከቻ"
 
 #: ../src/matedialog.ui.h:17
 msgid "Warning"
@@ -170,7 +171,7 @@ msgstr "ማስጠንቀቂያ"
 
 #: ../src/matedialog.ui.h:18
 msgid "_Enter new text:"
-msgstr "አዲስ ጽሑፍ አስገቡ፦ (_E)"
+msgstr "አዲስ ጽሑፍ _ያስገቡ"
 
 #: ../src/option.c:131
 msgid "Set the dialog title"
@@ -186,23 +187,23 @@ msgstr ""
 
 #: ../src/option.c:141
 msgid "ICONPATH"
-msgstr "የቁልፉ መደብ"
+msgstr ""
 
 #: ../src/option.c:149
 msgid "Set the width"
-msgstr ""
+msgstr "ስፋት ማሰናጃ"
 
 #: ../src/option.c:150
 msgid "WIDTH"
-msgstr ""
+msgstr "ስፋት"
 
 #: ../src/option.c:158
 msgid "Set the height"
-msgstr ""
+msgstr "እርዝመት ማሰናጃ"
 
 #: ../src/option.c:159
 msgid "HEIGHT"
-msgstr ""
+msgstr "እርዝመት"
 
 #: ../src/option.c:167
 msgid "Set dialog timeout in seconds"
@@ -229,7 +230,7 @@ msgstr ""
 #: ../src/option.c:661 ../src/option.c:670 ../src/option.c:736
 #: ../src/option.c:769
 msgid "TEXT"
-msgstr ""
+msgstr "ጽሁፍ"
 
 #: ../src/option.c:201
 msgid "Set the calendar day"
@@ -237,7 +238,7 @@ msgstr ""
 
 #: ../src/option.c:202
 msgid "DAY"
-msgstr ""
+msgstr "ቀን"
 
 #: ../src/option.c:210
 msgid "Set the calendar month"
@@ -245,7 +246,7 @@ msgstr ""
 
 #: ../src/option.c:211
 msgid "MONTH"
-msgstr ""
+msgstr "ወር"
 
 #: ../src/option.c:219
 msgid "Set the calendar year"
@@ -253,7 +254,7 @@ msgstr ""
 
 #: ../src/option.c:220
 msgid "YEAR"
-msgstr ""
+msgstr "አመት"
 
 #: ../src/option.c:228
 msgid "Set the format for the returned date"
@@ -294,7 +295,7 @@ msgstr ""
 
 #: ../src/option.c:361
 msgid "Set the filename"
-msgstr ""
+msgstr "የፋይል ስም ማሰናጃ"
 
 #: ../src/option.c:362 ../src/option.c:703
 msgid "FILENAME"
@@ -318,7 +319,7 @@ msgstr ""
 
 #: ../src/option.c:398 ../src/option.c:477
 msgid "SEPARATOR"
-msgstr ""
+msgstr "መለያያ "
 
 #: ../src/option.c:406
 msgid "Confirm file selection if filename already exists"
@@ -343,7 +344,7 @@ msgstr ""
 
 #: ../src/option.c:450
 msgid "COLUMN"
-msgstr ""
+msgstr "አምድ"
 
 #: ../src/option.c:458
 msgid "Use check boxes for first column"
@@ -370,7 +371,7 @@ msgstr ""
 #. Column index number to print out on a list dialog
 #: ../src/option.c:505 ../src/option.c:514
 msgid "NUMBER"
-msgstr ""
+msgstr "ቁጥር"
 
 #: ../src/option.c:513
 msgid "Hide a specific column"
@@ -421,7 +422,7 @@ msgstr ""
 #: ../src/option.c:627
 #, no-c-format
 msgid "Hide Cancel button"
-msgstr ""
+msgstr "የ መሰረዣ ቁልፍ መደበቂያ"
 
 #: ../src/option.c:642
 msgid "Display question dialog"
@@ -441,7 +442,7 @@ msgstr ""
 
 #: ../src/option.c:702
 msgid "Open file"
-msgstr "ፋይል ክፈት"
+msgstr "ፋይል መክፈቻ"
 
 #: ../src/option.c:726
 msgid "Display warning dialog"
@@ -458,7 +459,7 @@ msgstr ""
 #: ../src/option.c:778 ../src/option.c:787 ../src/option.c:796
 #: ../src/option.c:805 ../src/option.c:871
 msgid "VALUE"
-msgstr ""
+msgstr "ዋጋ"
 
 #: ../src/option.c:786
 msgid "Set minimum value"
@@ -478,7 +479,7 @@ msgstr ""
 
 #: ../src/option.c:822
 msgid "Hide value"
-msgstr ""
+msgstr "ዋጋ መደበቂያ"
 
 #: ../src/option.c:837
 msgid "Display password dialog"
@@ -494,7 +495,7 @@ msgstr ""
 
 #: ../src/option.c:870
 msgid "Set the color"
-msgstr ""
+msgstr "ቀለም ማሰናጃ"
 
 #: ../src/option.c:879
 msgid "Show the palette"
@@ -502,7 +503,7 @@ msgstr ""
 
 #: ../src/option.c:894
 msgid "About matedialog"
-msgstr "ስለ ዘኒቲ"
+msgstr ""
 
 #: ../src/option.c:903
 msgid "Print version"
@@ -510,7 +511,7 @@ msgstr ""
 
 #: ../src/option.c:1643
 msgid "General options"
-msgstr "አጠቃላይ መርጫዎች"
+msgstr "ባጠቃላይ ምርጫዎች"
 
 #: ../src/option.c:1644
 msgid "Show general options"
@@ -518,35 +519,35 @@ msgstr ""
 
 #: ../src/option.c:1654
 msgid "Calendar options"
-msgstr "የቀን መቁጠሪያ መርጫዎች"
+msgstr "የ ቀን መቁጠሪያ ምርጫዎች"
 
 #: ../src/option.c:1655
 msgid "Show calendar options"
-msgstr ""
+msgstr "የ ቀን መቁጠሪያ ምርጫዎች ማሳያ"
 
 #: ../src/option.c:1665
 msgid "Text entry options"
-msgstr ""
+msgstr "የ ጽሁፍ ማስገቢያ ምርጫዎች"
 
 #: ../src/option.c:1666
 msgid "Show text entry options"
-msgstr ""
+msgstr "የ ጽሁፍ ማስገቢያ ምርጫዎች ማሳያ"
 
 #: ../src/option.c:1676
 msgid "Error options"
-msgstr "የስህተት መርጫዎች"
+msgstr "የ ስህተት ምርጫዎች"
 
 #: ../src/option.c:1677
 msgid "Show error options"
-msgstr ""
+msgstr "የ ስህተት ምርጫዎች ማሳያ"
 
 #: ../src/option.c:1687
 msgid "Info options"
-msgstr "የመረጃ መርጫዎች"
+msgstr "የ መረጃ ምርጫዎች"
 
 #: ../src/option.c:1688
 msgid "Show info options"
-msgstr ""
+msgstr "የ መረጃ ምርጫዎች ማሳያ"
 
 #: ../src/option.c:1698
 msgid "File selection options"
@@ -558,11 +559,11 @@ msgstr ""
 
 #: ../src/option.c:1709
 msgid "List options"
-msgstr "የዝርዝር መርጫዎች"
+msgstr "የ ዝርዝር ምርጫዎች"
 
 #: ../src/option.c:1710
 msgid "Show list options"
-msgstr ""
+msgstr "የ ዝርዝር ምርጫዎች ማሳያ"
 
 #: ../src/option.c:1720
 msgid "Notification icon options"
@@ -590,11 +591,11 @@ msgstr ""
 
 #: ../src/option.c:1753
 msgid "Warning options"
-msgstr "የማስጠንቀቂያ መርጫዎች"
+msgstr "የ ማስጠንቀቂያ ምርጫዎች"
 
 #: ../src/option.c:1754
 msgid "Show warning options"
-msgstr ""
+msgstr "የ ማስጠንቀቂያ ምርጫዎች ማሳያ"
 
 #: ../src/option.c:1764
 msgid "Scale options"
@@ -630,11 +631,11 @@ msgstr ""
 
 #: ../src/option.c:1808
 msgid "Miscellaneous options"
-msgstr "የተለያየ መርጫዎች"
+msgstr "የ ተለያዩ ምርጫዎች"
 
 #: ../src/option.c:1809
 msgid "Show miscellaneous options"
-msgstr ""
+msgstr "የ ተለያዩ ምርጫዎች ማሳያ"
 
 #: ../src/option.c:1834
 #, c-format

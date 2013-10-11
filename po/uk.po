@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# zubr139 <zubr139@ukr.net>, 2012
+# Koljan1970 <Stuartlittle1970@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
 "POT-Creation-Date: 2012-02-23 12:20+0100\n"
-"PO-Revision-Date: 2012-02-23 11:23+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2013-06-20 14:59+0000\n"
+"Last-Translator: Koljan1970 <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/MATE/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: uk\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../src/about.c:64
 msgid ""
@@ -31,7 +33,7 @@ msgid ""
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
 " for more details.\n"
-msgstr "Ця програма розповсюджується в сподіванні на те, що вона буде корисною, але БЕЗ БУДЬ-ЯКИХ ГАРАНТІЙ, в тому числі без неявної гарантії КОМЕРЦІЙНОЇ ЦІННОСТІ чи ПРИДАТНОСТІ ДЛЯ БУДЬ-ЯКИХ ЦІЛЕЙ. Докладніше про це дивіться GNU General Public License.\n"
+msgstr "Ця програма розповсюджується у сподіванні на те, що вона буде корисною, але БЕЗ БУДЬ-ЯКИХ ГАРАНТІЙ, у тому числі без неявної гарантії КОМЕРЦІЙНОЇ ЦІННОСТІ чи ПРИДАТНОСТІ ДЛЯ БУДЬ-ЯКОЇ МЕТИ. Докладніше про це дивіться GNU General Public License.\n"
 
 #: ../src/about.c:72
 msgid ""
@@ -42,7 +44,7 @@ msgstr "Ви мали отримати копію GNU General Public License р�
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr "Юрій Сирота <yuriy@beer.com>\nМаксим Дзюманенко <dziumanenko@gmail.com>"
+msgstr "Юрій Сирота <yuriy@beer.com>\nМаксим Дзюманенко <dziumanenko@gmail.com>\nМикола Ткач <Stuartlittle1970@gmail.com>"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
@@ -51,7 +53,7 @@ msgstr "Програма показу діалогових вікон зі сц�
 #: ../src/main.c:100
 #, c-format
 msgid "You must specify a dialog type. See 'matedialog --help' for details\n"
-msgstr "Необхідно вказати тип діалогового вікна. Скористуйтесь matedialog --help для докладнішої інформації\n"
+msgstr "Необхідно вказати тип діалогового вікна. Скористайтеся matedialog --help для докладнішої інформації\n"
 
 #: ../src/notification.c:138
 #, c-format
@@ -61,7 +63,7 @@ msgstr "не вдається розібрати команду зі станд�
 #: ../src/notification.c:177
 #, c-format
 msgid "Could not parse message from stdin\n"
-msgstr "не вдається розібрати команду зі стандартного вводу\n"
+msgstr "Не вдається розібрати команду зі стандартного вводу\n"
 
 #: ../src/notification.c:262 ../src/notification.c:279
 msgid "MateDialog notification"
@@ -69,15 +71,15 @@ msgstr "Сповіщення MateDialog"
 
 #: ../src/password.c:64
 msgid "Type your password"
-msgstr ""
+msgstr "Введіть свій пароль"
 
 #: ../src/password.c:99
 msgid "Username:"
-msgstr ""
+msgstr "Ім’я користувача:"
 
 #: ../src/password.c:115
 msgid "Password:"
-msgstr ""
+msgstr "Пароль:"
 
 #: ../src/scale.c:56
 #, c-format
@@ -92,7 +94,7 @@ msgstr "Значення за межами діапазону.\n"
 #: ../src/tree.c:321
 #, c-format
 msgid "No column titles specified for List dialog.\n"
-msgstr "Не вказано заголовків стовпчиків для вікна із списком.\n"
+msgstr "Не вказано заголовків стовпчиків для вікна зі списком.\n"
 
 #: ../src/tree.c:327
 #, c-format
@@ -117,7 +119,7 @@ msgstr "Виникла помилка."
 
 #: ../src/matedialog.ui.h:5
 msgid "Are you sure you want to proceed?"
-msgstr "Ви впевнені, що хочете продовжити?"
+msgstr "Ви впевнені, що бажаєте продовжити?"
 
 #: ../src/matedialog.ui.h:6
 msgid "C_alendar:"
@@ -153,11 +155,11 @@ msgstr "Виберіть дату."
 
 #: ../src/matedialog.ui.h:14
 msgid "Select items from the list"
-msgstr "Виберіть елементи із списку"
+msgstr "Виберіть елементи зі списку"
 
 #: ../src/matedialog.ui.h:15
 msgid "Select items from the list below."
-msgstr "Виберіть елементи із списку нижче."
+msgstr "Виберіть елементи зі списку нижче."
 
 #: ../src/matedialog.ui.h:16
 msgid "Text View"
@@ -232,7 +234,7 @@ msgstr "ТЕКСТ"
 
 #: ../src/option.c:201
 msgid "Set the calendar day"
-msgstr "Встановити день в календарі"
+msgstr "Встановити день у календарі"
 
 #: ../src/option.c:202
 msgid "DAY"
@@ -240,7 +242,7 @@ msgstr "ДЕНЬ"
 
 #: ../src/option.c:210
 msgid "Set the calendar month"
-msgstr "Встановити місяць в календарі"
+msgstr "Встановити місяць у календарі"
 
 #: ../src/option.c:211
 msgid "MONTH"
@@ -248,7 +250,7 @@ msgstr "МІСЯЦЬ"
 
 #: ../src/option.c:219
 msgid "Set the calendar year"
-msgstr "Встановити рік в календарі"
+msgstr "Встановити рік у календарі"
 
 #: ../src/option.c:220
 msgid "YEAR"
@@ -285,7 +287,7 @@ msgstr "Не вмикати перенос тексту"
 
 #: ../src/option.c:319
 msgid "Display info dialog"
-msgstr "Відобразити інформаційне вікно"
+msgstr "Показати інформаційне вікно"
 
 #: ../src/option.c:352
 msgid "Display file selection dialog"
@@ -293,11 +295,11 @@ msgstr "Показати вікно вибору файлу"
 
 #: ../src/option.c:361
 msgid "Set the filename"
-msgstr "Встановити назву файла"
+msgstr "Встановити назву файлу"
 
 #: ../src/option.c:362 ../src/option.c:703
 msgid "FILENAME"
-msgstr "НАЗВА_ФАЙЛА"
+msgstr "НАЗВА_ФАЙЛУ"
 
 #: ../src/option.c:370
 msgid "Allow multiple files to be selected"
@@ -334,7 +336,7 @@ msgstr "НАЗВА | ШАБЛОН1 ШАБЛОН2 ..."
 
 #: ../src/option.c:431
 msgid "Display list dialog"
-msgstr "Відобразити вікно із списком"
+msgstr "Показати вікно зі списком"
 
 #: ../src/option.c:449
 msgid "Set the column header"
@@ -364,7 +366,7 @@ msgstr "Дозволити змінювати текст"
 msgid ""
 "Print a specific column (Default is 1. 'ALL' can be used to print all "
 "columns)"
-msgstr "Вивести вказаний стовпчик (Типове значення 1. Можна використовувати 'ALL' для виводу всіх стовпчиків)"
+msgstr "Вивести вказаний стовпчик (Типове значення 1. Можна використовувати 'ALL' для виводу усіх стовпчиків)"
 
 #. Column index number to print out on a list dialog
 #: ../src/option.c:505 ../src/option.c:514
@@ -415,16 +417,16 @@ msgstr "Прибрати діалог, коли буде досягнуто 100%
 #: ../src/option.c:617
 #, no-c-format
 msgid "Kill parent process if Cancel button is pressed"
-msgstr ""
+msgstr "Завершити батьківський процес, якщо натиснена клавіша Скасувати"
 
 #: ../src/option.c:627
 #, no-c-format
 msgid "Hide Cancel button"
-msgstr ""
+msgstr "Приховати кнопку Скасувати"
 
 #: ../src/option.c:642
 msgid "Display question dialog"
-msgstr "Відобразити питальне вікно"
+msgstr "Показати питальне вікно"
 
 #: ../src/option.c:660
 msgid "Sets the label of the Ok button"
@@ -436,7 +438,7 @@ msgstr "Встановити позначку для кнопки Скасува
 
 #: ../src/option.c:693
 msgid "Display text information dialog"
-msgstr "Відобразити текстове інформаційне вікно"
+msgstr "Показати текстове інформаційне вікно"
 
 #: ../src/option.c:702
 msgid "Open file"
@@ -444,11 +446,11 @@ msgstr "Відкрити файл"
 
 #: ../src/option.c:726
 msgid "Display warning dialog"
-msgstr "Відобразити попереджувальне вікно"
+msgstr "Показати попереджувальне вікно"
 
 #: ../src/option.c:759
 msgid "Display scale dialog"
-msgstr "Відобразити діалог масштабу"
+msgstr "Показати діалог масштабу"
 
 #: ../src/option.c:777
 msgid "Set initial value"
@@ -481,11 +483,11 @@ msgstr "Сховати величину"
 
 #: ../src/option.c:837
 msgid "Display password dialog"
-msgstr ""
+msgstr "Показати вікно введення паролю"
 
 #: ../src/option.c:846
 msgid "Display the username option"
-msgstr ""
+msgstr "Показувати параметри імені користувача"
 
 #: ../src/option.c:861
 msgid "Display color selection dialog"
@@ -549,11 +551,11 @@ msgstr "Показувати параметри діалогу виводу ін
 
 #: ../src/option.c:1698
 msgid "File selection options"
-msgstr "Параметри діалогу вибору файла"
+msgstr "Параметри діалогу вибору файлу"
 
 #: ../src/option.c:1699
 msgid "Show file selection options"
-msgstr "Показувати параметри діалогу вибору файла"
+msgstr "Показувати параметри діалогу вибору файлу"
 
 #: ../src/option.c:1709
 msgid "List options"
@@ -621,11 +623,11 @@ msgstr "Показувати параметри вибору кольору"
 
 #: ../src/option.c:1797
 msgid "Password dialog options"
-msgstr ""
+msgstr "Опції введення паролю"
 
 #: ../src/option.c:1798
 msgid "Show password dialog options"
-msgstr ""
+msgstr "Показати опції вікна введення паролю"
 
 #: ../src/option.c:1808
 msgid "Miscellaneous options"

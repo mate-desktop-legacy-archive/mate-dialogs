@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Marcel Telka <marcel@telka.sk>, 2003, 2004, 2005, 2006, 2008, 2010.
+# Ján Ďanovský <dagsoftware@yahoo.com>, 2013
+# Marcel Telka <marcel@telka.sk>, 2003, 2004, 2005, 2006, 2008, 2010
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
 "POT-Creation-Date: 2012-02-23 12:20+0100\n"
-"PO-Revision-Date: 2012-02-23 11:24+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2013-05-14 00:01+0000\n"
+"Last-Translator: Ján Ďanovský <dagsoftware@yahoo.com>\n"
+"Language-Team: Slovak (http://www.transifex.com/projects/p/MATE/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../src/about.c:64
 msgid ""
@@ -43,7 +44,7 @@ msgstr "Kópiu Menej všeobecnej verejnej licencie GNU ste mali dostať spolu s 
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr "Marcel Telka <marcel@telka.sk>"
+msgstr "Marcel Telka <marcel@telka.sk>\nJán Ďanovský <dagsoftware@yahoo.com>"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
@@ -70,15 +71,15 @@ msgstr "Oznámenia MateDialog"
 
 #: ../src/password.c:64
 msgid "Type your password"
-msgstr ""
+msgstr "Zadajte svoje heslo"
 
 #: ../src/password.c:99
 msgid "Username:"
-msgstr ""
+msgstr "Meno používateľa:"
 
 #: ../src/password.c:115
 msgid "Password:"
-msgstr ""
+msgstr "Heslo:"
 
 #: ../src/scale.c:56
 #, c-format
@@ -416,12 +417,12 @@ msgstr "Zatvoriť dialógové okno pri dosiahnutí 100 %"
 #: ../src/option.c:617
 #, no-c-format
 msgid "Kill parent process if Cancel button is pressed"
-msgstr ""
+msgstr "Zabiť rodičovský proces pri stlačení tlačítka Zrušiť"
 
 #: ../src/option.c:627
 #, no-c-format
 msgid "Hide Cancel button"
-msgstr ""
+msgstr "Skryť tlačítko Zrušiť"
 
 #: ../src/option.c:642
 msgid "Display question dialog"
@@ -482,11 +483,11 @@ msgstr "Skryť hodnotu"
 
 #: ../src/option.c:837
 msgid "Display password dialog"
-msgstr ""
+msgstr "Zobraziť dialógové okno s heslom"
 
 #: ../src/option.c:846
 msgid "Display the username option"
-msgstr ""
+msgstr "Zobraziť možnosť mena používateľa"
 
 #: ../src/option.c:861
 msgid "Display color selection dialog"
@@ -622,11 +623,11 @@ msgstr "Zobraziť voľby výberu farby"
 
 #: ../src/option.c:1797
 msgid "Password dialog options"
-msgstr ""
+msgstr "Možnosti dialógového okna s heslom"
 
 #: ../src/option.c:1798
 msgid "Show password dialog options"
-msgstr ""
+msgstr "Zobraziť možnosti dialógového okna s heslom"
 
 #: ../src/option.c:1808
 msgid "Miscellaneous options"

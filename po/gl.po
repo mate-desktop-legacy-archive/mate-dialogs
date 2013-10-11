@@ -3,27 +3,28 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Antón Méixome <meixome@certima.net>, 2010.
-# Antón Méixome <meixome@mancomun.org>, 2009.
-# Francisco Diéguez <frandieguez@ubuntu.com>, 2009.
-# Fran Diéguez <frandieguez@ubuntu.com>, 2010.
-# Ignacio Casal Quinteiro <icq@cvs.gnome.org>, 2007.
-# Ignacio Casal Quinteiro <icq@svn.gnome.org>, 2008.
-# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
-# Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
+# Antón Méixome <meixome@certima.net>, 2010
+# Antón Méixome <meixome@mancomun.org>, 2009
+# Fran Diéguez <frandieguez@ubuntu.com>, 2009
+# Fran Diéguez <frandieguez@ubuntu.com>, 2010
+# Ignacio Casal Quinteiro <icq@cvs.gnome.org>, 2007
+# Ignacio Casal Quinteiro <icq@svn.gnome.org>, 2008
+# Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005-2006
+# Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009
+# mbouzada <mbouzada@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
 "POT-Creation-Date: 2012-02-23 12:20+0100\n"
-"PO-Revision-Date: 2012-02-23 11:21+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2013-04-01 10:55+0000\n"
+"Last-Translator: mbouzada <mbouzada@gmail.com>\n"
 "Language-Team: Galician (http://www.transifex.com/projects/p/MATE/language/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: gl\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../src/about.c:64
 msgid ""
@@ -39,22 +40,22 @@ msgid ""
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
 " for more details.\n"
-msgstr "Este programa distribúese esperando que sexa útil, mais SEN NINGUNHA GARANTÍA; mesmo sen a garantía implícita de VALOR COMERCIAL ou ADECUACIÓN PARA UN PROPÓSITO PARTICULAR. Para obter máis información vexa a Licenza pública xeral GNU.\n"
+msgstr "Este programa distribúese agardando que sexa útil, mais SEN NINGUNHA GARANTÍA; mesmo sen a garantía implícita de VALOR COMERCIAL ou ADECUACIÓN PARA UN PROPÓSITO PARTICULAR. Para obter máis información vexa a Licenza pública xeral GNU.\n"
 
 #: ../src/about.c:72
 msgid ""
 "You should have received a copy of the GNU Lesser General Public License "
 "along with this program; if not, write to the Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr "Debeu recibir unha copia da Licenza pública xeral GNU xunto con este programa; en caso contrario, escriba á Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr "Debeu ter recibida unha copia da Licenza Pública Xeral GNU xunto con este programa; de non ser así, escriba á Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr "Fran Diéguez <frandieguez@ubuntu.com>, 2009, 2010.\nMancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.\nAntón Méixome <meixome@certima.net>, 2009, 2010.\nIgnacio Casal Quinteiro <icq@gnome.org>, 2005, 2006, 2007, 2008."
+msgstr "Miguel Anxo Bouzada <mbouzada@gmail.com>, 2013.\nProxecto Trasno <proxecto@trasno.net>, 2013.\nFran Diéguez <frandieguez@ubuntu.com>, 2009, 2010.\nMancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.\nAntón Méixome <meixome@certima.net>, 2009, 2010.\nIgnacio Casal Quinteiro <icq@gnome.org>, 2005, 2006, 2007, 2008."
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
-msgstr "Mostrar as caixas de diálogo desde os scripts do intérprete de ordes"
+msgstr "Amosar as caixas de diálogo desde os scripts do intérprete de ordes"
 
 #: ../src/main.c:100
 #, c-format
@@ -125,7 +126,7 @@ msgstr "Produciuse un erro."
 
 #: ../src/matedialog.ui.h:5
 msgid "Are you sure you want to proceed?"
-msgstr "Está seguro de que quere continuar?"
+msgstr "Confirma que quere continuar?"
 
 #: ../src/matedialog.ui.h:6
 msgid "C_alendar:"
@@ -157,7 +158,7 @@ msgstr "Executando..."
 
 #: ../src/matedialog.ui.h:13
 msgid "Select a date from below."
-msgstr "Seleccione unha data da lista de abaixo."
+msgstr "Seleccione unha data da lista de embaixo."
 
 #: ../src/matedialog.ui.h:14
 msgid "Select items from the list"
@@ -165,11 +166,11 @@ msgstr "Seleccione elementos da lista"
 
 #: ../src/matedialog.ui.h:15
 msgid "Select items from the list below."
-msgstr "Seleccione elementos da lista de abaixo."
+msgstr "Seleccione elementos da lista de embaixo."
 
 #: ../src/matedialog.ui.h:16
 msgid "Text View"
-msgstr "Visualización de texto"
+msgstr "Vista de texto"
 
 #: ../src/matedialog.ui.h:17
 msgid "Warning"
@@ -193,7 +194,7 @@ msgstr "Estabelecer a icona da xanela"
 
 #: ../src/option.c:141
 msgid "ICONPATH"
-msgstr "CAMIÑO DA ICONA"
+msgstr "RUTA DA ICONA"
 
 #: ../src/option.c:149
 msgid "Set the width"
@@ -222,7 +223,7 @@ msgstr "TEMPO DE ESPERA"
 
 #: ../src/option.c:183
 msgid "Display calendar dialog"
-msgstr "Mostrar o diálogo do calendario"
+msgstr "Amosar o diálogo do calendario"
 
 #: ../src/option.c:192 ../src/option.c:252 ../src/option.c:295
 #: ../src/option.c:328 ../src/option.c:440 ../src/option.c:579
@@ -272,7 +273,7 @@ msgstr "PATRÓN"
 
 #: ../src/option.c:243
 msgid "Display text entry dialog"
-msgstr "Mostrar o diálogo de entrada de texto"
+msgstr "Amosar o diálogo de entrada de texto"
 
 #: ../src/option.c:261
 msgid "Set the entry text"
@@ -280,11 +281,11 @@ msgstr "Configurar a entrada de texto"
 
 #: ../src/option.c:270
 msgid "Hide the entry text"
-msgstr "Ocultar a entrada de texto"
+msgstr "Agochar a entrada de texto"
 
 #: ../src/option.c:286
 msgid "Display error dialog"
-msgstr "Mostrar o diálogo de erro"
+msgstr "Amosar o diálogo de erro"
 
 #: ../src/option.c:304 ../src/option.c:337 ../src/option.c:678
 #: ../src/option.c:744
@@ -293,11 +294,11 @@ msgstr "Non activar o axuste de texto"
 
 #: ../src/option.c:319
 msgid "Display info dialog"
-msgstr "Mostrar o diálogo de información"
+msgstr "Amosar o diálogo de información"
 
 #: ../src/option.c:352
 msgid "Display file selection dialog"
-msgstr "Mostrar o diálogo de selección de ficheiros"
+msgstr "Amosar o diálogo de selección de ficheiros"
 
 #: ../src/option.c:361
 msgid "Set the filename"
@@ -342,7 +343,7 @@ msgstr "NOME | PATRÓN1 PATRÓN2 ..."
 
 #: ../src/option.c:431
 msgid "Display list dialog"
-msgstr "Mostrar o diálogo de listas"
+msgstr "Amosar o diálogo de listas"
 
 #: ../src/option.c:449
 msgid "Set the column header"
@@ -372,7 +373,7 @@ msgstr "Permitir cambios no texto"
 msgid ""
 "Print a specific column (Default is 1. 'ALL' can be used to print all "
 "columns)"
-msgstr "Imprimir unha columna específica (o predefinido é 1. «ALL» pode usarse para imprimir todas as columnas)"
+msgstr "Imprimir unha columna específica (o predeterminado é 1. «ALL» pode usarse para imprimir todas as columnas)"
 
 #. Column index number to print out on a list dialog
 #: ../src/option.c:505 ../src/option.c:514
@@ -381,15 +382,15 @@ msgstr "NÚMERO"
 
 #: ../src/option.c:513
 msgid "Hide a specific column"
-msgstr "Oculta unha columna específica"
+msgstr "Agochar unha columna específica"
 
 #: ../src/option.c:522
 msgid "Hides the column headers"
-msgstr "Oculta a columna de cabeceiras"
+msgstr "Agochar a columna de cabeceiras"
 
 #: ../src/option.c:537
 msgid "Display notification"
-msgstr "Mostrar a notificación"
+msgstr "Amosar a notificación"
 
 #: ../src/option.c:546
 msgid "Set the notification text"
@@ -401,7 +402,7 @@ msgstr "Escoitar as ordes en stdin"
 
 #: ../src/option.c:570
 msgid "Display progress indication dialog"
-msgstr "Mostrar o diálogo de indicación de progreso"
+msgstr "Amosar o diálogo de indicación de progreso"
 
 #: ../src/option.c:588
 msgid "Set initial percentage"
@@ -413,7 +414,7 @@ msgstr "PORCENTAXE"
 
 #: ../src/option.c:597
 msgid "Pulsate progress bar"
-msgstr " Barra de progreso oscilante"
+msgstr "Barra de progreso oscilante"
 
 #: ../src/option.c:607
 #, no-c-format
@@ -428,11 +429,11 @@ msgstr "Matar o proceso pai ao premer o botón «Cancelar»"
 #: ../src/option.c:627
 #, no-c-format
 msgid "Hide Cancel button"
-msgstr "Ocultar o botón de «Cancelar»"
+msgstr "Agochar o botón de «Cancelar»"
 
 #: ../src/option.c:642
 msgid "Display question dialog"
-msgstr "Mostrar o diálogo de pregunta"
+msgstr "Amosar o diálogo de pregunta"
 
 #: ../src/option.c:660
 msgid "Sets the label of the Ok button"
@@ -444,7 +445,7 @@ msgstr "Estabelece a etiqueta do botón Cancelar"
 
 #: ../src/option.c:693
 msgid "Display text information dialog"
-msgstr "Mostrar o diálogo de texto de información"
+msgstr "Amosar o diálogo de texto de información"
 
 #: ../src/option.c:702
 msgid "Open file"
@@ -452,11 +453,11 @@ msgstr "Abrir o ficheiro"
 
 #: ../src/option.c:726
 msgid "Display warning dialog"
-msgstr "Mostrar o diálogo de aviso"
+msgstr "Amosar o diálogo de aviso"
 
 #: ../src/option.c:759
 msgid "Display scale dialog"
-msgstr "Mostrar o diálogo de escala"
+msgstr "Amosar o diálogo de escala"
 
 #: ../src/option.c:777
 msgid "Set initial value"
@@ -485,19 +486,19 @@ msgstr "Imprimir os valores parciais"
 
 #: ../src/option.c:822
 msgid "Hide value"
-msgstr "Ocultar o valor"
+msgstr "Agochar o valor"
 
 #: ../src/option.c:837
 msgid "Display password dialog"
-msgstr "Mostrar o diálogo de contrasinal"
+msgstr "Amosar o diálogo de contrasinal"
 
 #: ../src/option.c:846
 msgid "Display the username option"
-msgstr "Mostrar a opción de usuario"
+msgstr "Amosar a opción de usuario"
 
 #: ../src/option.c:861
 msgid "Display color selection dialog"
-msgstr "Mostrar o diálogo de selección de cor"
+msgstr "Amosar o diálogo de selección de cor"
 
 #: ../src/option.c:870
 msgid "Set the color"
@@ -505,7 +506,7 @@ msgstr "Estabelecer a cor"
 
 #: ../src/option.c:879
 msgid "Show the palette"
-msgstr "Mostrar a paleta"
+msgstr "Amosar a paleta"
 
 #: ../src/option.c:894
 msgid "About matedialog"
@@ -521,7 +522,7 @@ msgstr "Opcións xerais"
 
 #: ../src/option.c:1644
 msgid "Show general options"
-msgstr "Mostrar as opcións xerais"
+msgstr "Amosar as opcións xerais"
 
 #: ../src/option.c:1654
 msgid "Calendar options"
@@ -529,7 +530,7 @@ msgstr "Opcións do calendario"
 
 #: ../src/option.c:1655
 msgid "Show calendar options"
-msgstr "Mostrar as opcións do calendario"
+msgstr "Amosar as opcións do calendario"
 
 #: ../src/option.c:1665
 msgid "Text entry options"
@@ -537,7 +538,7 @@ msgstr "Opcións de entrada de texto"
 
 #: ../src/option.c:1666
 msgid "Show text entry options"
-msgstr "Mostrar as opcións de entrada de texto"
+msgstr "Amosar as opcións de entrada de texto"
 
 #: ../src/option.c:1676
 msgid "Error options"
@@ -545,7 +546,7 @@ msgstr "Opcións de erro"
 
 #: ../src/option.c:1677
 msgid "Show error options"
-msgstr "Mostrar as opcións de erro"
+msgstr "Amosar as opcións de erro"
 
 #: ../src/option.c:1687
 msgid "Info options"
@@ -553,7 +554,7 @@ msgstr "Opcións de información"
 
 #: ../src/option.c:1688
 msgid "Show info options"
-msgstr "Mostrar as opcións de información"
+msgstr "Amosar as opcións de información"
 
 #: ../src/option.c:1698
 msgid "File selection options"
@@ -561,7 +562,7 @@ msgstr "Opcións de selección de ficheiros"
 
 #: ../src/option.c:1699
 msgid "Show file selection options"
-msgstr "Mostrar as opcións da selección de ficheiros"
+msgstr "Amosar as opcións da selección de ficheiros"
 
 #: ../src/option.c:1709
 msgid "List options"
@@ -569,7 +570,7 @@ msgstr "Opcións da lista"
 
 #: ../src/option.c:1710
 msgid "Show list options"
-msgstr "Mostrar as opcións da lista"
+msgstr "Amosar as opcións da lista"
 
 #: ../src/option.c:1720
 msgid "Notification icon options"
@@ -577,7 +578,7 @@ msgstr "Opcións da icona de notificación"
 
 #: ../src/option.c:1721
 msgid "Show notification icon options"
-msgstr "Mostrar as opcións da icona de notificación"
+msgstr "Amosar as opcións da icona de notificación"
 
 #: ../src/option.c:1731
 msgid "Progress options"
@@ -585,7 +586,7 @@ msgstr "Opcións de progreso"
 
 #: ../src/option.c:1732
 msgid "Show progress options"
-msgstr "Mostrar as opcións de progreso"
+msgstr "Amosar as opcións de progreso"
 
 #: ../src/option.c:1742
 msgid "Question options"
@@ -593,7 +594,7 @@ msgstr "Opcións de pregunta"
 
 #: ../src/option.c:1743
 msgid "Show question options"
-msgstr "Mostrar as opcións de pregunta"
+msgstr "Amosar as opcións de pregunta"
 
 #: ../src/option.c:1753
 msgid "Warning options"
@@ -601,7 +602,7 @@ msgstr "Opcións de aviso"
 
 #: ../src/option.c:1754
 msgid "Show warning options"
-msgstr "Mostrar as opcións de aviso"
+msgstr "Amosar as opcións de aviso"
 
 #: ../src/option.c:1764
 msgid "Scale options"
@@ -609,7 +610,7 @@ msgstr "Opcións de escala"
 
 #: ../src/option.c:1765
 msgid "Show scale options"
-msgstr "Mostrar as opcións de escala"
+msgstr "Amosar as opcións de escala"
 
 #: ../src/option.c:1775
 msgid "Text information options"
@@ -617,7 +618,7 @@ msgstr "Opcións do texto de información"
 
 #: ../src/option.c:1776
 msgid "Show text information options"
-msgstr "Mostrar opcións do texto de información"
+msgstr "Amosar as opcións do texto de información"
 
 #: ../src/option.c:1786
 msgid "Color selection options"
@@ -625,7 +626,7 @@ msgstr "Opcións de selección de cor"
 
 #: ../src/option.c:1787
 msgid "Show color selection options"
-msgstr "Mostrar as opcións da selección de cor"
+msgstr "Amosar as opcións da selección de cor"
 
 #: ../src/option.c:1797
 msgid "Password dialog options"
@@ -633,7 +634,7 @@ msgstr "Opcións do diálogo de contrasinal"
 
 #: ../src/option.c:1798
 msgid "Show password dialog options"
-msgstr "Mostrar as opcións do diálogo de contrasinal"
+msgstr "Amosar as opcións do diálogo de contrasinal"
 
 #: ../src/option.c:1808
 msgid "Miscellaneous options"
@@ -641,7 +642,7 @@ msgstr "Opcións varias"
 
 #: ../src/option.c:1809
 msgid "Show miscellaneous options"
-msgstr "Mostrar as opcións varias"
+msgstr "Amosar as opcións varias"
 
 #: ../src/option.c:1834
 #, c-format

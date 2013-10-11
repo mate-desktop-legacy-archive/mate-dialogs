@@ -3,24 +3,25 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004, 2005.
-# Djihed Afifi <djihed@gmail.com>, 2006.
-# Hafid BENHADRIA <ghosn@php4arab.info>, 2003.
-# Hassan Abdin <habdin@link.net>, 2003.
-# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008, 2010.
+# Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004, 2005
+# Djihed Afifi <djihed@gmail.com>, 2006
+# Hafid BENHADRIA <ghosn@php4arab.info>, 2003
+# Hassan Abdin <habdin@link.net>, 2003
+# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008, 2010
+# moceap <moceap@hotmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
 "POT-Creation-Date: 2012-02-23 12:20+0100\n"
-"PO-Revision-Date: 2012-02-23 11:21+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2013-10-05 14:59+0000\n"
+"Last-Translator: mauron\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/MATE/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ar\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #: ../src/about.c:64
 msgid ""
@@ -28,7 +29,7 @@ msgid ""
 "under the terms of the GNU Lesser General Public License as published by the"
 " Free Software Foundation; either version 2 of the License, or (at your "
 "option) any later version.\n"
-msgstr "هذه برمجية البرنامج حر؛ بإمكانك إعادة توزيعها و/أو تعديلها تحت شروط الرخصة العمومية الصغرى لجنو والتي نشرتها منظمة البرمجيات الحرة؛ سواء الإصدارة 2 من الرخصة أو أي إصدارة بعدها حسب رغبتك.\n"
+msgstr "هذه برمجيةٌ حرة؛ بإمكانك إعادة توزيعها و/أو تعديلها تحت شروط الرخصة العمومية المُصغّرة لغنو والتي نشرتها منظمة البرمجيات الحرة؛ سواء الإصدارة 2 من الرخصة أو أي إصدارة بعدها حسب رغبتك.\n"
 
 #: ../src/about.c:68
 msgid ""
@@ -36,22 +37,22 @@ msgid ""
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
 " for more details.\n"
-msgstr "يوزّع هذا البرنامج على أمل أن يكون مفيدًا لمن يستخدمه دون أدنى مسؤولية؛ ولا حتى أي ضمان يضمن صلاحية العرض في السوق أو توافقه مع أي استخدام محدد. يمكنك مراجعة الرخصة العمومية الصغرى لجنو لمزيد من التفاصيل.\n"
+msgstr "يوزّع هذا البرنامج على أمل أن يكون مفيدًا و يستخدم دون أدنى مسؤولية؛ ولا حتى أي ضمان يضمن صلاحية العرض في السوق أو توافقه مع أي استخدام محدد. يمكنك مراجعة الرخصة العمومية المُصغّرة لغنو لمزيد من التفاصيل.\n"
 
 #: ../src/about.c:72
 msgid ""
 "You should have received a copy of the GNU Lesser General Public License "
 "along with this program; if not, write to the Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr "من المفترض أن تكون قد استلمت نسخة من رخصة جنو العمومية الصغرى مع هذا البرنامج؛ في حال عدم استلامك لذلك، يمكنك مكاتبة:\nFree Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
+msgstr "من المفترض استلامُك لنسخةٍ من رخصة غنو العمومية المُصغّرة مع هذا البرنامج؛ في حال عدم استلامك لذلك، يُمكنك مُراسلة:\nFree Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr "فريق عربآيز للترجمة http://www.arabeyes.org :\nعرفات المديني\t<lumina@silverpen.de>\nجهاد عفيفي\t<djihed@gmail.com>\nخالد حسني\t<khaledhosny@eglug.org>"
+msgstr "فريق عيون العرب http://www.arabeyes.org :\nعرفات المديني\t<lumina@silverpen.de>\nجهاد عفيفي\t<djihed@gmail.com>\nخالد حسني\t<khaledhosny@eglug.org>\nمصعب الزعبي\t<moceap@hotmail.com>\n\nمراجعة و إتمام بواسطة عيون العرب http://arabeyes.org و مجتمع لينكس العربي http://linuxac.org عام 1434 بإشراف مصعب الزعبي moceap@hotmail.com"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
-msgstr "اعرض صناديق حوار من مخطوطات الصدفة"
+msgstr "عرض صناديقَ حوارٍ من مخطوطاتِ الصّدفة"
 
 #: ../src/main.c:100
 #, c-format
@@ -70,11 +71,11 @@ msgstr "تعذّر تحليل الرسالة من الدخل القياسي ‪(
 
 #: ../src/notification.c:262 ../src/notification.c:279
 msgid "MateDialog notification"
-msgstr "تذكير زَنِتي"
+msgstr "تذكير من حوارات متّة"
 
 #: ../src/password.c:64
 msgid "Type your password"
-msgstr "اكتب كلمة السر"
+msgstr "اكتب كلمة المرور"
 
 #: ../src/password.c:99
 msgid "Username:"
@@ -82,7 +83,7 @@ msgstr "اسم المستخدم:"
 
 #: ../src/password.c:115
 msgid "Password:"
-msgstr "كلمة السر:"
+msgstr "كلمة المرور:"
 
 #: ../src/scale.c:56
 #, c-format
@@ -106,7 +107,7 @@ msgstr "يجب أن تستعمل نوع واحد لحوار القائمة.\n"
 
 #: ../src/matedialog.ui.h:1
 msgid "Add a new entry"
-msgstr "أضف مُدْخَلا جديد"
+msgstr "أضِف مُدْخَلًا جديدًا"
 
 #: ../src/matedialog.ui.h:2
 msgid "Adjust the scale value"
@@ -114,7 +115,7 @@ msgstr "اضبط قيمة المقياس"
 
 #: ../src/matedialog.ui.h:3
 msgid "All updates are complete."
-msgstr "تمت كافة التَّحديثات."
+msgstr "تمّت كافة التَّحديثات."
 
 #: ../src/matedialog.ui.h:4
 msgid "An error has occurred."
@@ -130,7 +131,7 @@ msgstr "ت_قويم:"
 
 #: ../src/matedialog.ui.h:7
 msgid "Calendar selection"
-msgstr "اختيار التقويم"
+msgstr "اختيار التّقويم"
 
 #: ../src/matedialog.ui.h:8
 msgid "Error"
@@ -154,7 +155,7 @@ msgstr "يعمل..."
 
 #: ../src/matedialog.ui.h:13
 msgid "Select a date from below."
-msgstr "اختر تاريخًا من الأسفل."
+msgstr "اختر تاريخًا من أدناه."
 
 #: ../src/matedialog.ui.h:14
 msgid "Select items from the list"
@@ -162,7 +163,7 @@ msgstr "اختر عناصر من القائمة"
 
 #: ../src/matedialog.ui.h:15
 msgid "Select items from the list below."
-msgstr "اختر عناصر من القائمة السُّفليَّة."
+msgstr "اختر عناصرًا من القائمة أدناه."
 
 #: ../src/matedialog.ui.h:16
 msgid "Text View"
@@ -174,11 +175,11 @@ msgstr "تحذير"
 
 #: ../src/matedialog.ui.h:18
 msgid "_Enter new text:"
-msgstr "أ_دخل نصا جديدا:"
+msgstr "أ_دخل نصًا جديدًا:"
 
 #: ../src/option.c:131
 msgid "Set the dialog title"
-msgstr "حدد عنوان صندوق الحوار"
+msgstr "حدّد عنوان صندوق الحوار"
 
 #: ../src/option.c:132
 msgid "TITLE"
@@ -186,7 +187,7 @@ msgstr "TITLE"
 
 #: ../src/option.c:140
 msgid "Set the window icon"
-msgstr "حدد أيقونة النافذة"
+msgstr "حدّد رمز النافذة"
 
 #: ../src/option.c:141
 msgid "ICONPATH"
@@ -194,7 +195,7 @@ msgstr "ICONPATH"
 
 #: ../src/option.c:149
 msgid "Set the width"
-msgstr "حدد العرض"
+msgstr "حدّد العرض"
 
 #: ../src/option.c:150
 msgid "WIDTH"
@@ -202,7 +203,7 @@ msgstr "WIDTH"
 
 #: ../src/option.c:158
 msgid "Set the height"
-msgstr "حدد الارتفاع"
+msgstr "حدّد الارتفاع"
 
 #: ../src/option.c:159
 msgid "HEIGHT"
@@ -210,7 +211,7 @@ msgstr "HEIGHT"
 
 #: ../src/option.c:167
 msgid "Set dialog timeout in seconds"
-msgstr "حدد فترة ظهور الحوار بالثواني"
+msgstr "حدد فترة ظهور الحوار بالثّواني"
 
 #. Timeout for closing the dialog
 #: ../src/option.c:169
@@ -219,13 +220,13 @@ msgstr "TIMEOUT"
 
 #: ../src/option.c:183
 msgid "Display calendar dialog"
-msgstr "اعرض صندوق حوار التقويم"
+msgstr "اعرض صندوق حوار التّقويم"
 
 #: ../src/option.c:192 ../src/option.c:252 ../src/option.c:295
 #: ../src/option.c:328 ../src/option.c:440 ../src/option.c:579
 #: ../src/option.c:651 ../src/option.c:735 ../src/option.c:768
 msgid "Set the dialog text"
-msgstr "حدد نص صندوق الحوار"
+msgstr "حدّد نص صندوق الحوار"
 
 #: ../src/option.c:193 ../src/option.c:253 ../src/option.c:262
 #: ../src/option.c:296 ../src/option.c:329 ../src/option.c:441
@@ -237,7 +238,7 @@ msgstr "TEXT"
 
 #: ../src/option.c:201
 msgid "Set the calendar day"
-msgstr "حدّد يوم التقويم"
+msgstr "حدّد يوم التّقويم"
 
 #: ../src/option.c:202
 msgid "DAY"
@@ -253,7 +254,7 @@ msgstr "MONTH"
 
 #: ../src/option.c:219
 msgid "Set the calendar year"
-msgstr "حدد سنة التقويم"
+msgstr "حدد سنة التّقويم"
 
 #: ../src/option.c:220
 msgid "YEAR"
@@ -261,7 +262,7 @@ msgstr "YEAR"
 
 #: ../src/option.c:228
 msgid "Set the format for the returned date"
-msgstr "حدد الصيغة للتاريخ العائد"
+msgstr "حدد الصّيغة للتاريخ العائد"
 
 #: ../src/option.c:229
 msgid "PATTERN"
@@ -326,11 +327,11 @@ msgstr "SEPARATOR"
 
 #: ../src/option.c:406
 msgid "Confirm file selection if filename already exists"
-msgstr "أكّد اختيار الملف إذا كان موجودا"
+msgstr "أكّد اختيار الملف إذا كان موجودًا"
 
 #: ../src/option.c:415
 msgid "Sets a filename filter"
-msgstr "يضبط مرشح اسم الملف"
+msgstr "يضبط مرشّح اسم الملف"
 
 #. Help for file-filter argument (name and patterns for file selection)
 #: ../src/option.c:417
@@ -343,7 +344,7 @@ msgstr "اعرض صندوق حوار قائمة"
 
 #: ../src/option.c:449
 msgid "Set the column header"
-msgstr "حدد ترويسة العمود"
+msgstr "حدّد ترويسة العمود"
 
 #: ../src/option.c:450
 msgid "COLUMN"
@@ -410,7 +411,7 @@ msgstr "PERCENTAGE"
 
 #: ../src/option.c:597
 msgid "Pulsate progress bar"
-msgstr "اجعل شريط التَّقدم نَّابضا"
+msgstr "اجعل شريط التَّقدم نابِضًا"
 
 #: ../src/option.c:607
 #, no-c-format
@@ -433,11 +434,11 @@ msgstr "اعرض صندوق حوار سؤال"
 
 #: ../src/option.c:660
 msgid "Sets the label of the Ok button"
-msgstr "يحدد عنوان زر \"موافق\""
+msgstr "يحدّد اسم زر \"موافق\""
 
 #: ../src/option.c:669
 msgid "Sets the label of the Cancel button"
-msgstr "يحدد عنوان زر \"ألغِ\""
+msgstr "يحدد اسم زر \"ألغِ\""
 
 #: ../src/option.c:693
 msgid "Display text information dialog"
@@ -445,7 +446,7 @@ msgstr "اعرض صندوق حوار معلومات"
 
 #: ../src/option.c:702
 msgid "Open file"
-msgstr "افتح ملفا"
+msgstr "افتح ملفًا"
 
 #: ../src/option.c:726
 msgid "Display warning dialog"
@@ -486,7 +487,7 @@ msgstr "اخف القيمة"
 
 #: ../src/option.c:837
 msgid "Display password dialog"
-msgstr "اعرض صندوق حوار كلمة السر"
+msgstr "اعرض صندوق حوار كلمة المرور"
 
 #: ../src/option.c:846
 msgid "Display the username option"
@@ -498,7 +499,7 @@ msgstr "اعرض صندوق حوار اختيار ألوان"
 
 #: ../src/option.c:870
 msgid "Set the color"
-msgstr "حدد اللون"
+msgstr "حدّد اللون"
 
 #: ../src/option.c:879
 msgid "Show the palette"
@@ -506,7 +507,7 @@ msgstr "اعرض لوحة الألوان"
 
 #: ../src/option.c:894
 msgid "About matedialog"
-msgstr "عنْ زِنْتي"
+msgstr "عنْ حوارات متّة"
 
 #: ../src/option.c:903
 msgid "Print version"
@@ -644,12 +645,12 @@ msgstr "اعرض الخيارات المتنوّعة"
 #, c-format
 msgid ""
 "This option is not available. Please see --help for all possible usages.\n"
-msgstr "هذا الخيار غير مدعوم. الرجاء الرجوع إلى ‪--help‬ لاستعراض كل الخيارات.\n"
+msgstr "هذا الخيار غير مدعوم. الّرجاء الّرجوع إلى ‪--help‬ لاستعراض كل الخيارات.\n"
 
 #: ../src/option.c:1838
 #, c-format
 msgid "--%s is not supported for this dialog\n"
-msgstr "--%s ليس مدعوما لهذا الحوار\n"
+msgstr "--%s ليس مدعومًا لهذا الحوار\n"
 
 #: ../src/option.c:1842
 #, c-format

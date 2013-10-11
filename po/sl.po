@@ -3,22 +3,23 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Andraž Tori <andraz.tori1@guest.arnes.si>, 2002.
-# Matic Žgur <mr.zgur@gmail.com>, 2007.
-# Matjaž Horvat <m@owca.info>, 2006.
+# Andraž Tori <andraz.tori1@guest.arnes.si>, 2002
+# jierro <jierro@windowslive.com>, 2013
+# Matic Žgur <mr.zgur@gmail.com>, 2007
+# Matjaž Horvat <m@owca.info>, 2006
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
 "POT-Creation-Date: 2012-02-23 12:20+0100\n"
-"PO-Revision-Date: 2012-02-23 11:24+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2013-08-31 18:39+0000\n"
+"Last-Translator: jierro <jierro@windowslive.com>\n"
 "Language-Team: Slovenian (http://www.transifex.com/projects/p/MATE/language/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sl\n"
-"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3)\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
 
 #: ../src/about.c:64
 msgid ""
@@ -45,7 +46,7 @@ msgstr "Skupaj s tem programom bi morali prejeti izvod manj splošnega dovoljenj
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr "Matic Žgur <mr.zgur@gmail.com>\nMatjaž Horvat <m@owca.info>\nTilen Travnik <tilen.travnik@guest.arnes.si>\nMatej Urbančič <mateju@svn.gnome.org>"
+msgstr "Matic Žgur <mr.zgur@gmail.com>\nMatjaž Horvat <m@owca.info>\nTilen Travnik <tilen.travnik@guest.arnes.si>\nMatej Urbančič <mateju@svn.gnome.org>\nDamir Jerovšek <damir.jerovsek@ubuntu.si>"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
@@ -59,20 +60,20 @@ msgstr "Določiti je treba vrsto pogovornega okna. Za podrobnejše podatke pogle
 #: ../src/notification.c:138
 #, c-format
 msgid "could not parse command from stdin\n"
-msgstr "ni mogoče razčleniti ukaza iz stdin\n"
+msgstr "ni mogoče razčleniti ukaza iz standardnega vhoda\n"
 
 #: ../src/notification.c:177
 #, c-format
 msgid "Could not parse message from stdin\n"
-msgstr "Ni mogoče razčleniti sporočila stdin\n"
+msgstr "Ni mogoče razčleniti sporočila iz standardnega vhoda\n"
 
 #: ../src/notification.c:262 ../src/notification.c:279
 msgid "MateDialog notification"
-msgstr "Obvestila MateDialog"
+msgstr "Obvestilo MateDialog"
 
 #: ../src/password.c:64
 msgid "Type your password"
-msgstr "Vpišite geslo."
+msgstr "Vpišite geslo"
 
 #: ../src/password.c:99
 msgid "Username:"
@@ -208,12 +209,12 @@ msgstr "VIŠINA"
 
 #: ../src/option.c:167
 msgid "Set dialog timeout in seconds"
-msgstr "Nastavitev časovnega zamika pogovornega okna v sekundah"
+msgstr "Nastavitev časovne omejitve pogovornega okna v sekundah"
 
 #. Timeout for closing the dialog
 #: ../src/option.c:169
 msgid "TIMEOUT"
-msgstr "ZAKASNITEV"
+msgstr "ČASOVNA OMEJITEV"
 
 #: ../src/option.c:183
 msgid "Display calendar dialog"
@@ -259,7 +260,7 @@ msgstr "LETO"
 
 #: ../src/option.c:228
 msgid "Set the format for the returned date"
-msgstr "Nastavi oblikovanje vrnjenega datuma"
+msgstr "Nastavi obliko vrnjenega datuma"
 
 #: ../src/option.c:229
 msgid "PATTERN"
@@ -267,15 +268,15 @@ msgstr "VZOREC"
 
 #: ../src/option.c:243
 msgid "Display text entry dialog"
-msgstr "Pokaži pogovorno okno vnos besedila"
+msgstr "Pokaži pogovorno okno vnosnega besedila"
 
 #: ../src/option.c:261
 msgid "Set the entry text"
-msgstr "Nastavi začetno besedilo"
+msgstr "Nastavi vnosno besedilo"
 
 #: ../src/option.c:270
 msgid "Hide the entry text"
-msgstr "Skrij začetno besedilo"
+msgstr "Skrij vnosno besedilo"
 
 #: ../src/option.c:286
 msgid "Display error dialog"
@@ -292,7 +293,7 @@ msgstr "Pokaži pogovorno okno podatkov"
 
 #: ../src/option.c:352
 msgid "Display file selection dialog"
-msgstr "Pokaži pogovorno okno izbire datoteke"
+msgstr "Pokaži pogovorno okno izbora datoteke"
 
 #: ../src/option.c:361
 msgid "Set the filename"
@@ -300,15 +301,15 @@ msgstr "Nastavi ime datoteke"
 
 #: ../src/option.c:362 ../src/option.c:703
 msgid "FILENAME"
-msgstr "Ime datoteke"
+msgstr "IMEDATOTEKE"
 
 #: ../src/option.c:370
 msgid "Allow multiple files to be selected"
-msgstr "Dovoli izbrati več datotek"
+msgstr "Dovoli izbor večih datotek"
 
 #: ../src/option.c:379
 msgid "Activate directory-only selection"
-msgstr "omogoči izbor le map"
+msgstr "Omogoči samo izbor map"
 
 #: ../src/option.c:388
 msgid "Activate save mode"
@@ -328,7 +329,7 @@ msgstr "Potrdi izbor datotek, v kolikor ime datoteke že obstaja"
 
 #: ../src/option.c:415
 msgid "Sets a filename filter"
-msgstr "Določi filter imen datoteke"
+msgstr "Določi filter imen datotek"
 
 #. Help for file-filter argument (name and patterns for file selection)
 #: ../src/option.c:417
@@ -337,7 +338,7 @@ msgstr "IME | VZOREC1 VZOREC2 ..."
 
 #: ../src/option.c:431
 msgid "Display list dialog"
-msgstr "Pokaži pogovorno okno seznama"
+msgstr "Prikaži pogovorno okno seznama"
 
 #: ../src/option.c:449
 msgid "Set the column header"
@@ -384,7 +385,7 @@ msgstr "Skrije glavo stolpca"
 
 #: ../src/option.c:537
 msgid "Display notification"
-msgstr "Pokaži obvestilo"
+msgstr "Prikaži obvestilo"
 
 #: ../src/option.c:546
 msgid "Set the notification text"
@@ -392,7 +393,7 @@ msgstr "Nastavi besedilo obvestila"
 
 #: ../src/option.c:555
 msgid "Listen for commands on stdin"
-msgstr "Poslušaj ukaze na stdin"
+msgstr "Poslušaj ukaze na standardnem vhodu"
 
 #: ../src/option.c:570
 msgid "Display progress indication dialog"
@@ -447,7 +448,7 @@ msgstr "Odpri datoteko"
 
 #: ../src/option.c:726
 msgid "Display warning dialog"
-msgstr "Pokaži pogovorno okno opozorila"
+msgstr "Prikaži pogovorno okno opozorila"
 
 #: ../src/option.c:759
 msgid "Display scale dialog"
@@ -544,11 +545,11 @@ msgstr "Pokaži možnosti napak"
 
 #: ../src/option.c:1687
 msgid "Info options"
-msgstr "Možnosti info"
+msgstr "Možnosti podrobnosti"
 
 #: ../src/option.c:1688
 msgid "Show info options"
-msgstr "Pokaži možnosti info"
+msgstr "Pokaži možnosti podrobnosti"
 
 #: ../src/option.c:1698
 msgid "File selection options"

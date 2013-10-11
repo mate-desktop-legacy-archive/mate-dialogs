@@ -3,21 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Meelad Zakaria <meelad@bamdad.org>, 2004.
-# Roozbeh Pournader <roozbeh@sharif.edu>, 2004.
+# Meelad Zakaria <meelad@bamdad.org>, 2004
+# Mohammadreza Abdollahzadeh <morealaz@gmail.com>, 2012
+# Roozbeh Pournader <roozbeh@sharif.edu>, 2004
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
 "POT-Creation-Date: 2012-02-23 12:20+0100\n"
-"PO-Revision-Date: 2012-02-23 11:23+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2012-08-10 06:10+0000\n"
+"Last-Translator: Mohammadreza Abdollahzadeh <morealaz@gmail.com>\n"
+"Language-Team: Persian (http://www.transifex.com/projects/p/MATE/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fa\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../src/about.c:64
 msgid ""
@@ -75,11 +76,11 @@ msgstr ""
 
 #: ../src/password.c:99
 msgid "Username:"
-msgstr ""
+msgstr "نام کاربری:"
 
 #: ../src/password.c:115
 msgid "Password:"
-msgstr ""
+msgstr "گذر واژه:"
 
 #: ../src/scale.c:56
 #, c-format
@@ -89,7 +90,7 @@ msgstr ""
 #: ../src/scale.c:63
 #, c-format
 msgid "Value out of range.\n"
-msgstr ""
+msgstr "مقدار خارج از محدوده مجاز است.\\n\n"
 
 #: ../src/tree.c:321
 #, c-format
@@ -230,7 +231,7 @@ msgstr "تنظیم متن محاوره"
 #: ../src/option.c:661 ../src/option.c:670 ../src/option.c:736
 #: ../src/option.c:769
 msgid "TEXT"
-msgstr ""
+msgstr "متن"
 
 #: ../src/option.c:201
 msgid "Set the calendar day"
@@ -238,7 +239,7 @@ msgstr "تنظیم روز تقویم"
 
 #: ../src/option.c:202
 msgid "DAY"
-msgstr ""
+msgstr "روز"
 
 #: ../src/option.c:210
 msgid "Set the calendar month"
@@ -246,7 +247,7 @@ msgstr "تنظیم ماه تقویم"
 
 #: ../src/option.c:211
 msgid "MONTH"
-msgstr ""
+msgstr "ماه"
 
 #: ../src/option.c:219
 msgid "Set the calendar year"
@@ -254,7 +255,7 @@ msgstr "تنظیم سال تقویم"
 
 #: ../src/option.c:220
 msgid "YEAR"
-msgstr ""
+msgstr "سال"
 
 #: ../src/option.c:228
 msgid "Set the format for the returned date"
@@ -262,7 +263,7 @@ msgstr "تنظیم قالب زمان بازگشتی"
 
 #: ../src/option.c:229
 msgid "PATTERN"
-msgstr ""
+msgstr "الگو"
 
 #: ../src/option.c:243
 msgid "Display text entry dialog"
@@ -332,7 +333,7 @@ msgstr ""
 #. Help for file-filter argument (name and patterns for file selection)
 #: ../src/option.c:417
 msgid "NAME | PATTERN1 PATTERN2 ..."
-msgstr ""
+msgstr "نام | الگو 1 الگو 2 ..."
 
 #: ../src/option.c:431
 msgid "Display list dialog"
@@ -344,7 +345,7 @@ msgstr "تنظیم سرستون"
 
 #: ../src/option.c:450
 msgid "COLUMN"
-msgstr ""
+msgstr "ستون"
 
 #: ../src/option.c:458
 msgid "Use check boxes for first column"
@@ -371,23 +372,23 @@ msgstr "یک ستون مشخص را چاپ می‌کند (پیش‌فرض ۱ ا�
 #. Column index number to print out on a list dialog
 #: ../src/option.c:505 ../src/option.c:514
 msgid "NUMBER"
-msgstr ""
+msgstr "عدد"
 
 #: ../src/option.c:513
 msgid "Hide a specific column"
-msgstr ""
+msgstr "ستون مشخصی را پنهان کن"
 
 #: ../src/option.c:522
 msgid "Hides the column headers"
-msgstr ""
+msgstr "سر ستونها را پنهان کن"
 
 #: ../src/option.c:537
 msgid "Display notification"
-msgstr ""
+msgstr "آگاه سازی را نشان بده"
 
 #: ../src/option.c:546
 msgid "Set the notification text"
-msgstr ""
+msgstr "متن آگاه سازی را قرار بده"
 
 #: ../src/option.c:555
 msgid "Listen for commands on stdin"
@@ -403,7 +404,7 @@ msgstr "تنظیم درصد اولیه"
 
 #: ../src/option.c:589
 msgid "PERCENTAGE"
-msgstr ""
+msgstr "درصد"
 
 #: ../src/option.c:597
 msgid "Pulsate progress bar"
@@ -459,27 +460,27 @@ msgstr ""
 #: ../src/option.c:778 ../src/option.c:787 ../src/option.c:796
 #: ../src/option.c:805 ../src/option.c:871
 msgid "VALUE"
-msgstr ""
+msgstr "مقدار"
 
 #: ../src/option.c:786
 msgid "Set minimum value"
-msgstr ""
+msgstr "مقدار کمینه را قرار بده"
 
 #: ../src/option.c:795
 msgid "Set maximum value"
-msgstr ""
+msgstr "مقدار بیشینه را قرار بده"
 
 #: ../src/option.c:804
 msgid "Set step size"
-msgstr ""
+msgstr "اندازه گام را قرار بده"
 
 #: ../src/option.c:813
 msgid "Print partial values"
-msgstr ""
+msgstr "مقادیر جزئی را چاپ کن"
 
 #: ../src/option.c:822
 msgid "Hide value"
-msgstr ""
+msgstr "مقدار را پنهان کن"
 
 #: ../src/option.c:837
 msgid "Display password dialog"
@@ -487,7 +488,7 @@ msgstr ""
 
 #: ../src/option.c:846
 msgid "Display the username option"
-msgstr ""
+msgstr "تنضیمات نام کاربر را نشان بده"
 
 #: ../src/option.c:861
 msgid "Display color selection dialog"
@@ -635,7 +636,7 @@ msgstr "گزینه‌های متفرقه"
 
 #: ../src/option.c:1809
 msgid "Show miscellaneous options"
-msgstr ""
+msgstr "تنضیمات متفرقه را نشان بده"
 
 #: ../src/option.c:1834
 #, c-format
