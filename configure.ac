@@ -48,7 +48,7 @@ dnl *************************
 matedialog_save_cflags="$CFLAGS"
 # pull in the CFLAGS to locate gdkconfig.h
 CFLAGS=`$PKG_CONFIG --cflags gtk+-2.0`
-AC_COMPILE_IFELSE([
+AC_COMPILE_IFELSE([AC_LANG_SOURCE([
 #include <gdkconfig.h>
 
 int main(void) {
@@ -57,7 +57,7 @@ int main(void) {
 #endif
     return 0;
 }
-],
+])],
         GDK_BACKEND_X11=yes,
         GDK_BACKEND_X11=no)
 
