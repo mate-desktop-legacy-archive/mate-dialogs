@@ -47,7 +47,7 @@ dnl *************************
 matedialog_save_cflags="$CFLAGS"
 # pull in the CFLAGS to locate gdkconfig.h
 CFLAGS=`$PKG_CONFIG --cflags gtk+-$GTK_API_VERSION`
-AC_COMPILE_IFELSE([
+AC_COMPILE_IFELSE([AC_LANG_SOURCE([
 #include <gtk/gtk.h>
 #if GTK_CHECK_VERSION (3, 0, 0)
 #include <gdk/gdk.h>
@@ -61,7 +61,7 @@ int main(void) {
 #endif
     return 0;
 }
-],
+])],
         GDK_BACKEND_X11=yes,
         GDK_BACKEND_X11=no)
 
