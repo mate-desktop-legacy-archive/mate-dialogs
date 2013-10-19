@@ -18,8 +18,6 @@ IT_PROG_INTLTOOL([0.40.0])
 
 AC_PROG_CC
 
-GTK_REQUIRED=2.18.0
-
 AC_MSG_CHECKING([which gtk+ version to compile against])
 AC_ARG_WITH([gtk],
   [AS_HELP_STRING([--with-gtk=2.0|3.0],[which gtk+ version to compile against (default: 2.0)])],
@@ -50,7 +48,7 @@ dnl *************************
 matedialog_save_cflags="$CFLAGS"
 # pull in the CFLAGS to locate gdkconfig.h
 CFLAGS=`$PKG_CONFIG --cflags gtk+-2.0`
-AC_COMPILE_IFELSE([
+AC_COMPILE_IFELSE([AC_LANG_SOURCE([
 #include <gdkconfig.h>
 
 int main(void) {
@@ -59,7 +57,7 @@ int main(void) {
 #endif
     return 0;
 }
-],
+])],
         GDK_BACKEND_X11=yes,
         GDK_BACKEND_X11=no)
 
