@@ -30,14 +30,16 @@ matedialog_CFLAGS = \
 	$(MATEDIALOG_CFLAGS)	\
 	$(LIBNOTIFY_CFLAGS)	\
 	$(WARN_CFLAGS)		\
-	$(AM_CFLAGS)
+	$(AM_CFLAGS)		\
+	$(X11_CFLAGS)
 
 matedialog_LDFLAGS = \
 	$(AM_LDFLAGS)
 
 matedialog_LDADD = \
 	$(MATEDIALOG_LIBS)		\
-	$(LIBNOTIFY_LIBS)	
+	$(LIBNOTIFY_LIBS)		\
+	$(X11_LIBS)
 
 uidir = $(datadir)/matedialog
 

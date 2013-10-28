@@ -77,6 +77,13 @@ AC_SUBST([MATEDIALOG_CFLAGS])
 AC_SUBST([MATEDIALOG_LIBS])
 
 # *******************************
+# X11 cflags/libs
+# *******************************
+PKG_CHECK_MODULES([X11], [x11])
+AC_SUBST(X11_LIBS)
+AC_SUBST(X11_CFLAGS)
+
+# *******************************
 # perl check
 # *******************************
 
