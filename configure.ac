@@ -1,4 +1,4 @@
-AC_INIT([MateDialog],[1.6.1],[http://www.mate-desktop.org/],[mate-dialogs])
+AC_INIT([MateDialog],[1.6.2],[http://www.mate-desktop.org/],[mate-dialogs])
 
 AC_PREREQ([2.59])
 
