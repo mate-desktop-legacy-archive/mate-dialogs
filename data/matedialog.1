@@ -12,14 +12,14 @@ from the user, from all manner of shell scripts.
 .PP
 For example, \fBmatedialog \-\-question\fP will return either 0 or 1,
 depending on whether the user pressed \fIOK\fP or \fICancel\fP. \fBmatedialog
---entry\fP will output on standard output what the user typed into the
+\-\-entry\fP will output on standard output what the user typed into the
 text entry field.
 .PP
 Comprehensive documentation is available in the MATE Help Browser,
 under \fIMATE/Utilities\fP.
 .SH OPTIONS
 This program follows the usual GNU command line syntax, with long
-options starting with two dashes (`-').
+options starting with two dashes (`\-').
 
 .PP
 Dialog options
@@ -52,7 +52,7 @@ Display progress indication dialog
 .B \-\-question
 Display question dialog
 .TP
-.B \-\-text-info
+.B \-\-text\-info
 Display text information dialog
 .TP
 .B \-\-warning
@@ -61,7 +61,7 @@ Display warning dialog
 .B \-\-scale
 Display scale dialog
 .TP
-.B \-\-color-selection
+.B \-\-color\-selection
 Display color selection dialog
 
 .PP
@@ -71,7 +71,7 @@ General options
 .B \-\-title=TITLE
 Set the dialog title
 .TP
-.B \-\-window-icon=ICONPATH
+.B \-\-window\-icon=ICONPATH
 Set the window icon with the path to an image. Alternatively, one of the four stock icons can be used: 'error', 'info', 'question' or 'warning'
 .TP
 .B \-\-width=WIDTH
@@ -98,7 +98,7 @@ Set the calendar month
 .B \-\-year=INT
 Set the calendar year
 .TP
-.B \-\-date-format=PATTERN
+.B \-\-date\-format=PATTERN
 Set the format for the returned date. The default depends on the user locale or be set with the strftime style. For example %A %d/%m/%y
 
 .PP
@@ -108,10 +108,10 @@ Text entry options
 .B \-\-text=STRING
 Set the dialog text
 .TP
-.B \-\-entry-text=STRING
+.B \-\-entry\-text=STRING
 Set the entry text
 .TP
-.B \-\-hide-text
+.B \-\-hide\-text
 Hide the entry text
 
 .PP
@@ -182,7 +182,7 @@ Allow multiple rows to be selected
 .B \-\-editable
 Allow changes to text
 .TP
-.B \-\-print-column=NUMBER
+.B \-\-print\-column=NUMBER
 Specify what column to print to standard output. The default is to return
 the first column. 'ALL' may be used to print all columns.
 .TP
@@ -322,13 +322,13 @@ WINDOWID environment variable.
 Display a file selector with the title \fISelect a file to
 remove\fP. The file selected is returned on standard output.
 .IP
-matedialog  \-\-title="Select a file to remove" \-\-file-selection
+matedialog  \-\-title="Select a file to remove" \-\-file\-selection
 .PP
 Display a text entry dialog with the title \fISelect Host\fP and the
-text \fISelect the host you would like to flood-ping\fP. The entered
+text \fISelect the host you would like to flood\-ping\fP. The entered
 text is returned on standard output.
 .IP
-matedialog  \-\-title "Select Host" \-\-entry \-\-text "Select the host you would like to flood-ping"
+matedialog  \-\-title "Select Host" \-\-entry \-\-text "Select the host you would like to flood\-ping"
 .PP
 Display a dialog, asking \fIMicrosoft Windows has been found! Would
 you like to remove it?\fP. The return code will be 0 (true in shell)
@@ -343,7 +343,7 @@ find . \-name '*.h' | matedialog \-\-list \-\-title "Search Results" \-\-text "F
 .PP
 Show an icon in the notification area
 .IP
-matedialog \-\-notification \-\-window-icon=update.png \-\-text "System update necessary!"
+matedialog \-\-notification \-\-window\-icon=update.png \-\-text "System update necessary!"
 .PP
 Display a weekly shopping list in a check list dialog with \fIApples\fP and \fIOranges\fP pre selected
 .IP
