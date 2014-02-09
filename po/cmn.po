@@ -3,20 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Ivica  Kolić <ikoli@yahoo.com>, 2013
+# Wei-Lun Chao <bluebat@member.fsf.org>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-02-23 12:20+0100\n"
-"PO-Revision-Date: 2013-12-08 16:13+0000\n"
-"Last-Translator: Ivica  Kolić <ikoli@yahoo.com>\n"
-"Language-Team: Croatian (http://www.transifex.com/projects/p/MATE/language/hr/)\n"
+"PO-Revision-Date: 2013-12-20 15:50+0000\n"
+"Last-Translator: Wei-Lun Chao <bluebat@member.fsf.org>\n"
+"Language-Team: Chinese (Mandarin) (http://www.transifex.com/projects/p/MATE/language/cmn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hr\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Language: cmn\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../src/about.c:64
 msgid ""
@@ -24,7 +24,7 @@ msgid ""
 "under the terms of the GNU Lesser General Public License as published by the"
 " Free Software Foundation; either version 2 of the License, or (at your "
 "option) any later version.\n"
-msgstr ""
+msgstr "本程式為自由軟體，您可依據自由軟體基金會所發表的 GNU 通用公共授權條款 (可選用第二版或以後的任何版本) 規定，將本程式再散布或修改，或兩者同時進行。\n"
 
 #: ../src/about.c:68
 msgid ""
@@ -32,196 +32,196 @@ msgid ""
 "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
 "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License"
 " for more details.\n"
-msgstr ""
+msgstr "本程式係基於使用目的而加以散布，然而不負任何擔保責任；亦無對適售性或特定目的適用性所為的默示性擔保。詳情請參照 GNU 較寬鬆通用公共授權。\n"
 
 #: ../src/about.c:72
 msgid ""
 "You should have received a copy of the GNU Lesser General Public License "
 "along with this program; if not, write to the Free Software Foundation, "
 "Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA."
-msgstr ""
+msgstr "您應該已收到附於本程式的 GNU 通用公共授權的副本；如果沒有，請寫信至：the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301，USA。"
 
 #: ../src/about.c:265
 msgid "translator-credits"
-msgstr "lokalizacija@linux.hr\n  Robert Sedak <robert.sedak@sk.t-com.hr>\n\nLaunchpad Contributions:\n  Ante Karamatić https://launchpad.net/~ivoks\n  Launchpad Translations Administrators https://launchpad.net/~rosetta-admins"
+msgstr "趙惟倫 <bluebat@member.fsf.org>, 2012, 2013\nWoodman <wmtuen@gmail.com>, 2005-06\nAbel Cheung <abel@oaka.org>, 2003-04"
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
-msgstr "Prikaši dijaloški prozor iz skripti ljuske"
+msgstr "透過 shell scripts 來顯示對話方塊"
 
 #: ../src/main.c:100
 #, c-format
 msgid "You must specify a dialog type. See 'matedialog --help' for details\n"
-msgstr "Morate odrediti vrstu dijaloga. Za detalje pogledajte 'matedialog --hepl'\n"
+msgstr "您必須指定對話方塊的類型。請輸入「matedialog --help」來顯示所有選項\n"
 
 #: ../src/notification.c:138
 #, c-format
 msgid "could not parse command from stdin\n"
-msgstr "ne mogu isčitati naredbu sa stdin-a\n"
+msgstr "無法分析來自標準輸入的指令\n"
 
 #: ../src/notification.c:177
 #, c-format
 msgid "Could not parse message from stdin\n"
-msgstr ""
+msgstr "無法分析來自標準輸入的訊息\n"
 
 #: ../src/notification.c:262 ../src/notification.c:279
 msgid "MateDialog notification"
-msgstr "MateDialog obavještavanje"
+msgstr "MateDialog 通知"
 
 #: ../src/password.c:64
 msgid "Type your password"
-msgstr "Upišite svoju lozinku"
+msgstr "輸入您的密碼"
 
 #: ../src/password.c:99
 msgid "Username:"
-msgstr "Korisničko ime:"
+msgstr "使用者名稱："
 
 #: ../src/password.c:115
 msgid "Password:"
-msgstr "Lozinka:"
+msgstr "密碼： "
 
 #: ../src/scale.c:56
 #, c-format
 msgid "Maximum value must be greater than minimum value.\n"
-msgstr "Najveća vrijednost mora biti veća od najmanje vrijednosti.\n"
+msgstr "最大值必須大於最小值。\n"
 
 #: ../src/scale.c:63
 #, c-format
 msgid "Value out of range.\n"
-msgstr "Vrijednost izvan opsega.\n"
+msgstr "數值超過界限。\n"
 
 #: ../src/tree.c:321
 #, c-format
 msgid "No column titles specified for List dialog.\n"
-msgstr "Nije označen niti jedan stupac za dijalog popisa.\n"
+msgstr "在列表對話方塊中沒有指定該欄列表的標題。\n"
 
 #: ../src/tree.c:327
 #, c-format
 msgid "You should use only one List dialog type.\n"
-msgstr "Trebali biste koristiti samo jedan tip List dijaloga.\n"
+msgstr "您應該只使用一個列表對話方塊類型。\n"
 
 #: ../src/matedialog.ui.h:1
 msgid "Add a new entry"
-msgstr "Dodaj novu stavku"
+msgstr "加入新的欄位"
 
 #: ../src/matedialog.ui.h:2
 msgid "Adjust the scale value"
-msgstr "Prilagodi vrijednost ljestvice"
+msgstr "調整比例數值"
 
 #: ../src/matedialog.ui.h:3
 msgid "All updates are complete."
-msgstr "Gotove su sve obnove."
+msgstr "全部更新完成。"
 
 #: ../src/matedialog.ui.h:4
 msgid "An error has occurred."
-msgstr "Dogodila se greška."
+msgstr "發生錯誤。"
 
 #: ../src/matedialog.ui.h:5
 msgid "Are you sure you want to proceed?"
-msgstr "Sigurni ste da želite nastaviti?"
+msgstr "是否確定要繼續？"
 
 #: ../src/matedialog.ui.h:6
 msgid "C_alendar:"
-msgstr "K_alendar"
+msgstr "日曆(_A)："
 
 #: ../src/matedialog.ui.h:7
 msgid "Calendar selection"
-msgstr "Odabir kalendara"
+msgstr "日曆選擇模式"
 
 #: ../src/matedialog.ui.h:8
 msgid "Error"
-msgstr "Greška"
+msgstr "錯誤"
 
 #: ../src/matedialog.ui.h:9
 msgid "Information"
-msgstr "Informacije"
+msgstr "資訊"
 
 #: ../src/matedialog.ui.h:10
 msgid "Progress"
-msgstr "Napredak"
+msgstr "進度"
 
 #: ../src/matedialog.ui.h:11
 msgid "Question"
-msgstr "Pitanje"
+msgstr "問題"
 
 #: ../src/matedialog.ui.h:12
 msgid "Running..."
-msgstr "Pokrećem..."
+msgstr "執行中…"
 
 #: ../src/matedialog.ui.h:13
 msgid "Select a date from below."
-msgstr "Označite dolje prikazani datum."
+msgstr "請從以下的日曆選取日期。"
 
 #: ../src/matedialog.ui.h:14
 msgid "Select items from the list"
-msgstr "Označite stavke s popisa"
+msgstr "請在列表中選取項目"
 
 #: ../src/matedialog.ui.h:15
 msgid "Select items from the list below."
-msgstr "Označite stavke s donjeg popisa."
+msgstr "請在以下的列表中選取項目。"
 
 #: ../src/matedialog.ui.h:16
 msgid "Text View"
-msgstr "Pogled teksta"
+msgstr "文字檢視"
 
 #: ../src/matedialog.ui.h:17
 msgid "Warning"
-msgstr "Upozorenje"
+msgstr "警告"
 
 #: ../src/matedialog.ui.h:18
 msgid "_Enter new text:"
-msgstr "_Upišite novi tekst:"
+msgstr "輸入新的文字(_E)："
 
 #: ../src/option.c:131
 msgid "Set the dialog title"
-msgstr "Postavite naslov dijaloga"
+msgstr "設定對話方塊的標題"
 
 #: ../src/option.c:132
 msgid "TITLE"
-msgstr "NASLOV"
+msgstr "標題"
 
 #: ../src/option.c:140
 msgid "Set the window icon"
-msgstr "Postavice sličicu prozora"
+msgstr "設定視窗圖示"
 
 #: ../src/option.c:141
 msgid "ICONPATH"
-msgstr "ICONPATH"
+msgstr "圖示路徑"
 
 #: ../src/option.c:149
 msgid "Set the width"
-msgstr "Postavite širinu"
+msgstr "設定寬度"
 
 #: ../src/option.c:150
 msgid "WIDTH"
-msgstr "ŠIRINA"
+msgstr "寬度"
 
 #: ../src/option.c:158
 msgid "Set the height"
-msgstr "Postavite veličinu"
+msgstr "設定高度"
 
 #: ../src/option.c:159
 msgid "HEIGHT"
-msgstr "VISINA"
+msgstr "高度"
 
 #: ../src/option.c:167
 msgid "Set dialog timeout in seconds"
-msgstr ""
+msgstr "設定對話方塊的逾時時間(秒)"
 
 #. Timeout for closing the dialog
 #: ../src/option.c:169
 msgid "TIMEOUT"
-msgstr ""
+msgstr "逾時"
 
 #: ../src/option.c:183
 msgid "Display calendar dialog"
-msgstr "Prikaži dijalog kalendara"
+msgstr "顯示日曆對話方塊"
 
 #: ../src/option.c:192 ../src/option.c:252 ../src/option.c:295
 #: ../src/option.c:328 ../src/option.c:440 ../src/option.c:579
 #: ../src/option.c:651 ../src/option.c:735 ../src/option.c:768
 msgid "Set the dialog text"
-msgstr "Postavite tekst dijaloga"
+msgstr "設定對話方塊中的文字"
 
 #: ../src/option.c:193 ../src/option.c:253 ../src/option.c:262
 #: ../src/option.c:296 ../src/option.c:329 ../src/option.c:441
@@ -229,425 +229,425 @@ msgstr "Postavite tekst dijaloga"
 #: ../src/option.c:661 ../src/option.c:670 ../src/option.c:736
 #: ../src/option.c:769
 msgid "TEXT"
-msgstr "TEKST"
+msgstr "文字"
 
 #: ../src/option.c:201
 msgid "Set the calendar day"
-msgstr "Postavite dan kalendara"
+msgstr "設定日曆中的日期"
 
 #: ../src/option.c:202
 msgid "DAY"
-msgstr "DAN"
+msgstr "天"
 
 #: ../src/option.c:210
 msgid "Set the calendar month"
-msgstr "Postavite mjesec kalendara"
+msgstr "設定日曆中的月分"
 
 #: ../src/option.c:211
 msgid "MONTH"
-msgstr "MJESEC"
+msgstr "月"
 
 #: ../src/option.c:219
 msgid "Set the calendar year"
-msgstr "Postavite godinu kalendara"
+msgstr "設定日曆中的年分"
 
 #: ../src/option.c:220
 msgid "YEAR"
-msgstr "GODINA"
+msgstr "年"
 
 #: ../src/option.c:228
 msgid "Set the format for the returned date"
-msgstr "Postavite oblik vraćenog datuma"
+msgstr "設定回傳的日期格式"
 
 #: ../src/option.c:229
 msgid "PATTERN"
-msgstr "UZORAK"
+msgstr "胚騰"
 
 #: ../src/option.c:243
 msgid "Display text entry dialog"
-msgstr "Prikaži dijalog upisa teksta"
+msgstr "顯示文字輸入欄對話方塊"
 
 #: ../src/option.c:261
 msgid "Set the entry text"
-msgstr "Postavite upisivanje teksta"
+msgstr "設定輸入欄中的文字"
 
 #: ../src/option.c:270
 msgid "Hide the entry text"
-msgstr "Sakrij upisani tekst"
+msgstr "隱藏輸入欄中的文字"
 
 #: ../src/option.c:286
 msgid "Display error dialog"
-msgstr "Prikaži dijalog greške"
+msgstr "顯示錯誤訊息對話方塊"
 
 #: ../src/option.c:304 ../src/option.c:337 ../src/option.c:678
 #: ../src/option.c:744
 msgid "Do not enable text wrapping"
-msgstr "Ne omogućuj sažimanje teksta"
+msgstr "文字不要折列"
 
 #: ../src/option.c:319
 msgid "Display info dialog"
-msgstr "Prikaži dijalog s informacijama"
+msgstr "顯示資訊對話方塊"
 
 #: ../src/option.c:352
 msgid "Display file selection dialog"
-msgstr "Prikaži dijalog odabira datoteka"
+msgstr "顯示檔案選擇對話方塊"
 
 #: ../src/option.c:361
 msgid "Set the filename"
-msgstr "Postavite naziv datoteke"
+msgstr "設定檔案名稱"
 
 #: ../src/option.c:362 ../src/option.c:703
 msgid "FILENAME"
-msgstr "IME DATOTEKE"
+msgstr "檔案名稱"
 
 #: ../src/option.c:370
 msgid "Allow multiple files to be selected"
-msgstr "Omogući odabir više datoteka"
+msgstr "允許同時選擇多個檔案"
 
 #: ../src/option.c:379
 msgid "Activate directory-only selection"
-msgstr "Aktiviraj samo-direktorij odabir"
+msgstr "只選取目錄"
 
 #: ../src/option.c:388
 msgid "Activate save mode"
-msgstr "Aktiviraj način \"spremanje\""
+msgstr "啟用安全模式"
 
 #: ../src/option.c:397 ../src/option.c:476
 msgid "Set output separator character"
-msgstr "Postavite izlazni znak razdjeljivanja"
+msgstr "設定分隔輸出結果的字元"
 
 #: ../src/option.c:398 ../src/option.c:477
 msgid "SEPARATOR"
-msgstr "SEPARATOR"
+msgstr "分隔字元"
 
 #: ../src/option.c:406
 msgid "Confirm file selection if filename already exists"
-msgstr ""
+msgstr "如果檔案已經存在，確認是否覆寫檔案"
 
 #: ../src/option.c:415
 msgid "Sets a filename filter"
-msgstr "Postavlja filter datoteka"
+msgstr "設定檔案過濾條件"
 
 #. Help for file-filter argument (name and patterns for file selection)
 #: ../src/option.c:417
 msgid "NAME | PATTERN1 PATTERN2 ..."
-msgstr "IME | UZORAK1 UZORAK2..."
+msgstr "名稱 | 胚騰 1 胚騰 2 …"
 
 #: ../src/option.c:431
 msgid "Display list dialog"
-msgstr "Prikaži dijalog s popisom"
+msgstr "顯示列表對話方塊"
 
 #: ../src/option.c:449
 msgid "Set the column header"
-msgstr "Postavite zaglavlje stupca"
+msgstr "設定欄位標題"
 
 #: ../src/option.c:450
 msgid "COLUMN"
-msgstr "STUPAC"
+msgstr "欄"
 
 #: ../src/option.c:458
 msgid "Use check boxes for first column"
-msgstr "Koristite potvrdni okvir za prvi stupac"
+msgstr "第一欄使用獨立選擇按鈕"
 
 #: ../src/option.c:467
 msgid "Use radio buttons for first column"
-msgstr "Koristite redijske gumbe za prvi stupac"
+msgstr "第一欄使用多項選擇按鈕"
 
 #: ../src/option.c:485
 msgid "Allow multiple rows to be selected"
-msgstr "Dozvoli odabir više redaka"
+msgstr "允許同時選擇多列"
 
 #: ../src/option.c:494 ../src/option.c:711
 msgid "Allow changes to text"
-msgstr "Omogući promjenu teksta"
+msgstr "允許更改文字"
 
 #: ../src/option.c:503
 msgid ""
 "Print a specific column (Default is 1. 'ALL' can be used to print all "
 "columns)"
-msgstr "Ispiši određeni stupac (Uobičajeno je 1. 'ALL' se koristi za ispis svih stupaca)"
+msgstr "指定印出其中一欄（預設為第 1 欄，可以用「ALL」來表示所有欄位）"
 
 #. Column index number to print out on a list dialog
 #: ../src/option.c:505 ../src/option.c:514
 msgid "NUMBER"
-msgstr "BROJ"
+msgstr "序號"
 
 #: ../src/option.c:513
 msgid "Hide a specific column"
-msgstr "Sakrij određeni stupac"
+msgstr "隱藏指定的欄位"
 
 #: ../src/option.c:522
 msgid "Hides the column headers"
-msgstr ""
+msgstr "隱藏欄位標題"
 
 #: ../src/option.c:537
 msgid "Display notification"
-msgstr "Prikaži obavještavanje"
+msgstr "顯示通知"
 
 #: ../src/option.c:546
 msgid "Set the notification text"
-msgstr "Postavi tekst obavještavanja"
+msgstr "設定通知文字"
 
 #: ../src/option.c:555
 msgid "Listen for commands on stdin"
-msgstr "Slušaj naredbe sa stdin-a"
+msgstr "監聽在標準輸入中的指令"
 
 #: ../src/option.c:570
 msgid "Display progress indication dialog"
-msgstr "Prikaži dijalog s pokazivačem napretka"
+msgstr "顯示進度指示窗"
 
 #: ../src/option.c:588
 msgid "Set initial percentage"
-msgstr "Postavite početni postotak"
+msgstr "設定開始時的百分比數值"
 
 #: ../src/option.c:589
 msgid "PERCENTAGE"
-msgstr "POSTOTAK"
+msgstr "百分比"
 
 #: ../src/option.c:597
 msgid "Pulsate progress bar"
-msgstr "Pulsirajuća traka napretka"
+msgstr "令進度列內的方塊來回移動"
 
 #: ../src/option.c:607
 #, no-c-format
 msgid "Dismiss the dialog when 100% has been reached"
-msgstr "Zatvori dijalog kad je dosegnuto 100%."
+msgstr "當進度達到 100% 時關閉對話方塊"
 
 #: ../src/option.c:617
 #, no-c-format
 msgid "Kill parent process if Cancel button is pressed"
-msgstr ""
+msgstr "若按下取消按鈕則中止父程序"
 
 #: ../src/option.c:627
 #, no-c-format
 msgid "Hide Cancel button"
-msgstr ""
+msgstr "隱藏取消按鈕"
 
 #: ../src/option.c:642
 msgid "Display question dialog"
-msgstr "Prikaži dijalog upita"
+msgstr "顯示提問訊息對話方塊"
 
 #: ../src/option.c:660
 msgid "Sets the label of the Ok button"
-msgstr "Postavlja tekst na tipku OK"
+msgstr "設定確定按鈕的標籤"
 
 #: ../src/option.c:669
 msgid "Sets the label of the Cancel button"
-msgstr ""
+msgstr "設定取消按鈕的標籤"
 
 #: ../src/option.c:693
 msgid "Display text information dialog"
-msgstr "Prikaži dijalog s tekstualnom informacijom"
+msgstr "顯示文字資訊對話方塊"
 
 #: ../src/option.c:702
 msgid "Open file"
-msgstr "Otvori datoteku"
+msgstr "開啟檔案"
 
 #: ../src/option.c:726
 msgid "Display warning dialog"
-msgstr "Prikaži dijalog upozorenja"
+msgstr "顯示警告訊息對話方塊"
 
 #: ../src/option.c:759
 msgid "Display scale dialog"
-msgstr "Prikaži dijalog ljestvice"
+msgstr "顯示比例對話視窗"
 
 #: ../src/option.c:777
 msgid "Set initial value"
-msgstr "Postavi početnu vrijednost"
+msgstr "設定初始值"
 
 #: ../src/option.c:778 ../src/option.c:787 ../src/option.c:796
 #: ../src/option.c:805 ../src/option.c:871
 msgid "VALUE"
-msgstr "VRIJEDNOST"
+msgstr "數值"
 
 #: ../src/option.c:786
 msgid "Set minimum value"
-msgstr "Postavi najmanju vrijednost"
+msgstr "設定最小值"
 
 #: ../src/option.c:795
 msgid "Set maximum value"
-msgstr "Postavi najveću vrijednost"
+msgstr "設定最大值"
 
 #: ../src/option.c:804
 msgid "Set step size"
-msgstr "Postavi veličinu koraka"
+msgstr "設定刻度大小"
 
 #: ../src/option.c:813
 msgid "Print partial values"
-msgstr "Ispiši parcijalne vrijednosti"
+msgstr "列出每段數值"
 
 #: ../src/option.c:822
 msgid "Hide value"
-msgstr "Sakrij vrijednosti"
+msgstr "隱藏數值"
 
 #: ../src/option.c:837
 msgid "Display password dialog"
-msgstr ""
+msgstr "顯示密碼對話盒"
 
 #: ../src/option.c:846
 msgid "Display the username option"
-msgstr ""
+msgstr "顯示使用者名稱選項"
 
 #: ../src/option.c:861
 msgid "Display color selection dialog"
-msgstr ""
+msgstr "顯示顏色選擇對話盒"
 
 #: ../src/option.c:870
 msgid "Set the color"
-msgstr "Postavi boju"
+msgstr "設定顏色"
 
 #: ../src/option.c:879
 msgid "Show the palette"
-msgstr "Pokaži paletu"
+msgstr "設定調色盤"
 
 #: ../src/option.c:894
 msgid "About matedialog"
-msgstr "O MateDialog"
+msgstr "關於 matedialog"
 
 #: ../src/option.c:903
 msgid "Print version"
-msgstr "Ispiši inačicu"
+msgstr "顯示版本"
 
 #: ../src/option.c:1643
 msgid "General options"
-msgstr "Općenite odrednice"
+msgstr "一般選項"
 
 #: ../src/option.c:1644
 msgid "Show general options"
-msgstr "Pokaži opće opcije"
+msgstr "顯示一般選項"
 
 #: ../src/option.c:1654
 msgid "Calendar options"
-msgstr "Mogućnosti kalendara"
+msgstr "日曆選項"
 
 #: ../src/option.c:1655
 msgid "Show calendar options"
-msgstr "Pokaži opcije kalendara"
+msgstr "顯示有關日曆的選項"
 
 #: ../src/option.c:1665
 msgid "Text entry options"
-msgstr "Mogućnosti upisa teksta"
+msgstr "文字輸入欄選項"
 
 #: ../src/option.c:1666
 msgid "Show text entry options"
-msgstr "Pokaži opcije unosa teksta"
+msgstr "顯示有關文字輸入欄的選項"
 
 #: ../src/option.c:1676
 msgid "Error options"
-msgstr "Mogućnosti greške"
+msgstr "錯誤訊息選項"
 
 #: ../src/option.c:1677
 msgid "Show error options"
-msgstr "Pokaži opcije grešaka"
+msgstr "顯示有關錯誤訊息的選項"
 
 #: ../src/option.c:1687
 msgid "Info options"
-msgstr "Mogućnosti informacija"
+msgstr "資訊選項"
 
 #: ../src/option.c:1688
 msgid "Show info options"
-msgstr "Pokaži info opcije"
+msgstr "顯示資訊選項"
 
 #: ../src/option.c:1698
 msgid "File selection options"
-msgstr "Mogućnosti odabira datoteke"
+msgstr "有關檔案選擇的選項"
 
 #: ../src/option.c:1699
 msgid "Show file selection options"
-msgstr "Pokaži opcije odabira datoteka"
+msgstr "顯示有關檔案選擇的選項"
 
 #: ../src/option.c:1709
 msgid "List options"
-msgstr "Mogućnosti popisa"
+msgstr "列表選項"
 
 #: ../src/option.c:1710
 msgid "Show list options"
-msgstr "Pokaži opcije izlistavanja"
+msgstr "顯示有關列表的選項"
 
 #: ../src/option.c:1720
 msgid "Notification icon options"
-msgstr "Opcije ikone obavještavanja"
+msgstr "有關通知區圖示的選項"
 
 #: ../src/option.c:1721
 msgid "Show notification icon options"
-msgstr "Pokaži opcije ikone obavještavanja"
+msgstr "顯示有關通知區圖示的選項"
 
 #: ../src/option.c:1731
 msgid "Progress options"
-msgstr "Mogućnosti napretka"
+msgstr "進度列選項"
 
 #: ../src/option.c:1732
 msgid "Show progress options"
-msgstr "Pokaži opcije napretka"
+msgstr "顯示有關進度列的選項"
 
 #: ../src/option.c:1742
 msgid "Question options"
-msgstr "Mogućnosti pitanja"
+msgstr "提問選項"
 
 #: ../src/option.c:1743
 msgid "Show question options"
-msgstr "Pokaži opcije pitanja"
+msgstr "顯示有關提問的選項"
 
 #: ../src/option.c:1753
 msgid "Warning options"
-msgstr "Mogućnosti upozorenja"
+msgstr "警告訊息選項"
 
 #: ../src/option.c:1754
 msgid "Show warning options"
-msgstr "Pokaži opcije upozorenja"
+msgstr "顯示有關警告訊息的選項"
 
 #: ../src/option.c:1764
 msgid "Scale options"
-msgstr "Opcije ljestvice"
+msgstr "比例選項"
 
 #: ../src/option.c:1765
 msgid "Show scale options"
-msgstr "Pokaži opcije ljestvice"
+msgstr "顯示比例選項"
 
 #: ../src/option.c:1775
 msgid "Text information options"
-msgstr "Pokaži opcije informacija"
+msgstr "有關文字輸入欄的選項"
 
 #: ../src/option.c:1776
 msgid "Show text information options"
-msgstr "Pokaži opcije informacija teksta"
+msgstr "顯示有關文字輸入欄的選項"
 
 #: ../src/option.c:1786
 msgid "Color selection options"
-msgstr ""
+msgstr "有關顏色選擇的選項"
 
 #: ../src/option.c:1787
 msgid "Show color selection options"
-msgstr ""
+msgstr "顯示有關顏色選擇的選項"
 
 #: ../src/option.c:1797
 msgid "Password dialog options"
-msgstr ""
+msgstr "密碼對話盒選項"
 
 #: ../src/option.c:1798
 msgid "Show password dialog options"
-msgstr ""
+msgstr "顯示密碼對話盒的選項"
 
 #: ../src/option.c:1808
 msgid "Miscellaneous options"
-msgstr "Razne odrednice"
+msgstr "其他選項"
 
 #: ../src/option.c:1809
 msgid "Show miscellaneous options"
-msgstr "Pokaži razne opcije"
+msgstr "顯示其他選項"
 
 #: ../src/option.c:1834
 #, c-format
 msgid ""
 "This option is not available. Please see --help for all possible usages.\n"
-msgstr "Ova opcija nije dostupna. Molim koristite --help za moguće načine uporabe.\n"
+msgstr "本選項不存在，請參考 --help 以取得有關用法的資料。\n"
 
 #: ../src/option.c:1838
 #, c-format
 msgid "--%s is not supported for this dialog\n"
-msgstr "--%s nije podržan u ovom dijalogu\n"
+msgstr "本類型的對話方塊不支援 %s 選項\n"
 
 #: ../src/option.c:1842
 #, c-format
 msgid "Two or more dialog options specified\n"
-msgstr "Određene su dvije ili više mogućnosti dijaloga\n"
+msgstr "使用了兩個或以上的對話方塊選項\n"
