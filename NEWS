@@ -1,4 +1,8 @@
-MateDialogs 1.5.1
+MateDialogs 1.7.3
+  * Added GTK3 support
+  * Use yelp-tools instead of mate-doc-utils
+
+MateDialogs 1.6.0
   * Use libnotify instead of libmatenofity
 
 
