@@ -3,23 +3,24 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2004, 2005.
-# Francisco Javier F. Serrador <serrador@tecknolabs.com>, 2006.
-# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2009, 2010.
-# Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2003.
+# Adolfo Jayme Barrientos <fitoschido@ubuntu.com>, 2014
+# Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2004, 2005
+# Francisco Javier F. Serrador <serrador@tecknolabs.com>, 2006
+# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2009, 2010
+# Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2003
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-02-23 12:20+0100\n"
-"PO-Revision-Date: 2012-02-23 11:22+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: Spanish (Castilian) (http://www.transifex.com/projects/p/MATE/language/es/)\n"
+"PO-Revision-Date: 2014-02-16 17:35+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitoschido@ubuntu.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/projects/p/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../src/about.c:64
 msgid ""
@@ -50,7 +51,7 @@ msgstr "Jorge González <jorgegonz@svn.gnome.org>, 2007-2010\nFrancisco Javier F
 
 #: ../src/about.c:277
 msgid "Display dialog boxes from shell scripts"
-msgstr "Mostrar cajas de diálogos desde los scripts de shell"
+msgstr "Mostrar cuadros de diálogo desde los scripts de consola"
 
 #: ../src/main.c:100
 #, c-format
@@ -60,7 +61,7 @@ msgstr "Debe especificar un tipo de diálogo. Vea «matedialog --help» para obt
 #: ../src/notification.c:138
 #, c-format
 msgid "could not parse command from stdin\n"
-msgstr "No se pudo analizar el comando desde stdin\n"
+msgstr "No se pudo analizar la orden desde stdin\n"
 
 #: ../src/notification.c:177
 #, c-format
@@ -91,12 +92,12 @@ msgstr "El valor máximo debe ser mayor que el valor mínimo.\n"
 #: ../src/scale.c:63
 #, c-format
 msgid "Value out of range.\n"
-msgstr "Valor fuera de rango.\n"
+msgstr "Valor fuera de intervalo.\n"
 
 #: ../src/tree.c:321
 #, c-format
 msgid "No column titles specified for List dialog.\n"
-msgstr "No se han especificado los títulos de columnas para el diálogo de la lista\n"
+msgstr "No se han especificado los títulos de columnas para el diálogo Lista.\n"
 
 #: ../src/tree.c:327
 #, c-format
@@ -121,7 +122,7 @@ msgstr "Ha ocurrido un error."
 
 #: ../src/matedialog.ui.h:5
 msgid "Are you sure you want to proceed?"
-msgstr "¿Está seguro de que desea continuar?"
+msgstr "¿Está seguro de que quiere continuar?"
 
 #: ../src/matedialog.ui.h:6
 msgid "C_alendar:"
@@ -149,11 +150,11 @@ msgstr "Pregunta"
 
 #: ../src/matedialog.ui.h:12
 msgid "Running..."
-msgstr "Ejecutándose…"
+msgstr "En ejecución…"
 
 #: ../src/matedialog.ui.h:13
 msgid "Select a date from below."
-msgstr "Seleccione una fecha de abajo."
+msgstr "Seleccione una fecha a continuación."
 
 #: ../src/matedialog.ui.h:14
 msgid "Select items from the list"
@@ -161,7 +162,7 @@ msgstr "Seleccione elementos de la lista"
 
 #: ../src/matedialog.ui.h:15
 msgid "Select items from the list below."
-msgstr "Seleccione elementos de la lista de abajo."
+msgstr "Seleccione elementos de la siguiente lista."
 
 #: ../src/matedialog.ui.h:16
 msgid "Text View"
@@ -169,7 +170,7 @@ msgstr "Vista de texto"
 
 #: ../src/matedialog.ui.h:17
 msgid "Warning"
-msgstr "Advertencia"
+msgstr "Aviso"
 
 #: ../src/matedialog.ui.h:18
 msgid "_Enter new text:"
@@ -393,7 +394,7 @@ msgstr "Establecer el texto de notificación"
 
 #: ../src/option.c:555
 msgid "Listen for commands on stdin"
-msgstr "Escuchar comandos en stdin"
+msgstr "Escuchar órdenes en stdin"
 
 #: ../src/option.c:570
 msgid "Display progress indication dialog"
