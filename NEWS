@@ -1,4 +1,4 @@
-MateDialogs 1.7.90
+MateDialogs 1.8.0
   * Added GTK3 support
   * Use yelp-tools instead of mate-doc-utils
 
