@@ -6,6 +6,7 @@ AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_SRCDIR([src])
 
 AM_INIT_AUTOMAKE([1.9 tar-ustar dist-xz foreign no-dist-gzip check-news])
+AC_CONFIG_MACRO_DIR([m4])
 
 m4_ifdef([AM_SILENT_RULES],[AM_SILENT_RULES([yes])])
 
